@@ -1,12 +1,30 @@
 module.exports = {
   pathPrefix: '/gatsby-hampton-theme',
   siteMetadata: {
-    title: 'My Gatsby Site'
+    title: 'carolgilabert.me'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorsYaml'
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-126625629-1',
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: [],
+        // Any additional create only fields (optional)
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: 'auto'
+      }
+    },
     // Adding various source folders to the GraphQL layer.
     {
       resolve: `gatsby-source-filesystem`,

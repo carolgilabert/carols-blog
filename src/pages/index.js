@@ -1,8 +1,6 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
-import Link from 'gatsby-link';
-import { Box, Flex } from '../components/Layout';
-import ButtonPrimary, { ButtonSecondary } from '../components/Buttons';
+import { Box } from '../components/Layout';
 
 export default ({ data }) => {
   const myData = data.allContentJson.edges[0].node.index;
@@ -17,24 +15,17 @@ export default ({ data }) => {
         >
           <h1>{myData.title}</h1>
           <h3>{myData.subtitle}</h3>
-          <Flex justify="center" wrap={['wrap', 'wrap', 'nowrap']}>
-            <Box m={[1]} width={[1, 1 / 2, 1 / 4]}>
-              <Link to="/about">
-                <ButtonPrimary>About</ButtonPrimary>
-              </Link>
-            </Box>
-            <Box m={[1]} width={[1, 1 / 2, 1 / 4]}>
-              <Link to="/about">
-                <ButtonSecondary>About</ButtonSecondary>
-              </Link>
-            </Box>
-          </Flex>
         </Box>
       </Box>
       <Box py={[3, 3, 4]}>
         <Box width={[1, 1, 1 / 2]} m="0 auto" px={[3, 3, 0]}>
-          <h2>This could be another section</h2>
-          <p>With another text object</p>
+          <p>
+            It&apos;s very barren for now, but the idea is to get it out there,
+            and build on until I&apos;ve used every package on the npm registry
+            <span role="img" aria-label="sweat smile emoji">
+              &nbsp;😅
+            </span>
+          </p>
         </Box>
       </Box>
     </div>
