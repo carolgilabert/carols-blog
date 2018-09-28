@@ -1,7 +1,7 @@
 ---
-title: Example Post 3
-author: Donald Duck
-date: 2017-10-19
+title: Hello World
+author: Carolina Gilabert
+date: 2018-09-28
 ---
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
