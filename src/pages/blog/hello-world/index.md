@@ -1,14 +1,13 @@
 ---
 title: Hello World
 author: Carolina Gilabert
-date: 2018-09-28
+date: 2018-10-09
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
-tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
-vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
-gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
-eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
-sea takimata sanctus est Lorem ipsum dolor sit amet.
+Hello there! 👋
+
+For a while now, I’ve been meaning to start a blog. My main aim with it is to document my learnings, but I’ll probably also ramble on about various things.
+
+I have started-deleted-started-deleted the code for this site many times, always wanting to try something different 5 minutes after getting started. I did have things I wanted to write about though, so my ever-so-reasonable partner Thom recommended I started with something simple, and worked on it when I had the time.
+
+So here we are: this is bare, but it’s just the beginning. Stay tuned 😉
