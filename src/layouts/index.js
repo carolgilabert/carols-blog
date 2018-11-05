@@ -11,6 +11,10 @@ injectGlobal`
   a {
     text-decoration: none;
     color: inherit;
+    box-shadow: inset 0 -5px 0 rgba(0,96,193,0.25);
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
   };
   a:hover {
     cursor: pointer;
