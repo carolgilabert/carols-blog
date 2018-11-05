@@ -21,17 +21,18 @@ All the talks were recorded, so I’ll leave the link to the videos here, in cas
 
 The talks were fantastic, and I won’t cover them all as it’d make this post way too long, but I’ll mention my favourite bits:      
 
-[pic of Jeff]
+![Jeff Sussna](jeff.jpg)
 
 * [Jeff Sussna](https://twitter.com/jeffsussna), talking about neurodiversity and how there are “no full stack human beings”. Hiring only the top 1% is unsustainable, so we should “seek the wisdom in everyone” and we’ll have much more empathetic teams. 
 Jeff’s talk really set the tone for the conference, it was a great way to start.
 
-[pic of Euan]
+![Euan Finlay](euan.jpg)
 * [Euan Finlay](https://twitter.com/efinlay24) gave an excellent intro about being on call and how to handle incident work. It was titled “Don’t Panic!” and I highly recommend watching the video, cause it was insightful and super funny. He went over what you can learn from the ghosts of incidents past, present and future and how to do what’s within your reach without stressing too much.
 
-[pic of Emma]
+![Emma Button](emma.jpg)
 * [Emma Button](https://twitter.com/growerofawesome) inspired us all to promote a blameless culture within our organisations. “Bad stuff happens”, so we should deal with those situations in a way that helps us improve. She also gave us improvement katas to implement in our processes to achieve that culture shift. She highlighted the importance of never punishing people for trying new things, and I found that to be excellent advice. We want our systems/processes to always improve, so we should experiment and take whatever learning opportunities we can. It was a great talk!
 
+![Denise Yu](denise.jpg)
 * [Denise Yu](https://twitter.com/deniseyu21) gave a particularly lovely talk on distributed systems. She went over some of the challenges one might encounter and how one needs to make an active decision on what strategy works best for their system. She explained the CAP theorem 
 
 Throughout the talks, I really enjoyed the fact that all speakers spoke about their own journey in a candid and deeply relatable way, and they all offered up their learnings in a way that one can easily take away and implement, regardless of their level of experience. It really felt like a community coming together and helping each other improve 😊
@@ -58,7 +59,7 @@ I particularly enjoyed the DevOps vs SRE space, as it’s a subject I’m really
 
 The sketch notes workshop was a lot of fun! It was really good to have the assurance that as long as what you draw is recognisable, the quality of the drawing doesn’t really matter. I’ve been learning how to draw recently, so I really enjoyed it, and drew my journey into tech in it:
 
-[drawing of journey into tech]
+![My Journey Into Tech](my_journey.png)
 
 ## Wrap up
 As I said at the start, my first big conference experience could not have gone any better. I learnt so much and met some really incredible people. Can’t wait for next year! 
