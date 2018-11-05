@@ -25,6 +25,19 @@ module.exports = {
         cookieDomain: 'auto'
       }
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank'
+            }
+          }
+        ]
+      }
+    },
     // Adding various source folders to the GraphQL layer.
     {
       resolve: `gatsby-source-filesystem`,
@@ -65,6 +78,22 @@ module.exports = {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography.js'
+      }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 900
+            }
+          }
+        ]
       }
     }
   ]
