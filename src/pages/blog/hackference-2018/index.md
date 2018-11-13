@@ -81,7 +81,7 @@ Some of the things I made a note of:
 * Where do I store my files? Object storage is a good bet.
 * How do I install my DB? Use a managed DB service, and make sure to consider event support and scalability.
 * How do I debug serverless? Logs and metrics.
-* Can I set cost limits? You can set up rate limiting and billing aler, and you most definitely should!
+* Can I set cost limits? You can set up rate limiting and billing alerts, and you most definitely should!
 
 ### Burnout and your meat computer
 
@@ -121,10 +121,10 @@ Jess is a brilliant speaker, and I encourage you to attend one of her talks if y
 Hackference hosts the conference on a Friday, and a hackathon over the weekend. I was lucky enough to team up with Nottingham tech power couple [Anna](https://twitter.com/anna_hax) and [Jamie](https://twitter.com/JamieTanna) 👩‍💻👩‍💻👨‍💻
 
 ![Anna hacking](/images/hackference-2018/anna_hax.jpeg)
-📷 *Anna mid hack*
+📷 *[Anna](https://twitter.com/anna_hax) mid hack*
 
 ![Jamie being attacked by a T-Rex](/images/hackference-2018/jamie_trex.jpeg)
-📷 *Jamie mid T-Rex attack*
+📷 *[Jamie](https://twitter.com/JamieTanna) mid T-Rex attack*
 
 The hackathon was held at the Impact Hub in Birmingham. It is a lovely space, clearly aimed at collaboration. 
 
@@ -143,16 +143,17 @@ And… we won!
 
 We won some really cool Auth0 Hacktoberfest t-shirts and we won an amazing Nanoleaf kit each from Nexmo!
 ![Our hack team with Jeremy Meiss, from Auth0](/images/hackference-2018/team_and_jeremy.png)
-📷 *Our hack team with [Jeremy Meiss](https://twitter.com/IAmJerdog), from Auth0*
+📷 *Our hack team with [Jeremy Meiss](https://twitter.com/IAmJerdog) from Auth0*
 
 ![Our hack team with Sam Machin, from Nexmo](/images/hackference-2018/team_and_sam.jpg)
-📷 *Our hack team with [Sam Machin](https://twitter.com/sammachin), from Nexmo*
+📷 *Our hack team with [Sam Machin](https://twitter.com/sammachin) from Nexmo*
 
-During our hack time, we took a Hacktoberfest break, in which we scoured GitHub for good issues to close and get our Hacktoberfest PRs in.
-I’d like to thank Anna and Jamie again for helping and encouraging me to do it. Thanks to them, I got my first PR to an open source project done that day 💛
+During our hack time, we took a [Hacktoberfest](https://hacktoberfest.digitalocean.com/) break, in which we scoured GitHub for good issues to close and get our Hacktoberfest PRs in.
+I’d like to thank Anna and Jamie again for helping and encouraging me to do it. Thanks to them, I got [my first PR](https://github.com/AnnaDodson/hacktoberfest-website/pull/34) to an open source project done that day 💛
 
 ## Wrap up
 It was my first time at Hackference, but I’ll definitely make sure to come back. The talks were brilliant and informative, and the hackathon was super chilled out and great fun!
 
 I also made a [twitter moment](https://twitter.com/i/moments/1051806012519456768) to collect some of the 💛
+
 Hopefully see you next year!
