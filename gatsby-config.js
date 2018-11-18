@@ -61,6 +61,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-next',
+    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
