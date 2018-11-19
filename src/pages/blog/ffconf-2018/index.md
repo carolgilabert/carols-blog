@@ -4,9 +4,9 @@ author: Carolina Gilabert
 date: 2018-11-19
 ---
 
-I first read about FFConf on Twitter, and everyone had only the highest praise for it. I decided to attend as I wanted to hear a bit more the web side of things.
+I first read about FFConf on Twitter, and everyone had only the highest praise for it. I decided to attend as I wanted to hear a bit more about the web side of things.
 
-The conference is held on a lovely cinema, which meant that it was a bit dark but the seating was so comfy! ☺️
+The conference is held in a lovely cinema, which meant that it was a bit dark but the seating was so comfy! ☺️
 
 ![Duke of York's Picturehouse](/images/ffconf-2018/picturehouse.jpg)
 _📸 Duke of York’s Picturehouse_
@@ -23,11 +23,11 @@ And soon after that, we took our seats ready for some talks!
 
 [Jo Franchetti](https://twitter.com/ThisIsJoFrank) kicked us off with a lovely talk on mentoring. She highlighted the myriad benefits for both mentor and mentee.
 Teaching others will help cement your own knowledge, and it will make your knowledge useful. Answering questions also increases your reserves of patience.
-She also gave us tips on how to do better when mentoring: it’s very important to avoid assumed knowledge syndrome. On this subject, she left us with a powerful quote:
+She gave us tips on how to do better when mentoring: it’s very important to avoid assumed knowledge syndrome. She left us a powerful quote:
 
 > Assume zero knowledge and infinite intelligence.
 
-On the mentee side, she advised we stop worrying about not knowing things, and used that energy to learn new things. 
+From the mentee point of view, she advised we stop worrying about not knowing things, and used that energy to learn new things. 
 
 ![Perfection is unnecessary, impossible to achieve and harmful to promote](/images/ffconf-2018/mentoring_slide.jpg)
 
@@ -49,12 +49,12 @@ Eleanor also co-built [aijs.rocks](https://aijs.rocks/), which curates AI focuss
 
 ### Practical web animation
 [Lisi Linhart](https://twitter.com/lisi_linhart) gave a really awesome talk on web animation 🙂
-She went over the best situations in which to use animation, so it can be a really powerful tool in our web experience, rather than a distraction or annoyance.
+She went over the best situations in which to use animation, so that it can be a really powerful tool in our web experience, rather than a distraction or annoyance.
 Some examples are:
 
 #### Attention & Feedback
 
-This is perhaps one of the most important areas where animation can have a really great impact. Reacting to users’ input clearly and making system activity visible makes for a great user experience, as users feel in control of the process. 
+This is perhaps one of the most important areas where animation can have a really great impact. Reacting to users’ input clearly and making system activity visible makes for great user experience, as users feel in control of the process. 
 On the attention side of things, animation can be used to draw users to a particular action you want them to take, or even reward their engagement with something amusing 😀
 
 #### Perceived Performance
@@ -87,8 +87,8 @@ Does [blank] make the event:
 
 If the answer was 1, it would get bumped to the top of the priority list; if it was 2, it would get pushed to the bottom and 3 would leave it somewhere in the middle. They found it a powerful recipe to work out what truly made a difference in making their event as accessible as possible.
 
-While having a big budget makes things easier, there are things you can do for free. Crafting your content with care, using gender neutral pronouns and a suitable tone of voice goes a very long way to showing what kind of space your event is.
-Jenny also shared their experience providing child care at WordCamp. While it is costly and vetting professionals is difficult, it does make a big difference to parents. While their creche was under-utilised the first year, having it in the first place let parents know that this was an event they could attend, and as a result the following year it was full. 
+There is no denying that having a big budget makes things easier, but there are things you can do for free. Crafting your content with care, using gender neutral pronouns and a suitable tone of voice goes a very long way to showing what kind of space your event is.
+Jenny also shared their experience providing child care at WordCamp. While it is costly and vetting professionals is difficult, it does make a big difference to parents. Their creche was under-utilised the first year, but having it in the first place let parents know that this was an event they could attend, and as a result the following year it was full. 
 
 Jenny also highlighted the importance of self-support. It makes things simpler for everyone involved if attendees can support themselves using the structure of the event. Providing specific spaces like a quiet room, lactation room, multi faith room and adequate signing help attendees navigate the space independently.
 
@@ -140,7 +140,7 @@ Whatever we wanted to build, HTML would accommodate.
 But then the browser wars came, and innovation stalled as developers had to effectively create two versions of their site to reach all users.
 But then… the iPhone was created, and the necessity of building responsive sites brought web innovation back with it.
 
-But we’re now at a stage that web developers value more the ability to use new frameworks than the actual usability and accessibility of the site.
+We’re now at a stage where web developers value more the ability to use new frameworks than the actual usability and accessibility of the site.
 So we ended up in a situation where the average site is ~2.5MB and relies on JavaScript by default, instead of our lovely and robust HTML.
 
 Charlie also described the strategy used at Springer Nature, where she works. It’s a super interesting strategy, it’s called Cutting the Mustard, and was [originally developed by the BBC](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard).
