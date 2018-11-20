@@ -1,7 +1,9 @@
 module.exports = {
-  pathPrefix: '/gatsby-hampton-theme',
   siteMetadata: {
-    title: 'carolgilabert.me'
+    title: "Carol's Blog",
+    siteUrl: 'https://carolgilabert.me',
+    description:
+      'A space for me to share my experiences. Some will be technical posts, some will be personal.'
   },
   mapping: {
     'MarkdownRemark.frontmatter.author': 'AuthorsYaml'
@@ -61,6 +63,7 @@ module.exports = {
     'gatsby-plugin-offline',
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-next',
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
