@@ -4,7 +4,6 @@ import { Link, Timestamp } from '../../components/Misc';
 import { Box } from '../../components/Layout';
 import { css } from 'react-emotion';
 
-
 const linkStyles = css`
   box-shadow: none;
 `;
