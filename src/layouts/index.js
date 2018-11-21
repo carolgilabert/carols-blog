@@ -2,6 +2,7 @@ import React from 'react';
 import { injectGlobal } from 'react-emotion';
 import PropTypes from 'prop-types';
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 /* eslint-disable */
 injectGlobal`
@@ -25,6 +26,7 @@ const Layout = ({ children }) => (
   <div>
     <Navigation />
     {children()}
+    <Footer />
   </div>
 );
 
