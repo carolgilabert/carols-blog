@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { injectGlobal, css } from 'react-emotion';
 import PropTypes from 'prop-types';
 import Navigation from '../components/Navigation';
@@ -37,6 +38,14 @@ const contentStyles = css`
 
 const Layout = ({ children }) => (
   <div className={containerStyles}>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Carol&apos;s Blog</title>
+      <meta
+        name="description"
+        content="A space for me to share my experiences. Some will be technical posts, some will be personal."
+      />
+    </Helmet>
     <Navigation />
     <div className={contentStyles}>{children()}</div>
     <Footer />
