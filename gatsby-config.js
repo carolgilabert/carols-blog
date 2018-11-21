@@ -64,6 +64,7 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-next',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
