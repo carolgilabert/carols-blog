@@ -2,165 +2,11 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="css-vt9sph"
+  className="css-1bylj9"
 >
   <Styled(div)
-    align="left"
-    color="white"
-    p={
-      Array [
-        3,
-        3,
-        4,
-      ]
-    }
-  >
-    <Styled(div)
-      justify="space-between"
-      wrap={
-        Array [
-          "wrap",
-          "wrap",
-          "nowrap",
-        ]
-      }
-    >
-      <Styled(div)
-        width={
-          Array [
-            1,
-            1,
-            0.3333333333333333,
-          ]
-        }
-      >
-        <Styled(div)>
-          <div>
-            <p>
-              Gatbsythemes.com starter
-            </p>
-          </div>
-        </Styled(div)>
-      </Styled(div)>
-      <Styled(div)
-        width={
-          Array [
-            1,
-            1,
-            0.3333333333333333,
-          ]
-        }
-      >
-        <Styled(div)>
-          <ul
-            className="css-q5t0fb"
-          >
-            <li>
-              <GatsbyLink
-                to="/"
-              >
-                Home
-              </GatsbyLink>
-            </li>
-            <li>
-              <GatsbyLink
-                to="/privacy"
-              >
-                Privacy Policy
-              </GatsbyLink>
-            </li>
-            <li>
-              <GatsbyLink
-                to="/terms"
-              >
-                Terms of Service
-              </GatsbyLink>
-            </li>
-          </ul>
-        </Styled(div)>
-      </Styled(div)>
-      <Styled(div)
-        width={
-          Array [
-            1,
-            1,
-            0.3333333333333333,
-          ]
-        }
-      >
-        <Styled(div)>
-          <ul
-            className="css-1jsczpv"
-          >
-            <li>
-              <a
-                href="https://facebook.com"
-                rel="noopener"
-                target="_blank"
-                title="Link to our Facebook page"
-              >
-                <div
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"30\\" height=\\"30\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"css-xvpfj7 feather feather-facebook\\"><path d=\\"M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z\\"></path></svg>",
-                    }
-                  }
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com"
-                rel="noopener"
-                target="_blank"
-                title="Link to our Twitter account"
-              >
-                <div
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"30\\" height=\\"30\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"css-xvpfj7 feather feather-twitter\\"><path d=\\"M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z\\"></path></svg>",
-                    }
-                  }
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://instagram"
-                rel="noopener"
-                target="_blank"
-                title="Link to out Instragram account"
-              >
-                <div
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"30\\" height=\\"30\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"css-xvpfj7 feather feather-instagram\\"><rect x=\\"2\\" y=\\"2\\" width=\\"20\\" height=\\"20\\" rx=\\"5\\" ry=\\"5\\"></rect><path d=\\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\\"></path><line x1=\\"17.5\\" y1=\\"6.5\\" x2=\\"17.5\\" y2=\\"6.5\\"></line></svg>",
-                    }
-                  }
-                />
-              </a>
-            </li>
-            <li>
-              <a
-                href="mailto:"
-                title="Our E-Mail address"
-              >
-                <div
-                  dangerouslySetInnerHTML={
-                    Object {
-                      "__html": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" width=\\"30\\" height=\\"30\\" viewBox=\\"0 0 24 24\\" fill=\\"none\\" stroke=\\"currentColor\\" stroke-width=\\"2\\" stroke-linecap=\\"round\\" stroke-linejoin=\\"round\\" class=\\"css-xvpfj7 feather feather-mail\\"><path d=\\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\\"></path><polyline points=\\"22,6 12,13 2,6\\"></polyline></svg>",
-                    }
-                  }
-                />
-              </a>
-            </li>
-          </ul>
-        </Styled(div)>
-      </Styled(div)>
-    </Styled(div)>
-  </Styled(div)>
-  <Styled(div)
     align="center"
+    mt={20}
     px={
       Array [
         3,
@@ -169,9 +15,156 @@ exports[`renders correctly 1`] = `
       ]
     }
   >
-    <p>
-      Copyright © 2017 Gatbsythemes.com starter. All rights reserved.
-    </p>
+    <span>
+      Copyright © 2018 Carolina Gilabert. Say hello 👋 
+    </span>
+    <OutboundLink
+      href="mailto:carolgilabert@gmail.com"
+      target="_blank"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className="css-1erxk2b"
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              512,
+              512,
+              Array [],
+              "f1fa",
+              "M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z",
+            ],
+            "iconName": "at",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </OutboundLink>
+    <OutboundLink
+      href="https://twitter.com/CarolSaysThings"
+      target="_blank"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className="css-1erxk2b"
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Array [
+            "fab",
+            "twitter",
+          ]
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </OutboundLink>
+    <OutboundLink
+      href="https://www.instagram.com/carolgilabert"
+      target="_blank"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className="css-1erxk2b"
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Array [
+            "fab",
+            "instagram",
+          ]
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </OutboundLink>
+    <OutboundLink
+      href="https://www.linkedin.com/in/carolgilabert"
+      target="_blank"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className="css-1erxk2b"
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Array [
+            "fab",
+            "linkedin",
+          ]
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </OutboundLink>
+    <OutboundLink
+      href="https://gitlab.com/carolgilabert"
+      target="_blank"
+    >
+      <FontAwesomeIcon
+        border={false}
+        className="css-1erxk2b"
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Array [
+            "fab",
+            "gitlab",
+          ]
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </OutboundLink>
   </Styled(div)>
 </div>
 `;

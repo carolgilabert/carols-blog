@@ -1,8 +1,9 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import { injectGlobal } from 'react-emotion';
+import { injectGlobal, css } from 'react-emotion';
 import PropTypes from 'prop-types';
 import Navigation from '../components/Navigation';
+import Footer from '../components/Footer';
 
 /* eslint-disable */
 injectGlobal`
@@ -17,13 +18,26 @@ injectGlobal`
     -webkit-transition: box-shadow 0.4s ease-in-out;
     transition: box-shadow 0.4s ease-in-out;
   };
+
   a:hover {
     cursor: pointer;
   };
 `;
 /* eslint-enable */
+
+const containerStyles = css`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const contentStyles = css`
+  flex: 1;
+`;
+
 const Layout = ({ children }) => (
-  <div>
+  <div className={containerStyles}>
     <Helmet>
       <meta charSet="utf-8" />
       <title>Carol&apos;s Blog</title>
@@ -33,7 +47,8 @@ const Layout = ({ children }) => (
       />
     </Helmet>
     <Navigation />
-    {children()}
+    <div className={contentStyles}>{children()}</div>
+    <Footer />
   </div>
 );
 

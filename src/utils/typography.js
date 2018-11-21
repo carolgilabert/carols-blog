@@ -21,16 +21,16 @@ const typography = new Typography({
   headerWeight: 700,
   bodyWeight: 400,
   boldWeight: 700,
-  overrideStyles: ({adjustFontSizeTo, scale, rhythm }, options) => ({
-    'h1': {
+  overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({
+    h1: {
       fontSize: '4.2rem',
       fontWeight: 900
     },
-    'h2': {
+    h2: {
       fontSize: '2.6rem',
       fontWeight: 900
     },
-    'h3': {
+    h3: {
       fontSize: '1.6rem',
       marginBottom: '0.74rem'
     }
