@@ -1,4 +1,5 @@
 import React from 'react';
+import Helmet from 'react-helmet';
 import { injectGlobal } from 'react-emotion';
 import PropTypes from 'prop-types';
 import Navigation from '../components/Navigation';
@@ -23,6 +24,14 @@ injectGlobal`
 /* eslint-enable */
 const Layout = ({ children }) => (
   <div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>Carol&apos;s Blog</title>
+      <meta
+        name="description"
+        content="A space for me to share my experiences. Some will be technical posts, some will be personal."
+      />
+    </Helmet>
     <Navigation />
     {children()}
   </div>
