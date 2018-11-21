@@ -11,7 +11,7 @@ import { Box } from '../Layout';
 library.add(fab);
 
 const footerStyle = css`
-  margin-top: 20px;
+  margin: 20px 0px;
   border-top: 2px #000 dashed;
 
   & a {

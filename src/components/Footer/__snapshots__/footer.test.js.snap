@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="css-1hya62z"
+  className="css-1bylj9"
 >
   <Styled(div)
     align="center"

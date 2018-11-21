@@ -1,5 +1,5 @@
 import React from 'react';
-import { injectGlobal } from 'react-emotion';
+import { injectGlobal, css } from 'react-emotion';
 import PropTypes from 'prop-types';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
@@ -17,15 +17,28 @@ injectGlobal`
     -webkit-transition: box-shadow 0.4s ease-in-out;
     transition: box-shadow 0.4s ease-in-out;
   };
+
   a:hover {
     cursor: pointer;
   };
 `;
 /* eslint-enable */
+
+const containerStyles = css`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`;
+
+const contentStyles = css`
+  flex: 1;
+`;
+
 const Layout = ({ children }) => (
-  <div>
+  <div className={containerStyles}>
     <Navigation />
-    {children()}
+    <div className={contentStyles}>{children()}</div>
     <Footer />
   </div>
 );
