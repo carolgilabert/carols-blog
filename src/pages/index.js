@@ -1,9 +1,11 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
+import Img from 'gatsby-image';
 import { Box } from '../components/Layout';
 
 export default ({ data }) => {
   const myData = data.allContentJson.edges[0].node.index;
+  const { imageSharp } = data;
   return (
     <div>
       <Box>
@@ -19,6 +21,7 @@ export default ({ data }) => {
       </Box>
       <Box py={[3, 3, 4]}>
         <Box width={[1, 1, 1 / 2]} m="0 auto" px={[3, 3, 0]}>
+          <Img alt="Doodle of Carol at her desk" sizes={imageSharp.sizes} />
           <p>
             It&apos;s very barren for now, but the idea is to get it out there,
             and build on until I&apos;ve used every package on the npm registry
@@ -42,6 +45,11 @@ export const pageQuery = graphql`
             subtitle
           }
         }
+      }
+    }
+    imageSharp(id: { regex: "/cover/" }) {
+      sizes(maxWidth: 600) {
+        ...GatsbyImageSharpSizes
       }
     }
   }
