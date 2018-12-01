@@ -1,5 +1,6 @@
 /* eslint-disable */
 import React from 'react';
+import { graphql } from 'gatsby';
 import { Link, Timestamp } from '../../components/Misc';
 import { Box } from '../../components/Layout';
 import { css } from 'react-emotion';

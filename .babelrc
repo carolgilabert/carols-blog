@@ -3,7 +3,7 @@
   "env": {
     "test": {
       "presets": ["es2015", "react"],
-      "plugins": "babel-plugin-emotion"
+      "plugins": ["babel-plugin-emotion"]
     }
   }
 }

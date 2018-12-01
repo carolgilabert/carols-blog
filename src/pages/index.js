@@ -1,5 +1,6 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import { Box } from '../components/Layout';
 

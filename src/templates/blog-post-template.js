@@ -1,6 +1,7 @@
 /* eslint-disable no-undef, react/prop-types, react/no-danger */
 import React from 'react';
 import styled from 'react-emotion';
+import { graphql } from 'gatsby';
 import { Box } from '../components/Layout';
 import { Timestamp, Link } from '../components/Misc';
 
