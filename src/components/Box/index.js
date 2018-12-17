@@ -1,11 +1,5 @@
 import styled from '@emotion/styled';
-import {
-  space,
-  width,
-  // fontSize,
-  color,
-  textAlign
-} from 'styled-system';
+import { space, width, color, textAlign } from 'styled-system';
 
 const Box = styled.div`
   overflow: hidden;

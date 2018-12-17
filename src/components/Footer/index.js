@@ -13,6 +13,7 @@ library.add(fab);
 const footerStyle = css`
   margin: 20px 0px;
   border-top: 2px #000 dashed;
+  text-align: center;
 
   & a {
     box-shadow: none;
@@ -23,13 +24,17 @@ const footerStyle = css`
   }
 `;
 
+const footerBoxStyles = css`
+  display: inline-block;
+`;
+
 const iconStyles = css`
   margin: 0 20px;
 `;
 
 const Footer = ({ name, email, twitter, instagram, linkedin, gitlab }) => (
   <div css={footerStyle}>
-    <Box px={[3, 3, 1]} align="center" mt={20}>
+    <Box px={[3, 3, 1]} align="center" mt={20} css={footerBoxStyles}>
       <span>{`Copyright © 2018 ${name}. Say hello 👋 `}</span>
       <OutboundLink href={email} target="_blank">
         <FontAwesomeIcon icon={faAt} css={iconStyles} />
