@@ -16,7 +16,8 @@
     },
     "plugins": [
         "react",
-        "prettier"
+        "prettier",
+        "emotion"
     ],
     "rules": {
         "prettier/prettier": "error",

@@ -1,6 +1,6 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
-import { Box } from '../components/Layout';
+import Box from '../components/Box';
 
 const Terms = () => (
   <Box>

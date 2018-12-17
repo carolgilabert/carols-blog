@@ -1,12 +1,12 @@
-import React from 'react';
-import { css } from 'react-emotion';
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { faAt } from '@fortawesome/free-solid-svg-icons';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import { Box } from '../Layout';
+import Box from '../Box';
 
 library.add(fab);
 
@@ -27,24 +27,24 @@ const iconStyles = css`
   margin: 0 20px;
 `;
 
-const Footer = props => (
-  <div className={footerStyle}>
+const Footer = ({ name, email, twitter, instagram, linkedin, gitlab }) => (
+  <div css={footerStyle}>
     <Box px={[3, 3, 1]} align="center" mt={20}>
-      <span>{`Copyright © 2018 ${props.name}. Say hello 👋 `}</span>
-      <OutboundLink href={props.email} target="_blank">
-        <FontAwesomeIcon icon={faAt} className={iconStyles} />
+      <span>{`Copyright © 2018 ${name}. Say hello 👋 `}</span>
+      <OutboundLink href={email} target="_blank">
+        <FontAwesomeIcon icon={faAt} css={iconStyles} />
       </OutboundLink>
-      <OutboundLink href={props.twitter} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'twitter']} className={iconStyles} />
+      <OutboundLink href={twitter} target="_blank">
+        <FontAwesomeIcon icon={['fab', 'twitter']} css={iconStyles} />
       </OutboundLink>
-      <OutboundLink href={props.instagram} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'instagram']} className={iconStyles} />
+      <OutboundLink href={instagram} target="_blank">
+        <FontAwesomeIcon icon={['fab', 'instagram']} css={iconStyles} />
       </OutboundLink>
-      <OutboundLink href={props.linkedin} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'linkedin']} className={iconStyles} />
+      <OutboundLink href={linkedin} target="_blank">
+        <FontAwesomeIcon icon={['fab', 'linkedin']} css={iconStyles} />
       </OutboundLink>
-      <OutboundLink href={props.gitlab} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'gitlab']} className={iconStyles} />
+      <OutboundLink href={gitlab} target="_blank">
+        <FontAwesomeIcon icon={['fab', 'gitlab']} css={iconStyles} />
       </OutboundLink>
     </Box>
   </div>

@@ -1,9 +1,10 @@
 /* eslint-disable no-undef, react/prop-types, react/no-danger */
 import React from 'react';
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
-import { Box } from '../components/Layout';
+import Box from '../components/Box';
 import { Timestamp, Link } from '../components/Misc';
+import PageLayout from '../components/PageLayout';
 
 const Back = styled.div`
   color: #666;
@@ -15,7 +16,7 @@ const Back = styled.div`
 const Template = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <Box>
+    <PageLayout>
       <Box
         width={[1, 1, 720]}
         m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
@@ -27,10 +28,13 @@ const Template = ({ data }) => {
         </Back>
         <h1>{post.frontmatter.title}</h1>
         <Timestamp>{post.frontmatter.date}</Timestamp>
-        <h5>Written by {post.frontmatter.author.id}</h5>
+        <h5>
+          Written by&nbsp;
+          {post.frontmatter.author}
+        </h5>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
       </Box>
-    </Box>
+    </PageLayout>
   );
 };
 
@@ -42,9 +46,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
-        author {
-          id
-        }
+        author
       }
     }
   }

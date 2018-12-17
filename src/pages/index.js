@@ -1,14 +1,14 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
-import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import { Box } from '../components/Layout';
+import { graphql } from 'gatsby';
+import Box from '../components/Box';
+import PageLayout from '../components/PageLayout';
 
 export default ({ data }) => {
-  const myData = data.allContentJson.edges[0].node.index;
-  const { imageSharp } = data;
+  const { coverImage } = data;
   return (
-    <div>
+    <PageLayout>
       <Box>
         <Box
           width={[1, 1, 1 / 2]}
@@ -16,13 +16,16 @@ export default ({ data }) => {
           px={[3, 3, 0]}
           align="center"
         >
-          <h1>{myData.title}</h1>
-          <h3>{myData.subtitle}</h3>
+          <h1>Hi! I&apos;m Carol</h1>
+          <h3>This is my little home on the internet</h3>
         </Box>
       </Box>
       <Box py={[3, 3, 4]}>
         <Box width={[1, 1, 1 / 2]} m="0 auto" px={[3, 3, 0]}>
-          <Img alt="Doodle of Carol at her desk" sizes={imageSharp.sizes} />
+          <Img
+            alt="Doodle of Carol at her desk"
+            fluid={coverImage.childImageSharp.fluid}
+          />
           <p>
             It&apos;s very barren for now, but the idea is to get it out there,
             and build on until I&apos;ve used every package on the npm registry
@@ -32,25 +35,17 @@ export default ({ data }) => {
           </p>
         </Box>
       </Box>
-    </div>
+    </PageLayout>
   );
 };
 
 export const pageQuery = graphql`
   query contentQuery {
-    allContentJson {
-      edges {
-        node {
-          index {
-            title
-            subtitle
-          }
+    coverImage: file(relativePath: { eq: "cover.png" }) {
+      childImageSharp {
+        fluid(maxWidth: 600) {
+          ...GatsbyImageSharpFluid
         }
-      }
-    }
-    imageSharp(id: { regex: "/cover/" }) {
-      sizes(maxWidth: 600) {
-        ...GatsbyImageSharpSizes
       }
     }
   }

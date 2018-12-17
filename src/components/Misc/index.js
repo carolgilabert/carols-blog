@@ -1,5 +1,6 @@
-import React from 'react';
-import styled, { css } from 'react-emotion';
+/** @jsx jsx */
+import styled from '@emotion/styled';
+import { jsx, css } from '@emotion/core';
 import GatsbyLink from 'gatsby-link';
 
 const timestamp = css`
@@ -26,11 +27,14 @@ const link = css`
 `;
 
 /* eslint-disable react/prop-types */
-const Link = props => (
-  <GatsbyLink className={link} {...props}>
-    {props.children}
-  </GatsbyLink>
-);
+const Link = props => {
+  const { children } = props;
+  return (
+    <GatsbyLink css={link} {...props}>
+      {children}
+    </GatsbyLink>
+  );
+};
 /* eslint-enable */
 
 export { Timestamp, Link };

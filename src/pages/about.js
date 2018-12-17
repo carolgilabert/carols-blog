@@ -1,9 +1,10 @@
 /* eslint-disable no-undef, react/prop-types */
-import React from 'react';
+/** @jsx jsx */
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
-import { css } from 'react-emotion';
-import { Box } from '../components/Layout';
+import { jsx, css } from '@emotion/core';
+import Box from '../components/Box';
+import PageLayout from '../components/PageLayout';
 
 const imgStyle = css`
   border-radius: 5px;
@@ -12,9 +13,9 @@ const imgStyle = css`
 `;
 
 const About = ({ data }) => {
-  const { imageSharp } = data;
+  const { aboutImage } = data;
   return (
-    <Box>
+    <PageLayout>
       <Box
         width={[1, 1, 1 / 2]}
         m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
@@ -22,24 +23,26 @@ const About = ({ data }) => {
       >
         <h1>About me</h1>
         <Img
-          className={imgStyle}
+          css={imgStyle}
           alt="Picture of my face"
-          sizes={imageSharp.sizes}
+          fluid={aboutImage.childImageSharp.fluid}
         />
         <p>
           This is a picture of my face. I&apos;ll add some more info here soon,
           but if you&apos;d like to get in touch, just click below :)
         </p>
       </Box>
-    </Box>
+    </PageLayout>
   );
 };
 
 export const pageQuery = graphql`
   query AboutQuery {
-    imageSharp(id: { regex: "/about_me/" }) {
-      sizes(maxWidth: 1000) {
-        ...GatsbyImageSharpSizes
+    aboutImage: file(relativePath: { eq: "about_me.jpg" }) {
+      childImageSharp {
+        fluid(maxWidth: 1000) {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }

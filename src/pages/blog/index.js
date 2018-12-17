@@ -1,9 +1,10 @@
 /* eslint-disable */
-import React from 'react';
-import { graphql } from 'gatsby';
+/** @jsx jsx */
 import { Link, Timestamp } from '../../components/Misc';
-import { Box } from '../../components/Layout';
-import { css } from 'react-emotion';
+import Box from '../../components/Box';
+import PageLayout from '../../components/PageLayout';
+import { jsx, css } from '@emotion/core';
+import { graphql } from 'gatsby';
 
 const linkStyles = css`
   box-shadow: none;
@@ -12,7 +13,7 @@ const linkStyles = css`
 const BlogIndex = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <Box>
+    <PageLayout>
       <Box
         width={[1, 1, 720]}
         m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
@@ -25,7 +26,7 @@ const BlogIndex = ({ data }) => {
             .map(({ node: post }, index) => {
               return (
                 <Box key={post.id}>
-                  <Link to={post.fields.slug} className={linkStyles}>
+                  <Link to={post.fields.slug} css={linkStyles}>
                     <Timestamp>{post.frontmatter.date}</Timestamp>
                     <h3>{post.frontmatter.title}</h3>
                     <p>{post.excerpt}</p>
@@ -35,7 +36,7 @@ const BlogIndex = ({ data }) => {
             })}
         </Box>
       </Box>
-    </Box>
+    </PageLayout>
   );
 };
 
