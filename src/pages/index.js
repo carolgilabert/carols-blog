@@ -8,7 +8,7 @@ import PageLayout from '../components/PageLayout';
 export default ({ data }) => {
   const { coverImage } = data;
   return (
-    <PageLayout>
+    <PageLayout title="Home">
       <Box>
         <Box
           width={[1, 1, 1 / 2]}

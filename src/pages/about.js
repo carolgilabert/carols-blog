@@ -15,7 +15,7 @@ const imgStyle = css`
 const About = ({ data }) => {
   const { aboutImage } = data;
   return (
-    <PageLayout>
+    <PageLayout title="About">
       <Box
         width={[1, 1, 1 / 2]}
         m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}

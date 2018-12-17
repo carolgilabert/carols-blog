@@ -13,7 +13,7 @@ const linkStyles = css`
 const BlogIndex = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark;
   return (
-    <PageLayout>
+    <PageLayout title="Blog">
       <Box
         width={[1, 1, 720]}
         m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
