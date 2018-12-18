@@ -3,7 +3,7 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { graphql } from 'gatsby';
 import Box from '../components/Box';
-import { Timestamp, Link } from '../components/Misc';
+import { Timestamp, Link, ReadTime } from '../components/Misc';
 import PageLayout from '../components/PageLayout';
 
 const Back = styled.div`
@@ -28,6 +28,8 @@ const Template = ({ data }) => {
         </Back>
         <h1>{post.frontmatter.title}</h1>
         <Timestamp>{post.frontmatter.date}</Timestamp>
+        {' · '}
+        <ReadTime time={post.frontmatter.readingTime} />
         <h5>
           Written by&nbsp;
           {post.frontmatter.author}
@@ -42,11 +44,11 @@ export const pageQuery = graphql`
   query BlogPostByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
-      timeToRead
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
         author
+        readingTime
       }
     }
   }

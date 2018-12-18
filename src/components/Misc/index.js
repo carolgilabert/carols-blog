@@ -1,4 +1,5 @@
 /** @jsx jsx */
+import PropTypes from 'prop-types';
 import styled from '@emotion/styled';
 import { jsx, css } from '@emotion/core';
 import GatsbyLink from 'gatsby-link';
@@ -37,4 +38,14 @@ const Link = props => {
 };
 /* eslint-enable */
 
-export { Timestamp, Link };
+const readTimeStyles = css`
+  font-size: 0.9em;
+  font-style: italic;
+`;
+
+const ReadTime = ({ time }) => (
+  <span css={readTimeStyles}>{`${time} read`}</span>
+);
+ReadTime.propTypes = { time: PropTypes.string.isRequired };
+
+export { Timestamp, Link, ReadTime };

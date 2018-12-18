@@ -2,6 +2,7 @@
 title: DevOpsDays London 2018
 author: Carolina Gilabert
 date: 2018-11-05
+readingTime: 5 min
 ---
 
 So, a few weeks ago I had the absolute pleasure to attend DevOpsDays London. It was my first time attending a big tech conference and the experience could not have been better! 🙂

@@ -2,6 +2,7 @@
 title: FFConf 2018
 author: Carolina Gilabert
 date: 2018-11-19
+readingTime: 10 min
 ---
 
 I first read about FFConf on Twitter, and everyone had only the highest praise for it. I decided to attend as I wanted to hear a bit more about the web side of things.

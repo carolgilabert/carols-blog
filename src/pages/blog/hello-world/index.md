@@ -2,6 +2,7 @@
 title: Hello World
 author: Carolina Gilabert
 date: 2018-10-09
+readingTime: 1 min
 ---
 
 Hello there! 👋
