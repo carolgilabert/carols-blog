@@ -9,16 +9,14 @@ export default ({ data }) => {
   const { coverImage } = data;
   return (
     <PageLayout title="Home">
-      <Box>
-        <Box
-          width={[1, 1, 1 / 2]}
-          m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
-          px={[3, 3, 0]}
-          align="center"
-        >
-          <h1>Hi! I&apos;m Carol</h1>
-          <h3>This is my little home on the internet</h3>
-        </Box>
+      <Box
+        width={[1, 1, 1 / 2]}
+        m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
+        px={[3, 3, 0]}
+        textAlign="center"
+      >
+        <h1>Hi! I&apos;m Carol</h1>
+        <h3>This is my little home on the internet</h3>
       </Box>
       <Box py={[3, 3, 4]}>
         <Box width={[1, 1, 1 / 2]} m="0 auto" px={[3, 3, 0]}>
