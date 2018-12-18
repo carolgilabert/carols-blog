@@ -3,12 +3,11 @@ module.exports = {
     title: "Carol's Blog",
     siteUrl: 'https://carolgilabert.me',
     description:
-      'A space for me to share my experiences. Some will be technical posts, some will be personal.'
-  },
-  mapping: {
-    'MarkdownRemark.frontmatter.author': 'AuthorsYaml'
+      'A space for me to share my experiences. Some will be technical posts, some will be personal.',
+    author: 'Carolina Gilabert'
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -27,7 +26,13 @@ module.exports = {
         cookieDomain: 'auto'
       }
     },
-    // Adding various source folders to the GraphQL layer.
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -35,36 +40,6 @@ module.exports = {
         path: `${__dirname}/src/pages/`
       }
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: `${__dirname}/src/data/`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/assets/images/`
-      }
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: ``
-      }
-    },
-    'gatsby-transformer-remark',
-    'gatsby-transformer-json',
-    'gatsby-transformer-yaml',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-offline',
-    'gatsby-plugin-emotion',
-    'gatsby-plugin-react-next',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-typography',
       options: {
@@ -89,6 +64,24 @@ module.exports = {
           }
         ]
       }
+    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-twitter',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'carols-blog',
+        short_name: 'blog',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/favicon.png' // This path is relative to the root of the site.
+      }
     }
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.app/offline
+    // 'gatsby-plugin-offline',
   ]
 };

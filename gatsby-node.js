@@ -2,17 +2,25 @@ const parseFilepath = require('parse-filepath');
 const path = require('path');
 const slash = require('slash');
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
+exports.onCreateWebpackConfig = ({ stage, actions }) => {
   switch (stage) {
     case 'develop':
-      config.preLoader('eslint-loader', {
-        test: /\.(js|jsx)$/,
-        exclude: /node_modules/
+      actions.setWebpackConfig({
+        module: {
+          rules: [
+            {
+              enforce: 'pre',
+              test: /\.(js|jsx)$/,
+              loader: 'eslint-loader',
+              exclude: /node_modules/
+            }
+          ]
+        }
       });
-
+      break;
+    default:
       break;
   }
-  return config;
 };
 
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {

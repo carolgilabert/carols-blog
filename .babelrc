@@ -1,9 +1,9 @@
-// This babelrc is only needed for jest to work properly
 {
-  "env": {
-    "test": {
-      "presets": ["es2015", "react"],
-      "plugins": "babel-plugin-emotion"
+    "presets": ["babel-preset-gatsby"],
+    "env": {
+      "test": {
+        "presets": ["@babel/preset-env", "@babel/preset-react"],
+        "plugins": ["babel-plugin-emotion"]
+      }
     }
   }
-}

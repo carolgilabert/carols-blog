@@ -1,5 +1,5 @@
-import React from 'react';
-import { css } from 'react-emotion';
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
 import { Link } from '../Misc';
 
 const linkStyles = css`
@@ -15,14 +15,14 @@ const menuStyles = css`
 `;
 
 const Navigation = () => (
-  <div className={menuStyles}>
-    <Link className={linkStyles} to="/">
+  <div css={menuStyles}>
+    <Link css={linkStyles} to="/">
       Home
     </Link>
-    <Link className={linkStyles} to="/about">
+    <Link css={linkStyles} to="/about">
       About
     </Link>
-    <Link className={linkStyles} to="/blog">
+    <Link css={linkStyles} to="/blog">
       Blog
     </Link>
   </div>
