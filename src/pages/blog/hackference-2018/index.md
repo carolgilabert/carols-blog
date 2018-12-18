@@ -2,6 +2,7 @@
 title: Hackference 2018
 author: Carolina Gilabert
 date: 2018-11-13
+readingTime: 7 min
 ---
 
 I’d heard really good things about Hackference from various Nottingham based folks, so when the super early bird tickets were released, I bagsied one straight away! It might even have been the first one, my ticket reference was DWZ0-1 🤔

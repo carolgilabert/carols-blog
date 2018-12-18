@@ -1,6 +1,6 @@
 /* eslint-disable */
 /** @jsx jsx */
-import { Link, Timestamp } from '../../components/Misc';
+import { Link, Timestamp, ReadTime } from '../../components/Misc';
 import Box from '../../components/Box';
 import PageLayout from '../../components/PageLayout';
 import { jsx, css } from '@emotion/core';
@@ -28,6 +28,8 @@ const BlogIndex = ({ data }) => {
                 <Box key={post.id}>
                   <Link to={post.fields.slug} css={linkStyles}>
                     <Timestamp>{post.frontmatter.date}</Timestamp>
+                    {' · '}
+                    <ReadTime time={post.frontmatter.readingTime} />
                     <h3>{post.frontmatter.title}</h3>
                     <p>{post.excerpt}</p>
                   </Link>
@@ -50,6 +52,7 @@ export const pageQuery = graphql`
           frontmatter {
             title
             date(formatString: "MMMM DD, YYYY")
+            readingTime
           }
           fields {
             slug
