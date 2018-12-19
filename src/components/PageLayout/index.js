@@ -36,22 +36,29 @@ const contentStyles = css`
   flex: 1;
 `;
 
-const PageLayout = ({ children, title }) => (
+const PageLayout = ({ children, title, description, image }) => (
   <div css={containerStyles}>
     <Global styles={globalStyles} />
-    <SEO title={title} keywords={['gatsby', 'application', 'react', 'blog']} />
+    <SEO title={title} description={description} image={image} />
     <Navigation />
     <div css={contentStyles}>{children}</div>
     <Footer />
   </div>
 );
 
+PageLayout.defaultProps = {
+  description: '',
+  image: null
+};
+
 PageLayout.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node
   ]).isRequired,
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  image: PropTypes.string
 };
 
 export default PageLayout;

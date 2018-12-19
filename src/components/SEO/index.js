@@ -17,7 +17,7 @@ const detailsQuery = graphql`
   }
 `;
 
-const SEO = ({ description, lang, meta, keywords, title, image }) => (
+const SEO = ({ description, lang, meta, title, image }) => (
   <StaticQuery
     query={detailsQuery}
     render={data => {
@@ -61,25 +61,16 @@ const SEO = ({ description, lang, meta, keywords, title, image }) => (
             {
               name: 'twitter:description',
               content: metaDescription
+            },
+            {
+              name: 'keywords',
+              content: ['gatsby', 'application', 'react', 'blog']
+            },
+            {
+              name: 'og:image',
+              content: image || CoverImage
             }
-          ]
-            .concat(
-              keywords.length > 0
-                ? {
-                    name: 'keywords',
-                    content: keywords.join(', ')
-                  }
-                : []
-            )
-            .concat(
-              image
-                ? {
-                    name: 'og:image',
-                    content: `${data.site.siteMetadata.siteUrl}${image}`
-                  }
-                : []
-            )
-            .concat(meta)}
+          ].concat(meta)}
         />
       );
     }}
@@ -90,7 +81,6 @@ SEO.defaultProps = {
   description: '',
   lang: 'en',
   meta: [],
-  keywords: [],
   image: CoverImage
 };
 
@@ -98,7 +88,6 @@ SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.any),
-  keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
   image: PropTypes.string
 };
