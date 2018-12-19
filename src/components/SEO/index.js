@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
+import CoverImage from '../../images/cover.png';
 
 const detailsQuery = graphql`
   query DefaultSEOQuery {
@@ -10,12 +11,13 @@ const detailsQuery = graphql`
         title
         description
         author
+        siteUrl
       }
     }
   }
 `;
 
-const SEO = ({ description, lang, meta, keywords, title }) => (
+const SEO = ({ description, lang, meta, title, image }) => (
   <StaticQuery
     query={detailsQuery}
     render={data => {
@@ -59,17 +61,16 @@ const SEO = ({ description, lang, meta, keywords, title }) => (
             {
               name: 'twitter:description',
               content: metaDescription
+            },
+            {
+              name: 'keywords',
+              content: ['gatsby', 'application', 'react', 'blog']
+            },
+            {
+              name: 'og:image',
+              content: `${data.site.siteMetadata.siteUrl}${image || CoverImage}`
             }
-          ]
-            .concat(
-              keywords.length > 0
-                ? {
-                    name: 'keywords',
-                    content: keywords.join(', ')
-                  }
-                : []
-            )
-            .concat(meta)}
+          ].concat(meta)}
         />
       );
     }}
@@ -80,15 +81,15 @@ SEO.defaultProps = {
   description: '',
   lang: 'en',
   meta: [],
-  keywords: []
+  image: CoverImage
 };
 
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.any),
-  keywords: PropTypes.arrayOf(PropTypes.string),
-  title: PropTypes.string.isRequired
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string
 };
 
 export default SEO;

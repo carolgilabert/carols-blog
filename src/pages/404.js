@@ -5,11 +5,16 @@ import { graphql } from 'gatsby';
 import PageLayout from '../components/PageLayout';
 import Box from '../components/Box';
 import { Link } from '../components/Misc';
+import RobotImage from '../images/robot.png';
 
 const ErrorPage = ({ data }) => {
   const { errorImage } = data;
   return (
-    <PageLayout title="404">
+    <PageLayout
+      title="404"
+      description="Whoa! There's nothing here D:"
+      image={RobotImage}
+    >
       <Box textAlign="center">
         <h1>Whoa!</h1>
         <h3>There&apos;s nothing here</h3>

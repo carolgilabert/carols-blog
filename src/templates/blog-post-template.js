@@ -16,7 +16,7 @@ const Back = styled.div`
 const Template = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
-    <PageLayout title={post.frontmatter.title}>
+    <PageLayout title={post.frontmatter.title} description={post.excerpt}>
       <Box
         width={[1, 1, 720]}
         m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
@@ -44,6 +44,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt(pruneLength: 250)
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
