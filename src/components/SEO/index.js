@@ -68,7 +68,7 @@ const SEO = ({ description, lang, meta, title, image }) => (
             },
             {
               name: 'og:image',
-              content: image || CoverImage
+              content: `${data.site.siteMetadata.siteUrl}${image || CoverImage}`
             }
           ].concat(meta)}
         />
