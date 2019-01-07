@@ -69,6 +69,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-twitter',
     'gatsby-plugin-feed',
+    'gatsby-plugin-catch-links',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
