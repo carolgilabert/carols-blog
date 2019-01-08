@@ -29,7 +29,7 @@ Here’s a [video summary of the event.](https://www.youtube.com/watch?v=SsHFbx9
 
 I also got to catch up with lovely friends from afar, and spend a bit more time with my local friends too.
 
-For international women’s day, [CDO Birmingham]([BRAZILIAN CULTURAL CENTRE]http://www.cdob.co.uk/) had an event with all female guest teachers, which was awesome!
+For international women’s day, [CDO Birmingham](http://www.cdob.co.uk/) had an event with all female guest teachers, which was awesome!
 
 ![Collage of March pics](/images/2018-in-review/march.jpg)
 
@@ -62,11 +62,11 @@ I also went to a Capoeira event in Birmingham, and got a PS4 Pro, so I could fin
 Sunny days at last! ☀️
 
 Much fun was had this summer, including but not limited to: 
-	* Work summer festival 
-	* Went to Buxton Fringe festival to see a friend’s play
-	* Hit max level on Pokemon Go!
-	* Capoeira event in Stoke
-	* We had a super fun acrobatics class at CDO Notts, and I made [a video about it]([CDO Capoeira Nottingham - Saturday Acrobatics - YouTube]https://www.youtube.com/watch?v=7dJON-IXQt4)!
+* Work summer festival 
+* Went to Buxton Fringe festival to see a friend’s play
+* Hit max level on Pokemon Go!
+* Capoeira event in Stoke
+* We had a super fun acrobatics class at CDO Notts, and I made [a video about it](https://www.youtube.com/watch?v=7dJON-IXQt4)!
 
 📖 [Out of the Wreckage - George Monbiot](https://www.hive.co.uk/Product/George-Monbiot/Out-of-the-Wreckage--A-New-Politics-for-an-Age-of-Crisis/21096819)
 
@@ -102,7 +102,7 @@ In October I also had the experience of attending a hackathon as a sponsor for t
 
 📖 [Wishful Drinking - Carrie Fisher](https://www.hive.co.uk/Product/Carrie-Fisher/Wishful-Drinking/7034586), [Feminist Fight Club - Jessica Bennett](https://www.hive.co.uk/Product/Jessica-Bennett/Feminist-Fight-Club--A-Survival-Manual-For-a-Sexist-Workplace/21005792)
 
-✨ I did my first talk! It was a short lightning ⚡️ talk at [Notts IoT]([Home - Nottingham IoT]https://www.nottsiot.co.uk/) about DevOps vs SRE.
+✨ I did my first talk! It was a short lightning ⚡️ talk at [Notts IoT](https://www.nottsiot.co.uk/) about DevOps vs SRE.
 
 ![Collage of October pics](/images/2018-in-review/october.jpg)
 
@@ -122,7 +122,7 @@ December was a wind down month for me. I attended Hack Kings, again as a sponsor
 
 Christmas celebrations included: Tech Nottingham Christmas edition, our work Christmas party, and our Capoeira group’s yearly fancy dress class; all pictured below.
 
-For actual Christmas, Thom and I drove to Devon to spend it with my family 💛 and spent the rest of our days off chilling out at home and playing lots of Lego Harry Potter on the Switch 🤓
+For Christmas itself, Thom and I drove to Devon to spend some time with my family 💛 We spent the rest of our days off chilling out at home and playing lots of Lego Harry Potter on the Switch 🤓
 
 📖 [Matilda - Roald Dahl](https://www.hive.co.uk/Product/Roald-Dahl/Matilda/18186591), [The Twits - Roald Dahl](https://www.hive.co.uk/Product/Roald-Dahl/The-Twits/18186594)
 
