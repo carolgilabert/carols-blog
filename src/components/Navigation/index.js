@@ -1,6 +1,8 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { Link } from '../Misc';
+import CVFile from '../../docs/CV-Carolina-Gilabert.pdf';
 
 const linkStyles = css`
   box-shadow: none;
@@ -25,6 +27,9 @@ const Navigation = () => (
     <Link css={linkStyles} to="/blog">
       Blog
     </Link>
+    <OutboundLink css={linkStyles} href={CVFile} target="_blank">
+      CV
+    </OutboundLink>
   </div>
 );
 
