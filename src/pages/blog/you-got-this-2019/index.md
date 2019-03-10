@@ -1,13 +1,13 @@
 ---
-title: You got this!
+title: You got this! 2019
 author: Carolina Gilabert
 date: 2019-03-10
 readingTime: 6 min
 ---
 
-This post has been sitting in my drafts folder for way too long. I’ve been feeling guilty about not finishing it for a while now, but I should be focussing on the fact that I had a brilliant few weeks since this event, where I did a lot of chilling and non techie things, which I also love 💛
+This post has been sitting in my drafts folder for way too long. I’ve been feeling guilty about not finishing it for a while now, but I should be focussing on the fact that I had a brilliant few weeks since this conference, where I did a lot of chilling and non techie things, which I also love 💛
 
-I found out about this conference on twitter, by accident, only a few weeks before it was held. As soon as I read the premise, I was sold. 
+I found out about You Got This! conference on twitter, by accident, only a few weeks before it was held. As soon as I read the premise, I was sold. 
 
 The early stages of any career can be hard, but it feels like getting started in the tech industry can be particularly challenging. The field stretches infinitely in all directions, and it’s very easy to get lost in the amount of things to learn.
 
@@ -104,3 +104,4 @@ The [highlights page](https://2019.yougotthis.io/highlights) for the event has t
 
 I absolutely loved it, and I’m looking forward to next year’s edition 🙂
 
+📸 Photographs by [Paul Clarke](https://twitter.com/paul_clarke), with a CC-BY-SA license.
