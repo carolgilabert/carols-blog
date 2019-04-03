@@ -36,6 +36,10 @@ const About = ({ data }) => {
           This is a picture of my face. I&apos;ll add some more info here soon,
           but if you&apos;d like to get in touch, just click below :)
         </p>
+        <p>
+          Update: I have short hair now, but I&apos;m in essence the same.
+          I&apos;ll update this pic when I get a good one!
+        </p>
       </Box>
     </PageLayout>
   );
