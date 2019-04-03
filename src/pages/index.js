@@ -39,7 +39,7 @@ export default ({ data }) => {
 
 export const pageQuery = graphql`
   query contentQuery {
-    coverImage: file(relativePath: { eq: "cover.png" }) {
+    coverImage: file(relativePath: { eq: "cover-short-hair.png" }) {
       childImageSharp {
         fluid(maxWidth: 600) {
           ...GatsbyImageSharpFluid
