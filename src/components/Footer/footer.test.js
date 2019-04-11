@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import toJson from 'enzyme-to-json';
 import Footer from './index';
 import enzymeconf from '../../utils/enzyme';
 
-it('renders correctly', () => {
+it('has the current year on the footer copyright', () => {
   const tree = shallow(<Footer />);
-  expect(toJson(tree)).toMatchSnapshot();
+  const currentYear = new Date().getFullYear().toString();
+  expect(tree.text()).toEqual(expect.stringContaining(currentYear));
 });

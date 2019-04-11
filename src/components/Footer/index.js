@@ -30,7 +30,7 @@ const iconStyles = css`
 const Footer = ({ name, email, twitter, instagram, linkedin, gitlab }) => (
   <div css={footerStyle}>
     <Box px={[3, 3, 1]} textAlign="center" mt={20}>
-      <span>{`Copyright © 2018 ${name}. Say hello 👋 `}</span>
+      <span>{`Copyright © 2019 ${name}. Say hello 👋 `}</span>
       <OutboundLink href={email} target="_blank">
         <FontAwesomeIcon icon={faAt} css={iconStyles} />
       </OutboundLink>
