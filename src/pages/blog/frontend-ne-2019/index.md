@@ -1,0 +1,132 @@
+---
+title: Frontend NE 2019
+author: Carolina Gilabert
+date: 2019-05-16
+readingTime: 7 min
+---
+This may seem silly, but I kinda accidentally became a frontend person. My first job was around web and so I just kinda ended up here.
+
+Don’t get me wrong, I _love_ the web. But these circumstances mean I never made an active choice about where I’d specialise. I’ve been getting by as a generalist for about 4 years now, and it looks a bit like this: 
+
+![Adventure Time dragon saying: I have approximate knowledge of many things](/images/frontend-ne-2019/adventure-time-dragon.gif)
+
+But lately, I’ve been getting feedback that I should specialise, and become T shaped. It really does seem to be where it’s at 😅
+
+![Before and after doodle: normal looking person to T shaped person](/images/frontend-ne-2019/before-and-after.png)
+__Before and after rendition: from my basic self to a flawless T shaped human__
+
+To be quite honest, I’m reluctant to specialise. It probably comes from my personality; I’m an open person, and I like to stir all the pots.
+
+I also love learning, so in my head instead of going from this rectangle shape:
+
+![Graph of breadth vs depth of knowledge: shallow rectangle (broad not deep)](/images/frontend-ne-2019/shallow-rectangle.png)
+
+To this T shape:
+
+![Graph of breadth vs depth of knowledge: T shape (broad but deep in one key area)](/images/frontend-ne-2019/t-shape.png)
+
+I’d like to go to this rectangle:
+
+![Graph of breadth vs depth of knowledge: deep rectangle (broad and deep)](/images/frontend-ne-2019/deep-rectangle.png)
+
+
+I understand it’s not possible. But heck, I am nothing if not determined. And maybe a little stubborn. So I’m gonna specialise, but I’ll try and widen the T whenever I can.
+
+I decided to specialise in peak frontendy stuff: React, CSS and the sort. Neat!
+
+In the interest of specialising, I decided to attend some frontend specific conferences this year, and the first one was Frontend NE, in Newcastle.
+
+It was a one day conference, but what a day! The talks were very good, and I realised I know nothing about CSS. Like, nothing. I definitely have room to specialise 😅
+
+## Talks
+I’ll do my best to summarise the talks, but do try and catch these speakers elsewhere, as they were all brilliant!
+
+I took some notes on the day, as I usually do in conferences, and I’ve shared them to Twitter for the first time. You can check them out [here.](https://twitter.com/CarolSaysThings/status/1113389544945127424)
+
+### Going Offline
+
+The opening talk was given by [Jeremy Keith](https://twitter.com/adactio). It was a really insightful session, where he advocated for a more resilient web, and gave lots of practical advice on how to achieve that.
+
+He focussed on utilising service workers to make your site offline first, going through some key concepts around service workers themselves and their lifecycle, as well as offering a few different caching approaches. He showed us caching being used in truly creative ways, to offer up custom offline pages, or offline content based on previous visits to the site.
+
+His is this quite amusing quote:
+
+> A service worker is like a man-in-the-middle attack, but on your own site, in a good way.
+
+It was a really interesting talk, and I’m definitely looking forward to applying some of those learnings to my sites 🙂
+
+### Chrome DevTools inside out
+
+Next up was [Katie Fenn](https://twitter.com/katie_fenn), giving us an overview of her favourite features in Chrome DevTools.
+
+Being a [Firefox](https://mobile.twitter.com/FirefoxNightly) user myself, I was very pleased to see the new features added to Chrome DevTools since I last used it. The element selector now comes packed with great information, including the colour contrast ratio, which helps us make more accessible sites. What’s not to love?
+
+![Screenshot of Chrome DevTools: hovering over a piece of text shows font colour, contrast and other useful information](/images/frontend-ne-2019/chrome-devtools-tooltip.png)
+
+She also went over the various different console methods. I’ve personally  been using `console.trace()` for a while, so I loved learning about other useful tools like `console.memory`  - shows you heap size - and `console.count()` - outputs how many times it’s been called.
+
+She also showed us some amazing profiling tools: you can throttle your network connection and record the screen throughout, which helps you identify the best areas to optimise. You can also throttle your CPU to optimise animations and such, and you can now debug node apps 😮
+
+Katie is one of my favourite speakers and this talk was really packed with great stuff 🙂
+
+### Using the modern web to recreate 1980’s horribly slow and loud loading screens
+
+I had already seen [Remy Sharp](https://twitter.com/rem)‘s talk at [last year’s FFConf](https://carolgilabert.me/blog/ffconf-2018) and I was delighted to see it again.
+
+It’s such a fun talk, and it really shows how much you can learn from side projects that you’re passionate about 🙂
+
+### They left, now what?
+[Ania Bebb](https://twitter.com/AniaMakes) gave really compelling talk about preparing to leave, in a rather general sense.
+
+She talked about the rush to document everything you do that comes after you hand your notice in, and about the UFO factor: the number of people that need to disappear before the business collapses 🛸
+
+She then moved on to talk about documenting our wishes on the event of our death. What would you like to be done with your body? What will happen to your assets? How will people know which photos/things are important to you?
+
+> Clear documentation ensures smooth transition.
+
+It was a touching and personal talk, approaching the subject from a really unique perspective.
+
+### Instant VR, just add browser
+[Ruben van der Leun](https://twitter.com/rvdleun) followed up with a session about his adventures with WebVR. He had a demo you could try throughout the talk, and as a result I was most distracted 😅
+
+Before the talk started, we all got handed cardboard VR headsets with the conf branding. How cool is that?
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">So hype for the afternoon at <a href="https://twitter.com/hashtag/FrontendNE?src=hash&amp;ref_src=twsrc%5Etfw">#FrontendNE</a> already 🥳 <a href="https://t.co/KPpEObqCqF">pic.twitter.com/KPpEObqCqF</a></p>&mdash; Carol 💁‍♀️✨ (@CarolSaysThings) <a href="https://twitter.com/CarolSaysThings/status/1113421239257792513?ref_src=twsrc%5Etfw">April 3, 2019</a></blockquote><br />
+
+He showed us how powerful WebVR is already and how easily you can build for it. It was a really fun talk! (As you can verify by my rudimentary drawing 😅)
+
+![Doodle of a person with a VR headset on, with the conference branding](/images/frontend-ne-2019/vr-doodle.jpeg)
+
+### Grids all the way down
+Next up was [Rachel Andrew](https://twitter.com/rachelandrew), introducing us to subgrid, a feature included in level 2 of the CSS Grid Layout spec. 
+
+Rachel talked about grid itself, and how it’s not better or worse than flexbox, it’s another tool in your toolbox. She showed us an example that didn’t quite work with grid alone, and walked us through how subgrid fills that gap.
+
+It was very enlightening to hear from someone directly involved in the CSS working group. She gave us some insight on the process of changing the spec, and encouraged us to ask browsers to implement subgrid.
+
+It was a really great talk, and I’m very happy I now know of Rachel and her work. I have bookmarked ~80% of her blog posts 🤓
+
+### Even more CSS secrets
+The closing talk was given by [Lea Verou](https://twitter.com/LeaVerou) and it was a rundown of 10 CSS secrets of hers. Let me just say this: this talk blew my tiny little mind 🤯
+
+After watching it, alongside Rachel’s talk, I feel like I don’t know any CSS. We went from the nitty gritty of how blend modes work to creating pie charts with pure CSS (!). The ease with which Lea demonstrated all of this during her live demos showed she knows the ins and outs of the browser and how CSS works. I was awestruck 🤩
+
+There was a *lot* of content packed into this talk, so I’ll just pick out my top 3 faves:
+
+	1. Animated giant borders with SVG
+	2. Characters as SVGs - CSS rating system with meter tag
+	3. Cut out text effect
+
+I’ve worked with the slides and reproduced these [on Glitch](https://glitch.com/~css-secrets-examples) ✨
+
+Considering my recent resolution to specialise on the frontend, this talk has totally inspired me to do my best to become a CSS witch 🧙‍♀️🔮✨
+
+## Wrap up
+Going to this conf was a bit of a trek for me, as Newcastle is quite inconvenient to get to from Nottingham, which meant a 4 am start for me 😴
+
+It was so worth it, though! Lots of great content was shared and I met some lovely people there. Shoutout to my conf buddy [Rahman](https://twitter.com/rahman_younus) 😄
+
+I also got to catch up with the lovely folks from Nexmo [Alex](https://twitter.com/lakatos88?) and [Luke](https://twitter.com/lukeocodes?lang=en-gb). All in all a great day 💛
+
+![Photobooth picture: set of 4 pictures of my conf buddy and I with the conference logo in the middle](/images/frontend-ne-2019/photobooth.jpg)
+📸 They also had a photobooth there. It was neat!
