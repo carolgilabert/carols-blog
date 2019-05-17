@@ -122,11 +122,10 @@ I’ve worked with the slides and reproduced these [on Glitch](https://glitch.co
 Considering my recent resolution to specialise on the frontend, this talk has totally inspired me to do my best to become a CSS witch 🧙‍♀️🔮✨
 
 ## Wrap up
-Going to this conf was a bit of a trek for me, as Newcastle is quite inconvenient to get to from Nottingham, which meant a 4 am start for me 😴
+Going to this conf was a bit of a trek for me, as Newcastle is quite inconvenient to get to from Nottingham, which meant a 4 am start 😴
 
 It was so worth it, though! Lots of great content was shared and I met some lovely people there. Shoutout to my conf buddy [Rahman](https://twitter.com/rahman_younus) 😄
 
 I also got to catch up with the lovely folks from Nexmo [Alex](https://twitter.com/lakatos88?) and [Luke](https://twitter.com/lukeocodes?lang=en-gb). All in all a great day 💛
 
 ![Photobooth picture: set of 4 pictures of my conf buddy and I with the conference logo in the middle](/images/frontend-ne-2019/photobooth.jpg)
-📸 They also had a photobooth there. It was neat!
