@@ -73,13 +73,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'carols-blog',
-        short_name: 'blog',
+        name: `Carol's Blog`,
+        short_name: `Carol's Blog`,
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
-        display: 'minimal-ui',
-        icon: 'src/images/favicon.png' // This path is relative to the root of the site.
+        display: 'standalone',
+        icon: 'src/images/favicon.png'
       }
     },
     'gatsby-plugin-offline'
