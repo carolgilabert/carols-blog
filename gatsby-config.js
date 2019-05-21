@@ -73,17 +73,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'carols-blog',
-        short_name: 'blog',
+        name: `Carol's Blog`,
+        short_name: `Carol's Blog`,
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/favicon.png' // This path is relative to the root of the site.
+        icon: 'src/images/pwa-icon.jpg',
+        legacy: true
       }
-    }
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    },
+    'gatsby-plugin-offline'
   ]
 };
