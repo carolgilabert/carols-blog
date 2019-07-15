@@ -1,0 +1,104 @@
+---
+title: ReactJS Girls 2019
+author: Carolina Gilabert
+date: 2019-07-15
+readingTime: 7 min
+---
+As I mentioned on my [Frontend NE write up](/blog/frontend-ne-2019), I’m hoping to specialise on frontend technologies going forward. I want to get to know the browser and the things we put in it in depth, so ReactJS Girls felt like a good opportunity to expand my knowledge in that area.
+
+As well as the conference itself, I signed up for the Advanced React workshop with [Manjula Dube](https://twitter.com/manjula_dube) the day before the conference, and it was really valuable. I formalised my knowledge in some of the React patterns I already use, learnt some new ones, and got in on the hype with React hooks.
+
+The conference had a really good selection of talks and speakers, and all around amazing women everywhere. 
+
+It was hosted on my birthday, and it felt really great to spend the day surrounded by talented women in my field 🥳
+
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Look who I found at <a href="https://twitter.com/hashtag/ReactJSGirls?src=hash&amp;ref_src=twsrc%5Etfw">#ReactJSGirls</a> <a href="https://twitter.com/hashtag/WiTNotts?src=hash&amp;ref_src=twsrc%5Etfw">#WiTNotts</a> 💛 <a href="https://twitter.com/aimeegamble?ref_src=twsrc%5Etfw">@aimeegamble</a> <a href="https://t.co/89HGmjBMKM">pic.twitter.com/89HGmjBMKM</a></p>&mdash; Carol 👩‍💻 (@CarolSaysThings) <a href="https://twitter.com/CarolSaysThings/status/1124267687482396675?ref_src=twsrc%5Etfw">May 3, 2019</a></blockquote></p>
+
+So far, when writing up conferences, I’ve been doing my best to summarise every talk and capture all the details of the event. I don’t think it’s working for me, as it ends up taking a long time for me to write the post, and I end up rewatching talks multiple times and obsessing over details. So I’m going to start cutting my write ups short, so I can put my thoughts into words while they’re still fresh, and highlight what I took from the event, as these posts are for my own reference, really.
+
+ReactJS Girls had an MC, the very talented [Eve Porcello](https://twitter.com/eveporcello). She did a fantastic job throughout the whole day, but my favourite part was the introduction. Eve and the speakers recreated the launch of Windows 95, down to the outfits, awkward dancing, and “developers! developers! developers!” chants. She also shared some stats about men in tech, and appealed to the audience to do their best to include our fellow technologists.
+If you do have a few minutes to spare, I recommend you watch it, as the whole thing is hilarious.
+
+[ReactJS Girls LiveStream - Intro](https://youtu.be/dkl6sYff2C8?t=1993)
+
+## Talks
+All the talks were of a really high standard, and I’ve decided to pick a few to write down some notes about. I chose the ones that resonated with me the most, due to the content and how closely it relates to the things I’m working on at the moment.
+
+If you do have the time, I recommend giving the talks a watch, there was a lot of good stuff! 🙂
+
+[ReactJS Girls Conference - YouTube](https://www.youtube.com/playlist?list=PLfrHCOIcmSupF372EGlyi3l4y2R7F8A3q)
+
+### Building a design system with React
+
+[Emma Wedekind](https://twitter.com/EmmaWedekind) was the first speaker, starting us off with a really good talk on building design systems. 
+
+I’ve been thinking about this subject a lot recently, and the best way to approach it. So her talk came just at the right time 🙂
+
+She outlined the benefits of having a design system within your company, and summarised those as:
+
+> Design systems give designers and engineers the ability to build consistent user interfaces without wasting a ton of time and energy.
+
+She then went on to define what a design system is, and what elements it’s comprised of: a design language, a component library and a style guide.
+
+Her talk focussed on building a component library, but it was very valuable to have that work contextualised, to see how it fits into the bigger picture.
+
+It was a great overview of what the process should look like, who should come together for it, and what the output can/should look like.
+
+### The how and why of flexible components
+
+[Jenn Creighton](https://twitter.com/gurlcode) followed up with an excellent talk about practical ways of breaking down unwieldy components. She explored different options, each with their upsides and downsides.
+
+She showed good practices on refactoring a complex component, and carefully explained her reasoning. It was a great technical talk, and as I’ve been seeking to deepen my React knowledge, it added a few new tools to my toolbox 🤓
+
+Jenn wrapped up the talk by going over two interesting concepts:
+
+#### Know your traps
+
+We all have “traps”. For some engineers, like Jenn, the trap is to go all in with all the latest patterns, even when they might not be the best fit.
+
+For other folks, it might be too much reticence on adopting new patterns. The point is - know yourself - so that you can be flexible, and so write better components.
+
+#### Kill your darlings
+
+Once you’ve written your components, are you too attached? Can you let go and refactor or delete your code if that’s what’s best?
+
+I thought this conclusion to the talk was great, as being a flexible engineer feels like the first step in building flexible components ✨
+
+### Empathy driven development - a live accessibility audit with React.js
+
+One of my goals this year is to learn more about accessibility, so [Marcy Sutton](https://twitter.com/marcysutton)’s talk was a godsend 🤩
+
+She walked us through a pre built app, highlighting the most common accessibility bugs out there. She then showed us the fixes for those issues, sharing resources and tooling as she went.
+
+The main automated tool in this process was [axe](https://deque.com/axe). It’s available as a browser extension that will highlight issues on the page when you inspect it; it also has an API that can be plugged into your UI testing framework for automated testing.
+
+Her demo is available in [this repo](https://github.com/marcysutton/empathy-driven-development). I highly recommend a visit, as it’s packed with examples and resources on accessibility in practice.
+
+### Architect your culture like you architect your code
+
+[Kate Beard](https://twitter.com/sbinlondon)’s talk centred around the culture in the coding bootcamp she attended, Founders and Coders (FAC).
+
+She talked about psychological safety being the base upon which we can build a good trusting environment within our teams. She also shared FAC’s code of conduct, that gets revised by each cohort at the end of their course. There were lots of gems in there!  
+These were my favourite:
+
+💎 Don’t make assumptions  
+💎 Ask questions as opposed to telling people what to do  
+💎 Spread positivity  
+💎 Don’t underestimate your teammates  
+
+It was a really insightful talk on the active effort you need to put in to create a good culture. It doesn’t happen on its own, but with good norms and established behaviours we can make our teams and communities safe and inclusive spaces 💛
+
+## Wrap up
+It was a lovely, busy day where I learnt a lot, made some new friends, and was inspired by badass women. What a birthday present!
+
+Speaking of, I got an actual birthday present, a copy of [Eve Porcello](https://twitter.com/eveporcello)’s book Learning GraphQL. How cool is that?
+
+<p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I just got a kickass birthday present from <a href="https://twitter.com/eveporcello?ref_src=twsrc%5Etfw">@eveporcello</a> 🎁<br><br>Thank you so much! 💛 <a href="https://twitter.com/hashtag/ReactJSGirls?src=hash&amp;ref_src=twsrc%5Etfw">#ReactJSGirls</a> <a href="https://t.co/Ag95EZxV8J">pic.twitter.com/Ag95EZxV8J</a></p>&mdash; Carol 👩‍💻 (@CarolSaysThings) <a href="https://twitter.com/CarolSaysThings/status/1124315636598018048?ref_src=twsrc%5Etfw">May 3, 2019</a></blockquote></p>
+
+
+---
+## Extra stuff:
+[Emma](https://twitter.com/EmmaWedekind) mentioned during her talk that she uses Object.freeze() to prevent properties from being added/removed/updated in an object. She used it to define component behaviours and things that shouldn’t be mutated throughout the app.
+
+I hadn’t heard of it before, so I thought it’d be interesting to include it here:
+[Object.freeze() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze)
