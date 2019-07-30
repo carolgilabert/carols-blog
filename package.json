@@ -4,9 +4,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "@emotion/babel-preset-css-prop": "^10.0.5",
-    "@emotion/core": "^10.0.5",
-    "@emotion/styled": "^10.0.5",
     "@fortawesome/fontawesome-svg-core": "^1.2.8",
     "@fortawesome/free-brands-svg-icons": "^5.5.0",
     "@fortawesome/free-solid-svg-icons": "^5.5.0",
@@ -52,16 +49,18 @@
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
     "babel-jest": "^23.6.0",
+    "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-gatsby": "^0.1.6",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^3.3.0",
-    "eslint-plugin-emotion": "^10.0.0",
+    "eslint-plugin-better-styled-components": "^1.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "jest": "^23.6.0",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.2",
+    "styled-components": "^4.3.2"
   },
   "jest": {
     "transform": {

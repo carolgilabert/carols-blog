@@ -1,13 +1,13 @@
 /* eslint-disable no-undef, react/prop-types */
-/** @jsx jsx */
+import React from 'react';
 import Img from 'gatsby-image';
 import { graphql } from 'gatsby';
-import { jsx, css } from '@emotion/core';
+import styled from 'styled-components';
 import Box from '../components/Box';
 import PageLayout from '../components/PageLayout';
 import AboutImage from '../images/about_me.jpg';
 
-const imgStyle = css`
+const StyledImg = styled(Img)`
   border-radius: 5px;
   margin-bottom: 1.7rem;
   max-width: 400px;
@@ -27,8 +27,7 @@ const About = ({ data }) => {
         px={[3, 3, 0]}
       >
         <h1>About me</h1>
-        <Img
-          css={imgStyle}
+        <StyledImg
           alt="Picture of my face"
           fluid={aboutImage.childImageSharp.fluid}
         />

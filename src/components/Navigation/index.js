@@ -1,15 +1,13 @@
-/** @jsx jsx */
-import { jsx, css } from '@emotion/core';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import React from 'react';
+import styled from 'styled-components';
 import { Link } from '../Misc';
-import CVFile from '../../docs/CV-Carolina-Gilabert.pdf';
 
-const linkStyles = css`
+const StyledLink = styled(Link)`
   box-shadow: none;
   margin: 0 10px;
 `;
 
-const menuStyles = css`
+const StyledNavWrapper = styled.div`
   margin: 10px;
   display: flex;
   justify-content: flex-end;
@@ -17,20 +15,11 @@ const menuStyles = css`
 `;
 
 const Navigation = () => (
-  <div css={menuStyles}>
-    <Link css={linkStyles} to="/">
-      Home
-    </Link>
-    <Link css={linkStyles} to="/about">
-      About
-    </Link>
-    <Link css={linkStyles} to="/blog">
-      Blog
-    </Link>
-    <OutboundLink css={linkStyles} href={CVFile} target="_blank">
-      CV
-    </OutboundLink>
-  </div>
+  <StyledNavWrapper>
+    <StyledLink to="/">Home</StyledLink>
+    <StyledLink to="/about">About</StyledLink>
+    <StyledLink to="/blog">Blog</StyledLink>
+  </StyledNavWrapper>
 );
 
 export default Navigation;

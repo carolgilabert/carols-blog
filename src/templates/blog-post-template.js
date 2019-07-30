@@ -1,6 +1,6 @@
 /* eslint-disable no-undef, react/prop-types, react/no-danger */
 import React from 'react';
-import styled from '@emotion/styled';
+import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import Box from '../components/Box';
 import { Timestamp, Link, ReadTime } from '../components/Misc';

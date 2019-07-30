@@ -1,12 +1,12 @@
-/** @jsx jsx */
-import { Global, jsx, css } from '@emotion/core';
+import React from 'react';
+import styled, { createGlobalStyle } from 'styled-components';
 import PropTypes from 'prop-types';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import SEO from '../SEO';
 
 /* eslint-disable */
-const globalStyles = css`
+const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
@@ -25,25 +25,25 @@ const globalStyles = css`
 `;
 /* eslint-enable */
 
-const containerStyles = css`
+const StyledAppWrapper = styled.div`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 `;
 
-const contentStyles = css`
+const StyledContentWrapper = styled.main`
   flex: 1;
 `;
 
 const PageLayout = ({ children, title, description, image }) => (
-  <div css={containerStyles}>
-    <Global styles={globalStyles} />
+  <StyledAppWrapper>
+    <GlobalStyles />
     <SEO title={title} description={description} image={image} />
     <Navigation />
-    <div css={contentStyles}>{children}</div>
+    <StyledContentWrapper>{children}</StyledContentWrapper>
     <Footer />
-  </div>
+  </StyledAppWrapper>
 );
 
 PageLayout.defaultProps = {

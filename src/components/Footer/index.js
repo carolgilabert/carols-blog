@@ -1,5 +1,5 @@
-/** @jsx jsx */
-import { jsx, css } from '@emotion/core';
+import React from 'react';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -10,7 +10,7 @@ import Box from '../Box';
 
 library.add(fab);
 
-const footerStyle = css`
+const StyledFooterWrapper = styled.div`
   margin: 20px 0px;
   border-top: 2px #000 dashed;
 
@@ -23,31 +23,31 @@ const footerStyle = css`
   }
 `;
 
-const iconStyles = css`
+const StyledFontAwesomeIcon = styled(FontAwesomeIcon)`
   margin: 0 20px;
 `;
 
 const Footer = ({ name, email, twitter, instagram, linkedin, gitlab }) => (
-  <div css={footerStyle}>
+  <StyledFooterWrapper>
     <Box px={[3, 3, 1]} textAlign="center" mt={20}>
       <span>{`Copyright © 2019 ${name}. Say hello 👋 `}</span>
       <OutboundLink href={email} target="_blank">
-        <FontAwesomeIcon icon={faAt} css={iconStyles} />
+        <StyledFontAwesomeIcon icon={faAt} />
       </OutboundLink>
       <OutboundLink href={twitter} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'twitter']} css={iconStyles} />
+        <StyledFontAwesomeIcon icon={['fab', 'twitter']} />
       </OutboundLink>
       <OutboundLink href={instagram} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'instagram']} css={iconStyles} />
+        <StyledFontAwesomeIcon icon={['fab', 'instagram']} />
       </OutboundLink>
       <OutboundLink href={linkedin} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'linkedin']} css={iconStyles} />
+        <StyledFontAwesomeIcon icon={['fab', 'linkedin']} />
       </OutboundLink>
       <OutboundLink href={gitlab} target="_blank">
-        <FontAwesomeIcon icon={['fab', 'gitlab']} css={iconStyles} />
+        <StyledFontAwesomeIcon icon={['fab', 'gitlab']} />
       </OutboundLink>
     </Box>
-  </div>
+  </StyledFooterWrapper>
 );
 
 Footer.propTypes = {
