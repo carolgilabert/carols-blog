@@ -1,12 +1,12 @@
-/* eslint-disable */
-/** @jsx jsx */
+/* eslint-disable no-undef, react/prop-types */
+import React from 'react';
+import styled from 'styled-components';
+import { graphql } from 'gatsby';
 import { Link, Timestamp, ReadTime } from '../../components/Misc';
 import Box from '../../components/Box';
 import PageLayout from '../../components/PageLayout';
-import { jsx, css } from '@emotion/core';
-import { graphql } from 'gatsby';
 
-const linkStyles = css`
+const StyledLink = styled(Link)`
   box-shadow: none;
 `;
 
@@ -23,19 +23,17 @@ const BlogIndex = ({ data }) => {
         <Box>
           {posts
             .filter(post => post.node.frontmatter.title.length > 0)
-            .map(({ node: post }, index) => {
-              return (
-                <Box key={post.id}>
-                  <Link to={post.fields.slug} css={linkStyles}>
-                    <Timestamp>{post.frontmatter.date}</Timestamp>
-                    {' · '}
-                    <ReadTime time={post.frontmatter.readingTime} />
-                    <h3>{post.frontmatter.title}</h3>
-                    <p>{post.excerpt}</p>
-                  </Link>
-                </Box>
-              );
-            })}
+            .map(({ node: post }) => (
+              <Box key={post.id}>
+                <StyledLink to={post.fields.slug}>
+                  <Timestamp>{post.frontmatter.date}</Timestamp>
+                  {' · '}
+                  <ReadTime time={post.frontmatter.readingTime} />
+                  <h3>{post.frontmatter.title}</h3>
+                  <p>{post.excerpt}</p>
+                </StyledLink>
+              </Box>
+            ))}
         </Box>
       </Box>
     </PageLayout>

@@ -17,7 +17,7 @@
     "plugins": [
         "react",
         "prettier",
-        "emotion"
+        "better-styled-components"
     ],
     "rules": {
         "prettier/prettier": "error",
