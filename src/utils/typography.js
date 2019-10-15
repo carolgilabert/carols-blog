@@ -16,8 +16,6 @@ const typography = new Typography({
   ],
   headerFontFamily: ['Libre Franklin', 'sans-serif'],
   bodyFontFamily: ['Cousine', 'monospace'],
-  headerColor: 'black',
-  bodyColor: '#333',
   headerWeight: 700,
   bodyWeight: 400,
   boldWeight: 700,

@@ -13,6 +13,19 @@ const Back = styled.div`
   bottom: 1.5rem;
 `;
 
+const PostContent = styled.div`
+  & a {
+    box-shadow: inset 0 -5px 0 ${({ theme }) => theme.linkUnderlineColour};
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    -webkit-transition: box-shadow 0.4s ease-in-out;
+    transition: box-shadow 0.4s ease-in-out;
+  }
+
+  & a:hover {
+    cursor: pointer;
+  }
+`;
+
 const Template = ({ data }) => {
   const { markdownRemark: post } = data;
   return (
@@ -34,7 +47,7 @@ const Template = ({ data }) => {
           Written by&nbsp;
           {post.frontmatter.author}
         </h5>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Box>
     </PageLayout>
   );
