@@ -6,17 +6,17 @@ const typography = new Typography({
   baseLineHeight: 1.7,
   googleFonts: [
     {
-      name: 'Libre Franklin',
-      styles: ['400', '400i', '700', '700i', '900']
+      name: 'Bungee',
+      styles: ['400', '400i']
     },
     {
       name: 'Cousine',
       styles: ['400', '400i', '700']
     }
   ],
-  headerFontFamily: ['Libre Franklin', 'sans-serif'],
+  headerFontFamily: ['Bungee', 'sans-serif'],
   bodyFontFamily: ['Cousine', 'monospace'],
-  headerWeight: 700,
+  headerWeight: 400,
   bodyWeight: 400,
   boldWeight: 700,
   overrideStyles: ({ adjustFontSizeTo, scale, rhythm }, options) => ({

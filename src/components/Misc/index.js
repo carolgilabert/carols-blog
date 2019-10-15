@@ -42,6 +42,14 @@ const ReadTime = styled(UnstyledReadTime)`
   font-style: italic;
 `;
 
-const DeskSVG = styled.
+const DeskSVG = styled(DeskImage)`
+  & .light-beam {
+    fill: ${({ theme }) => theme.lightBeamColour};
+  }
+`;
 
-export { Timestamp, Link, ReadTime };
+const ShadedH1 = styled.h1`
+  text-shadow: 5px 5px ${({ theme }) => theme.textShadowColour};
+`;
+
+export { Timestamp, Link, ReadTime, DeskSVG, ShadedH1 };
