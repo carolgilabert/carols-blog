@@ -14,10 +14,11 @@ const StyledFooterWrapper = styled.div`
 
   & a {
     box-shadow: none;
+    color: currentColor;
   }
 
   & a:hover {
-    color: rgba(0, 96, 193, 0.25);
+    color: ${({ theme }) => theme.linkUnderlineColour};
   }
 `;
 
