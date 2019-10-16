@@ -7,11 +7,10 @@ import SEO from '../SEO';
 import lightTheme from '../../themes/light';
 import darkTheme from '../../themes/dark';
 
-// const prefersDarkMode =
-//   'matchMedia' in window
-//     ? window.matchMedia('(prefers-color-scheme: dark)').matches
-//     : false;
-const prefersDarkMode = true;
+const prefersDarkMode =
+  'matchMedia' in window
+    ? window.matchMedia('(prefers-color-scheme: dark)').matches
+    : false;
 const themeObj = prefersDarkMode ? darkTheme : lightTheme;
 
 const GlobalStyles = createGlobalStyle`
