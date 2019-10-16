@@ -3,7 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import Box from '../components/Box';
-import { Timestamp, Link, ReadTime } from '../components/Misc';
+import { Timestamp, Link, ReadTime, ShadedH1 } from '../components/Misc';
 import PageLayout from '../components/PageLayout';
 
 const Back = styled.div`
@@ -39,7 +39,7 @@ const Template = ({ data }) => {
         <Back>
           <Link to="/blog">&larr; Blog</Link>
         </Back>
-        <h1>{post.frontmatter.title}</h1>
+        <ShadedH1>{post.frontmatter.title}</ShadedH1>
         <Timestamp>{post.frontmatter.date}</Timestamp>
         {' · '}
         <ReadTime time={post.frontmatter.readingTime} />
