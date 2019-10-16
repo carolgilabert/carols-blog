@@ -12,12 +12,14 @@ const Timestamp = styled.time`
 const StyledGatsbyLink = styled(GatsbyLink)`
   text-decoration: none;
   color: inherit;
-  box-shadow: inset 0 -5px 0 ${({ theme }) => theme.linkUnderlineColour};
-  -webkit-transition: box-shadow 0.4s ease-in-out;
-  transition: box-shadow 0.4s ease-in-out;
+  box-shadow: inset 0 -5px 0 ${({ theme }) => theme.linkHighlightColour};
+  -webkit-transition: box-shadow 0.4s ease-in-out, color 0.4s;
+  transition: box-shadow 0.4s ease-in-out, color 0.4s;
+  padding: 3px;
 
   &:hover {
-    box-shadow: inset 0 -300px 0 ${({ theme }) => theme.linkUnderlineColour};
+    box-shadow: inset 0 -300px 0 ${({ theme }) => theme.linkHighlightColour};
+    color: ${({ theme }) => theme.textContrastColour};
   }
 
   &:focus {

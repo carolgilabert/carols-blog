@@ -11,7 +11,7 @@ import darkTheme from '../../themes/dark';
 //   'matchMedia' in window
 //     ? window.matchMedia('(prefers-color-scheme: dark)').matches
 //     : false;
-const prefersDarkMode = false;
+const prefersDarkMode = true;
 const themeObj = prefersDarkMode ? darkTheme : lightTheme;
 
 const GlobalStyles = createGlobalStyle`
@@ -26,7 +26,7 @@ const StyledAppWrapper = styled.div`
   flex-direction: column;
   justify-content: space-between;
   background-color: ${({ theme }) => theme.backgroundColour};
-  color: ${({ theme }) => theme.fontColour};
+  color: ${({ theme }) => theme.textColour};
 `;
 
 const StyledContentWrapper = styled.main`

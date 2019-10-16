@@ -10,7 +10,7 @@ import GitLabIcon from '../../images/gitlab.svg';
 
 const StyledFooterWrapper = styled.div`
   margin: 20px 0px;
-  border-top: 2px #000 dashed;
+  border-top: 2px ${({ theme }) => theme.textColour} dashed;
 
   & a {
     box-shadow: none;
@@ -18,7 +18,7 @@ const StyledFooterWrapper = styled.div`
   }
 
   & a:hover {
-    color: ${({ theme }) => theme.linkUnderlineColour};
+    color: ${({ theme }) => theme.linkHighlightColour};
   }
 `;
 

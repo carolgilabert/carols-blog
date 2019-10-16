@@ -11,7 +11,7 @@ const StyledLink = styled(Link)`
 
   &:hover {
     box-shadow: none;
-    color: ${({ theme }) => theme.linkUnderlineColour};
+    color: ${({ theme }) => theme.linkHighlightColour};
   }
 `;
 
