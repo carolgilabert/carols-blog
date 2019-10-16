@@ -14,13 +14,11 @@ import darkTheme from '../../themes/dark';
 const prefersDarkMode = false;
 const themeObj = prefersDarkMode ? darkTheme : lightTheme;
 
-/* eslint-disable */
 const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
 `;
-/* eslint-enable */
 
 const StyledAppWrapper = styled.div`
   min-height: 100vh;

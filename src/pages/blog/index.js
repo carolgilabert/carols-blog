@@ -8,6 +8,11 @@ import PageLayout from '../../components/PageLayout';
 
 const StyledLink = styled(Link)`
   box-shadow: none;
+
+  &:hover {
+    box-shadow: none;
+    color: ${({ theme }) => theme.linkUnderlineColour};
+  }
 `;
 
 const BlogIndex = ({ data }) => {

@@ -5,9 +5,7 @@ import GatsbyLink from 'gatsby-link';
 import DeskImage from '../../images/desk.svg';
 
 const Timestamp = styled.time`
-  color: #767676;
   font-size: 0.9rem;
-  font-family: 'Cousine', monospace;
   margin: 0 0 4px;
 `;
 

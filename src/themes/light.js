@@ -2,7 +2,7 @@ const lightTheme = {
   backgroundColour: '#fff',
   fontColour: '#333',
   textShadowColour: 'hotpink',
-  linkUnderlineColour: '#5dade2',
+  linkUnderlineColour: 'hotpink',
   lightBeamColour: 'transparent'
 };
 
