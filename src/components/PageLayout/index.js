@@ -8,7 +8,7 @@ import lightTheme from '../../themes/light';
 import darkTheme from '../../themes/dark';
 
 const prefersDarkMode =
-  'matchMedia' in window
+  typeof window !== 'undefined' && 'matchMedia' in window
     ? window.matchMedia('(prefers-color-scheme: dark)').matches
     : false;
 const themeObj = prefersDarkMode ? darkTheme : lightTheme;
