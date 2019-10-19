@@ -3,7 +3,6 @@ import styled from 'styled-components';
 import { Link } from '../Misc';
 
 const StyledLink = styled(Link)`
-  box-shadow: none;
   margin: 0 10px;
 `;
 

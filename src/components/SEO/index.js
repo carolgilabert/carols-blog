@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import CoverImage from '../../images/cover-short-hair.png';
+import CoverImage from '../../images/desk.svg';
 
 const detailsQuery = graphql`
   query DefaultSEOQuery {

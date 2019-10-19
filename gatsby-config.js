@@ -79,10 +79,18 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/pwa-icon.jpg',
+        icon: 'src/images/favicon.svg',
         legacy: true
       }
     },
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /^.*\.svg$/
+        }
+      }
+    }
   ]
 };

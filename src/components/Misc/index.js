@@ -2,21 +2,26 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import GatsbyLink from 'gatsby-link';
+import DeskImage from '../../images/desk.svg';
 
 const Timestamp = styled.time`
-  color: #767676;
   font-size: 0.9rem;
-  font-family: 'Cousine', monospace;
   margin: 0 0 4px;
 `;
 
 const StyledGatsbyLink = styled(GatsbyLink)`
-  box-shadow: inset 0 -5px 0 rgba(0, 96, 193, 0.25);
-  -webkit-transition: box-shadow 0.4s ease-in-out;
-  transition: box-shadow 0.4s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: inset 0 -5px 0 ${({ theme }) => theme.linkHighlightColour};
+  -webkit-transition: box-shadow 0.4s ease-in-out, color 0.4s;
+  transition: box-shadow 0.4s ease-in-out, color 0.4s;
+  padding: 3px;
+
   &:hover {
-    box-shadow: inset 0 -300px 0 rgba(0, 96, 193, 0.25);
+    box-shadow: inset 0 -300px 0 ${({ theme }) => theme.linkHighlightColour};
+    color: ${({ theme }) => theme.textContrastColour};
   }
+
   &:focus {
     outline: 0;
   }
@@ -37,4 +42,14 @@ const ReadTime = styled(UnstyledReadTime)`
   font-style: italic;
 `;
 
-export { Timestamp, Link, ReadTime };
+const DeskSVG = styled(DeskImage)`
+  & .light-beam {
+    fill: ${({ theme }) => theme.lightBeamColour};
+  }
+`;
+
+const ShadedH1 = styled.h1`
+  text-shadow: 5px 5px ${({ theme }) => theme.textShadowColour};
+`;
+
+export { Timestamp, Link, ReadTime, DeskSVG, ShadedH1 };

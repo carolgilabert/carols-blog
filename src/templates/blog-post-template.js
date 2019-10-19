@@ -3,14 +3,24 @@ import React from 'react';
 import styled from 'styled-components';
 import { graphql } from 'gatsby';
 import Box from '../components/Box';
-import { Timestamp, Link, ReadTime } from '../components/Misc';
+import { Timestamp, ReadTime, ShadedH1 } from '../components/Misc';
 import PageLayout from '../components/PageLayout';
 
-const Back = styled.div`
-  color: #666;
-  float: right;
-  position: relative;
-  bottom: 1.5rem;
+const PostContent = styled.div`
+  & a {
+    text-decoration: none;
+    color: inherit;
+    box-shadow: inset 0 -5px 0 ${({ theme }) => theme.linkHighlightColour};
+    -webkit-transition: box-shadow 0.4s ease-in-out, color 0.4s;
+    transition: box-shadow 0.4s ease-in-out, color 0.4s;
+    padding: 3px;
+  }
+
+  & a:hover {
+    box-shadow: inset 0 -300px 0 ${({ theme }) => theme.linkHighlightColour};
+    cursor: pointer;
+    color: ${({ theme }) => theme.textContrastColour};
+  }
 `;
 
 const Template = ({ data }) => {
@@ -23,10 +33,7 @@ const Template = ({ data }) => {
         px={[3, 3, 0]}
         style={{ overflow: 'visible' }}
       >
-        <Back>
-          <Link to="/blog">&larr; Blog</Link>
-        </Back>
-        <h1>{post.frontmatter.title}</h1>
+        <ShadedH1>{post.frontmatter.title}</ShadedH1>
         <Timestamp>{post.frontmatter.date}</Timestamp>
         {' · '}
         <ReadTime time={post.frontmatter.readingTime} />
@@ -34,7 +41,7 @@ const Template = ({ data }) => {
           Written by&nbsp;
           {post.frontmatter.author}
         </h5>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Box>
     </PageLayout>
   );
