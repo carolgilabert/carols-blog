@@ -5,7 +5,9 @@
     },
     "extends": [
         "airbnb",
-        "prettier"
+        "prettier",
+        "prettier/react",
+        "plugin:jest/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -16,6 +18,7 @@
     },
     "plugins": [
         "react",
+        "jest",
         "prettier",
         "better-styled-components"
     ],
@@ -23,6 +26,9 @@
         "prettier/prettier": "error",
         "import/no-extraneous-dependencies": "off",
         "react/jsx-filename-extension": "off",
-        "jsx-a11y/anchor-is-valid": "off"
+        "jsx-a11y/anchor-is-valid": "off",
+        "indent": ["error", 4],
+        "react/jsx-indent": ["error", 4],
+        "react/jsx-indent-props": ["error", 4]
     }
 }

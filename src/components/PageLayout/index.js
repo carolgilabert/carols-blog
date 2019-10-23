@@ -8,9 +8,9 @@ import lightTheme from '../../themes/light';
 import darkTheme from '../../themes/dark';
 
 const prefersDarkMode =
-  typeof window !== 'undefined' && 'matchMedia' in window
-    ? window.matchMedia('(prefers-color-scheme: dark)').matches
-    : false;
+    typeof window !== 'undefined' && 'matchMedia' in window
+        ? window.matchMedia('(prefers-color-scheme: dark)').matches
+        : false;
 const themeObj = prefersDarkMode ? darkTheme : lightTheme;
 
 const GlobalStyles = createGlobalStyle`
@@ -20,43 +20,43 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 const StyledAppWrapper = styled.div`
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: ${({ theme }) => theme.backgroundColour};
-  color: ${({ theme }) => theme.textColour};
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: ${({ theme }) => theme.backgroundColour};
+    color: ${({ theme }) => theme.textColour};
 `;
 
 const StyledContentWrapper = styled.main`
-  flex: 1;
+    flex: 1;
 `;
 
 const PageLayout = ({ children, title, description, image }) => (
-  <ThemeProvider theme={themeObj}>
-    <StyledAppWrapper>
-      <GlobalStyles />
-      <SEO title={title} description={description} image={image} />
-      <Navigation />
-      <StyledContentWrapper>{children}</StyledContentWrapper>
-      <Footer />
-    </StyledAppWrapper>
-  </ThemeProvider>
+    <ThemeProvider theme={themeObj}>
+        <StyledAppWrapper>
+            <GlobalStyles />
+            <SEO title={title} description={description} image={image} />
+            <Navigation />
+            <StyledContentWrapper>{children}</StyledContentWrapper>
+            <Footer />
+        </StyledAppWrapper>
+    </ThemeProvider>
 );
 
 PageLayout.defaultProps = {
-  description: '',
-  image: null
+    description: '',
+    image: null
 };
 
 PageLayout.propTypes = {
-  children: PropTypes.oneOfType([
-    PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node
-  ]).isRequired,
-  title: PropTypes.string.isRequired,
-  description: PropTypes.string,
-  image: PropTypes.string
+    children: PropTypes.oneOfType([
+        PropTypes.arrayOf(PropTypes.node),
+        PropTypes.node
+    ]).isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    image: PropTypes.string
 };
 
 export default PageLayout;
