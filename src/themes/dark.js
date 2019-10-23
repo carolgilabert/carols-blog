@@ -1,9 +1,9 @@
 const darkTheme = {
-    backgroundColour: '#003f5c',
-    textColour: '#ff6361',
+    backgroundColour: '#41444d',
+    textColour: '#e39ec1',
     textContrastColour: '#fff',
-    textShadowColour: '#58508d',
-    linkHighlightColour: '#58508d',
+    textShadowColour: '#77567a',
+    linkHighlightColour: '#77567a',
     lightBeamColour: 'rgba(250, 223, 32, 0.6)'
 };
 

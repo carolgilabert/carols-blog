@@ -15,6 +15,10 @@ const StyledLink = styled(Link)`
     }
 `;
 
+const PostTitle = styled.h2`
+    color: ${({ theme }) => theme.textContrastColour};
+`;
+
 const BlogIndex = ({ data }) => {
     const { edges: posts } = data.allMarkdownRemark;
     return (
@@ -38,7 +42,9 @@ const BlogIndex = ({ data }) => {
                                     <ReadTime
                                         time={post.frontmatter.readingTime}
                                     />
-                                    <h3>{post.frontmatter.title}</h3>
+                                    <PostTitle>
+                                        {post.frontmatter.title}
+                                    </PostTitle>
                                     <p>{post.excerpt}</p>
                                 </StyledLink>
                             </Box>

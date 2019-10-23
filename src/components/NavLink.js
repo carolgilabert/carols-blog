@@ -9,11 +9,11 @@ const StyledGatsbyLink = styled(GatsbyLink)`
     margin: 10px;
     border-radius: 3px;
     text-decoration: none;
-    color: currentColor;
-    box-shadow: 5px 5px currentColor;
+    color: ${({ theme }) => theme.textContrastColour};
+    box-shadow: 5px 5px ${({ theme }) => theme.textColour};
 
     &:hover {
-        transform: scale(1.2) rotate(-3deg);
+        transform: scale(1.2);
     }
 `;
 

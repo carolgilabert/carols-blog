@@ -50,6 +50,7 @@ const DeskSVG = styled(DeskImage)`
 
 const ShadedH1 = styled.h1`
     text-shadow: 5px 5px ${({ theme }) => theme.textShadowColour};
+    color: ${({ theme }) => theme.textContrastColour};
 `;
 
 export { Timestamp, Link, ReadTime, DeskSVG, ShadedH1 };
