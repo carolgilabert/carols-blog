@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
+// eslint doesn't recognise a styled span
 import React from 'react';
 import styled from 'styled-components';
 import NavLink from './NavLink';
@@ -7,25 +9,31 @@ const StyledNav = styled.nav`
     justify-content: flex-end;
 `;
 
+const StyledSpan = styled.span`
+    @media (max-width: 360px) {
+        display: none;
+    }
+`;
+
 const Navigation = () => (
     <StyledNav>
         <NavLink to="/">
             Home{' '}
-            <span role="img" aria-label="house emoji">
+            <StyledSpan role="img" aria-label="house emoji">
                 🏡
-            </span>
+            </StyledSpan>
         </NavLink>
         <NavLink to="/about">
             About{' '}
-            <span role="img" aria-label="woman with hand on chin emoji">
+            <StyledSpan role="img" aria-label="woman with hand on chin emoji">
                 💁‍♀️
-            </span>
+            </StyledSpan>
         </NavLink>
         <NavLink to="/blog">
             Blog{' '}
-            <span role="img" aria-label="paper and pencil emoji">
+            <StyledSpan role="img" aria-label="paper and pencil emoji">
                 📝
-            </span>
+            </StyledSpan>
         </NavLink>
     </StyledNav>
 );

@@ -7,7 +7,7 @@ describe('Navigation Bar', () => {
     const component = shallow(<Navigation />);
 
     test('should contain a nav element', () => {
-        expect(component.type()).toEqual('nav');
+        expect(component.type().target).toEqual('nav');
     });
 
     test('should contain 3 elements inside the nav', () => {
