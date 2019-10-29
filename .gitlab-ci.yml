@@ -1,5 +1,8 @@
 image: node:lts-alpine
 
+before_script:
+  - apt-get update || : && apt-get install python -y
+
 stages:
   - test
   - build
