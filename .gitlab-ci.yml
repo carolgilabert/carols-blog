@@ -1,7 +1,7 @@
 image: node:lts-alpine
 
 before_script:
-  - apk add --update python
+  - apk add --update python make
 
 stages:
   - test
