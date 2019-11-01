@@ -1,0 +1,24 @@
+image: node:10-alpine
+
+before_script:
+  - apk add --update python make g++
+
+stages:
+  - test
+  - build
+
+test:
+  stage: test
+  script:
+    - npm i npm@latest -g
+    - npm i
+    - npm run test
+  coverage:
+    '/Statements.*?(\d+(?:\.\d+)?)%/'
+
+build:
+  stage: build
+  script:
+  - npm i npm@latest -g
+  - npm i
+  - npm run build
