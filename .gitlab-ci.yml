@@ -1,4 +1,4 @@
-image: node:lts-alpine
+image: node:10-alpine
 
 before_script:
   - apk add --update python make g++
