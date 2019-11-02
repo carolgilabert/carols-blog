@@ -4,14 +4,20 @@ before_script:
   - apk add --update python make g++
 
 stages:
-  - test
+  - install
+  - unit-test
   - build
+  - component-test
 
-test:
-  stage: test
+install:
+  stage: install
   script:
     - npm i npm@latest -g
     - npm i
+
+unit-test:
+  stage: unit-test
+  script:
     - npm run test
   coverage:
     '/Statements.*?(\d+(?:\.\d+)?)%/'
@@ -19,6 +25,10 @@ test:
 build:
   stage: build
   script:
-  - npm i npm@latest -g
-  - npm i
   - npm run build
+
+component-test:
+  stage: component-test
+  script:
+    - npx gatsby build && npx gatsby serve
+    - npx cypress run

@@ -18,7 +18,7 @@ context('Navigation', () => {
         });
     });
     it('should navigate to home', () => {
-        cy.visit('localhost:8000/blog');
+        cy.visit('/blog');
         cy.get('a[href="/"]').click();
         cy.get('h1').should('have.text', `Hi! I'm Carol`);
         cy.location().should(location => {
