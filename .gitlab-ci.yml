@@ -2,18 +2,13 @@ image: node:10-alpine
 
 before_script:
   - apk add --update python make g++
+  - npm i npm@latest -g
+  - npm i
 
 stages:
-  - install
   - unit-test
   - build
   - component-test
-
-install:
-  stage: install
-  script:
-    - npm i npm@latest -g
-    - npm i
 
 unit-test:
   stage: unit-test
