@@ -25,5 +25,5 @@ build:
 component-test:
   stage: component-test
   script:
-    - npx gatsby build && npx gatsby serve
+    - npx gatsby build && nohup npx gatsby serve &
     - npx cypress run
