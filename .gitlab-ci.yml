@@ -1,7 +1,7 @@
 image: node:10-alpine
 
 before_script:
-  - apk add --update python make g++ xvfb libgtk-3-dev libnotify-dev libgconf-2-4 libnss3 libxss1 libasound2
+  - apk add --update python make g++
   - npm i npm@latest -g
   - npm i
 
@@ -23,7 +23,14 @@ build:
   - npm run build
 
 component-test:
+  image: cypress/base:10
   stage: component-test
   script:
+    - npm ci
     - npx gatsby build && nohup npx gatsby serve &
     - npx cypress run
+  artifacts:
+    paths:
+      - cypress/videos
+      - cypress/screenshots
+    expire_in: 1 day
