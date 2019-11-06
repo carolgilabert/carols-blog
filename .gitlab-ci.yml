@@ -30,7 +30,7 @@ component-test:
     - npm i npm@latest -g
     - npm ci
     - npx gatsby build
-    - npx gatsby serve & wait-on http://localhost:9000
+    - npx gatsby serve & npx wait-on http://localhost:9000
     - npx cypress run
   artifacts:
     paths:
