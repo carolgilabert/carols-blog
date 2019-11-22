@@ -17,9 +17,7 @@ context('Navigation', () => {
             expect(location.pathname).to.eq('/blog');
         });
     });
-    it('should navigate to home', () => {
-        cy.get('a[href="/blog"]').click();
-        cy.get('a[href="/"]').click();
+    it('should start at home', () => {
         cy.get('h1').should('have.text', `Hi! I'm Carol`);
         cy.location().should(location => {
             expect(location.pathname).to.eq('/');
