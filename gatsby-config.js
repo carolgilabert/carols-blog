@@ -83,7 +83,7 @@ module.exports = {
                 legacy: true
             }
         },
-        // 'gatsby-plugin-offline',
+        'gatsby-plugin-offline',
         {
             resolve: 'gatsby-plugin-react-svg',
             options: {
@@ -91,6 +91,7 @@ module.exports = {
                     include: /^.*\.svg$/
                 }
             }
-        }
+        },
+        `gatsby-plugin-styled-components`
     ]
 };

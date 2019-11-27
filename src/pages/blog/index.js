@@ -38,7 +38,7 @@ const BlogIndex = ({ data }) => {
                                     <Timestamp>
                                         {post.frontmatter.date}
                                     </Timestamp>
-                                    {' · '}
+                                    &nbsp;·&nbsp;
                                     <ReadTime
                                         time={post.frontmatter.readingTime}
                                     />
