@@ -58,6 +58,10 @@ typings/
 .cache/
 public
 
+# cypress files
+cypress/screenshots/
+cypress/videos/
+
 # Mac files
 .DS_Store
 
