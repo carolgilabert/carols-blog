@@ -35,7 +35,7 @@ const Template = ({ data }) => {
             >
                 <ShadedH1>{post.frontmatter.title}</ShadedH1>
                 <Timestamp>{post.frontmatter.date}</Timestamp>
-                {' · '}
+                &nbsp;·&nbsp;
                 <ReadTime time={post.frontmatter.readingTime} />
                 <h5>
                     Written by&nbsp;
