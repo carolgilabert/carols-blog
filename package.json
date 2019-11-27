@@ -48,6 +48,7 @@
     "babel-jest": "^23.6.0",
     "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-gatsby": "^0.1.6",
+    "cypress": "^3.6.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "enzyme-to-json": "^3.3.5",
@@ -58,7 +59,8 @@
     "eslint-plugin-prettier": "^3.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.15.2",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "wait-on": "^3.3.0"
   },
   "jest": {
     "setupFiles": [
