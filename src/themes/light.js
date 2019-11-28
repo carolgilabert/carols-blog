@@ -1,4 +1,4 @@
-const lightTheme = {
+module.exports = {
     backgroundColour: '#fff',
     textColour: '#333',
     textContrastColour: '#333',
@@ -6,5 +6,3 @@ const lightTheme = {
     linkHighlightColour: 'hotpink',
     lightBeamColour: 'transparent'
 };
-
-export default lightTheme;

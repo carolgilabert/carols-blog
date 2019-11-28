@@ -37,6 +37,13 @@
             "rules": {
                 "no-undef": "off"
             }
+        },
+        {
+            "files": ["gatsby-config.js"],
+            "rules": {
+                "import/no-dynamic-require": "off",
+                "global-require": "off"
+            }
         }
     ]
 }
