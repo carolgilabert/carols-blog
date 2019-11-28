@@ -1,17 +1,9 @@
 import React from 'react';
-import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 import PropTypes from 'prop-types';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import SEO from '../SEO';
-import lightTheme from '../../themes/light';
-import darkTheme from '../../themes/dark';
-
-const prefersDarkMode =
-    typeof window !== 'undefined' && 'matchMedia' in window
-        ? window.matchMedia('(prefers-color-scheme: dark)').matches
-        : false;
-const themeObj = prefersDarkMode ? darkTheme : lightTheme;
 
 const GlobalStyles = createGlobalStyle`
   * {
@@ -33,15 +25,13 @@ const StyledContentWrapper = styled.main`
 `;
 
 const PageLayout = ({ children, title, description, image }) => (
-    <ThemeProvider theme={themeObj}>
-        <StyledAppWrapper>
-            <GlobalStyles />
-            <SEO title={title} description={description} image={image} />
-            <Navigation />
-            <StyledContentWrapper>{children}</StyledContentWrapper>
-            <Footer />
-        </StyledAppWrapper>
-    </ThemeProvider>
+    <StyledAppWrapper>
+        <GlobalStyles />
+        <SEO title={title} description={description} image={image} />
+        <Navigation />
+        <StyledContentWrapper>{children}</StyledContentWrapper>
+        <Footer />
+    </StyledAppWrapper>
 );
 
 PageLayout.defaultProps = {
