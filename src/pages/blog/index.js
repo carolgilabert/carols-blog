@@ -19,8 +19,39 @@ const PostTitle = styled.h2`
     color: ${({ theme }) => theme.textContrastColour};
 `;
 
+const SearchInput = styled.input`
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+    height: 3rem;
+    border-radius: 3px;
+    border-color: ${({ theme }) => theme.textColour};
+    border-width: 3px;
+`;
+
 const BlogIndex = ({ data }) => {
-    const { edges: posts } = data.allMarkdownRemark;
+    const posts = data.allMarkdownRemark.edges || [];
+    const [state, setState] = React.useState({
+        filteredData: posts,
+        query: ''
+    });
+    const filterPosts = event => {
+        const query = event.target.value.toLowerCase();
+        let filteredData = posts;
+
+        if (query) {
+            filteredData = posts.filter(
+                post =>
+                    post.node.frontmatter.title.toLowerCase().includes(query) ||
+                    post.node.html.toLowerCase().includes(query)
+            );
+        }
+        setState({
+            query,
+            filteredData
+        });
+    };
+    const { filteredData } = state;
     return (
         <PageLayout title="Blog">
             <Box
@@ -29,26 +60,24 @@ const BlogIndex = ({ data }) => {
                 px={[3, 3, 0]}
             >
                 <ShadedH1>Blog</ShadedH1>
+                <SearchInput
+                    type="text"
+                    aria-label="Filter posts"
+                    placeholder="Filter posts"
+                    onChange={filterPosts}
+                />
                 <Box>
-                    {posts
-                        .filter(post => post.node.frontmatter.title.length > 0)
-                        .map(({ node: post }) => (
-                            <Box key={post.id}>
-                                <StyledLink to={post.fields.slug}>
-                                    <Timestamp>
-                                        {post.frontmatter.date}
-                                    </Timestamp>
-                                    &nbsp;·&nbsp;
-                                    <ReadTime
-                                        time={post.frontmatter.readingTime}
-                                    />
-                                    <PostTitle>
-                                        {post.frontmatter.title}
-                                    </PostTitle>
-                                    <p>{post.excerpt}</p>
-                                </StyledLink>
-                            </Box>
-                        ))}
+                    {filteredData.map(({ node: post }) => (
+                        <Box key={post.id}>
+                            <StyledLink to={post.fields.slug}>
+                                <Timestamp>{post.frontmatter.date}</Timestamp>
+                                &nbsp;·&nbsp;
+                                <ReadTime time={post.frontmatter.readingTime} />
+                                <PostTitle>{post.frontmatter.title}</PostTitle>
+                                <p>{post.excerpt}</p>
+                            </StyledLink>
+                        </Box>
+                    ))}
                 </Box>
             </Box>
         </PageLayout>
@@ -60,6 +89,7 @@ export const pageQuery = graphql`
         allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
             edges {
                 node {
+                    html
                     excerpt(pruneLength: 250)
                     id
                     frontmatter {
