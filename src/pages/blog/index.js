@@ -19,6 +19,16 @@ const PostTitle = styled.h2`
     color: ${({ theme }) => theme.textContrastColour};
 `;
 
+const SearchInput = styled.input`
+    margin: 30px auto;
+    padding: 10px;
+    width: 80%;
+    height: 3rem;
+    border-radius: 3px;
+    border-color: ${({ theme }) => theme.textColour};
+    border-width: 3px;
+`;
+
 const BlogIndex = ({ data }) => {
     const posts = data.allMarkdownRemark.edges || [];
     const [state, setState] = React.useState({
@@ -50,7 +60,7 @@ const BlogIndex = ({ data }) => {
                 px={[3, 3, 0]}
             >
                 <ShadedH1>Blog</ShadedH1>
-                <input
+                <SearchInput
                     type="text"
                     aria-label="Filter posts"
                     placeholder="Filter posts"
