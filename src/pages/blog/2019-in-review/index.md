@@ -44,7 +44,7 @@ As soon as I came back from Porto, I shaved my head! I had been thinking about i
 ![Collage of March pics](/images/2019-in-review/march.JPG)
 
 ## April
-April was pretty chill. I attended [Frontend NE](/blog/frontend-ne) and Women in Tech’s birthday event, where we had a lovely time with lovely cake 🎂
+April was pretty chill. I attended [Frontend NE](/blog/frontend-ne-2019) and Women in Tech’s birthday event, where we had a lovely time with lovely cake 🎂
 
 It was also [Thom’s](https://twitter.com/ThomGlenn) birthday, so we went to see the Kendall Mountain Festival on tour. We saw incredible shorts and talks about nature and sports.
 
