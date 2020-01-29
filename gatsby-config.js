@@ -81,6 +81,13 @@ module.exports = {
                 light: require(`${__dirname}/src/themes/light.js`),
                 dark: require(`${__dirname}/src/themes/dark.js`)
             }
+        },
+        {
+            resolve: `gatsby-plugin-fathom`,
+            options: {
+                siteId: 'RVIPAHXX',
+                whitelistHostnames: ['carolgilabert.me']
+            }
         }
     ]
 };
