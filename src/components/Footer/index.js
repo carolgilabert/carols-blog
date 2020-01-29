@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import Box from '../Box';
 import AtIcon from '../../images/at.svg';
 import TwitterIcon from '../../images/twitter.svg';
@@ -26,18 +25,18 @@ const Footer = ({ name, email, twitter, linkedin, gitlab }) => (
     <StyledFooterWrapper>
         <Box px={[3, 3, 1]} textAlign="center" mt={20}>
             <span>{`Copyright © 2019 ${name}. Say hello 👋 `}</span>
-            <OutboundLink href={email} target="_blank">
+            <a href={email} target="_blank" rel="noopener noreferrer">
                 <AtIcon />
-            </OutboundLink>
-            <OutboundLink href={twitter} target="_blank">
+            </a>
+            <a href={twitter} target="_blank" rel="noopener noreferrer">
                 <TwitterIcon />
-            </OutboundLink>
-            <OutboundLink href={linkedin} target="_blank">
+            </a>
+            <a href={linkedin} target="_blank" rel="noopener noreferrer">
                 <LinkedInIcon />
-            </OutboundLink>
-            <OutboundLink href={gitlab} target="_blank">
+            </a>
+            <a href={gitlab} target="_blank" rel="noopener noreferrer">
                 <GitLabIcon />
-            </OutboundLink>
+            </a>
         </Box>
     </StyledFooterWrapper>
 );
