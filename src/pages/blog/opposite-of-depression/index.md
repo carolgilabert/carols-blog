@@ -1,0 +1,36 @@
+---
+title: The opposite of depression
+author: Carolina Gilabert
+date: 2020-02-01
+readingTime: 2 min
+---
+
+Does anyone know what the opposite of depression is? 
+
+I’ve had a couple of encounters with depression in my life, almost in passing. Like a big weight that I take around on piggy back for a few weeks, and then it dissipates.
+
+My feelings numb, like someone turning down the volume all the way to mute, and my motivation fizzles.
+
+Over the last couple of weeks, however, I think I’m experiencing the opposite of depression, of my kind of depression anyway.
+
+I feel _all of the feelings_, **all of the time**.
+
+Reasons I cried over the last couple of weeks:
+
+* The last few chapters of [The Book Thief](https://www.hive.co.uk/Product/Markus-Zusak/The-Book-Thief--Includes-a-chapter-from-his-new-book-BRIDGE-OF-CLAY/19375811): cried a lot over this, as I struggle to comprehend that humans are capable of things as monstrous as the holocaust
+* Some passages of [Ordinary People](https://www.hive.co.uk/Product/Diana-Evans/Ordinary-People/23350730)
+* The [Grenfell Story episode](https://www.bbc.co.uk/programmes/p07qtmfs) of Have You Heard George’s podcast
+* Final episode of [The Good Place](https://www.netflix.com/title/80113701)
+* A song in a cafe reminded me of a happy memory and made me well up
+
+All my emotions just seem to be on their highest setting. I’ve been ecstatic, completely exhausted, extremely calm. 
+
+It’s like living life with a really vivid filter on.
+
+I guess part of this is due to having spent some time on my own over the last few days. I am a very social person, so I very rarely get time on my own. When I do, I savour it, and it helps me feel centred and calm.
+
+There’s no conclusion to this post, I guess. Sometimes writing is arduous and slow, and sometimes the words just drop from my brain, slide off the tip of my tongue and crash land into the keyboard. All on their own, and all at once.
+
+I guess this is it.
+
+It’s been emotional.
