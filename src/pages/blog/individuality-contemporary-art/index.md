@@ -6,7 +6,7 @@ readingTime: 3 min
 ---
 Last week I went to the Tate Modern for the first time. 
 
-<blockquote class=“twitter-tweet”><p lang=“en” dir=“ltr”>Today I’m visiting the Tate Modern for the first time. I’ve only been here for a few minutes and I’m already /very excited/ 💛 <a href=“https://t.co/5zSJnkkc6l”>pic.twitter.com/5zSJnkkc6l</a></p>&mdash; Carol ⚡️ (@CarolSaysThings) <a href=“https://twitter.com/CarolSaysThings/status/1224317612945002496?ref_src=twsrc%5Etfw”>February 3, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today i’m visiting the Tate Modern for the first time. I’ve only been here for a few minutes and i’m already /very excited/ 💛 <a href="https://t.co/5zSJnkkc6l">pic.twitter.com/5zSJnkkc6l</a></p>&mdash; Carol 🤸‍♀️ (@CarolSaysThings) <a href="https://twitter.com/CarolSaysThings/status/1224317612945002496?ref_src=twsrc%5Etfw">February 3, 2020</a></blockquote>
 
 I always find museums and galleries take me to a reflective state of mind, and I quite enjoy it. My partner and I usually go together, so we end up tangled in deep conversations about our favourite pieces and how they relate to us.
 
