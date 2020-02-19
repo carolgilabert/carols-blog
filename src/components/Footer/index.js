@@ -25,16 +25,16 @@ const Footer = ({ name, email, twitter, linkedin, gitlab }) => (
     <StyledFooterWrapper>
         <Box px={[3, 3, 1]} textAlign="center" mt={20}>
             <span>{`Copyright © 2019 ${name}. Say hello 👋 `}</span>
-            <a href={email} target="_blank" rel="noopener noreferrer">
+            <a href={email} target="_blank" rel="me noopener noreferrer">
                 <AtIcon />
             </a>
-            <a href={twitter} target="_blank" rel="noopener noreferrer">
+            <a href={twitter} target="_blank" rel="me noopener noreferrer">
                 <TwitterIcon />
             </a>
-            <a href={linkedin} target="_blank" rel="noopener noreferrer">
+            <a href={linkedin} target="_blank" rel="me noopener noreferrer">
                 <LinkedInIcon />
             </a>
-            <a href={gitlab} target="_blank" rel="noopener noreferrer">
+            <a href={gitlab} target="_blank" rel="me noopener noreferrer">
                 <GitLabIcon />
             </a>
         </Box>
