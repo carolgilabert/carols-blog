@@ -74,7 +74,16 @@ const SEO = ({ description, lang, meta, title, image }) => (
                             }${image || CoverImage}`
                         }
                     ].concat(meta)}
-                />
+                >
+                    <link
+                        rel="webmention"
+                        href="https://webmention.io/carolgilabert.me/webmention"
+                    />
+                    <link
+                        rel="pingback"
+                        href="https://webmention.io/carolgilabert.me/xmlrpc"
+                    />
+                </Helmet>
             );
         }}
     />
