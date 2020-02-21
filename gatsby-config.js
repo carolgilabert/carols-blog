@@ -88,6 +88,20 @@ module.exports = {
                 siteId: 'RVIPAHXX',
                 whitelistHostnames: ['carolgilabert.me']
             }
+        },
+        {
+            resolve: `gatsby-plugin-webmention`,
+            options: {
+                username: 'carolgilabert.me',
+                identity: {
+                    github: 'carolgilabert',
+                    twitter: 'CarolSaysThings'
+                },
+                mentions: true,
+                pingbacks: true,
+                domain: 'carolgilabert.me',
+                token: process.env.WEBMENTIONS_TOKEN
+            }
         }
     ]
 };
