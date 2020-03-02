@@ -23,6 +23,13 @@ module.exports = {
             }
         },
         {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `data`,
+                path: `${__dirname}/src/data/`
+            }
+        },
+        {
             resolve: 'gatsby-plugin-typography',
             options: {
                 pathToConfigModule: 'src/utils/typography.js'
@@ -48,6 +55,7 @@ module.exports = {
             }
         },
         'gatsby-transformer-sharp',
+        'gatsby-transformer-json',
         'gatsby-plugin-sharp',
         'gatsby-plugin-twitter',
         'gatsby-plugin-feed',
