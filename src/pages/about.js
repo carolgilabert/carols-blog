@@ -7,6 +7,7 @@ import Box from '../components/Box';
 import PageLayout from '../components/PageLayout';
 import { ShadedH1 } from '../components/Misc';
 import AboutImage from '../images/about_me.jpg';
+import Timeline from '../components/Timeline';
 
 const StyledImg = styled(Img)`
     border-radius: 5px;
@@ -15,7 +16,7 @@ const StyledImg = styled(Img)`
 `;
 
 const About = ({ data }) => {
-    const { aboutImage } = data;
+    const { aboutImage, allTimelineJson } = data;
     return (
         <PageLayout
             title="About"
@@ -41,6 +42,7 @@ const About = ({ data }) => {
                     Update: I have short hair now, but I&apos;m in essence the
                     same. I&apos;ll update this pic when I get a good one!
                 </p>
+                <Timeline entries={allTimelineJson.nodes} />
             </Box>
         </PageLayout>
     );
@@ -52,6 +54,16 @@ export const pageQuery = graphql`
             childImageSharp {
                 fluid(maxWidth: 1000) {
                     ...GatsbyImageSharpFluid
+                }
+            }
+        }
+        allTimelineJson {
+            nodes {
+                year
+                text
+                image {
+                    alt
+                    path
                 }
             }
         }
