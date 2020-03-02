@@ -1,13 +1,23 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const TimelineCard = () => (
+const TimelineCard = ({ year, text, image }) => (
     <article>
         <h2>
-            <time>2020</time>
+            <time>{year}</time>
         </h2>
-        <p>hello!</p>
-        <img src="" alt="" />
+        <p>{text}</p>
+        <img src={image.path} alt={image.alt} />
     </article>
 );
+
+TimelineCard.propTypes = {
+    year: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired,
+    image: PropTypes.shape({
+        path: PropTypes.string.isRequired,
+        alt: PropTypes.string.isRequired
+    }).isRequired
+};
 
 export default TimelineCard;
