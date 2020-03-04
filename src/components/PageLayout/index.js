@@ -18,6 +18,7 @@ const StyledAppWrapper = styled.div`
     justify-content: space-between;
     background-color: ${({ theme }) => theme.backgroundColour};
     color: ${({ theme }) => theme.textColour};
+    padding: 20px;
 `;
 
 const StyledContentWrapper = styled.main`
