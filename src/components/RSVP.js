@@ -1,9 +1,49 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
+import CalendarIcon from './CalendarIcon';
+
+const RSVPContainer = styled.article`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+
+const AuthorCard = styled.section`
+    display: none;
+`;
+
+const ResponseIcon = styled.span`
+    margin: 10px;
+`;
+
+const EventTitle = styled.h2`
+    margin: 10px;
+    font-size: 1.5rem;
+`;
+
+const EventLink = styled.a`
+    color: ${({ theme }) => theme.textContrastColour};
+`;
+
+const Time = styled.time`
+    margin: 10px;
+`;
+
+const getResponseEmoji = (response = 'yes') => {
+    const emojiMapping = {
+        yes: '✅',
+        no: '⛔️',
+        maybe: '🤔',
+        interested: '👀'
+    };
+
+    return emojiMapping[response];
+};
 
 const RSVP = ({ event, value }) => (
-    <article className="h-entry">
-        <section className="p-author h-card">
+    <RSVPContainer className="h-entry">
+        <AuthorCard className="p-author h-card">
             <a href="https://carolgilabert.me" className="u-url">
                 <img
                     src="https://carolgilabert.me/images/avatar.jpeg"
@@ -12,15 +52,24 @@ const RSVP = ({ event, value }) => (
                 />
                 Carolina Gilabert
             </a>
-        </section>
-        <span className="p-rsvp" value={value} />
-        <h2>
-            <a className="u-in-reply-to" href={event.url}>
+        </AuthorCard>
+        <ResponseIcon className="p-rsvp" value={value}>
+            {getResponseEmoji(value)}
+        </ResponseIcon>
+        <EventTitle>
+            <EventLink
+                className="u-in-reply-to"
+                href={event.url}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 {event.name}
-            </a>
-        </h2>
-        <time>{event.date}</time>
-    </article>
+            </EventLink>
+        </EventTitle>
+        <Time datetime={event.date}>
+            <CalendarIcon date={event.date} />
+        </Time>
+    </RSVPContainer>
 );
 
 RSVP.propTypes = {
