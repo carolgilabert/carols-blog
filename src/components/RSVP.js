@@ -42,7 +42,7 @@ const getResponseEmoji = (response = 'yes') => {
 };
 
 const RSVP = ({ event, value }) => (
-    <RSVPContainer className="h-entry">
+    <RSVPContainer className="h-entry" id={event.id}>
         <AuthorCard className="p-author h-card">
             <a href="https://carolgilabert.me" className="u-url">
                 <img
@@ -74,6 +74,7 @@ const RSVP = ({ event, value }) => (
 
 RSVP.propTypes = {
     event: PropTypes.shape({
+        id: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
         url: PropTypes.string.isRequired,
         date: PropTypes.string.isRequired

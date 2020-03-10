@@ -15,6 +15,7 @@ const Events = () => (
             <ShadedH1>Events</ShadedH1>
             <RSVP
                 event={{
+                    id: 'indie-web-camp-london-2020',
                     name: 'IndieWebCamp London 2020',
                     url: 'https://2020.indieweb.org/london',
                     date: '2020-03-14'
