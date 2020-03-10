@@ -10,8 +10,8 @@ describe('Navigation Bar', () => {
         expect(component.type().target).toEqual('nav');
     });
 
-    test('should contain 3 elements inside the nav', () => {
-        expect(component.children()).toHaveLength(3);
+    test('should contain 4 elements inside the nav', () => {
+        expect(component.children()).toHaveLength(4);
     });
 
     test('should only contain NavLink elements', () => {
