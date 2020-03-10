@@ -13,7 +13,7 @@ const AuthorCard = styled.section`
     display: none;
 `;
 
-const ResponseIcon = styled.span`
+const ResponseIcon = styled.data`
     margin: 10px;
 `;
 
