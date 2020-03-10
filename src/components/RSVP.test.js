@@ -6,6 +6,7 @@ describe('RSVP component', () => {
     const component = shallow(
         <RSVP
             event={{
+                id: 'some-event-id',
                 name: 'some event name',
                 url: 'some-event-url',
                 date: '2020-03-14'
