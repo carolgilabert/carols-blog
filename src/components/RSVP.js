@@ -50,7 +50,7 @@ const RSVP = ({ event, value }) => (
                     alt="my face"
                     className="u-photo"
                 />
-                Carolina Gilabert
+                <span className="p-name">Carolina Gilabert</span>
             </a>
         </AuthorCard>
         <ResponseIcon className="p-rsvp" value={value}>
