@@ -36,7 +36,7 @@ const StyledSvg = styled.svg`
     }
 `;
 
-const getMonthString = monthNumber => {
+export const getMonthString = monthNumber => {
     const months = [
         'jan',
         'feb',
@@ -54,8 +54,9 @@ const getMonthString = monthNumber => {
 
     return months[monthNumber - 1];
 };
-const getDay = date => date.split('-')[2];
-const getMonth = date => getMonthString(parseInt(date.split('-')[1], 10));
+export const getDay = date => date.split('-')[2];
+export const getMonth = date =>
+    getMonthString(parseInt(date.split('-')[1], 10));
 
 const CalendarIcon = ({ date }) => (
     <StyledSvg
