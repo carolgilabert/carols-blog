@@ -29,6 +29,12 @@ const Navigation = () => (
                 💁‍♀️
             </StyledSpan>
         </NavLink>
+        <NavLink to="/events">
+            Events{' '}
+            <StyledSpan role="img" aria-label="calendar emoji">
+                📅
+            </StyledSpan>
+        </NavLink>
         <NavLink to="/blog">
             Blog{' '}
             <StyledSpan role="img" aria-label="paper and pencil emoji">

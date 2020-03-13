@@ -5,7 +5,7 @@ import Box from '../Box';
 import AtIcon from '../../images/at.svg';
 import TwitterIcon from '../../images/twitter.svg';
 import LinkedInIcon from '../../images/linkedin.svg';
-import GitLabIcon from '../../images/gitlab.svg';
+import GitHubIcon from '../../images/github.svg';
 
 const StyledFooterWrapper = styled.div`
     margin: 20px 0px;
@@ -21,7 +21,7 @@ const StyledFooterWrapper = styled.div`
     }
 `;
 
-const Footer = ({ name, email, twitter, linkedin, gitlab }) => (
+const Footer = ({ name, email, twitter, linkedin, github }) => (
     <StyledFooterWrapper>
         <Box px={[3, 3, 1]} textAlign="center" mt={20}>
             <span>{`Copyright © 2019 ${name}. Say hello 👋 `}</span>
@@ -34,8 +34,8 @@ const Footer = ({ name, email, twitter, linkedin, gitlab }) => (
             <a href={linkedin} target="_blank" rel="me noopener noreferrer">
                 <LinkedInIcon />
             </a>
-            <a href={gitlab} target="_blank" rel="me noopener noreferrer">
-                <GitLabIcon />
+            <a href={github} target="_blank" rel="me noopener noreferrer">
+                <GitHubIcon />
             </a>
         </Box>
     </StyledFooterWrapper>
@@ -45,7 +45,7 @@ Footer.propTypes = {
     name: PropTypes.string,
     email: PropTypes.string,
     twitter: PropTypes.string,
-    gitlab: PropTypes.string,
+    github: PropTypes.string,
     linkedin: PropTypes.string
 };
 
@@ -53,7 +53,7 @@ Footer.defaultProps = {
     name: 'Carolina Gilabert',
     email: 'mailto:carolgilabert@gmail.com',
     twitter: 'https://twitter.com/CarolSaysThings',
-    gitlab: 'https://gitlab.com/carolgilabert',
+    github: 'https://github.com/carolgilabert',
     linkedin: 'https://www.linkedin.com/in/carolgilabert'
 };
 
