@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import Img from 'gatsby-image';
+import { StaticQuery, graphql, replace } from 'gatsby';
 
 const Card = styled.article`
     background-color: ${({ theme }) => theme.textColour};
@@ -8,6 +10,7 @@ const Card = styled.article`
     display: flex;
     max-width: 60%;
     border-radius: 5px;
+    margin-bottom: 30px;
 `;
 
 const YearLabel = styled.h2`
@@ -28,11 +31,46 @@ const Text = styled.p`
     font-size: 0.9rem;
 `;
 
-const Picture = styled.img`
+const Picture = styled(Img)`
     margin: 10px;
     width: 12rem;
     height: 12rem;
 `;
+
+const TimelineCardImage = ({ imagePath, altText }) => (
+    // replace avatar.jpg with actual image
+    <StaticQuery
+        query={graphql`
+            query TimelineCardImageQuery {
+                file(relativePath: { eq: "avatar.jpg" }) {
+                    childImageSharp {
+                        fixed(
+                            width: 256
+                            height: 256
+                            traceSVG: {
+                                color: "#77567a"
+                                background: "#e39ec1"
+                            }
+                        ) {
+                            ...GatsbyImageSharpFixed_tracedSVG
+                        }
+                    }
+                }
+            }
+        `}
+        render={data => (
+            <Picture
+                fixed={data.file.childImageSharp.fixed}
+                data-path={imagePath}
+                alt={altText}
+            />
+        )}
+    />
+);
+TimelineCardImage.propTypes = {
+    imagePath: PropTypes.string.isRequired,
+    altText: PropTypes.string.isRequired
+};
 
 const TimelineCard = ({ year, text, image }) => (
     <Card>
@@ -42,7 +80,7 @@ const TimelineCard = ({ year, text, image }) => (
             </YearLabel>
             <Text>{text}</Text>
         </div>
-        <Picture src={image.path} alt={image.alt} />
+        <TimelineCardImage imagePath={image.path} altText={image.alt} />
     </Card>
 );
 
