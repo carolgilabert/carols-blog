@@ -78,4 +78,13 @@ describe('RSVP component', () => {
             '2020-03-14'
         );
     });
+
+    test('should have a link with the u-url class and a link to the unique rsvp entry', () => {
+        expect(component.find('RSVP__RSVPUrl').prop('className')).toEqual(
+            'u-url'
+        );
+        expect(component.find('RSVP__RSVPUrl').prop('href')).toEqual(
+            'https://carolgilabert.me/events#some-event-id'
+        );
+    });
 });
