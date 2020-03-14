@@ -22,6 +22,17 @@ const Events = () => (
                 }}
                 value="yes"
             />
+            <RSVP
+                event={{
+                    id: 'homewbrew-website-club-nottingham-april-2020',
+                    name:
+                        'Homebrew Website Club: Nottingham (Anniversary edition)',
+                    url:
+                        'https://events.indieweb.org/2020/03/homebrew-website-club-nottingham-anniversary-edition--Rcujt5SykHv1',
+                    date: '2020-03-18'
+                }}
+                value="yes"
+            />
         </Box>
     </PageLayout>
 );
