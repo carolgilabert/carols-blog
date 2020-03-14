@@ -51,7 +51,7 @@ Footer.propTypes = {
 
 Footer.defaultProps = {
     name: 'Carolina Gilabert',
-    email: 'mailto:carolgilabert@gmail.com',
+    email: 'mailto:hello@carolgilabert.me',
     twitter: 'https://twitter.com/CarolSaysThings',
     github: 'https://github.com/carolgilabert',
     linkedin: 'https://www.linkedin.com/in/carolgilabert'
