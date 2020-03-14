@@ -41,8 +41,20 @@ const getResponseEmoji = (response = 'yes') => {
     return emojiMapping[response];
 };
 
+const RSVPUrl = styled.a`
+    display: none;
+`;
+
 const RSVP = ({ event, value }) => (
     <RSVPContainer className="h-entry" id={event.id}>
+        <RSVPUrl
+            className="u-url"
+            href={`https://carolgilabert.me/events#${event.id}`}
+        >
+            <span role="img" aria-label="chainlink emoji">
+                🔗
+            </span>
+        </RSVPUrl>
         <AuthorCard className="p-author h-card">
             <a href="https://carolgilabert.me" className="u-url">
                 <img
