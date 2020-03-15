@@ -21,7 +21,7 @@ const Events = ({ data }) => (
             px={[3, 3, 0]}
         >
             <ShadedH1>Events</ShadedH1>
-            <EventContainer>
+            <EventContainer className="h-feed">
                 {data.allRsvpsJson.nodes.map(event => (
                     <RSVP {...event} />
                 ))}
