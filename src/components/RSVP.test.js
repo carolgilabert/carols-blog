@@ -44,9 +44,11 @@ describe('RSVP component', () => {
     });
 
     test('should have a span element with the rsvp class and a value', () => {
-        expect(component.find('data').exists()).toBe(true);
-        expect(component.find('data').prop('className')).toEqual('p-rsvp');
-        expect(component.find('data').prop('value')).toEqual('yes');
+        expect(component.find('RSVP__Response').exists()).toBe(true);
+        expect(component.find('RSVP__Response').prop('className')).toEqual(
+            'p-rsvp'
+        );
+        expect(component.find('RSVP__Response').prop('value')).toEqual('yes');
     });
 
     test('should have a header with a link to the event with the reply class', () => {

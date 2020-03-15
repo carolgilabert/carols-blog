@@ -16,6 +16,12 @@ const getResponseEmoji = (response = 'yes') => {
 
 const EventLink = styled.a`
     color: ${({ theme }) => theme.textContrastColour};
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+`;
+
+const Response = styled.data`
+    font-size: 2rem;
 `;
 
 const RSVP = ({ id, name, url, date, value }) => (
@@ -39,9 +45,9 @@ const RSVP = ({ id, name, url, date, value }) => (
                 <span className="p-name">Carolina Gilabert</span>
             </a>
         </section>
-        <data className="p-rsvp" value={value}>
+        <Response className="p-rsvp" value={value}>
             {getResponseEmoji(value)}
-        </data>
+        </Response>
         <h2>
             <EventLink
                 className="u-in-reply-to"

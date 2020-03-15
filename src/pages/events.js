@@ -8,7 +8,9 @@ import { ShadedH1 } from '../components/Misc';
 
 const EventContainer = styled.div`
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 3rem 1fr 5rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
 `;
 
 const Events = ({ data }) => (
