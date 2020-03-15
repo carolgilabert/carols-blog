@@ -26,9 +26,7 @@ const StyledContentWrapper = styled.main`
 
 const PageLayout = ({ children, title, description, image }) => (
     <StyledAppWrapper>
-        <a href="https://indieauth.com/auth" style={{ display: 'none' }}>
-            My authorisation endpoint
-        </a>
+        <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
         <GlobalStyles />
         <SEO title={title} description={description} image={image} />
         <Navigation />
