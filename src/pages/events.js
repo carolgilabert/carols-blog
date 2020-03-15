@@ -1,9 +1,15 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
+import styled from 'styled-components';
 import PageLayout from '../components/PageLayout';
 import Box from '../components/Box';
 import RSVP from '../components/RSVP';
 import { ShadedH1 } from '../components/Misc';
+
+const EventContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+`;
 
 const Events = ({ data }) => (
     <PageLayout title="Events" description="The list of events I RSVP to.">
@@ -13,9 +19,11 @@ const Events = ({ data }) => (
             px={[3, 3, 0]}
         >
             <ShadedH1>Events</ShadedH1>
-            {data.allRsvpsJson.nodes.map(event => (
-                <RSVP event={event} />
-            ))}
+            <EventContainer>
+                {data.allRsvpsJson.nodes.map(event => (
+                    <RSVP {...event} />
+                ))}
+            </EventContainer>
         </Box>
     </PageLayout>
 );

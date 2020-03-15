@@ -3,33 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import CalendarIcon from './CalendarIcon';
 
-const RSVPContainer = styled.article`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`;
-
-const AuthorCard = styled.section`
-    display: none;
-`;
-
-const ResponseIcon = styled.data`
-    margin: 10px;
-`;
-
-const EventTitle = styled.h2`
-    margin: 10px;
-    font-size: 1.5rem;
-`;
-
-const EventLink = styled.a`
-    color: ${({ theme }) => theme.textContrastColour};
-`;
-
-const Time = styled.time`
-    margin: 10px;
-`;
-
 const getResponseEmoji = (response = 'yes') => {
     const emojiMapping = {
         yes: '✅',
@@ -41,21 +14,22 @@ const getResponseEmoji = (response = 'yes') => {
     return emojiMapping[response];
 };
 
-const RSVPUrl = styled.a`
-    display: none;
+const EventLink = styled.a`
+    color: ${({ theme }) => theme.textContrastColour};
 `;
 
-const RSVP = ({ event, value }) => (
-    <RSVPContainer className="h-entry" id={event.id}>
-        <RSVPUrl
+const RSVP = ({ id, name, url, date, value }) => (
+    <article className="h-entry" id={id} style={{ display: 'contents' }}>
+        <a
+            style={{ display: 'none' }}
             className="u-url"
-            href={`https://carolgilabert.me/events#${event.id}`}
+            href={`https://carolgilabert.me/events#${id}`}
         >
             <span role="img" aria-label="chainlink emoji">
                 🔗
             </span>
-        </RSVPUrl>
-        <AuthorCard className="p-author h-card">
+        </a>
+        <section className="p-author h-card" style={{ display: 'none' }}>
             <a href="https://carolgilabert.me" className="u-url">
                 <img
                     src="https://carolgilabert.me/images/avatar.jpeg"
@@ -64,33 +38,31 @@ const RSVP = ({ event, value }) => (
                 />
                 <span className="p-name">Carolina Gilabert</span>
             </a>
-        </AuthorCard>
-        <ResponseIcon className="p-rsvp" value={value}>
+        </section>
+        <data className="p-rsvp" value={value}>
             {getResponseEmoji(value)}
-        </ResponseIcon>
-        <EventTitle>
+        </data>
+        <h2>
             <EventLink
                 className="u-in-reply-to"
-                href={event.url}
+                href={url}
                 target="_blank"
                 rel="noopener noreferrer"
             >
-                {event.name}
+                {name}
             </EventLink>
-        </EventTitle>
-        <Time datetime={event.date}>
-            <CalendarIcon date={event.date} />
-        </Time>
-    </RSVPContainer>
+        </h2>
+        <time dateTime={date}>
+            <CalendarIcon date={date} />
+        </time>
+    </article>
 );
 
 RSVP.propTypes = {
-    event: PropTypes.shape({
-        id: PropTypes.string.isRequired,
-        name: PropTypes.string.isRequired,
-        url: PropTypes.string.isRequired,
-        date: PropTypes.string.isRequired
-    }).isRequired,
+    id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
     value: PropTypes.oneOf(['yes', 'no', 'maybe', 'interested']).isRequired
 };
 
