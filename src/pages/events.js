@@ -1,11 +1,19 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
+import styled from 'styled-components';
 import PageLayout from '../components/PageLayout';
 import Box from '../components/Box';
 import RSVP from '../components/RSVP';
 import { ShadedH1 } from '../components/Misc';
 
-const Events = () => (
+const EventContainer = styled.div`
+    display: grid;
+    grid-template-columns: 3rem 1fr 5rem;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+`;
+
+const Events = ({ data }) => (
     <PageLayout title="Events" description="The list of events I RSVP to.">
         <Box
             width={[1, 1, 1 / 2]}
@@ -13,28 +21,27 @@ const Events = () => (
             px={[3, 3, 0]}
         >
             <ShadedH1>Events</ShadedH1>
-            <RSVP
-                event={{
-                    id: 'indie-web-camp-london-2020',
-                    name: 'IndieWebCamp London 2020',
-                    url: 'https://2020.indieweb.org/london',
-                    date: '2020-03-14'
-                }}
-                value="yes"
-            />
-            <RSVP
-                event={{
-                    id: 'homewbrew-website-club-nottingham-april-2020',
-                    name:
-                        'Homebrew Website Club: Nottingham (Anniversary edition)',
-                    url:
-                        'https://events.indieweb.org/2020/03/homebrew-website-club-nottingham-anniversary-edition--Rcujt5SykHv1',
-                    date: '2020-03-18'
-                }}
-                value="yes"
-            />
+            <EventContainer className="h-feed">
+                {data.allRsvpsJson.nodes.map(event => (
+                    <RSVP {...event} />
+                ))}
+            </EventContainer>
         </Box>
     </PageLayout>
 );
+
+export const pageQuery = graphql`
+    query EventsQuery {
+        allRsvpsJson(sort: { fields: date, order: DESC }) {
+            nodes {
+                name
+                url
+                value
+                date
+                id
+            }
+        }
+    }
+`;
 
 export default Events;
