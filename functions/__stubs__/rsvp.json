@@ -3,5 +3,6 @@
     "id": "fake-id",
     "name": "A very merry fake event",
     "url": "http://www.fyrefestival.com/",
-    "date": "2017-04-28"
+    "date": "2017-04-28",
+    "value": "yes"
 }
