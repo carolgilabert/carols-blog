@@ -39,7 +39,7 @@
             }
         },
         {
-            "files": ["gatsby-config.js"],
+            "files": ["gatsby-config.js", "functions/**/*.js"],
             "rules": {
                 "import/no-dynamic-require": "off",
                 "global-require": "off"
