@@ -9,7 +9,7 @@ import GitHubIcon from '../../images/github.svg';
 
 const StyledFooterWrapper = styled.div`
     margin: 20px 0px;
-    border-top: 2px ${({ theme }) => theme.textColour} dashed;
+    border-top: 2px ${({ theme }) => theme.primaryColour} dashed;
 
     & a {
         box-shadow: none;
@@ -17,7 +17,7 @@ const StyledFooterWrapper = styled.div`
     }
 
     & a:hover {
-        color: ${({ theme }) => theme.linkHighlightColour};
+        color: ${({ theme }) => theme.accentColour};
     }
 `;
 

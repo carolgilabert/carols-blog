@@ -11,12 +11,12 @@ const StyledLink = styled(Link)`
 
     &:hover {
         box-shadow: none;
-        color: ${({ theme }) => theme.linkHighlightColour};
+        color: ${({ theme }) => theme.accentColour};
     }
 `;
 
 const PostTitle = styled.h2`
-    color: ${({ theme }) => theme.textContrastColour};
+    color: ${({ theme }) => theme.highContrastColour};
 `;
 
 const SearchInput = styled.input`
@@ -25,7 +25,7 @@ const SearchInput = styled.input`
     width: 80%;
     height: 3rem;
     border-radius: 3px;
-    border-color: ${({ theme }) => theme.textColour};
+    border-color: ${({ theme }) => theme.primaryColour};
     border-width: 3px;
 `;
 

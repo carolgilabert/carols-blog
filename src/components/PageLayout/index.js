@@ -17,7 +17,7 @@ const StyledAppWrapper = styled.div`
     flex-direction: column;
     justify-content: space-between;
     background-color: ${({ theme }) => theme.backgroundColour};
-    color: ${({ theme }) => theme.textColour};
+    color: ${({ theme }) => theme.primaryColour};
 `;
 
 const StyledContentWrapper = styled.main`
