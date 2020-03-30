@@ -9,6 +9,10 @@ const GlobalStyles = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+
+  body {
+      margin: 0;
+  }
 `;
 
 const StyledAppWrapper = styled.div`
