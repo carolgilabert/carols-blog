@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import PropTypes from 'prop-types';
+import GlobalFonts from '../../themes/fonts';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import SEO from '../SEO';
@@ -30,6 +31,7 @@ const StyledContentWrapper = styled.main`
 
 const PageLayout = ({ children, title, description, image }) => (
     <StyledAppWrapper>
+        <GlobalFonts />
         <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
         <GlobalStyles />
         <SEO title={title} description={description} image={image} />
