@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import GatsbyLink from 'gatsby-link';
-import DeskImage from '../../images/desk.svg';
 
 const Timestamp = styled.time`
     font-size: 0.9rem;
@@ -42,15 +41,9 @@ const ReadTime = styled(UnstyledReadTime)`
     font-style: italic;
 `;
 
-const DeskSVG = styled(DeskImage)`
-    & .light-beam {
-        fill: ${({ theme }) => theme.lightBeamColour};
-    }
-`;
-
 const ShadedH1 = styled.h1`
     text-shadow: 5px 5px ${({ theme }) => theme.accentColour};
     color: ${({ theme }) => theme.highContrastColour};
 `;
 
-export { Timestamp, Link, ReadTime, DeskSVG, ShadedH1 };
+export { Timestamp, Link, ReadTime, ShadedH1 };
