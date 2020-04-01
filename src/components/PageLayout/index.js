@@ -12,17 +12,21 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-      margin: 0;
+    margin: 0;
+    background-color: ${({ theme }) => theme.backgroundColour};
+    color: ${({ theme }) => theme.primaryColour};
+    font-family: Dosis;
+    font-size: 20px;
   }
 `;
 
 const StyledAppWrapper = styled.div`
     min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: ${({ theme }) => theme.backgroundColour};
-    color: ${({ theme }) => theme.primaryColour};
 `;
 
 const StyledContentWrapper = styled.main`

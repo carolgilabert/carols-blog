@@ -42,6 +42,9 @@ const ReadTime = styled(UnstyledReadTime)`
 `;
 
 const ShadedH1 = styled.h1`
+    font-family: 'Avalanche';
+    font-weight: 800;
+    font-size: 5rem;
     text-shadow: 5px 5px ${({ theme }) => theme.accentColour};
     color: ${({ theme }) => theme.highContrastColour};
 `;
