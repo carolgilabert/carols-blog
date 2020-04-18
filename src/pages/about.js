@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import React from 'react';
 import styled from 'styled-components';
-import { ShadedH1 } from '../components/Misc';
+import { H1 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
 import AboutImage from '../images/about_me.jpg';
 
@@ -21,7 +21,7 @@ const About = ({ data }) => {
             description="A little bit of information abour yours truly."
             image={AboutImage}
         >
-            <ShadedH1>About me</ShadedH1>
+            <H1>About me</H1>
             <StyledImg
                 alt="Picture of my face"
                 fluid={aboutImage.childImageSharp.fluid}

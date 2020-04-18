@@ -2,7 +2,8 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { ReadTime, ShadedH1, Timestamp } from '../components/Misc';
+import { ReadTime, Timestamp } from '../components/Misc';
+import { H1 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
 
 const PostContent = styled.div`
@@ -26,7 +27,7 @@ const Template = ({ data }) => {
     const { markdownRemark: post } = data;
     return (
         <PageLayout title={post.frontmatter.title} description={post.excerpt}>
-            <ShadedH1>{post.frontmatter.title}</ShadedH1>
+            <H1>{post.frontmatter.title}</H1>
             <Timestamp>{post.frontmatter.date}</Timestamp>
             &nbsp;·&nbsp;
             <ReadTime time={post.frontmatter.readingTime} />

@@ -1,7 +1,7 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
 import styled from 'styled-components';
-import { ShadedH1 } from '../components/Misc';
+import { H1 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
 import RSVP from '../components/RSVP';
 
@@ -14,7 +14,7 @@ const EventContainer = styled.div`
 
 const Events = ({ data }) => (
     <PageLayout title="Events" description="The list of events I RSVP to.">
-        <ShadedH1>Events</ShadedH1>
+        <H1>Events</H1>
         <EventContainer className="h-feed">
             {data.allRsvpsJson.nodes.map(event => (
                 <RSVP {...event} />

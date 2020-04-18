@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import { H2 } from './Headers';
 import CalendarIcon from './CalendarIcon';
 
 const getResponseEmoji = (response = 'yes') => {
@@ -48,7 +49,7 @@ const RSVP = ({ id, name, url, date, value }) => (
         <Response className="p-rsvp" value={value}>
             {getResponseEmoji(value)}
         </Response>
-        <h2>
+        <H2>
             <EventLink
                 className="u-in-reply-to"
                 href={url}
@@ -57,7 +58,7 @@ const RSVP = ({ id, name, url, date, value }) => (
             >
                 {name}
             </EventLink>
-        </h2>
+        </H2>
         <time dateTime={date}>
             <CalendarIcon date={date} />
         </time>

@@ -2,7 +2,8 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { Link, ReadTime, ShadedH1, Timestamp } from '../../components/Misc';
+import { Link, ReadTime, Timestamp } from '../../components/Misc';
+import { H1, H2 } from '../../components/Headers';
 import PageLayout from '../../components/PageLayout';
 
 const StyledLink = styled(Link)`
@@ -12,10 +13,6 @@ const StyledLink = styled(Link)`
         box-shadow: none;
         color: ${({ theme }) => theme.accentColour};
     }
-`;
-
-const PostTitle = styled.h2`
-    color: ${({ theme }) => theme.highContrastColour};
 `;
 
 const SearchInput = styled.input`
@@ -53,7 +50,7 @@ const BlogIndex = ({ data }) => {
     const { filteredData } = state;
     return (
         <PageLayout title="Blog">
-            <ShadedH1>Blog</ShadedH1>
+            <H1>Blog</H1>
             <SearchInput
                 type="text"
                 aria-label="Filter posts"
@@ -66,7 +63,7 @@ const BlogIndex = ({ data }) => {
                     <Timestamp>{post.frontmatter.date}</Timestamp>
                     &nbsp;·&nbsp;
                     <ReadTime time={post.frontmatter.readingTime} />
-                    <PostTitle>{post.frontmatter.title}</PostTitle>
+                    <H2>{post.frontmatter.title}</H2>
                     <p>{post.excerpt}</p>
                 </StyledLink>
             ))}

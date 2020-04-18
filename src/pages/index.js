@@ -1,13 +1,13 @@
 /* eslint-disable no-undef, react/prop-types */
 import React from 'react';
-import { ShadedH1 } from '../components/Misc';
+import { H1, H2 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
 import Drawing from '../images/me.svg';
 
 export default () => (
     <PageLayout title="Home">
-        <ShadedH1>Hi! I&apos;m Carol</ShadedH1>
-        <h3>This is my little home on the internet</h3>
+        <H1>Hi! I&apos;m Carol</H1>
+        <H2>This is my little home on the internet</H2>
 
         <Drawing />
         <p>
