@@ -49,9 +49,6 @@
     "babel-jest": "^23.6.0",
     "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-gatsby": "^0.1.11",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1",
-    "enzyme-to-json": "^3.4.3",
     "eslint-config-airbnb": "^17.1.1",
     "eslint-config-prettier": "^3.6.0",
     "cypress": "^3.6.0",
@@ -64,9 +61,7 @@
     "wait-on": "^3.3.0"
   },
   "jest": {
-    "setupFiles": [
-      "./src/utils/enzyme.js"
-    ],
+    "setupFiles": [],
     "transform": {
       "^.+\\.js?$": "babel-jest"
     },
