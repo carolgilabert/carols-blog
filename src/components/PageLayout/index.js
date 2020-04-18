@@ -1,7 +1,8 @@
 import React from 'react';
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import PropTypes from 'prop-types';
 import GlobalFonts from '../../themes/fonts';
+import PinkTheme from '../../themes/pink';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import SEO from '../SEO';
@@ -42,15 +43,20 @@ const StyledContentWrapper = styled.main`
 `;
 
 const PageLayout = ({ children, title, description, image }) => (
-    <StyledAppWrapper>
-        <GlobalFonts />
-        <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-        <GlobalStyles />
-        <SEO title={title} description={description} image={image} />
-        <Navigation />
-        <StyledContentWrapper>{children}</StyledContentWrapper>
-        <Footer />
-    </StyledAppWrapper>
+    <ThemeProvider theme={PinkTheme}>
+        <StyledAppWrapper>
+            <GlobalFonts />
+            <link
+                rel="authorization_endpoint"
+                href="https://indieauth.com/auth"
+            />
+            <GlobalStyles />
+            <SEO title={title} description={description} image={image} />
+            <Navigation />
+            <StyledContentWrapper>{children}</StyledContentWrapper>
+            <Footer />
+        </StyledAppWrapper>
+    </ThemeProvider>
 );
 
 PageLayout.defaultProps = {

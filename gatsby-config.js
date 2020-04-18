@@ -77,13 +77,6 @@ module.exports = {
         },
         `gatsby-plugin-styled-components`,
         {
-            resolve: `gatsby-styled-components-dark-mode`,
-            options: {
-                light: require(`${__dirname}/src/themes/light.js`),
-                dark: require(`${__dirname}/src/themes/dark.js`)
-            }
-        },
-        {
             resolve: `gatsby-plugin-fathom`,
             options: {
                 siteId: 'RVIPAHXX',
