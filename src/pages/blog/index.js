@@ -1,9 +1,8 @@
 /* eslint-disable no-undef, react/prop-types */
+import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { graphql } from 'gatsby';
-import { Link, Timestamp, ReadTime, ShadedH1 } from '../../components/Misc';
-import Box from '../../components/Box';
+import { Link, ReadTime, ShadedH1, Timestamp } from '../../components/Misc';
 import PageLayout from '../../components/PageLayout';
 
 const StyledLink = styled(Link)`
@@ -54,32 +53,23 @@ const BlogIndex = ({ data }) => {
     const { filteredData } = state;
     return (
         <PageLayout title="Blog">
-            <Box
-                width={[1, 1, 720]}
-                m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
-                px={[3, 3, 0]}
-            >
-                <ShadedH1>Blog</ShadedH1>
-                <SearchInput
-                    type="text"
-                    aria-label="Filter posts"
-                    placeholder="Filter posts"
-                    onChange={filterPosts}
-                />
-                <Box>
-                    {filteredData.map(({ node: post }) => (
-                        <Box key={post.id}>
-                            <StyledLink to={post.fields.slug}>
-                                <Timestamp>{post.frontmatter.date}</Timestamp>
-                                &nbsp;·&nbsp;
-                                <ReadTime time={post.frontmatter.readingTime} />
-                                <PostTitle>{post.frontmatter.title}</PostTitle>
-                                <p>{post.excerpt}</p>
-                            </StyledLink>
-                        </Box>
-                    ))}
-                </Box>
-            </Box>
+            <ShadedH1>Blog</ShadedH1>
+            <SearchInput
+                type="text"
+                aria-label="Filter posts"
+                placeholder="Filter posts"
+                onChange={filterPosts}
+            />
+
+            {filteredData.map(({ node: post }) => (
+                <StyledLink to={post.fields.slug}>
+                    <Timestamp>{post.frontmatter.date}</Timestamp>
+                    &nbsp;·&nbsp;
+                    <ReadTime time={post.frontmatter.readingTime} />
+                    <PostTitle>{post.frontmatter.title}</PostTitle>
+                    <p>{post.excerpt}</p>
+                </StyledLink>
+            ))}
         </PageLayout>
     );
 };

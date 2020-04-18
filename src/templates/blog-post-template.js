@@ -1,9 +1,8 @@
 /* eslint-disable no-undef, react/prop-types, react/no-danger */
+import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { graphql } from 'gatsby';
-import Box from '../components/Box';
-import { Timestamp, ReadTime, ShadedH1 } from '../components/Misc';
+import { ReadTime, ShadedH1, Timestamp } from '../components/Misc';
 import PageLayout from '../components/PageLayout';
 
 const PostContent = styled.div`
@@ -27,22 +26,15 @@ const Template = ({ data }) => {
     const { markdownRemark: post } = data;
     return (
         <PageLayout title={post.frontmatter.title} description={post.excerpt}>
-            <Box
-                width={[1, 1, 720]}
-                m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
-                px={[3, 3, 0]}
-                style={{ overflow: 'visible' }}
-            >
-                <ShadedH1>{post.frontmatter.title}</ShadedH1>
-                <Timestamp>{post.frontmatter.date}</Timestamp>
-                &nbsp;·&nbsp;
-                <ReadTime time={post.frontmatter.readingTime} />
-                <h5>
-                    Written by&nbsp;
-                    {post.frontmatter.author}
-                </h5>
-                <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
-            </Box>
+            <ShadedH1>{post.frontmatter.title}</ShadedH1>
+            <Timestamp>{post.frontmatter.date}</Timestamp>
+            &nbsp;·&nbsp;
+            <ReadTime time={post.frontmatter.readingTime} />
+            <h5>
+                Written by&nbsp;
+                {post.frontmatter.author}
+            </h5>
+            <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
         </PageLayout>
     );
 };
