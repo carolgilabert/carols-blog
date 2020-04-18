@@ -27,6 +27,14 @@ const StyledAppWrapper = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 900px) {
+        margin: 0 3rem;
+    }
+
+    @media (max-width: 400px) {
+        margin: 0 1rem;
+    }
 `;
 
 const StyledContentWrapper = styled.main`
