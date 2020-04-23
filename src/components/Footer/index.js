@@ -8,7 +8,7 @@ import TwitterIcon from '../../images/twitter.svg';
 
 const StyledFooterWrapper = styled.div`
     margin: 20px 0px;
-    border-top: 2px ${({ theme }) => theme.primaryColour} dashed;
+    border-top: 2px var(--primaryColour) dashed;
 
     & a {
         box-shadow: none;
@@ -16,7 +16,7 @@ const StyledFooterWrapper = styled.div`
     }
 
     & a:hover {
-        color: ${({ theme }) => theme.accentColour};
+        color: var(--accentColour);
     }
 `;
 

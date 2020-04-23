@@ -11,7 +11,7 @@ const StyledLink = styled(Link)`
 
     &:hover {
         box-shadow: none;
-        color: ${({ theme }) => theme.accentColour};
+        color: var(--accentColour);
     }
 `;
 
@@ -21,7 +21,7 @@ const SearchInput = styled.input`
     width: 80%;
     height: 3rem;
     border-radius: 3px;
-    border-color: ${({ theme }) => theme.primaryColour};
+    border-color: var(--primaryColour);
     border-width: 3px;
 `;
 

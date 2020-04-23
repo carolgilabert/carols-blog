@@ -10,16 +10,16 @@ const PostContent = styled.div`
     & a {
         text-decoration: none;
         color: inherit;
-        box-shadow: inset 0 -5px 0 ${({ theme }) => theme.accentColour};
+        box-shadow: inset 0 -5px 0 var(--accentColour);
         -webkit-transition: box-shadow 0.4s ease-in-out, color 0.4s;
         transition: box-shadow 0.4s ease-in-out, color 0.4s;
         padding: 3px;
     }
 
     & a:hover {
-        box-shadow: inset 0 -300px 0 ${({ theme }) => theme.accentColour};
+        box-shadow: inset 0 -300px 0 var(--accentColour);
         cursor: pointer;
-        color: ${({ theme }) => theme.highContrastColour};
+        color: var(--highContrastColour);
     }
 `;
 

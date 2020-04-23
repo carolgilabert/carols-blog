@@ -11,14 +11,14 @@ const Timestamp = styled.time`
 const StyledGatsbyLink = styled(GatsbyLink)`
     text-decoration: none;
     color: inherit;
-    box-shadow: inset 0 -5px 0 ${({ theme }) => theme.accentColour};
+    box-shadow: inset 0 -5px 0 var(--accentColour);
     -webkit-transition: box-shadow 0.4s ease-in-out, color 0.4s;
     transition: box-shadow 0.4s ease-in-out, color 0.4s;
     padding: 3px;
 
     &:hover {
-        box-shadow: inset 0 -300px 0 ${({ theme }) => theme.accentColour};
-        color: ${({ theme }) => theme.highContrastColour};
+        box-shadow: inset 0 -300px 0 var(--accentColour);
+        color: var(--highContrastColour);
     }
 
     &:focus {
@@ -45,8 +45,8 @@ const ShadedH1 = styled.h1`
     font-family: 'Avalanche';
     font-weight: 800;
     font-size: 5rem;
-    text-shadow: 5px 5px ${({ theme }) => theme.accentColour};
-    color: ${({ theme }) => theme.highContrastColour};
+    text-shadow: 5px 5px var(--accentColour);
+    color: var(--highContrastColour);
 `;
 
 export { Timestamp, Link, ReadTime, ShadedH1 };

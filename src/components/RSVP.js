@@ -16,7 +16,7 @@ const getResponseEmoji = (response = 'yes') => {
 };
 
 const EventLink = styled.a`
-    color: ${({ theme }) => theme.highContrastColour};
+    color: var(--highContrastColour);
     font-size: 1.7rem;
     line-height: 1.7rem;
 `;

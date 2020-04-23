@@ -9,37 +9,31 @@ const StyledNav = styled.nav`
     justify-content: flex-end;
 `;
 
-const StyledSpan = styled.span`
-    @media (max-width: 360px) {
-        display: none;
-    }
-`;
-
 const Navigation = () => (
     <StyledNav>
         <NavLink to="/">
             Home{' '}
-            <StyledSpan role="img" aria-label="house emoji">
+            <span role="img" aria-label="house emoji">
                 🏡
-            </StyledSpan>
+            </span>
         </NavLink>
         <NavLink to="/about">
             About{' '}
-            <StyledSpan role="img" aria-label="woman with hand on chin emoji">
+            <span role="img" aria-label="woman with hand on chin emoji">
                 💁‍♀️
-            </StyledSpan>
+            </span>
         </NavLink>
         <NavLink to="/events">
             Events{' '}
-            <StyledSpan role="img" aria-label="calendar emoji">
+            <span role="img" aria-label="calendar emoji">
                 📅
-            </StyledSpan>
+            </span>
         </NavLink>
         <NavLink to="/blog">
             Blog{' '}
-            <StyledSpan role="img" aria-label="paper and pencil emoji">
+            <span role="img" aria-label="paper and pencil emoji">
                 📝
-            </StyledSpan>
+            </span>
         </NavLink>
     </StyledNav>
 );
