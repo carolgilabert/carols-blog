@@ -25,13 +25,17 @@ const CssVars = createGlobalStyle`
 
         /* Spacing */
         --pageMargin: 0 1rem;
+        --homeDrawingPaddingLeft: 0.5rem;
+
 
         @media (min-width: 400px) {
             --pageMargin: 0 3rem;
+            --homeDrawingPaddingLeft: 2rem;
         }
 
         @media (min-width: 900px) {
             --pageMargin: 0 auto;
+            --homeDrawingPaddingLeft: 3rem;
         }
     }
 
