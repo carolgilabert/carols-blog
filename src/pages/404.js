@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import React from 'react';
-import { Link } from '../components/Misc';
+import Link from '../components/Link';
 import PageLayout from '../components/PageLayout';
 import RobotImage from '../images/robot.png';
 

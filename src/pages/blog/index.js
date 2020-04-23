@@ -2,7 +2,8 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { Link, ReadTime, Timestamp } from '../../components/Misc';
+import { ReadTime, Timestamp } from '../../components/Misc';
+import Link from '../../components/Link';
 import { H1, H2 } from '../../components/Headers';
 import PageLayout from '../../components/PageLayout';
 
