@@ -1,10 +1,29 @@
 import React from 'react';
+import styled from 'styled-components';
 import Link from './Link';
 
+const StyledFooter = styled.footer`
+    background-color: var(--accentColour);
+    color: var(--highContrastColour);
+    padding: var(--defaultPadding);
+    margin: var(--defaultMargin);
+    border-radius: 0.5rem;
+`;
+
+const LinkList = styled.ul`
+    column-count: var(--footerColumns);
+    list-style-type: square;
+`;
+
+const CopyrightP = styled.p`
+    font-size: var(--fontSizeSmall);
+    text-align: right;
+`;
+
 const Footer = () => (
-    <footer>
+    <StyledFooter>
         You can find me:
-        <ul>
+        <LinkList>
             <li>
                 Responding late to your{' '}
                 <Link
@@ -99,16 +118,18 @@ const Footer = () => (
                     </span>
                 </Link>
             </li>
-        </ul>
-        © 2020 · Carolina Gilabert ·
-        <Link
-            href="https://creativecommons.org/licenses/by-sa/4.0/"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            cc-by-sa
-        </Link>
-    </footer>
+        </LinkList>
+        <CopyrightP>
+            © 2020 · Carolina Gilabert ·
+            <Link
+                href="https://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                cc-by-sa
+            </Link>
+        </CopyrightP>
+    </StyledFooter>
 );
 
 export default Footer;

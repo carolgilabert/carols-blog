@@ -5,21 +5,15 @@ import styled from 'styled-components';
 import { ReadTime, Timestamp } from '../components/Misc';
 import { H1 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
+import { LinkStyles, LinkHoverStyles } from '../components/Link';
 
 const PostContent = styled.div`
     & a {
-        text-decoration: none;
-        color: inherit;
-        box-shadow: inset 0 -5px 0 var(--accentColour);
-        -webkit-transition: box-shadow 0.4s ease-in-out, color 0.4s;
-        transition: box-shadow 0.4s ease-in-out, color 0.4s;
-        padding: 3px;
+        ${LinkStyles}
     }
 
     & a:hover {
-        box-shadow: inset 0 -300px 0 var(--accentColour);
-        cursor: pointer;
-        color: var(--highContrastColour);
+        ${LinkHoverStyles}
     }
 `;
 
