@@ -27,11 +27,7 @@ const Footer = () => (
         <LinkList>
             <li>
                 Responding late to your{' '}
-                <Link
-                    href="mailto:hello@carolgilabert.me"
-                    target="_blank"
-                    rel="me noopener noreferrer"
-                >
+                <Link href="mailto:hello@carolgilabert.me" rel="me">
                     email{' '}
                     <span
                         role="img"
@@ -43,11 +39,7 @@ const Footer = () => (
             </li>
             <li>
                 Oversharing on{' '}
-                <Link
-                    href="https://twitter.com/CarolSaysThings"
-                    target="_blank"
-                    rel="me noopener noreferrer"
-                >
+                <Link href="https://twitter.com/CarolSaysThings" rel="me">
                     twitter{' '}
                     <span role="img" aria-label="emoji of bird head">
                         🐦
@@ -56,11 +48,7 @@ const Footer = () => (
             </li>
             <li>
                 Stitching code together on{' '}
-                <Link
-                    href="https://github.com/carolgilabert"
-                    target="_blank"
-                    rel="me noopener noreferrer"
-                >
+                <Link href="https://github.com/carolgilabert" rel="me">
                     github{' '}
                     <span
                         role="img"
@@ -72,11 +60,7 @@ const Footer = () => (
             </li>
             <li>
                 Throwing stuff at the wall on{' '}
-                <Link
-                    href="https://glitch.com/@carolgilabert"
-                    target="_blank"
-                    rel="me noopener noreferrer"
-                >
+                <Link href="https://glitch.com/@carolgilabert" rel="me">
                     glitch{' '}
                     <span role="img" aria-label="emoji of a crystal ball">
                         🔮
@@ -85,11 +69,7 @@ const Footer = () => (
             </li>
             <li>
                 Chatting about stuff on{' '}
-                <Link
-                    href="https://noti.st/carolgilabert"
-                    target="_blank"
-                    rel="me noopener noreferrer"
-                >
+                <Link href="https://noti.st/carolgilabert" rel="me">
                     notist{' '}
                     <span role="img" aria-label="emoji of a microphone">
                         🎤
@@ -97,19 +77,9 @@ const Footer = () => (
                 </Link>
             </li>
             <li>
-                <Link
-                    href="https://haha.business/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Ha ha business
-                </Link>
+                <Link href="https://haha.business/">Ha ha business</Link>
                 -ing on{' '}
-                <Link
-                    href="https://www.linkedin.com/in/carolgilabert"
-                    target="_blank"
-                    rel="me noopener noreferrer"
-                >
+                <Link href="https://www.linkedin.com/in/carolgilabert" rel="me">
                     linkedin{' '}
                     <span
                         role="img"
@@ -122,11 +92,7 @@ const Footer = () => (
         </LinkList>
         <CopyrightP>
             © 2020 · Carolina Gilabert ·
-            <Link
-                href="https://creativecommons.org/licenses/by-sa/4.0/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
+            <Link href="https://creativecommons.org/licenses/by-sa/4.0/">
                 cc-by-sa
             </Link>
         </CopyrightP>

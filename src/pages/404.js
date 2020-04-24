@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import React from 'react';
-import Link from '../components/Link';
+import { InternalLink } from '../components/Link';
 import PageLayout from '../components/PageLayout';
 import RobotImage from '../images/robot.png';
 
@@ -20,7 +20,7 @@ const ErrorPage = ({ data }) => {
             <Img alt="Robot doodle" fluid={errorImage.childImageSharp.fluid} />
             <p>
                 To get back to safety, click&nbsp;
-                <Link to="/">here!</Link>
+                <InternalLink to="/">here!</InternalLink>
             </p>
         </PageLayout>
     );

@@ -52,9 +52,13 @@ const CssVars = createGlobalStyle`
         /* Random stuff */
         --footerColumns: 1;
         --mainImageSize: 700px;
+        --aboutWrap: wrap;
+        --aboutTextMargin: 0;
 
         @media (min-width: 700px) {
             --footerColumns: 2;
+            --aboutWrap: no-wrap;
+            --aboutTextMargin: var(--defaultMargin);
         }
     }
 

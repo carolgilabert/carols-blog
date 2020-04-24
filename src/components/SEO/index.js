@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 import CoverImage from '../../images/me.svg';
 
@@ -17,7 +17,7 @@ const detailsQuery = graphql`
     }
 `;
 
-const SEO = ({ description, lang, meta, title, image }) => (
+const SEO = ({ description, lang, meta, title }) => (
     <StaticQuery
         query={detailsQuery}
         render={data => {
@@ -69,9 +69,7 @@ const SEO = ({ description, lang, meta, title, image }) => (
                         },
                         {
                             name: 'og:image',
-                            content: `${
-                                data.site.siteMetadata.siteUrl
-                            }${image || CoverImage}`
+                            content: `${data.site.siteMetadata.siteUrl}${CoverImage}`
                         }
                     ].concat(meta)}
                 />
@@ -83,16 +81,14 @@ const SEO = ({ description, lang, meta, title, image }) => (
 SEO.defaultProps = {
     description: '',
     lang: 'en',
-    meta: [],
-    image: CoverImage
+    meta: []
 };
 
 SEO.propTypes = {
     description: PropTypes.string,
     lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.any),
-    title: PropTypes.string.isRequired,
-    image: PropTypes.string
+    title: PropTypes.string.isRequired
 };
 
 export default SEO;
