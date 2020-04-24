@@ -39,7 +39,7 @@ const RSVP = ({ id, name, url, date, value }) => (
         <section className="p-author h-card" style={{ display: 'none' }}>
             <a href="https://carolgilabert.me" className="u-url">
                 <img
-                    src="https://carolgilabert.me/images/avatar.jpeg"
+                    src="https://carolgilabert.me/images/avatar.jpg"
                     alt="my face"
                     className="u-photo"
                 />

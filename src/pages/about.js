@@ -1,50 +1,72 @@
 /* eslint-disable no-undef, react/prop-types */
+import React from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import React from 'react';
 import styled from 'styled-components';
 import { H1 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
-import AboutImage from '../images/about_me.jpg';
+import Timeline from '../components/Timeline';
 
-const StyledImg = styled(Img)`
-    border-radius: 5px;
-    margin-bottom: 1.7rem;
-    max-width: 400px;
+const RoundAboutImg = styled(Img)`
+    border-radius: 128px;
+    border: solid ${({ theme }) => theme.textColour} 3px;
+    float: right;
+    margin: 10px;
+`;
+
+const AboutCard = styled.section`
+    max-width: 760px;
+    margin-bottom: 50px;
 `;
 
 const About = ({ data }) => {
-    const { aboutImage } = data;
+    const { allTimelineJson } = data;
+
     return (
         <PageLayout
             title="About"
             description="A little bit of information abour yours truly."
-            image={AboutImage}
         >
-            <H1>About me</H1>
-            <StyledImg
-                alt="Picture of my face"
-                fluid={aboutImage.childImageSharp.fluid}
-            />
-            <p>
-                This is a picture of my face. I&apos;ll add some more info here
-                soon, but if you&apos;d like to get in touch, just click below
-                :)
-            </p>
-            <p>
-                Update: I have short hair now, but I&apos;m in essence the same.
-                I&apos;ll update this pic when I get a good one!
-            </p>
+                <H1>About me</H1>
+                <AboutCard>
+                    <RoundAboutImg
+                        fixed={data.aboutImage.childImageSharp.fixed}
+                    />
+                    Hey there! My name is Carol, I&apos;m a frontend software
+                    engineer. I currently work for Capital One, where I&apos;m
+                    part of the bestest team, Aviato. I&apos;m also an organiser
+                    at Tech Nottingham, Women in Tech and NottsJS. In my spare
+                    time I like to play videogames, swing dance, bake and play
+                    capoeira. I&apos;m also learning BSL, and how to play the
+                    guitar. You can scroll along for a whistle stop tour of my
+                    life so far:
+                </AboutCard>
+                <Timeline entries={allTimelineJson.nodes} />
+            
         </PageLayout>
     );
 };
 
 export const pageQuery = graphql`
     query AboutQuery {
-        aboutImage: file(relativePath: { eq: "about_me.jpg" }) {
+        aboutImage: file(relativePath: { eq: "avatar.jpg" }) {
             childImageSharp {
-                fluid(maxWidth: 1000) {
-                    ...GatsbyImageSharpFluid
+                fixed(
+                    width: 256
+                    height: 256
+                    traceSVG: { color: "#77567a", background: "#e39ec1" }
+                ) {
+                    ...GatsbyImageSharpFixed_tracedSVG
+                }
+            }
+        }
+        allTimelineJson {
+            nodes {
+                year
+                text
+                image {
+                    alt
+                    path
                 }
             }
         }
