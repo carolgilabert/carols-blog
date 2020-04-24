@@ -27,22 +27,18 @@ const About = ({ data }) => {
             title="About"
             description="A little bit of information abour yours truly."
         >
-                <H1>About me</H1>
-                <AboutCard>
-                    <RoundAboutImg
-                        fixed={data.aboutImage.childImageSharp.fixed}
-                    />
-                    Hey there! My name is Carol, I&apos;m a frontend software
-                    engineer. I currently work for Capital One, where I&apos;m
-                    part of the bestest team, Aviato. I&apos;m also an organiser
-                    at Tech Nottingham, Women in Tech and NottsJS. In my spare
-                    time I like to play videogames, swing dance, bake and play
-                    capoeira. I&apos;m also learning BSL, and how to play the
-                    guitar. You can scroll along for a whistle stop tour of my
-                    life so far:
-                </AboutCard>
-                <Timeline entries={allTimelineJson.nodes} />
-            
+            <H1>About me</H1>
+            <AboutCard>
+                <RoundAboutImg fixed={data.aboutImage.childImageSharp.fixed} />
+                Hey there! My name is Carol, I&apos;m a frontend software
+                engineer. I currently work for Capital One, where I&apos;m part
+                of the bestest team, Aviato. I&apos;m also an organiser at Tech
+                Nottingham, Women in Tech and NottsJS. In my spare time I like
+                to play videogames, swing dance, bake and play capoeira.
+                I&apos;m also learning BSL, and how to play the guitar. You can
+                scroll along for a whistle stop tour of my life so far:
+            </AboutCard>
+            <Timeline entries={allTimelineJson.nodes} />
         </PageLayout>
     );
 };

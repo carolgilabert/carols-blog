@@ -22,7 +22,11 @@ const Template = ({ data }) => {
     return (
         <PageLayout title={post.frontmatter.title} description={post.excerpt}>
             <H1>{post.frontmatter.title}</H1>
-            <PostInfo {...post.frontmatter} />
+            <PostInfo
+                date={post.frontmatter.date}
+                readingTime={post.frontmatter.readingTime}
+                author={post.frontmatter.author}
+            />
             <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
         </PageLayout>
     );

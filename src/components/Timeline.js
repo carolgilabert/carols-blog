@@ -10,8 +10,8 @@ const TimelineContainer = styled.div`
 
 const Timeline = ({ entries }) => (
     <TimelineContainer>
-        {entries.map(entry => (
-            <TimelineCard key={entry.year} {...entry} />
+        {entries.map(({ year, text, image }) => (
+            <TimelineCard key={year} year={year} text={text} image={image} />
         ))}
     </TimelineContainer>
 );

@@ -63,7 +63,10 @@ const BlogIndex = ({ data }) => {
             {filteredData.map(({ node: post }) => (
                 <StyledLink to={post.fields.slug}>
                     <H2>{post.frontmatter.title}</H2>
-                    <PostInfo {...post.frontmatter} />
+                    <PostInfo
+                        date={post.frontmatter.date}
+                        readingTime={post.frontmatter.readingTime}
+                    />
                     <p>{post.excerpt}</p>
                 </StyledLink>
             ))}

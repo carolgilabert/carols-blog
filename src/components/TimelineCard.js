@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
-import { StaticQuery, graphql, replace } from 'gatsby';
+import { StaticQuery, graphql } from 'gatsby';
 
 const Card = styled.article`
     background-color: ${({ theme }) => theme.textColour};

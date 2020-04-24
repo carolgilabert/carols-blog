@@ -16,8 +16,8 @@ const Events = ({ data }) => (
     <PageLayout title="Events" description="The list of events I RSVP to.">
         <H1>Events</H1>
         <EventContainer className="h-feed">
-            {data.allRsvpsJson.nodes.map(event => (
-                <RSVP {...event} />
+            {data.allRsvpsJson.nodes.map(({ id, name, url, date, value }) => (
+                <RSVP id={id} name={name} url={url} date={date} value={value} />
             ))}
         </EventContainer>
     </PageLayout>
