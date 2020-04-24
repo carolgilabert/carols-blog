@@ -2,17 +2,18 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { ReadTime, Timestamp } from '../../components/Misc';
-import Link from '../../components/Link';
+import GatsbyLink from 'gatsby-link';
+import { LinkStyles } from '../../components/Link';
+import PostInfo from '../../components/PostInfo';
 import { H1, H2 } from '../../components/Headers';
 import PageLayout from '../../components/PageLayout';
 
-const StyledLink = styled(Link)`
-    box-shadow: none;
+const StyledLink = styled(GatsbyLink)`
+    ${LinkStyles}
+    text-decoration: none;
 
     &:hover {
-        box-shadow: none;
-        color: var(--accentColour);
+        opacity: 0.7;
     }
 `;
 
@@ -61,10 +62,8 @@ const BlogIndex = ({ data }) => {
 
             {filteredData.map(({ node: post }) => (
                 <StyledLink to={post.fields.slug}>
-                    <Timestamp>{post.frontmatter.date}</Timestamp>
-                    &nbsp;·&nbsp;
-                    <ReadTime time={post.frontmatter.readingTime} />
                     <H2>{post.frontmatter.title}</H2>
+                    <PostInfo {...post.frontmatter} />
                     <p>{post.excerpt}</p>
                 </StyledLink>
             ))}

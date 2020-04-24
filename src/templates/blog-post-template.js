@@ -2,10 +2,10 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { ReadTime, Timestamp } from '../components/Misc';
 import { H1 } from '../components/Headers';
 import PageLayout from '../components/PageLayout';
 import { LinkStyles, LinkHoverStyles } from '../components/Link';
+import PostInfo from '../components/PostInfo';
 
 const PostContent = styled.div`
     & a {
@@ -22,13 +22,7 @@ const Template = ({ data }) => {
     return (
         <PageLayout title={post.frontmatter.title} description={post.excerpt}>
             <H1>{post.frontmatter.title}</H1>
-            <Timestamp>{post.frontmatter.date}</Timestamp>
-            &nbsp;·&nbsp;
-            <ReadTime time={post.frontmatter.readingTime} />
-            <h5>
-                Written by&nbsp;
-                {post.frontmatter.author}
-            </h5>
+            <PostInfo {...post.frontmatter} />
             <PostContent dangerouslySetInnerHTML={{ __html: post.html }} />
         </PageLayout>
     );
