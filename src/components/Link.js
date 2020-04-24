@@ -1,5 +1,4 @@
 import styled, { css } from 'styled-components';
-import GatsbyLink from 'gatsby-link';
 
 export const LinkStyles = css`
     color: inherit;
@@ -13,7 +12,7 @@ export const LinkHoverStyles = css`
     color: var(--accentColour);
 `;
 
-const Link = styled(GatsbyLink)`
+const Link = styled.a`
     ${LinkStyles}
     &:hover {
         ${LinkHoverStyles}

@@ -12,7 +12,8 @@ const StyledFooter = styled.footer`
 
 const LinkList = styled.ul`
     column-count: var(--footerColumns);
-    list-style-type: square;
+    list-style-type: none;
+    padding-left: 0;
 `;
 
 const CopyrightP = styled.p`

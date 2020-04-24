@@ -51,6 +51,7 @@ const CssVars = createGlobalStyle`
 
         /* Random stuff */
         --footerColumns: 1;
+        --mainImageSize: 700px;
 
         @media (min-width: 700px) {
             --footerColumns: 2;
