@@ -4,7 +4,6 @@ import GatsbyLink from 'gatsby-link';
 import styled from 'styled-components';
 
 const StyledGatsbyLink = styled(GatsbyLink)`
-    background-color: var(--accentColour);
     padding: 10px 15px;
     margin: 10px;
     border-radius: 3px;

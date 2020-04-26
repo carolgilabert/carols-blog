@@ -8,6 +8,7 @@ import Footer from '../Footer';
 import SEO from '../SEO';
 
 const StyledAppWrapper = styled.div`
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

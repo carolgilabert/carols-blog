@@ -34,6 +34,7 @@ const CssVars = createGlobalStyle`
         --defaultPadding: 1rem;
         --pageMargin: 0 1rem;
         --homeDrawingPaddingLeft: 0.5rem;
+        --navAlignment: center;
 
 
         @media (min-width: 400px) {
@@ -48,6 +49,7 @@ const CssVars = createGlobalStyle`
             --defaultPadding: 1rem;
             --pageMargin: 0 auto;
             --homeDrawingPaddingLeft: 3rem;
+            --navAlignment: flex-end;
         }
 
         /* Random stuff */
