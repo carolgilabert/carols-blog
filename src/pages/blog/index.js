@@ -1,22 +1,20 @@
 /* eslint-disable no-undef, react/prop-types */
+import { graphql } from 'gatsby';
 import React from 'react';
 import styled from 'styled-components';
-import { graphql } from 'gatsby';
-import { Link, Timestamp, ReadTime, ShadedH1 } from '../../components/Misc';
-import Box from '../../components/Box';
+import GatsbyLink from 'gatsby-link';
+import { LinkStyles } from '../../components/Link';
+import PostInfo from '../../components/PostInfo';
+import { H1, H2 } from '../../components/Headers';
 import PageLayout from '../../components/PageLayout';
 
-const StyledLink = styled(Link)`
-    box-shadow: none;
+const StyledLink = styled(GatsbyLink)`
+    ${LinkStyles}
+    text-decoration: none;
 
     &:hover {
-        box-shadow: none;
-        color: ${({ theme }) => theme.linkHighlightColour};
+        opacity: 0.7;
     }
-`;
-
-const PostTitle = styled.h2`
-    color: ${({ theme }) => theme.textContrastColour};
 `;
 
 const SearchInput = styled.input`
@@ -25,7 +23,7 @@ const SearchInput = styled.input`
     width: 80%;
     height: 3rem;
     border-radius: 3px;
-    border-color: ${({ theme }) => theme.textColour};
+    border-color: var(--primaryColour);
     border-width: 3px;
 `;
 
@@ -54,32 +52,24 @@ const BlogIndex = ({ data }) => {
     const { filteredData } = state;
     return (
         <PageLayout title="Blog">
-            <Box
-                width={[1, 1, 720]}
-                m={['3.5rem 0 0 0', '3.5rem 0 0 0', '3.5rem auto 0 auto']}
-                px={[3, 3, 0]}
-            >
-                <ShadedH1>Blog</ShadedH1>
-                <SearchInput
-                    type="text"
-                    aria-label="Filter posts"
-                    placeholder="Filter posts"
-                    onChange={filterPosts}
-                />
-                <Box>
-                    {filteredData.map(({ node: post }) => (
-                        <Box key={post.id}>
-                            <StyledLink to={post.fields.slug}>
-                                <Timestamp>{post.frontmatter.date}</Timestamp>
-                                &nbsp;·&nbsp;
-                                <ReadTime time={post.frontmatter.readingTime} />
-                                <PostTitle>{post.frontmatter.title}</PostTitle>
-                                <p>{post.excerpt}</p>
-                            </StyledLink>
-                        </Box>
-                    ))}
-                </Box>
-            </Box>
+            <H1>Blog</H1>
+            <SearchInput
+                type="text"
+                aria-label="Filter posts"
+                placeholder="Filter posts"
+                onChange={filterPosts}
+            />
+
+            {filteredData.map(({ node: post }) => (
+                <StyledLink to={post.fields.slug}>
+                    <H2>{post.frontmatter.title}</H2>
+                    <PostInfo
+                        date={post.frontmatter.date}
+                        readingTime={post.frontmatter.readingTime}
+                    />
+                    <p>{post.excerpt}</p>
+                </StyledLink>
+            ))}
         </PageLayout>
     );
 };

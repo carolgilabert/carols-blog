@@ -15,7 +15,7 @@ Ignite talks follow a very specific format: 5 minutes, 20 slides, 15 seconds per
 
 As I expected, organisers and attendees alike were incredibly kind and supportive, and all around lovely. Everyone put up with my general state of anxiety, and it all went well (except for that slide I forgot - we don’t talk about that).
 
-![Me on stage, holding a microphone](/images/devopsdays-london-2019/dod-ldn-talk.jpg)
+![Me on stage, holding a microphone](./dod-ldn-talk.jpg)
 📸 Action shot, courtesy of DevOpsDays London
 
 If you want to see the talk, you can watch the video:
@@ -40,7 +40,7 @@ I did have lots of great conversations with people throughout the 2 days, and le
 ✨ [Tom Hoyland](https://twitter.com/thatagile)’s talk, on [building and growing an agile team](https://www.youtube.com/watch?v=v-fZfiVxX6Q): this was a pragmatic overview of a team finding the version of agile that worked best for them. I found it quite relatable, as my team is quite introspective and prone to changing our process as we think it's needed. My favourite piece of advice was not to stick to one agile framework or another, you can always blend them to suit your needs.
 
 
-![Conference after party, a group picture of the Women in Tech Nottingham folks](/images/devopsdays-london-2019/dod-ldn-wit.jpg)
+![Conference after party, a group picture of the Women in Tech Nottingham folks](./dod-ldn-wit.jpg)
 📸 Women in Tech Nottingham community representing 💁‍♀️✨
 
 To wrap up, it was again a lovely event, where I’ve learnt a lot and enjoyed the company of friends new and old. Thanks again to the organisers for putting on an awesome event, and for affording me the opportunity to speak 💛

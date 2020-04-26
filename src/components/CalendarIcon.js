@@ -25,7 +25,7 @@ const StyledSvg = styled.svg`
         fill: #ffffff;
     }
     .st5 {
-        font-family: 'Bungee';
+        font-family: var(--headerFont);
         fill: #41444d;
     }
     .st6 {

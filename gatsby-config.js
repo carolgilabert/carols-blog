@@ -2,8 +2,7 @@ module.exports = {
     siteMetadata: {
         title: "Carol's Blog",
         siteUrl: 'https://carolgilabert.me',
-        description:
-            'A space for me to share my experiences. Some will be technical posts, some will be personal.',
+        description: 'This is my little home on the internet.',
         author: 'Carolina Gilabert'
     },
     plugins: [
@@ -13,6 +12,13 @@ module.exports = {
             options: {
                 name: `images`,
                 path: `${__dirname}/src/images/`
+            }
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `static-images`,
+                path: `${__dirname}/static/images/`
             }
         },
         {
@@ -30,19 +36,17 @@ module.exports = {
             }
         },
         {
-            resolve: 'gatsby-plugin-typography',
-            options: {
-                pathToConfigModule: 'src/utils/typography.js'
-            }
-        },
-        {
             resolve: `gatsby-transformer-remark`,
             options: {
                 plugins: [
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
-                            maxWidth: 590
+                            maxWidth: 900,
+                            tracedSVG: {
+                                color: '#77567a',
+                                background: '#e39ec1'
+                            }
                         }
                     },
                     {
@@ -83,13 +87,6 @@ module.exports = {
             }
         },
         `gatsby-plugin-styled-components`,
-        {
-            resolve: `gatsby-styled-components-dark-mode`,
-            options: {
-                light: require(`${__dirname}/src/themes/light.js`),
-                dark: require(`${__dirname}/src/themes/dark.js`)
-            }
-        },
         {
             resolve: `gatsby-plugin-fathom`,
             options: {

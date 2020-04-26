@@ -12,22 +12,22 @@ Don’t get me wrong, I _love_ the web. But these circumstances mean I never mad
 
 But lately, I’ve been getting feedback that I should specialise, and become T shaped. It really does seem to be where it’s at 😅
 
-![Before and after doodle: normal looking person to T shaped person](/images/frontend-ne-2019/before-and-after.png)
+![Before and after doodle: normal looking person to T shaped person](./before-and-after.png)
 __Before and after rendition: from my basic self to a flawless T shaped human__
 
 To be quite honest, I’m reluctant to specialise. It probably comes from my personality; I’m an open person, and I like to stir all the pots.
 
 I also love learning, so in my head instead of going from this rectangle shape:
 
-![Graph of breadth vs depth of knowledge: shallow rectangle (broad not deep)](/images/frontend-ne-2019/shallow-rectangle.png)
+![Graph of breadth vs depth of knowledge: shallow rectangle (broad not deep)](./shallow-rectangle.png)
 
 To this T shape:
 
-![Graph of breadth vs depth of knowledge: T shape (broad but deep in one key area)](/images/frontend-ne-2019/t-shape.png)
+![Graph of breadth vs depth of knowledge: T shape (broad but deep in one key area)](./t-shape.png)
 
 I’d like to go to this rectangle:
 
-![Graph of breadth vs depth of knowledge: deep rectangle (broad and deep)](/images/frontend-ne-2019/deep-rectangle.png)
+![Graph of breadth vs depth of knowledge: deep rectangle (broad and deep)](./deep-rectangle.png)
 
 
 I understand it’s not possible. But heck, I am nothing if not determined. And maybe a little stubborn. So I’m gonna specialise, but I’ll try and widen the T whenever I can.
@@ -61,7 +61,7 @@ Next up was [Katie Fenn](https://twitter.com/katie_fenn), giving us an overview 
 
 Being a [Firefox](https://mobile.twitter.com/FirefoxNightly) user myself, I was very pleased to see the new features added to Chrome DevTools since I last used it. The element selector now comes packed with great information, including the colour contrast ratio, which helps us make more accessible sites. What’s not to love?
 
-![Screenshot of Chrome DevTools: hovering over a piece of text shows font colour, contrast and other useful information](/images/frontend-ne-2019/chrome-devtools-tooltip.png)
+![Screenshot of Chrome DevTools: hovering over a piece of text shows font colour, contrast and other useful information](./chrome-devtools-tooltip.png)
 
 She also went over the various different console methods. I’ve personally  been using `console.trace()` for a while, so I loved learning about other useful tools like `console.memory`  - shows you heap size - and `console.count()` - outputs how many times it’s been called.
 
@@ -95,7 +95,7 @@ Before the talk started, we all got handed cardboard VR headsets with the conf b
 
 He showed us how powerful WebVR is already and how easily you can build for it. It was a really fun talk! (As you can verify by my rudimentary drawing 😅)
 
-![Doodle of a person with a VR headset on, with the conference branding](/images/frontend-ne-2019/vr-doodle.jpeg)
+![Doodle of a person with a VR headset on, with the conference branding](./vr-doodle.jpeg)
 
 ### Grids all the way down
 Next up was [Rachel Andrew](https://twitter.com/rachelandrew), introducing us to subgrid, a feature included in level 2 of the CSS Grid Layout spec. 
@@ -128,4 +128,4 @@ It was so worth it, though! Lots of great content was shared and I met some love
 
 I also got to catch up with the lovely folks from Nexmo [Alex](https://twitter.com/lakatos88?) and [Luke](https://twitter.com/lukeocodes?lang=en-gb). All in all a great day 💛
 
-![Photobooth picture: set of 4 pictures of my conf buddy and I with the conference logo in the middle](/images/frontend-ne-2019/photobooth.jpg)
+![Photobooth picture: set of 4 pictures of my conf buddy and I with the conference logo in the middle](./photobooth.jpg)

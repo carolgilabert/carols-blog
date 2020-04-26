@@ -4,13 +4,12 @@ import GatsbyLink from 'gatsby-link';
 import styled from 'styled-components';
 
 const StyledGatsbyLink = styled(GatsbyLink)`
-    background-color: ${({ theme }) => theme.linkHighlightColour};
     padding: 10px 15px;
     margin: 10px;
     border-radius: 3px;
     text-decoration: none;
-    color: ${({ theme }) => theme.textContrastColour};
-    box-shadow: 5px 5px ${({ theme }) => theme.textColour};
+    color: var(--highContrastColour);
+    box-shadow: 5px 5px var(--primaryColour);
 
     &:hover {
         transform: scale(1.2);

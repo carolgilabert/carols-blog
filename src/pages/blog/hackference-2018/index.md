@@ -12,7 +12,7 @@ The venue was very nice and had a cosy and chilled out vibe, which really helped
 ## Talks
 There were two tracks available, _Innovate_ and _Develop_. I ended up attending talks from both tracks throughout the day, and I really wish I could have seen them all 🙈
 
-![Mike Elsmore opening the conference](/images/hackference-2018/mike.jpeg)
+![Mike Elsmore opening the conference](./mike.jpeg)
 📷 *[Mike Elsmore](https://twitter.com/ukmadlz) opening the conference*
 
 I’ll try and briefly summarise my takeaways from them:
@@ -32,7 +32,7 @@ She explored their origin, their current ubiquitousness in modern communication,
 
 [Marta Bondyra](https://twitter.com/marta_bondyra) shared with us her learning on WebSpeech and WebVR APIs, and how she used those to create an excellent Harry Potter VR game for the browser! 👦🏻⚡️
 
-![Marta Bondyra](/images/hackference-2018/marta.jpeg)
+![Marta Bondyra](./marta.jpeg)
 📷 *[Marta Bondyra](https://twitter.com/marta_bondyra)*
 
 She wrote a blog post about the game, with a recording of this talk, check it out:
@@ -57,7 +57,7 @@ By contributing to the spec, anyone can make a difference to billions of people.
 His was my favourite quote of the day:
 > If you don’t have the budget for accessibility, you don’t have the budget for your product. 
 
-![Terence Eden](/images/hackference-2018/terence.jpeg)
+![Terence Eden](./terence.jpeg)
 📷 *[Terence Eden](https://twitter.com/edent)*
 
 ### Introduction to modern identity
@@ -101,7 +101,7 @@ She shared a burnout checklist:
 
 If you said yes to _one_ of these or more, you might be suffering from burnout 🔥 Congratulations!
 
-![Jessica Rose](/images/hackference-2018/jess.jpeg)
+![Jessica Rose](./jess.jpeg)
 📷 *[Jessica Rose](https://twitter.com/jesslynnrose) telling us all to take it easy*
 
 The good news is that Jess also gave us lots of great advice on how to recover from burnout, like:
@@ -121,32 +121,32 @@ Jess is a brilliant speaker, and I encourage you to attend one of her talks if y
 ## Hackathon
 Hackference hosts the conference on a Friday, and a hackathon over the weekend. I was lucky enough to team up with Nottingham tech power couple [Anna](https://twitter.com/anna_hax) and [Jamie](https://twitter.com/JamieTanna) 👩‍💻👩‍💻👨‍💻
 
-![Anna hacking](/images/hackference-2018/anna_hax.jpeg)
+![Anna hacking](./anna_hax.jpeg)
 📷 *[Anna](https://twitter.com/anna_hax) mid hack*
 
-![Jamie being attacked by a T-Rex](/images/hackference-2018/jamie_trex.jpeg)
+![Jamie being attacked by a T-Rex](./jamie_trex.jpeg)
 📷 *[Jamie](https://twitter.com/JamieTanna) mid T-Rex attack*
 
 The hackathon was held at the Impact Hub in Birmingham. It is a lovely space, clearly aimed at collaboration. 
 
-![Impact Hub](/images/hackference-2018/impact_hub.jpeg)
+![Impact Hub](./impact_hub.jpeg)
 
 For our hack, we decided to build a multi factor authentication flow, using one of the guidelines from Jeremy Meiss’ talk: something you have and something you know.
 Jamie had been telling us about [IndieAuth](https://indieauth.com/) as a way of gaining ownership over your own identity rather than relying on other services like Google or Facebook. So our initial idea was to use IndieAuth as the first factor, but because of typical hackathon time constraints, we ended up using Google login for that.
 For the second factor, we decided to call the user and get them to enter a PIN using [Nexmo’s DTMF API](https://developer.nexmo.com/voice/voice-api/guides/dtmf), as it would allow the user to use their phone (something they have) and the PIN (something they know).
 For the implementation we used a React app for the frontend, and a couple of Lambdas to orchestrate the flow with Auth0 and Nexmo.
 
-![Cat illustration with caption 'new login, who dis?'](/images/hackference-2018/who_dis.png)
+![Cat illustration with caption 'new login, who dis?'](./who_dis.png)
 
 📷 *Home page illustration for ‘New login, who dis?’ by our in-team illustrator [Anna Dodson](https://twitter.com/anna_hax) 😋*
 
 And… we won!
 
 We won some really cool Auth0 Hacktoberfest t-shirts and we won an amazing Nanoleaf kit each from Nexmo!
-![Our hack team with Jeremy Meiss, from Auth0](/images/hackference-2018/team_and_jeremy.png)
+![Our hack team with Jeremy Meiss, from Auth0](./team_and_jeremy.png)
 📷 *Our hack team with [Jeremy Meiss](https://twitter.com/IAmJerdog) from Auth0*
 
-![Our hack team with Sam Machin, from Nexmo](/images/hackference-2018/team_and_sam.jpg)
+![Our hack team with Sam Machin, from Nexmo](./team_and_sam.jpg)
 📷 *Our hack team with [Sam Machin](https://twitter.com/sammachin) from Nexmo*
 
 During our hack time, we took a [Hacktoberfest](https://hacktoberfest.digitalocean.com/) break, in which we scoured GitHub for good issues to close and get our Hacktoberfest PRs in.

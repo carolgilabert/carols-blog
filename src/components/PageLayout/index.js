@@ -1,36 +1,35 @@
 import React from 'react';
-import styled, { createGlobalStyle } from 'styled-components';
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import GlobalFonts from '../../themes/fonts';
+import CssVars from '../../themes/css-vars';
 import Navigation from '../Navigation';
 import Footer from '../Footer';
 import SEO from '../SEO';
-
-const GlobalStyles = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  }
-`;
 
 const StyledAppWrapper = styled.div`
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: ${({ theme }) => theme.backgroundColour};
-    color: ${({ theme }) => theme.textColour};
 `;
 
-const StyledContentWrapper = styled.main`
+const StyledContentWrapper = styled.div`
+    max-width: var(--contentMaxWidth);
+    margin: var(--pageMargin);
     flex: 1;
 `;
 
 const PageLayout = ({ children, title, description, image }) => (
     <StyledAppWrapper>
+        <GlobalFonts />
+        <CssVars />
         <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-        <GlobalStyles />
         <SEO title={title} description={description} image={image} />
-        <Navigation />
-        <StyledContentWrapper>{children}</StyledContentWrapper>
+        <StyledContentWrapper>
+            <Navigation />
+            <main>{children}</main>
+        </StyledContentWrapper>
         <Footer />
     </StyledAppWrapper>
 );
