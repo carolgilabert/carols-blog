@@ -8,15 +8,14 @@ import Footer from '../Footer';
 import SEO from '../SEO';
 
 const StyledAppWrapper = styled.div`
-    min-height: 100vh;
-    max-width: 900px;
-    margin: var(--pageMargin);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 `;
 
-const StyledContentWrapper = styled.main`
+const StyledContentWrapper = styled.div`
+    max-width: var(--contentMaxWidth);
+    margin: var(--pageMargin);
     flex: 1;
 `;
 
@@ -26,8 +25,10 @@ const PageLayout = ({ children, title, description, image }) => (
         <CssVars />
         <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
         <SEO title={title} description={description} image={image} />
-        <Navigation />
-        <StyledContentWrapper>{children}</StyledContentWrapper>
+        <StyledContentWrapper>
+            <Navigation />
+            <main>{children}</main>
+        </StyledContentWrapper>
         <Footer />
     </StyledAppWrapper>
 );

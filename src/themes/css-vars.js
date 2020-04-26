@@ -29,6 +29,7 @@ const CssVars = createGlobalStyle`
         --highContrastColour: #fff;
 
         /* Spacing */
+        --contentMaxWidth: 900px;
         --defaultMargin: 1rem;
         --defaultPadding: 1rem;
         --pageMargin: 0 1rem;
@@ -72,6 +73,7 @@ const CssVars = createGlobalStyle`
         color: var(--primaryColour);
         font-family: var(--bodyFont);
         font-size: var(--bodyFontSize);
+        height: 100vh;
     }
 
 `;
