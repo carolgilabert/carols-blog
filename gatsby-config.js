@@ -42,7 +42,11 @@ module.exports = {
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
-                            maxWidth: 590
+                            maxWidth: 600,
+                            traceSVG: {
+                                color: '#77567a',
+                                background: '#e39ec1'
+                            }
                         }
                     },
                     {
