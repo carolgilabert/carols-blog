@@ -9,7 +9,7 @@ I first read about FFConf on Twitter, and everyone had only the highest praise f
 
 The conference is held in a lovely cinema, which meant that it was a bit dark but the seating was so comfy! ☺️
 
-![Duke of York's Picturehouse](/images/ffconf-2018/picturehouse.jpg)
+![Duke of York's Picturehouse](./picturehouse.jpg)
 _📸 Duke of York’s Picturehouse_
 
 Soon after I arrived, I met the lovely folks of Elixel:
@@ -30,7 +30,7 @@ She gave us tips on how to do better when mentoring: it’s very important to av
 
 From the mentee point of view, she advised we stop worrying about not knowing things, and used that energy to learn new things. 
 
-![Perfection is unnecessary, impossible to achieve and harmful to promote](/images/ffconf-2018/mentoring_slide.jpg)
+![Perfection is unnecessary, impossible to achieve and harmful to promote](./mentoring_slide.jpg)
 
 She concluded by introducing us to the concept of Firgun: genuine, unselfish delight or pride in the accomplishment of the other. 💛
 It was a great talk, and it motivated me to find mentorship opportunities very soon!
@@ -104,7 +104,7 @@ It was quite interesting to watch Jenny’s talk and relate things to this exper
 
 It was a really great talk, and if you’re an event organiser, please use these learnings to make your event as inclusive as you can 💛
 
-![Back to the future of JavaScript](/images/ffconf-2018/future_of_js_slide.png)
+![Back to the future of JavaScript](./future_of_js_slide.png)
 
 ### Back to the future of JS: the next features and amazing proposals
 [Willian Martins](https://twitter.com/wmsbill) gave us a really hands on tour of a few proposals of new features for JavaScript. It covered the following features:
@@ -147,7 +147,7 @@ So we ended up in a situation where the average site is ~2.5MB and relies on Jav
 Charlie also described the strategy used at Springer Nature, where she works. It’s a super interesting strategy, it’s called Cutting the Mustard, and was [originally developed by the BBC](http://responsivenews.co.uk/post/18948466399/cutting-the-mustard).
 It consists of running some lines of JS to determine the features available on the browser being used. If those tests determine that the browser has all the latest features available, you’re then free to serve your site with all its bells and whistles. But if it doesn’t, you can serve them a basic version of site, and that way you don’t need to exclude anyone 🎉
 
-![Move at an appropriate speed and make things work](/images/ffconf-2018/dear_developer.jpeg)
+![Move at an appropriate speed and make things work](./dear_developer.jpeg)
 📸 [Charlie Owen](https://twitter.com/sonniesedge)
 
 It’s so important for us as web developers to check our digital privilege, and make sure we concentrate our efforts in including rather than excluding.

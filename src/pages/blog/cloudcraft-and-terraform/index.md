@@ -9,13 +9,13 @@ So, recently I set out to try and solve a problem:
 
 S3 in theoretically infinite, so it doesn’t really offer any sort of object search within a bucket.
 
-![Me lost in an AWS S3 bucket](/images/cloudcraft-and-terraform/bucket.png)
+![Me lost in an AWS S3 bucket](./bucket.png)
 
 I needed an easy way of locating specific objects. Indexing the whole bucket is not feasible, or Amazon would do it themselves. But I can provide a narrow time window when my object was created, which should restrict the data to a manageable level.
 
 Considering all the constraints I had, I ended up settling for the following architecture:
 
-![Small diagram of the application infrastructure](/images/cloudcraft-and-terraform/object-finder-diagram.png)
+![Small diagram of the application infrastructure](./object-finder-diagram.png)
 🖼 Diagram created on [Cloudcraft](https://cloudcraft.co/)
 
 I created a static site using [GatsbyJS](http://gatsbyjs.org/) that will eventually hold the form to collect the start and end times for our search, and will display the returned objects with some filtering functionality. The site is served from an S3 bucket (labelled S3 frontend).
@@ -24,7 +24,7 @@ The site fires requests to an ALB, that is configured to use a lambda target gro
 
 This is what the first attempt looks like:
 
-![Object finder UI screenshot](/images/cloudcraft-and-terraform/object-finder-ui.png)
+![Object finder UI screenshot](./object-finder-ui.png)
 
 The UI is listing the keys of the objects stored in the bucket. No filtering is in place just yet, as I’m just proving out the connectivity throughout.
 
@@ -44,7 +44,7 @@ After all, Cloudcraft doesn’t really allow you to add much detail around your 
 
 With all those questions in mind, I went to Cloudcraft and created the diagram I included earlier in this post. Then I very excitedly clicked the Export Terraform code option and…
 
-![Screenshot of terraform export in cloudcraft](/images/cloudcraft-and-terraform/export-terraform.png)
+![Screenshot of terraform export in cloudcraft](./export-terraform.png)
 
 It broke 💻💥
 
