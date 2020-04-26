@@ -42,8 +42,8 @@ module.exports = {
                     {
                         resolve: `gatsby-remark-images`,
                         options: {
-                            maxWidth: 600,
-                            traceSVG: {
+                            maxWidth: 900,
+                            tracedSVG: {
                                 color: '#77567a',
                                 background: '#e39ec1'
                             }

@@ -8,7 +8,7 @@ This may seem silly, but I kinda accidentally became a frontend person. My first
 
 Don’t get me wrong, I _love_ the web. But these circumstances mean I never made an active choice about where I’d specialise. I’ve been getting by as a generalist for about 4 years now, and it looks a bit like this: 
 
-![Adventure Time dragon saying: I have approximate knowledge of many things](./adventure-time-dragon.gif)
+![Adventure Time dragon saying: I have approximate knowledge of many things](/images/frontend-ne-2019/adventure-time-dragon.gif)
 
 But lately, I’ve been getting feedback that I should specialise, and become T shaped. It really does seem to be where it’s at 😅
 
