@@ -6,6 +6,7 @@ import GatsbyLink from 'gatsby-link';
 export const LinkStyles = css`
     color: inherit;
     text-decoration: underline solid var(--highContrastColour);
+    -webkit-text-decoration: underline solid var(--highContrastColour);
     text-decoration-thickness: 2px;
     transition: background-color 0.5s ease;
 `;
