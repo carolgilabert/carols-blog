@@ -44,13 +44,13 @@ const About = ({ data }) => (
                 . I&apos;m also an organiser at{' '}
                 <Link href="https://www.technottingham.com/">
                     Tech Nottingham
-                </Link>
-                ,{' '}
+                </Link>{' '}
+                and{' '}
                 <Link href="https://www.technottingham.com/wit-notts">
                     Women in Tech
                 </Link>
-                and <Link href="https://nottsjs.org/">NottsJS</Link>. In my
-                spare time I like to play videogames, swing dance, bake and{' '}
+                . In my spare time I like to play videogames, swing dance, bake
+                and{' '}
                 <Link href="http://www.capoeiranottingham.co.uk/">
                     play capoeira
                 </Link>
