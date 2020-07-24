@@ -88,13 +88,6 @@ module.exports = {
         },
         `gatsby-plugin-styled-components`,
         {
-            resolve: `gatsby-plugin-fathom`,
-            options: {
-                siteId: 'RVIPAHXX',
-                whitelistHostnames: ['carolgilabert.me']
-            }
-        },
-        {
             resolve: `gatsby-plugin-webmention`,
             options: {
                 username: 'carolgilabert.me',
