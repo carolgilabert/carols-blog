@@ -13,6 +13,7 @@ const Navigation = () => (
         <NavLink to="/about">About</NavLink>
         <NavLink to="/events">Events</NavLink>
         <NavLink to="/blog">Blog</NavLink>
+        <NavLink to="/weeknotes">Weeknotes</NavLink>
     </StyledNav>
 );
 

@@ -76,7 +76,10 @@ const BlogIndex = ({ data }) => {
 
 export const pageQuery = graphql`
     query BlogQuery {
-        allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+        allMarkdownRemark(
+            sort: { order: DESC, fields: [frontmatter___date] }
+            filter: { fields: { slug: { glob: "/blog/*" } } }
+        ) {
             edges {
                 node {
                     html

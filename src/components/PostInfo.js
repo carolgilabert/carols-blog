@@ -15,24 +15,26 @@ const PostInfo = ({ date, readingTime, author }) => (
             </span>
             {` ${date}`}
         </time>
-        &nbsp;·&nbsp;
-        <time time={readingTime}>
-            <span role="img" aria-label="stopwatch emoji">
-                ⏱
-            </span>
-            {` ${readingTime} read`}
-        </time>
+        {readingTime && (
+            <time time={readingTime}>
+                <span role="img" aria-label="stopwatch emoji">
+                    &nbsp;·&nbsp;⏱
+                </span>
+                {` ${readingTime} read`}
+            </time>
+        )}
         {author && ` · Written by ${author}`}
     </Container>
 );
 
 PostInfo.defaultProps = {
+    readingTime: '',
     author: ''
 };
 
 PostInfo.propTypes = {
     date: PropTypes.string.isRequired,
-    readingTime: PropTypes.string.isRequired,
+    readingTime: PropTypes.string,
     author: PropTypes.string
 };
 

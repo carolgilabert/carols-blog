@@ -42,6 +42,9 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         const blogPostTemplate = path.resolve(
             'src/templates/blog-post-template.js'
         );
+        const weeknotesTemplate = path.resolve(
+            'src/templates/weeknotes-template.js'
+        );
         resolve(
             graphql(
                 `
@@ -63,13 +66,25 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 }
 
                 result.data.allMarkdownRemark.edges.forEach(edge => {
-                    createPage({
-                        path: `${edge.node.fields.slug}`,
-                        component: slash(blogPostTemplate),
-                        context: {
-                            slug: edge.node.fields.slug
-                        }
-                    });
+                    if (edge.node.fields.slug.includes('blog')) {
+                        createPage({
+                            path: `${edge.node.fields.slug}`,
+                            component: slash(blogPostTemplate),
+                            context: {
+                                slug: edge.node.fields.slug
+                            }
+                        });
+                    }
+
+                    if (edge.node.fields.slug.includes('weeknotes')) {
+                        createPage({
+                            path: `${edge.node.fields.slug}`,
+                            component: slash(weeknotesTemplate),
+                            context: {
+                                slug: edge.node.fields.slug
+                            }
+                        });
+                    }
                 });
             })
         );
