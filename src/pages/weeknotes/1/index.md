@@ -43,7 +43,7 @@ So here's a breakdown of what I...
 
 ## Pics
 
-![Thom and I having a soggy stroll by Talla Reservoir](thom-and-I.jpeg)
+![Thom and I having a soggy stroll by Talla Reservoir](thom-and-i.jpeg)
 _Thom and I having a soggy stroll by Talla Reservoir_
 
 ![Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest](waterfall.jpeg)
