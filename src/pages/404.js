@@ -28,7 +28,11 @@ const ErrorPage = ({ data }) => {
 
 ErrorPage.propTypes = {
     data: PropTypes.shape({
-        errorImage: PropTypes.object
+        errorImage: PropTypes.shape({
+            childImageSharp: PropTypes.shape({
+                fluid: PropTypes.string
+            })
+        })
     }).isRequired
 };
 
