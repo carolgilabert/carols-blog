@@ -139,7 +139,7 @@ The weather started to turn, so we stayed in even more. We did, however, find a 
 
 I also started therapy for the very first time. 
 
-My (book) pile of shame keeps getting bigger.
+My (book) pile of shame kept getting bigger.
 
 📖. [The Guilty Feminist](https://uk.bookshop.org/books/the-guilty-feminist-the-sunday-times-bestseller-breathes-life-into-conversations-about-feminism-phoebe-waller-bridge/9780349010120)
 
