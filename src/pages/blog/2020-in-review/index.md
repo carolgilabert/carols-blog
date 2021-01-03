@@ -157,7 +157,7 @@ I started the process to get an ADHD assessment. It might take a while, but it's
 
 With the government guidance changes, I couldn't go see my family for Christmas, which was disappointing. However, Thom's family made up the big shed for us to have a socially distanced outdoors-ish Christmas lunch, so that was lovely 💛
 
-I also tried my hand at crafting and really enjoyed, so stay tuned for obsessive crafting in the new year 😂
+I also tried my hand at crafting and really enjoyed it, so stay tuned for obsessive crafting in the new year 😂
 
 📖. [Memorias de mis putas tristes](https://uk.bookshop.org/books/memories-of-my-melancholy-whores/9780241968543)
 
