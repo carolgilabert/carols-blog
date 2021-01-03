@@ -141,7 +141,7 @@ I also started therapy for the very first time.
 
 My (book) pile of shame kept getting bigger.
 
-📖. [The Guilty Feminist](https://uk.bookshop.org/books/the-guilty-feminist-the-sunday-times-bestseller-breathes-life-into-conversations-about-feminism-phoebe-waller-bridge/9780349010120)
+📖. [The Guilty Feminist - Deborah Frances-White](https://uk.bookshop.org/books/the-guilty-feminist-the-sunday-times-bestseller-breathes-life-into-conversations-about-feminism-phoebe-waller-bridge/9780349010120)
 
 🎮. [Paper Mario](https://www.nintendo.co.uk/Games/Nintendo-Switch/Paper-Mario-The-Origami-King-1782440.html), [Superliminal](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Superliminal-1742946.html), [What Remains of Edith Finch](https://store.playstation.com/en-gb/product/EP2333-CUSA07974_00-WHATREMAINSFINCH), [Horizon Zero Dawn](https://store.playstation.com/en-gb/product/EP9000-CUSA10213_00-HRZCE00000000000), [Fall Guys](https://store.playstation.com/en-gb/product/EP3643-CUSA17714_00-FALLGUYSPS4EU000), [The Last of Us Part 2](https://store.playstation.com/en-gb/product/EP9000-CUSA10249_00-THELASTOFUSPART2), [Star Wars Battlefront 2](https://store.playstation.com/en-gb/product/EP0006-CUSA05749_00-BATTLEFRONTII000), [Donkey Kong Tropical Freeze](https://www.nintendo.co.uk/Games/Nintendo-Switch/Donkey-Kong-Country-Tropical-Freeze-1325706.html), [Assassins Creed 2](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000)
 
@@ -159,7 +159,7 @@ With the government guidance changes, I couldn't go see my family for Christmas,
 
 I also tried my hand at crafting and really enjoyed it, so stay tuned for obsessive crafting in the new year 😂
 
-📖. [Memorias de mis putas tristes](https://uk.bookshop.org/books/memories-of-my-melancholy-whores/9780241968543)
+📖. [Memorias de mis putas tristes - Gabriel García Márquez](https://uk.bookshop.org/books/memories-of-my-melancholy-whores/9780241968543)
 
 🎮  [Assassins Creed Brotherhood](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000), [Assassins Creed Revelations](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000), [Assassins Creed Black Flag](https://store.playstation.com/en-gb/product/EP0001-CUSA00009_00-B000000000000742), [Assassins Creed Unity](https://store.playstation.com/en-gb/product/EP0001-CUSA00605_00-AC5GAMEPS4000001), [Assassins Creed Syndicate](https://store.playstation.com/en-gb/product/EP0001-CUSA02376_00-ACVPOSTSTANDEURP)
 
