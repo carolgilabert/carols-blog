@@ -115,7 +115,7 @@ One small thing that cheered me up was discovering Nomo: an app that lets you ta
 
 ## October
 
-I tried to engage in activities outside of work again, and took and SVG Animation workshop. It was brilliant fun, but spending evenings on zoom after full workdays on zoom was extremely tiring.
+I tried to engage in activities outside of work again, and took an SVG Animation workshop. It was brilliant fun, but spending evenings on zoom after full workdays on zoom was extremely tiring.
 
 Luckily, in October we managed to book a cottage in a forest in Scotland Borders for a week. It was the most peaceful week we had this year 💛
 
