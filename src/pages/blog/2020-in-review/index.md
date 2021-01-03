@@ -177,11 +177,11 @@ One of my biggest challenges in 2020 (and always, really) was the constant noise
 
 To combat that, I have only two goals for 2021:
 
-- Improve my routine to include:
+1. Improve my routine to include:
     - Looking after my body.
     - Looking after my mind.
     - Space to be creative and do fun things.
     - Space to maintain my relationships.
-- Be accepting when things don't go to plan.
+1. Be accepting when things don't go to plan.
 
 I know 2021 is not going to magically be better, but all I can do is give myself the tools to navigate  whatever life throws at me, so I can make it to the other side. I hope I'll see you there 💛
