@@ -1,0 +1,20 @@
+<article class="h-entry" id="{{ event.id }}">
+    <a class="u-url" href="https://carolgilabert.me/events#{{ event.id }}">
+        <span role="img" aria-label="chainlink emoji"> 🔗 </span>
+    </a>
+    <section class="p-author h-card" style="display: none">
+        <a href="https://carolgilabert.me" class="u-url">
+            <img
+                src="https://carolgilabert.me/images/avatar.jpg"
+                alt="my face"
+                class="u-photo"
+            />
+            <span class="p-name">Carolina Gilabert</span>
+        </a>
+    </section>
+    <span class="p-rsvp" value="{{ event.value }}"> {{ event.value }} </span>
+    <h2>
+        <a class="u-in-reply-to" href="{{ event.url }}"> {{ event.name }} </a>
+    </h2>
+    <time datetime="{{ event.date }}"> {{ event.date }} </time>
+</article>

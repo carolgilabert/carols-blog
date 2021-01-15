@@ -1,0 +1,25 @@
+---
+layout: base.html
+eleventyNavigation:
+    key: Blog
+    order: 3
+permalink: /blog/
+---
+
+<h1>Blog</h1>
+
+<ul>
+    {%- for post in collections.posts | reverse %}
+    <li>
+        <article>
+            <a href="{{ post.url }}">
+                <h2>{{ post.data.title }}</h2>
+                <span>{{ post.data.date }} · {{ post.data.readingTime }}</span>
+                <p>
+                    {{ post.templateContent | striptags(true) | truncate(280) }}
+                </p>
+            </a>
+        </article>
+    </li>
+    {%- endfor %}
+</ul>
