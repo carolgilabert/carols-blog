@@ -15,7 +15,7 @@ Support is already in a good place, and there’s little else out there better s
 
 This is the [caniuse for the feature](https://caniuse.com/#feat=prefers-color-scheme): 
 
-![caniuse support for prefers-color-scheme](./dark-mode-caniuse.png)
+![caniuse support for prefers-color-scheme](/images/posts/dark-mode/dark-mode-caniuse.png)
 
 When I heard of it, I immediately decided to add dark mode to my site, and a mere 9 months later, here we are 😅
 
@@ -47,8 +47,8 @@ It’s been quite an easy feature to implement, to be honest. I spent a great de
 
 So here it is:
 
-![Screenshot of light mode](./screenshot-light-mode.png)
+![Screenshot of light mode](/images/posts/dark-mode/screenshot-light-mode.png)
 
-![Screenshot of dark mode](./screenshot-dark-mode.png)
+![Screenshot of dark mode](/images/posts/dark-mode/screenshot-dark-mode.png)
 
 Hope this helps if you’re looking to add dark mode support to your site. And if you need any more support, give me a shout 🙂

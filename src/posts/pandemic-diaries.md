@@ -30,7 +30,7 @@ I went through a tiny phase of going to lots of online events, but zoom fatigue 
 More than anything, this new normal has killed my joy of doing tech things on my spare time. I built a really lovely environment for myself at home, but now that I have to work in it all day, I resent spending any extra time at my desk.
 
 _Exhibit A: my contributions chart for this period_
-![My GitHub contributions chart, with quite a few dots from January to March, and completely empty since then.](./github-contributions.png)
+![My GitHub contributions chart, with quite a few dots from January to March, and completely empty since then.](/images/posts/pandemic-diaries/github-contributions.png)
 
 This situation also changed my relationship with where we live. Our apartment is lovely, but after being stuck in it for 7 months without access to a garden, now I want out. 
 
@@ -42,7 +42,7 @@ Trying to concentrate and do work while the world is literally and figuratively 
 
 This lizandmollie illustration sums it up well:
 
-![Liz and Mollie Illustration called the workweek. Someone is sat at their desk, surrounded by monsters labelled police brutality, systemic racism, record unemployment, covid, climate change. Meanwhile, the worker is saying: uh sure let's edit the matrix on that page.](./the-workweek.png)
+![Liz and Mollie Illustration called the workweek. Someone is sat at their desk, surrounded by monsters labelled police brutality, systemic racism, record unemployment, covid, climate change. Meanwhile, the worker is saying: uh sure let's edit the matrix on that page.](/images/posts/pandemic-diaries/the-workweek.png)
 
 Having said all that, things are starting to look up for me a bit. I appreciate I'm immensely privileged, and there's still so much wrong in the world, but I have to get a little joy from where I can find it.
 
