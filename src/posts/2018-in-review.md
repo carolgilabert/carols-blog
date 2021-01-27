@@ -13,14 +13,14 @@ January was my last month at AppInstitute. I spent the month wrapping up the pro
 
 ✨ I played an insane amount of Legend of Zelda - Breath of the Wild, it might be my favourite video game ever!
 
-![Collage of January pics](/images/posts/2018-in-review/january.jpg)
+{% Image "src/images/posts/2018-in-review/january.jpg", "Collage of January pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## February
 February was a pretty exciting month for me this year. I started my new job (technically on the 29th of Jan), and so I met lots of lovely people and learnt lots of new things. Thom and I also went up to Liverpool to see [Ezra Furman](https://www.youtube.com/watch?v=NDOenFQazrA) live, and it was incredible 💛
 
 ✨ I participated in my first hackathon! It was at work, and I had a lovely time with my new work peeps.
 
-![Collage of February pics](/images/posts/2018-in-review/february.jpg)
+{% Image "src/images/posts/2018-in-review/february.jpg", "Collage of February pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## March
 March was mostly about Capoeira. My group, [CDO Nottingham](http://www.capoeiranottingham.co.uk/), had our yearly grading event, and I got a shiny new belt!
@@ -31,21 +31,21 @@ I also got to catch up with lovely friends from afar, and spend a bit more time 
 
 For international women’s day, [CDO Birmingham](http://www.cdob.co.uk/) had an event with all female guest teachers, which was awesome!
 
-![Collage of March pics](/images/posts/2018-in-review/march.jpg)
+{% Image "src/images/posts/2018-in-review/march.jpg", "Collage of March pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## April
 I started the month by travelling down to Devon to visit my family, which includes the cuties pictured below. We also went to visit Thom’s family, and meet their new puppy Laika.
 
 Later in the month, I attended the [inspireWiT](http://inspirewit.com/) conference, at Broadway Cinema in Nottingham. It was a great day, filled with inspiring talks and workshops 🙂
 
-![Collage of April pics](/images/posts/2018-in-review/april.jpg)
+{% Image "src/images/posts/2018-in-review/april.jpg", "Collage of April pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## May
 Thom and I started the month in Paris! I’d never been before, so we booked the EuroStar and spent a few days there. We also went to a Capoeira event while there - what’s a holiday without achy muscles?
 
 When we got back, we started settling into our new flat and acquiring furniture for it (as you can see by the pre sofa picture 😅). Later in the month, my sister came to visit with my nephews, who helped assemble a few pieces of the new furniture.
 
-![Collage of May pics](/images/posts/2018-in-review/may.jpg)
+{% Image "src/images/posts/2018-in-review/may.jpg", "Collage of May pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## June
 World cup, woohoo! ⚽️ I’ve not been actively engaged with football for a while, as it’s too time consuming, but I’m always there for the world cup. Unfortunately, none of the four teams (!) I support won it. If you must know, they are in order: 🇧🇷🇺🇾🇪🇸🇬🇧
@@ -56,7 +56,7 @@ I also went to a Capoeira event in Birmingham, and got a PS4 Pro, so I could fin
 
 ✨ I also attended an internal Capital One event in our London office, in which folks from the Tech function in the US came over and shared their experiences and tooling in the DevOps space, it was great!
 
-![Collage of June pics](/images/posts/2018-in-review/june.jpg)
+{% Image "src/images/posts/2018-in-review/june.jpg", "Collage of June pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## July
 Sunny days at last! ☀️
@@ -70,7 +70,7 @@ Much fun was had this summer, including but not limited to:
 
 📖 [Out of the Wreckage - George Monbiot](https://www.hive.co.uk/Product/George-Monbiot/Out-of-the-Wreckage--A-New-Politics-for-an-Age-of-Crisis/21096819)
 
-![Collage of July pics](/images/posts/2018-in-review/july.jpg)
+{% Image "src/images/posts/2018-in-review/july.jpg", "Collage of July pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## August
 August was a good month, I trained lots, got a new bike, and my mum came to visit for a few days.
@@ -79,7 +79,7 @@ At work, I had the privilege of spending my summer mentoring [Tiffany](https://t
 
 📖 [Hag-Seed - Margaret Atwood](https://www.hive.co.uk/Product/Margaret-Atwood/Hag-Seed/20872752), [My Shitty Twenties - Emily Morris](https://www.hive.co.uk/Product/Emily-Morris/My-Shitty-Twenties--A-Memoir/20834387), [Hyperbole and a Half - Alexandra Brosh](https://www.hive.co.uk/Product/Alexandra-Brosh/Hyperbole-and-a-Half--Unfortunate-Situations-Flawed-Copin/15132599)
 
-![Collage of August pics](/images/posts/2018-in-review/august.jpg)
+{% Image "src/images/posts/2018-in-review/august.jpg", "Collage of August pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## September
 September started with a week off in lovely Greece! A friend of ours got married near Komotini, so we took the opportunity to get to know a bit of northern Greece. It’s absolutely lovely out there, and the beaches in Halkidiki are stunning!
@@ -90,7 +90,7 @@ Near the end of the month, I was lucky enough to be able to attend DevOpsDays Lo
 
 📖 [Northern Lights - Philip Pullman](https://www.hive.co.uk/Product/Philip-Pullman/Northern-Lights/5977211), [Animal - Sara Pascoe](https://www.hive.co.uk/Product/Sara-Pascoe/Animal--The-Autobiography-of-a-Female-Body/20491189), [The Subtle Art of Not Giving a F*ck - Mark Manson](https://www.hive.co.uk/Product/Mark-Manson/The-Subtle-Art-of-Not-Giving-a-Fck--A-Counterintuitive-Ap/20707976), [The Subtle Knife - Philip Pullman](https://www.hive.co.uk/Product/Philip-Pullman/The-Subtle-Knife/5977212)
 
-![Collage of September pics](/images/posts/2018-in-review/september.jpg)
+{% Image "src/images/posts/2018-in-review/september.jpg", "Collage of September pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## October
 On my previous trip, I realised my passport was dangerously close to expiring, so I decided to take a few days off and fly to Valencia to get it done (it was cheaper than doing it in London!). I got to catch up with my closest friends, and had a good bask in the sunshine ☀️
@@ -104,7 +104,7 @@ In October I also had the experience of attending a hackathon as a sponsor for t
 
 ✨ I did my first talk! It was a short lightning ⚡️ talk at [Notts IoT](https://www.nottsiot.co.uk/) about DevOps vs SRE.
 
-![Collage of October pics](/images/posts/2018-in-review/october.jpg)
+{% Image "src/images/posts/2018-in-review/october.jpg", "Collage of October pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## November
 November was also pretty busy, mostly with tech stuff. I attended FFConf for the first, and hopefully not the last time 🙂 It was a great conference, and I feel I personally drew a lot of value from each and every talk. You can read more about it in [this earlier post](/blog/ffconf-2018).
@@ -115,7 +115,7 @@ Finally, I went down to London to check out the Women in DevOps meet up, and it 
 
 ✨ The exhibition ‘Still I rise’ at Nottingham Contemporary was great! [This](https://www.youtube.com/watch?v=H1h8glbFUp0) was definitely my favourite piece 💛
 
-![Collage of November pics](/images/posts/2018-in-review/november.jpg)
+{% Image "src/images/posts/2018-in-review/november.jpg", "Collage of November pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## December
 December was a wind down month for me. I attended Hack Kings, again as a sponsor, but other than that it was a month of socialising 🙂
@@ -126,7 +126,7 @@ For Christmas itself, Thom and I drove to Devon to spend some time with my famil
 
 📖 [Matilda - Roald Dahl](https://www.hive.co.uk/Product/Roald-Dahl/Matilda/18186591), [The Twits - Roald Dahl](https://www.hive.co.uk/Product/Roald-Dahl/The-Twits/18186594)
 
-![Collage of December pics](/images/posts/2018-in-review/december.jpg)
+{% Image "src/images/posts/2018-in-review/december.jpg", "Collage of December pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## What’s next?
 The truth is that I don’t know exactly what I want to do next. So far, my goals for the year include:

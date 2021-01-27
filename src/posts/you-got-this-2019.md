@@ -30,7 +30,7 @@ We all tend to be pretty hard on ourselves, so one of Jo’s quotes really reson
 
 > Would you talk to a friend like you talk to yourself?
 
-![Jo Frank](/images/posts/you-got-this-2019/jo_frank.jpg)
+{% Image "src/images/posts/you-got-this-2019/jo_frank.jpg", "Jo Frank", "(max-width: 600px) 90vw, 60vw" %}
 
 ### You know nothing… or do you?
 
@@ -44,7 +44,7 @@ Next up we had [Paula Muldoon](https://twitter.com/FiddlersCode), who started by
 
 Her talk was on money management, and should be required viewing for folks entering the industry. She gave lots of great advice like understanding your relationship with money, budgeting, and looking out for free money 🤑
 
-![Paula Muldoon](/images/posts/you-got-this-2019/paula_muldoon.jpg)
+{% Image "src/images/posts/you-got-this-2019/paula_muldoon.jpg", "Paula Muldoon", "(max-width: 600px) 90vw, 60vw" %}
 
 
 ### Junior.next()
@@ -61,7 +61,7 @@ I thoroughly recommend giving her talk a watch, it was full of gems 💎
 
 > Self care is listening to your body and responding in the most loving way possible.
 
-![Taylor Morrison](/images/posts/you-got-this-2019/taylor_morrison.jpg)
+{% Image "src/images/posts/you-got-this-2019/taylor_morrison.jpg", "Taylor Morrison", "(max-width: 600px) 90vw, 60vw" %}
 
 
 ### Morality and Ethics - Caring is Everything
@@ -91,14 +91,14 @@ The closing keynote was given by [Sam Morgan](https://twitter.com/sjmog1). He ga
 
 I’m not going to attempt to summarise it, as I wouldn’t do it justice, definitely give it a watch yourself 🙂
 
-![Sam Morgan](/images/posts/you-got-this-2019/sam_morgan.jpg)
+{% Image "src/images/posts/you-got-this-2019/sam_morgan.jpg", "Sam Morgan", "(max-width: 600px) 90vw, 60vw" %}
 
 
 ## Wrap up
 I really enjoyed the fact that this conference had an MC. [Scary Boots](https://twitter.com/schrodingerskit) was really funny, and they did a fantastic job of keeping the audience engaged throughout the day. They also had the best lab coat dyeing tips 🙂
 
 There was a lot of care put into making the event accessible and inclusive. All of the talks were transcribed, which led to this hilarious exchange:
-![Transcriber speaking to attendees through prompt](/images/posts/you-got-this-2019/transcription.jpg)
+{% Image "src/images/posts/you-got-this-2019/transcription.jpg", "Transcriber speaking to attendees through prompt", "(max-width: 600px) 90vw, 60vw" %}
 
 The [highlights page](https://2019.yougotthis.io/highlights) for the event has the video recording, transcript and sketch note for each talk. I’d highly recommend checking that out.
 

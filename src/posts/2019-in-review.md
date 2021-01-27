@@ -23,7 +23,7 @@ I also had the pleasure of volunteering for New Adventures, a design conference 
 
 📖 [Everyday Sexism - Laura Bates](https://www.hive.co.uk/Product/Laura-Bates/Everyday-Sexism/16483193), [Conversations with Friends - Sally Rooney](https://www.hive.co.uk/Product/Sally-Rooney/Conversations-with-Friends/21785728), [Little Black Book - Otegha Uwagba](https://www.hive.co.uk/Product/Otegha-Uwagba/Little-Black-Book/23155603)
 
-![Collage of January pics](/images/posts/2019-in-review/january.JPG)
+{% Image "src/images/posts/2019-in-review/january.JPG", "Collage of January pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## February
 February was a busy month! Went to a Capoeira event in Chester with some friends, had my family come over for a visit, went to see the Moon exhibit 🌕
@@ -32,7 +32,7 @@ Then Thom and I packed our bags and headed to Porto for a few days. I volunteere
 
 📖 [The Amber Spyglass - Philip Pullman](https://www.hive.co.uk/Product/Philip-Pullman/The-Amber-Spyglass/5977213), [Men Explain Things to Me - Rebecca Solnit](https://www.hive.co.uk/Product/Rebecca-Y-Solnit/Men-Explain-Things-to-Me--And-Other-Essays/16205712)
 
-![Collage of February pics](/images/posts/2019-in-review/february.JPG)
+{% Image "src/images/posts/2019-in-review/february.JPG", "Collage of February pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## March
 As soon as I came back from Porto, I shaved my head! I had been thinking about it for a while, so decided to just go for it. Turns out my hair is thin and weird, so I’ve had various “fluffy stages” since then 😅
@@ -41,7 +41,7 @@ As soon as I came back from Porto, I shaved my head! I had been thinking about i
 
 ✨ Did a lightning talk at Women in Tech called Panic Driven Development - the title totally came from a wine-infused evening with [Anna](https://twitter.com/anna_hax), [Helen](https://twitter.com/LittleHelli) and [Emma](https://twitter.com/MrsEmma) 😂
 
-![Collage of March pics](/images/posts/2019-in-review/march.JPG)
+{% Image "src/images/posts/2019-in-review/march.JPG", "Collage of March pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## April
 April was pretty chill. I attended [Frontend NE](/blog/frontend-ne-2019) and Women in Tech’s birthday event, where we had a lovely time with lovely cake 🎂
@@ -50,7 +50,7 @@ It was also [Thom’s](https://twitter.com/ThomGlenn) birthday, so we went to se
 
 🎮 [Rise of the Tomb Raider](https://store.playstation.com/en-gb/product/EP0082-CUSA05716_00-RISEOFTOMBRAIDER)
 
-![Collage of April pics](/images/posts/2019-in-review/april.JPG)
+{% Image "src/images/posts/2019-in-review/april.JPG", "Collage of April pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## May
 This May I turned 30! I used to dread ageing, but I’m luckily at a stage of my life where I’m happier by the day, so I don’t really mind anymore 🤷‍♀️
@@ -61,7 +61,7 @@ We also had our very own [Capoeira group’s annual event](https://www.youtube.c
 
 🎮 [God of War](https://store.playstation.com/en-gb/product/EP9000-CUSA07412_00-00000000GODOFWAR)
 
-![Collage of May pics](/images/posts/2019-in-review/may.JPG)
+{% Image "src/images/posts/2019-in-review/may.JPG", "Collage of May pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## June
 
@@ -71,7 +71,7 @@ After that, I spent a week in Oslo, volunteering at NDC and seeing the sights. T
 
 📖 [Normal People - Sally Rooney](https://www.hive.co.uk/Product/Sally-Rooney/Normal-People/23561012), [Eleanor Oliphant is Completely Fine - Gail Honeyman](https://www.hive.co.uk/Product/Gail-Honeyman/Eleanor-Oliphant-is-Completely-Fine/20921585)
 
-![Collage of June pics](/images/posts/2019-in-review/june.JPG)
+{% Image "src/images/posts/2019-in-review/june.JPG", "Collage of June pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## July
 Summer is here ☀️
@@ -84,7 +84,7 @@ I also had a lovely weekend of camping with friends at Whistlewood Common, in De
 
 🎮 [Super Mario Maker 2](https://www.nintendo.co.uk/Games/Nintendo-Switch/Super-Mario-Maker-2-1514009.html)
 
-![Collage of July pics](/images/posts/2019-in-review/july.JPG)
+{% Image "src/images/posts/2019-in-review/july.JPG", "Collage of July pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## August
 After all the travel and excitement of the previous 2 months, I was glad to have a quiet August. We spent some time at Thom’s parents’ farm, and chilled out for a bit in the sun 😎
@@ -93,7 +93,7 @@ After all the travel and excitement of the previous 2 months, I was glad to have
 
 🎮 [Shadow of the Tomb Raider](https://store.playstation.com/en-gb/product/EP0082-CUSA10872_00-DEFINITIVE00SIEE)
 
-![Collage of August pics](/images/posts/2019-in-review/august.JPG)
+{% Image "src/images/posts/2019-in-review/august.JPG", "Collage of August pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## September
 Back to full throttle in September 😅 
@@ -104,7 +104,7 @@ Thom and I took my nephews to [Eden Project](https://www.edenproject.com/) for a
 
 ✨ I gave my first (mini) conference talk! I got selected to do an ignite talk at DevOpsDays London, and I didn’t completely blow it 😄
 
-![Collage of September pics](/images/posts/2019-in-review/september.JPG)
+{% Image "src/images/posts/2019-in-review/september.JPG", "Collage of September pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## October
 I started October by flying over to Orlando to attend [Grace Hopper Celebration](https://ghc.anitab.org/). It was quite incredible to see so many women in technology in the same place.
@@ -125,7 +125,7 @@ Phew!
 
 🎮 [The Legend of Zelda: Link’s Awakening](https://www.nintendo.co.uk/Games/Nintendo-Switch/The-Legend-of-Zelda-Link-s-Awakening-1514327.html), [Stardew Valley](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Stardew-Valley-1287587.html)
 
-![Collage of October pics](/images/posts/2019-in-review/october.JPG)
+{% Image "src/images/posts/2019-in-review/october.JPG", "Collage of October pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## November
 Early November was a blur, mostly frantically writing my talk 😅 Why do I sign up for these things?!
@@ -136,7 +136,7 @@ Once the talk was safely delivered, I had a couple of weeks of quiet time, punct
 
 ✨ I was booked in to speak at Women in Tech long before I became an organiser, and having my first full length talk there was incredibly nice and life affirming 💛
 
-![Collage of November pics](/images/posts/2019-in-review/november.JPG)
+{% Image "src/images/posts/2019-in-review/november.JPG", "Collage of November pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## December
 Christmas started early in Nottingham this year, as we hosted the [Tech Nottingham Christmas Party](https://www.technottingham.com/photo-gallery) on the 2nd, and I think it was a total success. 
@@ -151,7 +151,7 @@ Wow, we made it!
 
 🎮[Cuphead](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Cuphead-1532319.html), [New Super Mario Bros. U Deluxe](https://www.nintendo.co.uk/Games/Nintendo-Switch/New-Super-Mario-Bros-U-Deluxe-1438640.html)
 
-![Collage of December pics](/images/posts/2019-in-review/december.JPG)
+{% Image "src/images/posts/2019-in-review/december.JPG", "Collage of December pics", "(max-width: 600px) 90vw, 60vw" %}
 
 ## What’s next?
 I still don’t know what I want to do long term. Every few months I toy with the idea of moving into DevRel, but haven’t decided to just yet. 

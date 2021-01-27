@@ -43,11 +43,11 @@ So here's a breakdown of what I...
 
 ## Pics
 
-![Thom and I having a soggy stroll by Talla Reservoir](/images/posts/lifenotes-1/thom-and-i.jpeg)
+{% Image "src/images/posts/lifenotes-1/thom-and-i.jpeg", "Thom and I having a soggy stroll by Talla Reservoir", "(max-width: 600px) 90vw, 60vw" %}
 _Thom and I having a soggy stroll by Talla Reservoir_
 
-![Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest](/images/posts/lifenotes-1/waterfall.jpeg)
+{% Image "src/images/posts/lifenotes-1/waterfall.jpeg", "Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest", "(max-width: 600px) 90vw, 60vw" %}
 _Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest_
 
-![Merlot and I having a cuddle](/images/posts/lifenotes-1/merlot-and-i.jpeg)
+{% Image "src/images/posts/lifenotes-1/merlot-and-i.jpeg", "Merlot and I having a cuddle", "(max-width: 600px) 90vw, 60vw" %}
 _Merlot and I having a cuddle 💛_

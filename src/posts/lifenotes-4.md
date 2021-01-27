@@ -45,14 +45,14 @@ At any rate, not much has happened over here, but here are the headlines:
 
 ## Pics
 
-![A cream coloured mug with green vines all over and small daisies painted on it.](/images/posts/lifenotes-4/mugshot.jpg)
+{% Image "src/images/posts/lifenotes-4/mugshot.jpg", "A cream coloured mug with green vines all over and small daisies painted on it.", "(max-width: 600px) 90vw, 60vw" %}
 *Bought myself a nice mug to make myself feel better*
 
-![A selfie of me wearing a pair of reindeer glasses: those are brown with antlers coming off the eyes and a red nose linked to them by a short chain.](/images/posts/lifenotes-4/reindeer-selfie.jpg)
+{% Image "src/images/posts/lifenotes-4/reindeer-selfie.jpg", "A selfie of me wearing a pair of reindeer glasses: those are brown with antlers coming off the eyes and a red nose linked to them by a short chain.", "(max-width: 600px) 90vw, 60vw" %}
 *Took a new Christmassy profile pic (pls ignore the deliveroo bag in the background 🙈)*
 
-![My desk, with some Christmas decorations: I put a santa hat and my reindeer glasses on the homepod, then there are a few baubles and paper trees on the right hand side. In the centre, a big monitor with a christmassy wallpaper of a pile of presents.](/images/posts/lifenotes-4/festive-desk.jpg)
+{% Image "src/images/posts/lifenotes-4/festive-desk.jpg", "My desk, with some Christmas decorations: I put a santa hat and my reindeer glasses on the homepod, then there are a few baubles and paper trees on the right hand side. In the centre, a big monitor with a christmassy wallpaper of a pile of presents.", "(max-width: 600px) 90vw, 60vw" %}
 *Entered a Festive desk competition at work*
 
-![Screenshot of a zoom meeting, with around 50 smiling people with varying degrees of Christmas decorations.](/images/posts/lifenotes-4/nott-tech-party.jpg)
+{% Image "src/images/posts/lifenotes-4/nott-tech-party.jpg", "Screenshot of a zoom meeting, with around 50 smiling people with varying degrees of Christmas decorations.", "(max-width: 600px) 90vw, 60vw" %}
 *The lovely Nottingham Tech community peeps at #NottTechParty*

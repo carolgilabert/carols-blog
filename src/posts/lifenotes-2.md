@@ -40,11 +40,11 @@ Hey friends! Hope you had a nice week and weekend. This is a bit late, but here'
 
 ## Pics
 
-![You can the back of a two storey brick house, a deck with a table and a parasol, some bunting and a blue wendy house.](/images/posts/lifenotes-2/garden.jpg)
+{% Image "src/images/posts/lifenotes-2/garden.jpg", "You can the back of a two storey brick house, a deck with a table and a parasol, some bunting and a blue wendy house.", "(max-width: 600px) 90vw, 60vw" %}
 _The back garden of the house we're trying to buy_
 
-![Me, with my back to the camera, wearing a teal bomber jacket, with pink embroidery at the back of a keycap and the incription: cute keyboard club.](/images/posts/lifenotes-2/jacket.jpg)
+{% Image "src/images/posts/lifenotes-2/jacket.jpg", "Me, with my back to the camera, wearing a teal bomber jacket, with pink embroidery at the back of a keycap and the incription: cute keyboard club.", "(max-width: 600px) 90vw, 60vw" %}
 _My cute keyboard club jacket arrived 😍_
 
-![A foggy street, with a square and a brick building in the distance](/images/posts/lifenotes-2/fog.jpg)
+{% Image "src/images/posts/lifenotes-2/fog.jpg", "A foggy street, with a square and a brick building in the distance", "(max-width: 600px) 90vw, 60vw" %}
 _Spooky times are still going over here in Sneinton Market 👻_

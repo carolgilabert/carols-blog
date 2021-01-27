@@ -30,5 +30,5 @@ It’s also easy to group together people you don’t know well, or disagree wit
 
 Art allows you to revel in your individuality, and connect with people with vastly different experiences. It lets you find the fragments of humanity that you have in common, and isn’t that lovely? 💛
 
-![Stairwell at the Tate Modern, with Jenny Holzer's Inflammatory essays pasted on the wall](/images/posts/individuality-contemporary-art/essays-jenny-holzer.jpeg)
+{% Image "src/images/posts/individuality-contemporary-art/essays-jenny-holzer.jpeg", "Stairwell at the Tate Modern, with Jenny Holzer's Inflammatory essays pasted on the wall", "(max-width: 600px) 90vw, 60vw" %}
 🖼 My favourite piece from this visit: [Inflammatory Essays - Jenny Holzer](https://www.tate.org.uk/art/artworks/holzer-inflammatory-essays-65434)

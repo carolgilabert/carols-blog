@@ -43,17 +43,17 @@ Shame!
 
 ## Pics
 
-![Dark green and red leopard print mug, with pink writing that says: Merry Christmas Ya Filthy Animal.](/images/posts/lifenotes-5/mug.jpg)
+{% Image "src/images/posts/lifenotes-5/mug.jpg", "Dark green and red leopard print mug, with pink writing that says: Merry Christmas Ya Filthy Animal.", "(max-width: 600px) 90vw, 60vw" %}
 _Got myself a nice Christmas mug 🎄_
 
-![Cute little yellow laptop made of clay, and the screen has pink letter that read WiT.](/images/posts/lifenotes-5/laptop.jpg)
+{% Image "src/images/posts/lifenotes-5/laptop.jpg", "Cute little yellow laptop made of clay, and the screen has pink letter that read WiT.", "(max-width: 600px) 90vw, 60vw" %}
 _My Tech Nottingham Secret Santa made me the loveliest little laptop in my favourite colour 💛_
 
-![Felt tree ornament of a little green brussel sprout, with a smile and a golden crown.](/images/posts/lifenotes-5/sprout.jpg)
+{% Image "src/images/posts/lifenotes-5/sprout.jpg", "Felt tree ornament of a little green brussel sprout, with a smile and a golden crown.", "(max-width: 600px) 90vw, 60vw" %}
 _Decided to try some crafting, and I love it! This is my imperfect first child ☝🏼_
 
-![The big shed, with patterned sheets hung on the walls, some fairy lights, bales of hay as seats, and a metal wood burner in the middle.](/images/posts/lifenotes-5/shed.jpg)
+{% Image "src/images/posts/lifenotes-5/shed.jpg", "The big shed, with patterned sheets hung on the walls, some fairy lights, bales of hay as seats, and a metal wood burner in the middle.", "(max-width: 600px) 90vw, 60vw" %}
 _Thom's family made out the big shed for us to have a corona-safe Christmas Day chat, it even has a homemade wood burner 🥰_
 
-![The lake shore on a sunny winter day, with lots of swans on the shore.](/images/posts/lifenotes-5/swans.jpg)
+{% Image "src/images/posts/lifenotes-5/swans.jpg", "The lake shore on a sunny winter day, with lots of swans on the shore.", "(max-width: 600px) 90vw, 60vw" %}
 _Sunny day walk on Attenborough Nature Reserve ☀️ 🦢_

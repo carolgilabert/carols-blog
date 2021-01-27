@@ -27,7 +27,7 @@ I also ended up on an accidental Monday night rave with my lovely friends, and i
 
 📖  [The Book Thief - Markus Zusak](https://uk.bookshop.org/books/the-book-thief-the-life-affirming-number-one-international-bestseller/9781784162122)
 
-![Collage of pictures: a few of conference badges, the london eye, a group picture from the rave, a group picture from the women in tech takeover at new adventures, a group picture with all the Nottingham friends at NDC London.](/images/posts/2020-in-review/january.jpg)
+{% Image "src/images/posts/2020-in-review/january.jpg", "Collage of pictures: a few of conference badges, the london eye, a group picture from the rave, a group picture from the women in tech takeover at new adventures, a group picture with all the Nottingham friends at NDC London.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## February
 
@@ -37,7 +37,7 @@ My family also came to visit from Devon for a few days, and I attended Frontend 
 
 📖. [Ordinary People - Diana Evans](https://uk.bookshop.org/books/ordinary-people-shortlisted-for-the-women-s-prize-for-fiction-2019/9781784707248), [This is Going to Hurt - Adam Kay](https://uk.bookshop.org/books/this-is-going-to-hurt-secret-diaries-of-a-junior-doctor/9781509858637)
 
-![Collage of pictures: my friend Marisa, the stage at Frontend North, a statue in Tate Modern, lovely tables of food, my sister.](/images/posts/2020-in-review/february.jpg)
+{% Image "src/images/posts/2020-in-review/february.jpg", "Collage of pictures: my friend Marisa, the stage at Frontend North, a statue in Tate Modern, lovely tables of food, my sister.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## March
 
@@ -51,7 +51,7 @@ At first it was all new and ok, and I did lots of things outside work. I still a
 
 📺. [Frasier](https://www.imdb.com/title/tt0106004)
 
-![Collage of pictures: my desk with an iMac and an external monitor, Thom and Huai in a noodle restaurant, a table with 2 plates of poached eggs and 2 coffees, Thom stood next to a toilet paper pyramid, me smiling with my lightning earrings, the Derbyshire countryside through a cave opening.](/images/posts/2020-in-review/march.jpg)
+{% Image "src/images/posts/2020-in-review/march.jpg", "Collage of pictures: my desk with an iMac and an external monitor, Thom and Huai in a noodle restaurant, a table with 2 plates of poached eggs and 2 coffees, Thom stood next to a toilet paper pyramid, me smiling with my lightning earrings, the Derbyshire countryside through a cave opening.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## April
 
@@ -63,7 +63,7 @@ I think I had the 'rona then, cause I had a persistent headache for a couple of 
 
 📺. [Brooklyn 99](https://www.imdb.com/title/tt2467372)
 
-![Collage of pictures: Thom blowing the candles on his birthday cake, the Nottingham Market Square completely empty, some close ups of blooming trees, my new ultrawide monitor.](/images/posts/2020-in-review/april.jpg)
+{% Image "src/images/posts/2020-in-review/april.jpg", "Collage of pictures: Thom blowing the candles on his birthday cake, the Nottingham Market Square completely empty, some close ups of blooming trees, my new ultrawide monitor.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## May
 
@@ -71,7 +71,7 @@ By May, all I did was work, run events, and play Animal Crossing. I didn't have 
 
 🎮. [Animal Crossing](https://www.nintendo.co.uk/Games/Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html)
 
-![Collage of pictures: my new keyboard with its colourful keycaps, Thom and I lying on the grass with books covering our faces, a screenshot of my animal crossing character in front of their house, my switch with custom pastel coloured shells, birthday cards and cupcakes, me blowing the candles on my birthday cake.](/images/posts/2020-in-review/may.jpg)
+{% Image "src/images/posts/2020-in-review/may.jpg", "Collage of pictures: my new keyboard with its colourful keycaps, Thom and I lying on the grass with books covering our faces, a screenshot of my animal crossing character in front of their house, my switch with custom pastel coloured shells, birthday cards and cupcakes, me blowing the candles on my birthday cake.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## June
 
@@ -83,7 +83,7 @@ Fed up of the flat, we started looking for a house to buy.
 
 📺. [The Office (US)](https://www.imdb.com/title/tt0386676)
 
-![Collage of pictures: my desk, Thom painting a sign saying Black lives matter, the BLM protest in the Forest Park.](/images/posts/2020-in-review/june.jpg)
+{% Image "src/images/posts/2020-in-review/june.jpg", "Collage of pictures: my desk, Thom painting a sign saying Black lives matter, the BLM protest in the Forest Park.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## July
 
@@ -93,7 +93,7 @@ Pretty sure nothing happened in July 🤷‍♀️
 
 🎮. [Animal Crossing](https://www.nintendo.co.uk/Games/Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html)
 
-![Collage of pictures: me with a face mask on, new notepad and stationery bits, my nearly dead string of hearts throwing shoots again, Thom petting Laika, his sister's dog.](/images/posts/2020-in-review/july.jpg)
+{% Image "src/images/posts/2020-in-review/july.jpg", "Collage of pictures: me with a face mask on, new notepad and stationery bits, my nearly dead string of hearts throwing shoots again, Thom petting Laika, his sister's dog.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## August
 
@@ -101,7 +101,7 @@ We managed to book a farmhouse in Gloucestershire and saw my family in August. T
 
 📖. [Unnatural Causes - Dr Richard Shepherd](https://uk.bookshop.org/books/unnatural-causes-an-absolutely-brilliant-book-i-really-recommend-it-i-don-t-often-say-that-jeremy-vine-bbc-radio-2/9781405923538)
 
-![Collage of pictures: Gloucestershire countryside, my sister with a couple of ponies, Thom with my nephews, me cuddling Penny the dog, my calathea finally throwing a new leaf after struggling for forever, my newphews and I pulling faces, my sister and her husband, me with sunglasses and a face mask, Thom by the Bath canal on a sunny day.](/images/posts/2020-in-review/august.jpg)
+{% Image "src/images/posts/2020-in-review/august.jpg", "Collage of pictures: Gloucestershire countryside, my sister with a couple of ponies, Thom with my nephews, me cuddling Penny the dog, my calathea finally throwing a new leaf after struggling for forever, my newphews and I pulling faces, my sister and her husband, me with sunglasses and a face mask, Thom by the Bath canal on a sunny day.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## September
 
@@ -111,7 +111,7 @@ One small thing that cheered me up was discovering Nomo: an app that lets you ta
 
 📺. [Friends](https://www.imdb.com/title/tt0108778)
 
-![Collage of pictures: my nails with an abstract art motif, my arm with a needle on during a blood donation session, my keyboard with new jelly wrist supports, Thom and I chilling on the sofa.](/images/posts/2020-in-review/september.jpg)
+{% Image "src/images/posts/2020-in-review/september.jpg", "Collage of pictures: my nails with an abstract art motif, my arm with a needle on during a blood donation session, my keyboard with new jelly wrist supports, Thom and I chilling on the sofa.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## October
 
@@ -129,7 +129,7 @@ There was no phone signal, so we spent our days reading, walking through the for
 
 📽. [Enola Holmes](https://www.imdb.com/title/tt7846844), [Jojo Rabbit](https://www.imdb.com/title/tt2584384), [Spider-man: far from home](https://www.imdb.com/title/tt6320628), [Baby Driver](https://www.imdb.com/title/tt3890160), [The Rock](https://www.imdb.com/title/tt0117500)
 
-![Collage of Pictures: my desk again, a container of delicious Ethiopian food, my friends out on a walk in the Derbyshire countryside, Craik Forest in Scotland, Thom with Merlot the dog, Thom and I with raincoats on by the St Mary reservoir in Scotland.](/images/posts/2020-in-review/october.jpg)
+{% Image "src/images/posts/2020-in-review/october.jpg", "Collage of Pictures: my desk again, a container of delicious Ethiopian food, my friends out on a walk in the Derbyshire countryside, Craik Forest in Scotland, Thom with Merlot the dog, Thom and I with raincoats on by the St Mary reservoir in Scotland.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## November
 
@@ -147,7 +147,7 @@ My (book) pile of shame kept getting bigger.
 
 📺  [Star Trek Discovery](https://www.imdb.com/title/tt5171438), [GBBO](https://www.imdb.com/title/tt1877368), [His Dark Materials](https://www.imdb.com/title/tt5607976)
 
-![Collage of pictures: 3 piles of unread books, me wearing my new cute keyboard club satin jacket, the garden on the house we're buying.](/images/posts/2020-in-review/november.jpg)
+{% Image "src/images/posts/2020-in-review/november.jpg", "Collage of pictures: 3 piles of unread books, me wearing my new cute keyboard club satin jacket, the garden on the house we're buying.", "(max-width: 600px) 90vw, 60vw" %}
 
 ## December
 
@@ -167,7 +167,7 @@ I also tried my hand at crafting and really enjoyed it, so stay tuned for obsess
 
 📽. [The Holiday](https://www.imdb.com/title/tt0457939), [Home Alone](https://www.imdb.com/title/tt0099785), [Ghostbusters](https://www.imdb.com/title/tt0087332), [Die Hard](https://www.imdb.com/title/tt0095016), [Alien](https://www.imdb.com/title/tt0078748), [Wonder Woman 1984](https://www.imdb.com/title/tt7126948)
 
-![Collage of pictures: my desk with some Christmas decorations, me wearing rudolph glasses, the swans in Attenborough nature reserve, a little felt brussel sprout decoration, the big shed with patterned sheets for walls, fairy lights, bales of hay for seats, and a homemade wood burner.](/images/posts/2020-in-review/december.jpg)
+{% Image "src/images/posts/2020-in-review/december.jpg", "Collage of pictures: my desk with some Christmas decorations, me wearing rudolph glasses, the swans in Attenborough nature reserve, a little felt brussel sprout decoration, the big shed with patterned sheets for walls, fairy lights, bales of hay for seats, and a homemade wood burner.", "(max-width: 600px) 90vw, 60vw" %}
 
 This year was rough, but I made it through, almost whole. Many people didn't, and it breaks my heart. 
 

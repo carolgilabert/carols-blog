@@ -19,7 +19,7 @@ Impostor syndrome is the name of a particular flavour of self-doubt, in which yo
 
 I found that early on it was thought to affect high achieving women, but studies conducted since have shown it affects men and women equally.
 
-![Pie chart of the proportion of people affected by impostor syndrome, it's everyone](/images/posts/impostor-syndrome/impostor_syndrome_chart.png)
+{% Image "src/images/posts/impostor-syndrome/impostor_syndrome_chart.png", "Pie chart of the proportion of people affected by impostor syndrome, it's everyone", "(max-width: 600px) 90vw, 60vw" %}
 
 Humans are susceptible to hosts of cognitive biases, and are not great at self assessment. Impostor syndrome is one of those biases, and perhaps one of the most shocking cases of it is Maya Angelou.
 
@@ -37,7 +37,7 @@ If someone like Maya Angelou struggles with impostor syndrome, how can I not?
 
 For me, impostor syndrome feels like this:
 
-![An owl labelled actual engineers looks suspiciously at a fake owl, labelled me](/images/posts/impostor-syndrome/two-owls.jpg)
+{% Image "src/images/posts/impostor-syndrome/two-owls.jpg", "An owl labelled actual engineers looks suspiciously at a fake owl, labelled me", "(max-width: 600px) 90vw, 60vw" %}
 
 My very talented colleagues sit at their desks, being talented, doing amazing things. Meanwhile I sit at mine tapping the keyboard and making it up as I go along.
 
