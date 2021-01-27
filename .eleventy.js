@@ -1,11 +1,12 @@
 const navigationPlugin = require("@11ty/eleventy-navigation");
+const imageShortcode = require("./src/utils/image-shortcode");
 
 module.exports = function (eleventyConfig) {
     // Plugins
     eleventyConfig.addPlugin(navigationPlugin);
 
-    // Copy
-    eleventyConfig.addPassthroughCopy("src/images");
+    // Images
+    eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);
 
     return {
         markdownTemplateEngine: "njk",
