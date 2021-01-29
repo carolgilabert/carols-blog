@@ -23,5 +23,8 @@
     "keywords": [
         "eleventy",
         "blog"
-    ]
+    ],
+    "dependencies": {
+        "ajv": "^7.0.3"
+    }
 }
