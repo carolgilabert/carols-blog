@@ -1,5 +1,6 @@
 ---
 title: Pandemic diaries
+subtitle: "How am I? Pandemic fine™"
 author: Carolina Gilabert
 date: 2020-11-04
 readingTime: 4 min
@@ -32,7 +33,7 @@ More than anything, this new normal has killed my joy of doing tech things on my
 _Exhibit A: my contributions chart for this period_
 {% Image "src/images/posts/pandemic-diaries/github-contributions.png", "My GitHub contributions chart, with quite a few dots from January to March, and completely empty since then.", "(max-width: 600px) 90vw, 60vw" %}
 
-This situation also changed my relationship with where we live. Our apartment is lovely, but after being stuck in it for 7 months without access to a garden, now I want out. 
+This situation also changed my relationship with where we live. Our apartment is lovely, but after being stuck in it for 7 months without access to a garden, now I want out.
 
 So we're in the process of buying a house, which brings its own stress into the mix.
 
@@ -48,11 +49,11 @@ Having said all that, things are starting to look up for me a bit. I appreciate 
 
 Here are some of the things keeping me hopeful:
 
-- We found a house that we love, and are in the process of buying it.
-- Tried some changes to my routine, and that is really helping with my sleep.
-- We just spent a lovely week in Scotland, in the middle of a forest, with lots of walks and dog cuddles.
-- I took a lovely SVG Animation course, and that's sparked my joy for making fun stuff again.
-- I just had my first ever therapy session, and I really think that's going to help.
+-   We found a house that we love, and are in the process of buying it.
+-   Tried some changes to my routine, and that is really helping with my sleep.
+-   We just spent a lovely week in Scotland, in the middle of a forest, with lots of walks and dog cuddles.
+-   I took a lovely SVG Animation course, and that's sparked my joy for making fun stuff again.
+-   I just had my first ever therapy session, and I really think that's going to help.
 
 I hope to put some more stuff on here soon, but I may not. I've been using a lot on my energy in just existing, and I think that's ok for now.
 

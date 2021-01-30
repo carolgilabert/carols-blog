@@ -1,5 +1,6 @@
 ---
 title: "Lifenotes #2"
+subtitle: "The one with all the game shows."
 author: Carolina Gilabert
 date: 2020-11-08
 readingTime: 2 min

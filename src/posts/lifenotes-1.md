@@ -1,5 +1,6 @@
 ---
 title: "Lifenotes #1"
+subtitle: "Notes from a lovely week in the middle of nowhere."
 author: Carolina Gilabert
 date: 2020-11-01
 readingTime: 1 min
