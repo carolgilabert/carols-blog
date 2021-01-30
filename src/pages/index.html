@@ -17,4 +17,4 @@ permalink: /
 </p>
 
 <h2>Latest on the blog</h2>
-{% include "latest.html" %}
+{% set postList = collections.latest %} {% include "post-list.html" %}
