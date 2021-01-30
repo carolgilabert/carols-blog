@@ -1,19 +1,20 @@
 ---
 title: 2020 in Review
+subtitle: "A look back at the most cursed of years."
 author: Carolina Gilabert
 date: 2021-01-03
 readingTime: 8 min
 ---
 
-What to say about 2020, huh? It's pretty safe to say it was an awful year. I spent most of it depressed, exhausted and worried. My energy disappeared, and doing even the basic things required for me to function took all I had. 
+What to say about 2020, huh? It's pretty safe to say it was an awful year. I spent most of it depressed, exhausted and worried. My energy disappeared, and doing even the basic things required for me to function took all I had.
 
 Despite all that, I still want to reflect and record what it was like, as I hope it will be cathartic.
 
 I guess before I dive in I should review the goals I set myself at the end of last year:
 
-- I wanted to "do less" professionally, as I spread myself a bit too thin in 2019: I most certainly did less 😅  but the surplus energy I hoped for wasn't there for obvious reasons.
-- I mentioned about being interested in DevRel: I interviewed for a DevRel position in a big company this year, and although I didn't get an offer, it was a great opportunity to get a better feel for what the role entails, and ultimately showed me I don't really want to move in that direction, at least not for now.
-- I had ambitious goals around personal skills and exercise: I failed 100% of those. I did not hit a single one. In fact, I did worse on those areas than I had before setting them as goals.
+-   I wanted to "do less" professionally, as I spread myself a bit too thin in 2019: I most certainly did less 😅 but the surplus energy I hoped for wasn't there for obvious reasons.
+-   I mentioned about being interested in DevRel: I interviewed for a DevRel position in a big company this year, and although I didn't get an offer, it was a great opportunity to get a better feel for what the role entails, and ultimately showed me I don't really want to move in that direction, at least not for now.
+-   I had ambitious goals around personal skills and exercise: I failed 100% of those. I did not hit a single one. In fact, I did worse on those areas than I had before setting them as goals.
 
 This year sucked, in varied ways, and that taught me to be more accepting of myself. It taught me to assess the energy I had and act accordingly, instead of chastising myself as I usually do. I wouldn't say I'm brilliant at it yet, but I've gotten a lot better. I think that's my biggest takeaway from 2020: to be kinder to myself.
 
@@ -21,11 +22,11 @@ One of the things I love is taking pictures, and going back though my camera rol
 
 ## January
 
-This was a month of conferences and events (remember those?). I attended You Got This, New Adventures, ReactJS Girls and spoke at NDC London. I made new friends and hung out with old ones. I travelled, and had a lovely time.  
+This was a month of conferences and events (remember those?). I attended You Got This, New Adventures, ReactJS Girls and spoke at NDC London. I made new friends and hung out with old ones. I travelled, and had a lovely time.
 
 I also ended up on an accidental Monday night rave with my lovely friends, and it was a lot of fun 💃🏽
 
-📖  [The Book Thief - Markus Zusak](https://uk.bookshop.org/books/the-book-thief-the-life-affirming-number-one-international-bestseller/9781784162122)
+📖 [The Book Thief - Markus Zusak](https://uk.bookshop.org/books/the-book-thief-the-life-affirming-number-one-international-bestseller/9781784162122)
 
 {% Image "src/images/posts/2020-in-review/january.jpg", "Collage of pictures: a few of conference badges, the london eye, a group picture from the rave, a group picture from the women in tech takeover at new adventures, a group picture with all the Nottingham friends at NDC London.", "(max-width: 600px) 90vw, 60vw" %}
 
@@ -45,7 +46,7 @@ The first half of March was pretty normal still, met friends, went out for meals
 
 At first it was all new and ok, and I did lots of things outside work. I still attended IndieWebCamp, and spent a whole weekend on zoom (!) and it was great. I also attended a drawing workshop hosted by Denise Yu and it was a lot of fun.
 
-📖  [Everything I Know About Love - Dolly Alderton](https://uk.bookshop.org/books/everything-i-know-about-love/9780241982105), [Twas the Nightshift Before Christmas - Adam Kay](https://uk.bookshop.org/books/twas-the-nightshift-before-christmas-festive-hospital-diaries-from-the-author-of-multi-million-copy-hit-this-is-going-to-hurt/9781529018585)
+📖 [Everything I Know About Love - Dolly Alderton](https://uk.bookshop.org/books/everything-i-know-about-love/9780241982105), [Twas the Nightshift Before Christmas - Adam Kay](https://uk.bookshop.org/books/twas-the-nightshift-before-christmas-festive-hospital-diaries-from-the-author-of-multi-million-copy-hit-this-is-going-to-hurt/9781529018585)
 
 🎮. [Animal Crossing](https://www.nintendo.co.uk/Games/Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html)
 
@@ -57,7 +58,7 @@ At first it was all new and ok, and I did lots of things outside work. I still a
 
 This was a strange month. We scrambled to move all Tech Nottingham events online in a way that worked for our community. Weekends were filled with walks through the empty city, it was a bit eerie. We celebrated Thom's birthday in our flat alone.
 
-I think I had the 'rona then, cause I had a persistent headache for a couple of weeks, and I lost my sense of taste and smell. 
+I think I had the 'rona then, cause I had a persistent headache for a couple of weeks, and I lost my sense of taste and smell.
 
 🎮. [Animal Crossing](https://www.nintendo.co.uk/Games/Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html)
 
@@ -123,7 +124,7 @@ There was no phone signal, so we spent our days reading, walking through the for
 
 📖. [Never Split the Difference - Chris Voss](https://uk.bookshop.org/books/never-split-the-difference-negotiating-as-if-your-life-depended-on-it/9781847941497), [Queenie - Candice Carty-Williams](https://uk.bookshop.org/books/queenie-british-book-awards-book-of-the-year/9781409180074), [Women & Power - Mary Beard](https://uk.bookshop.org/books/women-power-a-manifesto/9781788160612), [The Men Who Stare at Goats - Jon Ronson](https://uk.bookshop.org/books/the-men-who-stare-at-goats/9780330375481), [The Book of Dust Vol. 1 - Philip Pullman](https://uk.bookshop.org/books/la-belle-sauvage-the-book-of-dust-volume-one/9780241365854)
 
-🎮  [Wordify](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Wordify-1817041.html), [Super Monkey Ball](https://www.nintendo.co.uk/Games/Nintendo-Switch/Super-Monkey-Ball-Banana-Blitz-HD-1649998.html), [Paper Mario](https://www.nintendo.co.uk/Games/Nintendo-Switch/Paper-Mario-The-Origami-King-1782440.html), [Animal Crossing](https://www.nintendo.co.uk/Games/Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html), [Trivial Pursuit](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Trivial-Pursuit-Live--1462491.html)
+🎮 [Wordify](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Wordify-1817041.html), [Super Monkey Ball](https://www.nintendo.co.uk/Games/Nintendo-Switch/Super-Monkey-Ball-Banana-Blitz-HD-1649998.html), [Paper Mario](https://www.nintendo.co.uk/Games/Nintendo-Switch/Paper-Mario-The-Origami-King-1782440.html), [Animal Crossing](https://www.nintendo.co.uk/Games/Nintendo-Switch/Animal-Crossing-New-Horizons-1438623.html), [Trivial Pursuit](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Trivial-Pursuit-Live--1462491.html)
 
 📺. [Star Trek Discovery](https://www.imdb.com/title/tt5171438), [The Jinx](https://www.imdb.com/title/tt4299972)
 
@@ -137,7 +138,7 @@ When we got back from Scotland, Nottingham was placed in tier 3, so we were imme
 
 The weather started to turn, so we stayed in even more. We did, however, find a house we liked and got our offer accepted on it 🎉
 
-I also started therapy for the very first time. 
+I also started therapy for the very first time.
 
 My (book) pile of shame kept getting bigger.
 
@@ -145,7 +146,7 @@ My (book) pile of shame kept getting bigger.
 
 🎮. [Paper Mario](https://www.nintendo.co.uk/Games/Nintendo-Switch/Paper-Mario-The-Origami-King-1782440.html), [Superliminal](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/Superliminal-1742946.html), [What Remains of Edith Finch](https://store.playstation.com/en-gb/product/EP2333-CUSA07974_00-WHATREMAINSFINCH), [Horizon Zero Dawn](https://store.playstation.com/en-gb/product/EP9000-CUSA10213_00-HRZCE00000000000), [Fall Guys](https://store.playstation.com/en-gb/product/EP3643-CUSA17714_00-FALLGUYSPS4EU000), [The Last of Us Part 2](https://store.playstation.com/en-gb/product/EP9000-CUSA10249_00-THELASTOFUSPART2), [Star Wars Battlefront 2](https://store.playstation.com/en-gb/product/EP0006-CUSA05749_00-BATTLEFRONTII000), [Donkey Kong Tropical Freeze](https://www.nintendo.co.uk/Games/Nintendo-Switch/Donkey-Kong-Country-Tropical-Freeze-1325706.html), [Assassins Creed 2](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000)
 
-📺  [Star Trek Discovery](https://www.imdb.com/title/tt5171438), [GBBO](https://www.imdb.com/title/tt1877368), [His Dark Materials](https://www.imdb.com/title/tt5607976)
+📺 [Star Trek Discovery](https://www.imdb.com/title/tt5171438), [GBBO](https://www.imdb.com/title/tt1877368), [His Dark Materials](https://www.imdb.com/title/tt5607976)
 
 {% Image "src/images/posts/2020-in-review/november.jpg", "Collage of pictures: 3 piles of unread books, me wearing my new cute keyboard club satin jacket, the garden on the house we're buying.", "(max-width: 600px) 90vw, 60vw" %}
 
@@ -161,7 +162,7 @@ I also tried my hand at crafting and really enjoyed it, so stay tuned for obsess
 
 📖. [Memorias de mis putas tristes - Gabriel García Márquez](https://uk.bookshop.org/books/memories-of-my-melancholy-whores/9780241968543)
 
-🎮  [Assassins Creed Brotherhood](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000), [Assassins Creed Revelations](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000), [Assassins Creed Black Flag](https://store.playstation.com/en-gb/product/EP0001-CUSA00009_00-B000000000000742), [Assassins Creed Unity](https://store.playstation.com/en-gb/product/EP0001-CUSA00605_00-AC5GAMEPS4000001), [Assassins Creed Syndicate](https://store.playstation.com/en-gb/product/EP0001-CUSA02376_00-ACVPOSTSTANDEURP)
+🎮 [Assassins Creed Brotherhood](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000), [Assassins Creed Revelations](https://store.playstation.com/en-gb/product/EP0001-CUSA04893_00-ACLEGACYHD000000), [Assassins Creed Black Flag](https://store.playstation.com/en-gb/product/EP0001-CUSA00009_00-B000000000000742), [Assassins Creed Unity](https://store.playstation.com/en-gb/product/EP0001-CUSA00605_00-AC5GAMEPS4000001), [Assassins Creed Syndicate](https://store.playstation.com/en-gb/product/EP0001-CUSA02376_00-ACVPOSTSTANDEURP)
 
 📺. [The Mandalorian](https://www.imdb.com/title/tt8111088), [Jeopardy!](https://www.imdb.com/title/tt0150377), [Schitt's Creek](https://www.imdb.com/title/tt3526078), [His Dark Materials](https://www.imdb.com/title/tt5607976), [The Good Place](https://www.imdb.com/title/tt4955642)
 
@@ -169,9 +170,9 @@ I also tried my hand at crafting and really enjoyed it, so stay tuned for obsess
 
 {% Image "src/images/posts/2020-in-review/december.jpg", "Collage of pictures: my desk with some Christmas decorations, me wearing rudolph glasses, the swans in Attenborough nature reserve, a little felt brussel sprout decoration, the big shed with patterned sheets for walls, fairy lights, bales of hay for seats, and a homemade wood burner.", "(max-width: 600px) 90vw, 60vw" %}
 
-This year was rough, but I made it through, almost whole. Many people didn't, and it breaks my heart. 
+This year was rough, but I made it through, almost whole. Many people didn't, and it breaks my heart.
 
-I am incredibly thankful of the lovely people around me, who really helped me through this mess, be it with a short walk, a zoom call, or a simple message. 
+I am incredibly thankful of the lovely people around me, who really helped me through this mess, be it with a short walk, a zoom call, or a simple message.
 
 One of my biggest challenges in 2020 (and always, really) was the constant noise in my head about all the things I should be doing.
 
@@ -184,4 +185,4 @@ To combat that, I have only two goals for 2021:
     - Space to maintain my relationships.
 1. Be accepting when things don't go to plan.
 
-I know 2021 is not going to magically be better, but all I can do is give myself the tools to navigate  whatever life throws at me, so I can make it to the other side. I hope I'll see you there 💛
+I know 2021 is not going to magically be better, but all I can do is give myself the tools to navigate whatever life throws at me, so I can make it to the other side. I hope I'll see you there 💛

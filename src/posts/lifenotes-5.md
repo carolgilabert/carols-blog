@@ -1,7 +1,9 @@
 ---
-title: '#5'
+title: "Lifenotes #5"
+subtitle: "Personal notes from the Christmas season"
 author: Carolina Gilabert
 date: 2020-12-29
+readingTime: 2 min
 ---
 
 Happy Christmas, friends! Turns out I'm not disciplined enough to write these every week, who knew?
@@ -10,23 +12,23 @@ Maybe the weeknotes title is not the most appropriate, but I'm not sure where th
 
 ## Did
 
-- On the wind down for Christmas, I did the [Design for Developers course on Frontend Masters](https://frontendmasters.com/courses/design-for-developers/) and oh my, it's the absolute best! Thoroughly enjoyed it all the way through, so thank you [Sarah Drasner](https://twitter.com/sarah_edo) ✨
-- Tech Nottingham Secret Santa was great, really enjoyed going round people's doorsteps to drop off presents and wave from afar 🎁
-- Christmas was enjoyable, despite not being able to go see my family 💔
-- After doing exactly one crafty thing, I've gone full Carol and bought a heckton of crafting equipment, so now I'm obvs praying I retain my focus long enough to do at least one more thing 😅
+-   On the wind down for Christmas, I did the [Design for Developers course on Frontend Masters](https://frontendmasters.com/courses/design-for-developers/) and oh my, it's the absolute best! Thoroughly enjoyed it all the way through, so thank you [Sarah Drasner](https://twitter.com/sarah_edo) ✨
+-   Tech Nottingham Secret Santa was great, really enjoyed going round people's doorsteps to drop off presents and wave from afar 🎁
+-   Christmas was enjoyable, despite not being able to go see my family 💔
+-   After doing exactly one crafty thing, I've gone full Carol and bought a heckton of crafting equipment, so now I'm obvs praying I retain my focus long enough to do at least one more thing 😅
 
 ## Played
 
-🎮  [Assassins Creed Unity](https://store.playstation.com/en-gb/product/EP0001-CUSA00605_00-AC5GAMEPS4000001) (WIP)  
-🎮  [Super Mario 64](https://www.nintendo.co.uk/Games/Nintendo-Switch/Super-Mario-3D-All-Stars-1832369.html) (WIP) - this camera control is messed up 😭  
-🎲  [Ticket to Ride](https://www.board-game.co.uk/product/ticket-to-ride-europe/)  
-🎲  [Bananagrams](https://www.board-game.co.uk/product/bananagrams/)  
-🎲  [Poetry for Neanderthals](https://www.board-game.co.uk/product/poetry-for-neanderthals/)  
+🎮 [Assassins Creed Unity](https://store.playstation.com/en-gb/product/EP0001-CUSA00605_00-AC5GAMEPS4000001) (WIP)  
+🎮 [Super Mario 64](https://www.nintendo.co.uk/Games/Nintendo-Switch/Super-Mario-3D-All-Stars-1832369.html) (WIP) - this camera control is messed up 😭  
+🎲 [Ticket to Ride](https://www.board-game.co.uk/product/ticket-to-ride-europe/)  
+🎲 [Bananagrams](https://www.board-game.co.uk/product/bananagrams/)  
+🎲 [Poetry for Neanderthals](https://www.board-game.co.uk/product/poetry-for-neanderthals/)
 
 ## Read
 
 Nothing! 🙈  
-Shame! 
+Shame!
 
 ## Watched
 
@@ -39,7 +41,7 @@ Shame!
 📽 [Home Alone](https://www.imdb.com/title/tt0099785/)  
 📽 [Ghostbusters](https://www.imdb.com/title/tt0087332)  
 📽 [Die Hard](https://www.imdb.com/title/tt0095016)  
-📽 [Alien](https://www.imdb.com/title/tt0078748)  
+📽 [Alien](https://www.imdb.com/title/tt0078748)
 
 ## Pics
 

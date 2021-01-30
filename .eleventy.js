@@ -8,6 +8,13 @@ module.exports = function (eleventyConfig) {
     // Images
     eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);
 
+    // Collections
+    eleventyConfig.addCollection("latest", (collection) => {
+        return [...collection.getFilteredByGlob("./src/posts/*.md")]
+            .reverse()
+            .slice(0, 3);
+    });
+
     return {
         markdownTemplateEngine: "njk",
         dataTemplateEngine: "njk",
