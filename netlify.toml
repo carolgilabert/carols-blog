@@ -2,3 +2,8 @@
   functions = "functions/"
   command = "npm run build"
   publish = "dist/"
+
+[[redirects]]
+  from = "https://carolgilabert.me/*"
+  to = "https://carol.gg/:splat"
+  status = 301
