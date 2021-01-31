@@ -1,6 +1,6 @@
 ---
 title: "Rebuilding my site - Part 1: Eleventy"
-subtitle: ""
+subtitle: "A brief tour through my shiny new Eleventy site."
 author: Carolina Gilabert
 date: 2021-01-31
 readingTime: 8 min
