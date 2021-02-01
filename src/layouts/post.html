@@ -1,0 +1,12 @@
+---
+layout: base.html
+---
+
+<h1>{{ title }}</h1>
+<span>
+    <time datetime="{{ date | isoDate }}">
+        {{ date | date }}
+    </time>
+     · {{readingTime }}
+</span>
+{{ content | safe }}

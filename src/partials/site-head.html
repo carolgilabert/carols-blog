@@ -1,0 +1,10 @@
+<a href="#main-content">Skip to content</a>
+<header role="banner">
+    <nav aria-label="Primary">
+        {% for item in collections.all | eleventyNavigation %}
+        <li>
+            <a href="{{ item.url | url}}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+    </nav>
+</header>

@@ -1,3 +1,9 @@
 # Carol's Blog
 
-I'm creating a new site to host my own blog based on [gatsby-hampton-theme](https://github.com/davad/gatsby-hampton-theme).
+Hey there! 👋🏼
+
+This is the repo for my personal site https://carol.gg.
+
+## Tools 🛠
+
+-   [Eleventy](https://www.11ty.dev/)

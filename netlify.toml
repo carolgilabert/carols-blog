@@ -1,7 +1,9 @@
 [build]
   functions = "functions/"
   command = "npm run build"
-  publish = "public/"
+  publish = "dist/"
 
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+[[redirects]]
+  from = "https://carolgilabert.me/*"
+  to = "https://carol.gg/:splat"
+  status = 301
