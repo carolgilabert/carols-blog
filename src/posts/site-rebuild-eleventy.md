@@ -259,7 +259,7 @@ async function doIt(startingFolder) {
 
 ### 3: Replacing the image tags
 
-I also did this step through a script, using a regex to find all the image tags, retain the path and alt text of each, and then place those in a shortcode:
+I also did this step through a script, using a regex to find all the image tags, retain the path and alt text of each, and then place those in a shortcode. At some point, I'd like to go back to using native markdown image tags, but that means I need to mess with the markdown parsing library, so I'm leaving it for now, in an attempt to keep things simple.
 
 ```js
 {% raw %}
