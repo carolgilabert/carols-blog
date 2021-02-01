@@ -4,9 +4,9 @@ const querystring = require('querystring');
 const validateToken = async token => {
     const params = querystring.stringify({
         grant_type: 'authorization_code',
-        me: 'https://carolgilabert.me',
-        redirect_uri: 'https://carolgilabert.me',
-        client_id: 'https://carolgilabert.me',
+        me: 'https://carol.gg',
+        redirect_uri: 'https://carol.gg',
+        client_id: 'https://carol.gg',
         code: token
     });
 

@@ -21,7 +21,7 @@ As I expected, organisers and attendees alike were incredibly kind and supportiv
 If you want to see the talk, you can watch the video:
 [Carolina Gilabert - Panic Driven Development - YouTube](https://www.youtube.com/watch?v=yVWNuv_j05k&t=4s)
 
-The only less than ideal bit was the fact that the software used to auto advance the slides didn’t support gifs, so I had to make a static version of my slides. If you want to see the superior version of my slides, you can see it in full motion [here.](https://talks.carolgilabert.me/decks/panic-driven-development/)
+The only less than ideal bit was the fact that the software used to auto advance the slides didn’t support gifs, so I had to make a static version of my slides. If you want to see the superior version of my slides, you can see it in full motion [here.](https://talks.carol.gg/decks/panic-driven-development/)
 
 I ended up spending a significant amount of the conference in anxiety land - I get *very nervous* about speaking - and it meant I didn’t take many notes about the talks and open spaces I attended.
 

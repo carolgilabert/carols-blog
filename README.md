@@ -2,7 +2,7 @@
 
 Hey there! 👋🏼
 
-This is the repo for my personal site https://carolgilabert.me.
+This is the repo for my personal site https://carol.gg.
 
 ## Tools 🛠
 

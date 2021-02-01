@@ -72,7 +72,7 @@ Katie is one of my favourite speakers and this talk was really packed with great
 
 ### Using the modern web to recreate 1980’s horribly slow and loud loading screens
 
-I had already seen [Remy Sharp](https://twitter.com/rem)‘s talk at [last year’s FFConf](https://carolgilabert.me/blog/ffconf-2018) and I was delighted to see it again.
+I had already seen [Remy Sharp](https://twitter.com/rem)‘s talk at [last year’s FFConf](https://carol.gg/blog/ffconf-2018) and I was delighted to see it again.
 
 It’s such a fun talk, and it really shows how much you can learn from side projects that you’re passionate about 🙂
 
