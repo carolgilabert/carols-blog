@@ -161,7 +161,7 @@ Ultimately I decided to leave the reset out for a little while, as I'm leaving t
 
 I did learn a bunch from this experience, which was exactly the point, so good times all around 🎉
 
-The final hurdle on the image area, that I haven't tackled yet, is caching for the processed assets. I'll be looking into that next, as at the moment each build of my site takes a while and makes my fans go ✈️ ✈️
+While I was writing this post, Zach published [this excellent blog post](https://www.zachleat.com/web/fluid-images/), detailing the whole situation and providing solutions. Highly recommend giving it a read 🙌🏼
 
 ## Next steps
 
