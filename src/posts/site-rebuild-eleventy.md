@@ -16,7 +16,7 @@ I decided to ditch [Gatsby](https://www.gatsbyjs.com/) in favour of [Eleventy](h
 
 -   I want the code for my site to be as lean as possible, and I want it to have very little JavaScript. Gatsby renders all my pages beautifully on the server, but then proceeds to require them to be downloaded again and rendered in JS. Why? 😩
 -   I wanted to wrangle fewer dependencies. A few months ago I wrote a blog post after months of not touching my site, and I immediately had to spend time debugging dependencies that broke for no reason. Not fun.
--   I wanted to build every detail myself and learn things in detail in the process. I accidentally ended up working at "the back of the frontend" and I really wanna learn more about "the front of the frontend", so why not on my own site?
+-   I wanted to build every aspect myself and learn things in detail in the process. I accidentally ended up working at "the back of the frontend" and I really wanna learn more about "the front of the frontend", so why not on my own site?
 
 ## But first, learning
 
@@ -60,7 +60,7 @@ Isn't that neat?
 
 ### Navigation
 
-I used the [Eleventy Navigation Plugin](https://www.11ty.dev/docs/plugins/navigation/) to manage my navigation. It's really simple and works well. All you need to do is add a property to your frontmatter, like so:
+I used the [Eleventy Navigation Plugin](https://www.11ty.dev/docs/plugins/navigation/) to manage my navigation. It's really simple and works well. All you need to do is add a couple of properties to your frontmatter, like so:
 
 ```html
 {% raw %}
@@ -75,7 +75,7 @@ eleventyNavigation:
 {% endraw %}
 ```
 
-It then adds your page to its navigation collection, that you can use to render your nav menu.
+It then adds your page to its navigation collection, that you can loop through to render your navigation menu.
 
 ### Partials
 
@@ -106,7 +106,7 @@ module.exports = {
     environment: process.env.ELEVENTY_ENV,
 };
 ```
-Then I exposed my environment variable through a data file, in my case, site.js.
+I then exposed my environment variable through a data file, in my case, site.js.
 
 ```liquid
 {% raw %}
@@ -115,13 +115,13 @@ Then I exposed my environment variable through a data file, in my case, site.js.
 {% endif %}
 {% endraw %}
 ```
-Eleventy exposes the contents of the data file under the file's name, so I can access my variable through `site.environment`.
+Eleventy in turn exposes the contents of the data file under the file's name, so I can access my variable through `site.environment`.
 
 ### Image optimisation
 
 Image management was by far the biggest hurdle. Gatsby for sure has a lot of drawbacks, but it handles images very well. Fortunately, while I was in the middle of struggling with it, Eleventy creator [Zach Leat](https://www.zachleat.com/) published [a blog post on the subject](https://www.zachleat.com/web/eleventy-image/).
 
-The first issue I ran into was the location of all my images. I used to colocate blog post images with their respective markdown files. But in order to use [Eleventy image plugin](https://www.11ty.dev/docs/plugins/image/), I had to move all of those to a centralised images folder. If you're interesting in how I did this, I've added some notes at the end of this post.
+The first issue I ran into was the location of all my images. I used to colocate blog post images with their respective markdown files. But in order to use [Eleventy image plugin](https://www.11ty.dev/docs/plugins/image/), I had to move all of those to a centralised images folder. If you're interested in how I did this, check out the notes I added at the end of this post.
 
 Once I was set up with the image plugin, I ran into the second issue: even though I set up different sizes for my images, and a media query to pick the right size, my images were still being displayed at the narrowest width. I'm using the image plugin's generateHtml utility, which outputs markup that looks like this:
 
@@ -172,6 +172,8 @@ I'll do my best to document my progress, for myself, and for whoever else might 
 Next I'll be looking at microformats, fonts and some basic CSS ✨
 
 See you there! 👋🏼
+
+___
 
 ## PS: Relocating images
 
