@@ -21,6 +21,9 @@ module.exports = function (eleventyConfig) {
             .slice(0, 3);
     });
 
+    // Passthrough copy for the service worker
+    eleventyConfig.addPassthroughCopy("./src/service-worker.js");
+
     return {
         markdownTemplateEngine: "njk",
         dataTemplateEngine: "njk",
