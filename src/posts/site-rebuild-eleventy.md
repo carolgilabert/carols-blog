@@ -155,7 +155,7 @@ Once I was set up with the image plugin, I ran into the second issue: even thoug
 
 I [reached out to Zach](https://twitter.com/CarolSaysThings/status/1354436629255970822?s=20), who kindly helped me out. As it turns out, you need a CSS reset to make the images fluid, and allow them to stretch beyond the smallest size.
 
-He recommended [this article]() by Ethan Marcotte, which was a great read. I also ended up living on the [responsive images MDN page]() for a little while, it's really good.
+He recommended [this article](https://alistapart.com/article/fluid-images/) by Ethan Marcotte, which was a great read. I also ended up living on the [responsive images MDN page](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) for a little while, it's really good.
 
 Ultimately I decided to leave the reset out for a little while, as I'm leaving the site HTML only for now. I guess it surprised me that you need CSS to get the picture element to behave adequately, I expected the solution to be HTML only.
 
