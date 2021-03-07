@@ -1,12 +1,16 @@
 ---
 layout: base.html
 ---
-
-<h1>{{ title }}</h1>
-<span>
-    <time datetime="{{ date | isoDate }}">
-        {{ date | date }}
-    </time>
-     · {{readingTime }}
-</span>
-{{ content | safe }}
+<div class="h-entry">
+    <h1 class="p-name">{{ title }}</h1>
+    <p class="p-description"><em>{{ subtitle }}</em></p>
+    <span>
+        <time class="dt-published" datetime="{{ date | isoDate }}">
+            {{ date | date }}
+        </time>
+        · {{readingTime }}
+    </span>
+    <div class="e-content">
+        {{ content | safe }}
+    </div>
+</div>
