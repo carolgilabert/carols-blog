@@ -10,6 +10,7 @@ layout: base.html
         </time>
         · {{readingTime }}
     </span>
+    {% include "h-card.html" %}
     <div class="e-content">
         {{ content | safe }}
     </div>
