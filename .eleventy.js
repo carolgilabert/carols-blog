@@ -1,4 +1,5 @@
 const navigationPlugin = require("@11ty/eleventy-navigation");
+const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const imageShortcode = require("./src/utils/image-shortcode");
 const dateFilter = require("./src/utils/date-filter");
 const isoDateFilter = require("./src/utils/iso-date-filter");
@@ -6,6 +7,7 @@ const isoDateFilter = require("./src/utils/iso-date-filter");
 module.exports = function (eleventyConfig) {
     // Plugins
     eleventyConfig.addPlugin(navigationPlugin);
+    eleventyConfig.addPlugin(rssPlugin);
 
     // Shortcodes
     eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);
