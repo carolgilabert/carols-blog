@@ -5,6 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>{{ title }}</title>
+
+        {% for script in extraScripts %}
+            <script src="{{ script | url }}></script>
+        {% endfor %}
+        
+        {% for stylesheet in extraStyles %}
+            <link rel="stylesheet" href="{{ stylesheet | url }}" />
+        {% endfor %}
     </head>
     <body>
         {% include "site-head.html" %}
