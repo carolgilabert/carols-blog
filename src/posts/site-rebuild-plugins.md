@@ -1,0 +1,47 @@
+---
+title: "Rebuilding my site - Part 3: Plugins"
+subtitle: "Time to get back on RSS."
+author: Carolina Gilabert
+date: 2021-05-07
+readingTime: 1 min
+---
+
+This part should be super speedy! There were a couple of plugins I wanted to get added early on, so I'm getting them in now:
+
+## RSS
+
+This one was very straightforward, straight from [the docs](https://www.11ty.dev/docs/plugins/rss/) onto the site 😄
+
+In future, as I add more IndieWeb functionality and therefore different types of content, I might split feeds, but for now, a simple one will do 🙌🏼
+
+## Code highlighting
+
+This one wasn't necessarily hard, but it had a bit more ✨ spice ✨ to it 😄
+
+Again, I used the 11ty plugin listed on [their docs](https://www.11ty.dev/docs/plugins/syntaxhighlight/) with all the default settings, so hooking it up was a breeze!
+
+For the theme, I decided to go for a [PrismJS adaptation](https://github.com/PrismJS/prism-themes/blob/master/themes/prism-night-owl.css) of [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl), by [Sarah Drasner](https://sarahdrasnerdesign.com) ✨ It wasn't CDN hosted, so I pulled the file and included it in my site. 
+
+This is my first CSS file, so I ended up adding a hatch into my base page layout that makes it really easy for me to include CSS and JS files only on the pages that need them. I got it from [Evan](https://darthmall.net) over at the [Piccalilli Discord](https://piccalil.li/membership/) 🙌🏼
+
+Here's the code I added to the base layout:
+{% raw %}
+```liquid
+{% for script in extraScripts %}
+    <script src="{{ script | url }}></script>
+{% endfor %}
+
+{% for stylesheet in extraStyles %}
+    <link rel="stylesheet" href="{{ stylesheet | url }}" />
+{% endfor %}
+```
+{% endraw %}
+
+Then I added this to the blog post layout:
+
+```yaml
+extraStyles:
+    - /styles/code.css
+```
+
+And done! Said it was gonna be quick 💨
