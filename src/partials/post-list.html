@@ -4,7 +4,7 @@
         <article class="h-entry">
             {% include "h-card.html" %}
             <a class="u-url" href="{{ post.url }}">
-                <h2>{{ post.data.title }}</h2>
+                <h2 class="p-name">{{ post.data.title }}</h2>
             </a>
             <span>
                 <time class="dt-published" datetime="{{ post.data.date | isoDate }}">
