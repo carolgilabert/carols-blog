@@ -67,7 +67,7 @@ I have a couple of feeds around my site: the latest posts section on my homepage
         <article class="h-entry">
             {% include "h-card.html" %}
             <a class="u-url" href="{{ post.url }}">
-                <h2>{{ post.data.title }}</h2>
+                <h2 class="p-name">{{ post.data.title }}</h2>
             </a>
             <span>
                 <time class="dt-published" datetime="{{ post.data.date | isoDate }}">
@@ -91,7 +91,7 @@ For the posts, I'm using `h-entry` and my layout looks like this:
 {% raw %}
 <div class="h-entry">
     <h1 class="p-name">{{ title }}</h1>
-    <p class="p-description"><em>{{ subtitle }}</em></p>
+    <p class="p-summary"><em>{{ subtitle }}</em></p>
     <span>
         <time class="dt-published" datetime="{{ date | isoDate }}">
             {{ date | date }}
@@ -131,3 +131,8 @@ As I mentioned above, events were what I implemented first on this site, way bac
 This is a pretty good starting point for layering more IndieWeb functionality onto my site. I'll probably do some basic styling next, and then re-implement IndieAuth.
 
 It might happen next week, or next year, but it's coming. See you then! 😄
+
+---
+Edits:
+* added a missing p-name class on the title tag in the feeds code sample
+* changed the p-description class in the post code sample to a p-summary, to align with the feed properties
