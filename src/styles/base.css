@@ -1,0 +1,22 @@
+/*** FONTS ***/
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: "Norando";
+    src: url("/fonts/norando.woff2") format("woff2"),
+        url("/fonts/norando.woff") format("woff");
+}
+
+h1, h2, h3, h4 {
+    font-family: Norando;
+}
+
+h1 > em, 
+h2 > em, 
+h3 > em, 
+h4 > em {
+    font-feature-settings: "ss02" on;
+}
+
