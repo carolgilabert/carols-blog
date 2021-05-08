@@ -12,7 +12,7 @@ readingTime: 2 min
 - Saw friends in our garden and it was lovely!
 - It was Thom's birthday 🎈
 - I've been enjoying the big kitchen, did some baking this month 😌
-- Got my first [Books that Matter](http://booksthatmatter.co.uk/) box 💕
+- Got my first [Books that Matter](https://booksthatmatter.co.uk/) box 💕
 - Finally got a stand up desk!
 
 ## 🎮 Played/Read/Watched
