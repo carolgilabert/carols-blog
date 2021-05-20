@@ -8,7 +8,7 @@
         "build": "ELEVENTY_ENV=prod npx @11ty/eleventy"
     },
     "devDependencies": {
-        "@11ty/eleventy": "^0.11.1",
+        "@11ty/eleventy": "^0.12.1",
         "@11ty/eleventy-img": "^0.7.4",
         "@11ty/eleventy-navigation": "^0.1.6",
         "@11ty/eleventy-plugin-rss": "^1.1.1",
