@@ -131,3 +131,4 @@ Theme:
 - [Synergy](https://symless.com/synergy)
 - [RunJS](https://runjs.app/)
 - [todometer](https://cassidoo.github.io/todometer/)
+- [Meeting Bar](https://meetingbar.onrender.com/)
