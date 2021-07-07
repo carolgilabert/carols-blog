@@ -1,32 +1,46 @@
 {
-    "name": "carols-blog",
-    "author": "Carolina Gilabert <hello@carol.gg>",
-    "version": "1.0.0",
-    "license": "MIT",
-    "scripts": {
-        "dev": "ELEVENTY_ENV=dev npx @11ty/eleventy --serve",
-        "build": "ELEVENTY_ENV=prod npx @11ty/eleventy"
-    },
-    "devDependencies": {
-        "@11ty/eleventy": "^0.12.1",
-        "@11ty/eleventy-img": "^0.7.4",
-        "@11ty/eleventy-navigation": "^0.1.6",
-        "@11ty/eleventy-plugin-rss": "^1.1.1",
-        "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0"
-    },
-    "homepage": "https://carol.gg",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/carolgilabert/carols-blog.git"
-    },
-    "bugs": {
-        "url": "https://github.com/carolgilabert/carols-blog/issues"
-    },
-    "keywords": [
-        "eleventy",
-        "blog"
-    ],
-    "dependencies": {
-        "ajv": "^7.0.3"
-    }
+  "name": "carols-blog",
+  "author": "Carolina Gilabert <hello@carol.gg>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:sass build:eleventy",
+    "build:eleventy": "ELEVENTY_ENV=prod eleventy",
+    "build:sass": "sass  --no-source-map src/styles:dist/styles",
+    "postbuild": "postcss dist/styles/*.css -u autoprefixer cssnano -r --no-map",
+    "watch:eleventy": "eleventy --serve",
+    "watch:sass": "sass  --no-source-map --watch src/styles:dist/styles"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-img": "^0.9.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.1",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.6",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.3.5",
+    "prettier": "^2.3.2",
+    "sass": "^1.35.1"
+  },
+  "homepage": "https://carol.gg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolgilabert/carols-blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carolgilabert/carols-blog/issues"
+  },
+  "keywords": [
+    "eleventy",
+    "blog"
+  ],
+  "dependencies": {
+    "ajv": "^7.0.3"
+  },
+  "prettier": {
+    "trailingComma": "none"
+  }
 }

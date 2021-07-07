@@ -28,7 +28,7 @@ Hey friends! February was another locked down month, so not much happening beyon
 - This [article on the buzzfeed-ification of mental health](https://mentalhellth.xyz/p/the-buzzfeed-ification-of-mental) was very interesting. Not sure I agree with all of it, but it was a good exploration.
 - This [article about impostor syndrome](https://hbr.org/2021/02/stop-telling-women-they-have-imposter-syndrome) is a great read. It brings a different perspective on the issue and shifts the focus onto why women suffer from it.
 - Watched [Zodiac](https://www.imdb.com/title/tt0443706) for the first time, good film.
-- There was that one Friday where we all watched the [Handforth Parish Council meeting](https://www.youtube.com/watch?v=lgGmYeAm0jk) and collectively lost it 😂  (I stan Jackie Weaver ✊🏼 )
+- There was that one Friday where we all watched the [Handforth Parish Council meeting](https://www.youtube.com/watch?v=lgGmYeAm0jk) and collectively lost it 😂 (I stan Jackie Weaver ✊🏼 )
 - Watched [The Queen's Gambit](https://www.imdb.com/title/tt10048342) and absolutely loved it! The story, photography, wardrobe, actors... all great 💛
 - Started watching [The Crown](https://www.imdb.com/title/tt4786824) Series 4.
 - Rewatched [The Prestige](https://www.imdb.com/title/tt0482571), and even having seen it before, was still delighted at the twists and turns of the story. #TeamAngier
@@ -39,4 +39,4 @@ Hey friends! February was another locked down month, so not much happening beyon
 
 ## 📸 Pics
 
-{% Image "src/images/posts/lifenotes-7/collage.jpg", "A collage of pictures: My new cricut machine, cutting some felt; a bunch of deer lying on the grass at the park; a pile of fresh books on my desk; a plate of pancakes; a pink felt banner with a stitched on rainbow; a picnic blanket where you can see a box of ethiopian food, a water bottle and a pair of feet with yellow socks.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-7/collage.jpg", "A collage of pictures: My new cricut machine, cutting some felt; a bunch of deer lying on the grass at the park; a pile of fresh books on my desk; a plate of pancakes; a pink felt banner with a stitched on rainbow; a picnic blanket where you can see a box of ethiopian food, a water bottle and a pair of feet with yellow socks.", "(max-width: 600px) 600w, 900w" %}

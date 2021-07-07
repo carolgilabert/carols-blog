@@ -6,4 +6,4 @@ This is the repo for my personal site https://carol.gg.
 
 ## Tools 🛠
 
--   [Eleventy](https://www.11ty.dev/)
+- [Eleventy](https://www.11ty.dev/)

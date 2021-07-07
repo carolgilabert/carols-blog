@@ -9,26 +9,26 @@ This may seem silly, but I kinda accidentally became a frontend person. My first
 
 Don’t get me wrong, I _love_ the web. But these circumstances mean I never made an active choice about where I’d specialise. I’ve been getting by as a generalist for about 4 years now, and it looks a bit like this:
 
-{% Image "src/images/posts/frontend-ne-2019/adventure-time-dragon.gif", "Adventure Time dragon saying: I have approximate knowledge of many things", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/adventure-time-dragon.gif", "Adventure Time dragon saying: I have approximate knowledge of many things", "(max-width: 600px) 600w, 900w" %}
 
 But lately, I’ve been getting feedback that I should specialise, and become T shaped. It really does seem to be where it’s at 😅
 
-{% Image "src/images/posts/frontend-ne-2019/before-and-after.png", "Before and after doodle: normal looking person to T shaped person", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/before-and-after.png", "Before and after doodle: normal looking person to T shaped person", "(max-width: 600px) 600w, 900w" %}
 **Before and after rendition: from my basic self to a flawless T shaped human**
 
 To be quite honest, I’m reluctant to specialise. It probably comes from my personality; I’m an open person, and I like to stir all the pots.
 
 I also love learning, so in my head instead of going from this rectangle shape:
 
-{% Image "src/images/posts/frontend-ne-2019/shallow-rectangle.png", "Graph of breadth vs depth of knowledge: shallow rectangle (broad not deep)", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/shallow-rectangle.png", "Graph of breadth vs depth of knowledge: shallow rectangle (broad not deep)", "(max-width: 600px) 600w, 900w" %}
 
 To this T shape:
 
-{% Image "src/images/posts/frontend-ne-2019/t-shape.png", "Graph of breadth vs depth of knowledge: T shape (broad but deep in one key area)", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/t-shape.png", "Graph of breadth vs depth of knowledge: T shape (broad but deep in one key area)", "(max-width: 600px) 600w, 900w" %}
 
 I’d like to go to this rectangle:
 
-{% Image "src/images/posts/frontend-ne-2019/deep-rectangle.png", "Graph of breadth vs depth of knowledge: deep rectangle (broad and deep)", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/deep-rectangle.png", "Graph of breadth vs depth of knowledge: deep rectangle (broad and deep)", "(max-width: 600px) 600w, 900w" %}
 
 I understand it’s not possible. But heck, I am nothing if not determined. And maybe a little stubborn. So I’m gonna specialise, but I’ll try and widen the T whenever I can.
 
@@ -62,7 +62,7 @@ Next up was [Katie Fenn](https://twitter.com/katie_fenn), giving us an overview 
 
 Being a [Firefox](https://mobile.twitter.com/FirefoxNightly) user myself, I was very pleased to see the new features added to Chrome DevTools since I last used it. The element selector now comes packed with great information, including the colour contrast ratio, which helps us make more accessible sites. What’s not to love?
 
-{% Image "src/images/posts/frontend-ne-2019/chrome-devtools-tooltip.png", "Screenshot of Chrome DevTools: hovering over a piece of text shows font colour, contrast and other useful information", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/chrome-devtools-tooltip.png", "Screenshot of Chrome DevTools: hovering over a piece of text shows font colour, contrast and other useful information", "(max-width: 600px) 600w, 900w" %}
 
 She also went over the various different console methods. I’ve personally been using `console.trace()` for a while, so I loved learning about other useful tools like `console.memory` - shows you heap size - and `console.count()` - outputs how many times it’s been called.
 
@@ -98,7 +98,7 @@ Before the talk started, we all got handed cardboard VR headsets with the conf b
 
 He showed us how powerful WebVR is already and how easily you can build for it. It was a really fun talk! (As you can verify by my rudimentary drawing 😅)
 
-{% Image "src/images/posts/frontend-ne-2019/vr-doodle.jpeg", "Doodle of a person with a VR headset on, with the conference branding", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/vr-doodle.jpeg", "Doodle of a person with a VR headset on, with the conference branding", "(max-width: 600px) 600w, 900w" %}
 
 ### Grids all the way down
 
@@ -134,4 +134,4 @@ It was so worth it, though! Lots of great content was shared and I met some love
 
 I also got to catch up with the lovely folks from Nexmo [Alex](https://twitter.com/lakatos88?) and [Luke](https://twitter.com/lukeocodes?lang=en-gb). All in all a great day 💛
 
-{% Image "src/images/posts/frontend-ne-2019/photobooth.jpg", "Photobooth picture: set of 4 pictures of my conf buddy and I with the conference logo in the middle", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/frontend-ne-2019/photobooth.jpg", "Photobooth picture: set of 4 pictures of my conf buddy and I with the conference logo in the middle", "(max-width: 600px) 600w, 900w" %}

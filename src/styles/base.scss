@@ -1,0 +1,86 @@
+@import "reset";
+@import "fonts";
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+p,
+li {
+  max-width: 60ch;
+}
+
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+
+  &:not(:focus) {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+}
+
+.logo {
+  margin-inline-start: 1rem;
+  margin-block-start: 1rem;
+  font-family: Norando;
+  font-size: 2em;
+  font-feature-settings: "ss02" on;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+nav {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin-inline-end: 1.5rem;
+    }
+  }
+}
+
+main {
+  justify-self: center;
+  width: clamp(15rem, 90vw, 70rem);
+}
+
+footer {
+  justify-self: center;
+  width: clamp(15rem, 65vw, 70rem);
+  margin-inline: 2rem;
+  margin-block-start: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+      margin-inline-end: 1rem;
+    }
+  }
+
+  p {
+    align-self: center;
+    text-align: center;
+  }
+}

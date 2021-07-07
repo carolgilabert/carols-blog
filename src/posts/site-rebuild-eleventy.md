@@ -14,9 +14,9 @@ It took me a while, but I'm doing it now 🎉
 
 I decided to ditch [Gatsby](https://www.gatsbyjs.com/) in favour of [Eleventy](https://11ty.dev), for a few reasons:
 
--   I want the code for my site to be as lean as possible, and I want it to have very little JavaScript. Gatsby renders all my pages beautifully on the server, but then proceeds to require them to be downloaded again and rendered in JS. Why? 😩
--   I wanted to wrangle fewer dependencies. A few months ago I wrote a blog post after months of not touching my site, and I immediately had to spend time debugging dependencies that broke for no reason. Not fun.
--   I wanted to build every aspect myself and learn things in detail in the process. I accidentally ended up working at "the back of the frontend" and I really wanna learn more about "the front of the frontend", so why not on my own site?
+- I want the code for my site to be as lean as possible, and I want it to have very little JavaScript. Gatsby renders all my pages beautifully on the server, but then proceeds to require them to be downloaded again and rendered in JS. Why? 😩
+- I wanted to wrangle fewer dependencies. A few months ago I wrote a blog post after months of not touching my site, and I immediately had to spend time debugging dependencies that broke for no reason. Not fun.
+- I wanted to build every aspect myself and learn things in detail in the process. I accidentally ended up working at "the back of the frontend" and I really wanna learn more about "the front of the frontend", so why not on my own site?
 
 ## But first, learning
 
@@ -30,11 +30,11 @@ My second go was a lot more successful, as I'd learnt a bunch in the course, and
 
 My favourite sources for this were:
 
--   [Eleventy docs](https://www.11ty.dev/docs/)
--   The site we built on the [Eleventy from Scratch course](https://piccalil.li/course/learn-eleventy-from-scratch)
--   [11ty Rocks](https://11ty.rocks/)
--   [Max Böck's site](https://mxb.dev/)
--   [The a11y project's site](https://www.a11yproject.com/)
+- [Eleventy docs](https://www.11ty.dev/docs/)
+- The site we built on the [Eleventy from Scratch course](https://piccalil.li/course/learn-eleventy-from-scratch)
+- [11ty Rocks](https://11ty.rocks/)
+- [Max Böck's site](https://mxb.dev/)
+- [The a11y project's site](https://www.a11yproject.com/)
 
 ## Building time 🛠
 
@@ -47,10 +47,7 @@ Having said that, let's go over some aspects of the migration:
 Eleventy allows you to use and extend layouts, which is awesome! It means I can set up my base layout with my navigation, footer, and all the good stuff, and then create a page as simply as:
 
 ```html
-{% raw %}
----
-layout: base.html
----
+{% raw %} --- layout: base.html ---
 
 <h1>Hey there!</h1>
 {% endraw %}
@@ -63,13 +60,7 @@ Isn't that neat?
 I used the [Eleventy Navigation Plugin](https://www.11ty.dev/docs/plugins/navigation/) to manage my navigation. It's really simple and works well. All you need to do is add a couple of properties to your frontmatter, like so:
 
 ```html
-{% raw %}
----
-layout: base.html
-eleventyNavigation:
-    key: My Page
-    order: 4
----
+{% raw %} --- layout: base.html eleventyNavigation: key: My Page order: 4 ---
 
 <h1>Hey there!</h1>
 {% endraw %}
@@ -99,13 +90,15 @@ I managed to set that up using a [JavaScript data file](https://www.11ty.dev/doc
     "build": "ELEVENTY_ENV=prod npx @11ty/eleventy"
 }
 ```
+
 These are the scripts I set up in my package.json.
 
 ```js
 module.exports = {
-    environment: process.env.ELEVENTY_ENV,
+  environment: process.env.ELEVENTY_ENV
 };
 ```
+
 I then exposed my environment variable through a data file, in my case, site.js.
 
 ```liquid
@@ -115,6 +108,7 @@ I then exposed my environment variable through a data file, in my case, site.js.
 {% endif %}
 {% endraw %}
 ```
+
 Eleventy in turn exposes the contents of the data file under the file's name, so I can access my variable through `site.environment`.
 
 ### Image optimisation
@@ -127,29 +121,29 @@ Once I was set up with the image plugin, I ran into the second issue: even thoug
 
 ```html
 <picture>
-    <source
-        type="image/avif"
-        srcset="/images/6cccb4ec-600.avif 600w, /images/6cccb4ec-900.avif 900w"
-        sizes="(max-width: 600px) 90vw, 60vw"
-    />
-    <source
-        type="image/webp"
-        srcset="/images/6cccb4ec-600.webp 600w, /images/6cccb4ec-900.webp 900w"
-        sizes="(max-width: 600px) 90vw, 60vw"
-    />
-    <source
-        type="image/jpeg"
-        srcset="/images/6cccb4ec-600.jpeg 600w, /images/6cccb4ec-900.jpeg 900w"
-        sizes="(max-width: 600px) 90vw, 60vw"
-    />
-    <img
-        src="/images/6cccb4ec-600.jpeg"
-        alt="My lovely, lovely picture."
-        loading="lazy"
-        decoding="async"
-        width="600"
-        height="400"
-    />
+  <source
+    type="image/avif"
+    srcset="/images/6cccb4ec-600.avif 600w, /images/6cccb4ec-900.avif 900w"
+    sizes="(max-width: 600px) 600w, 900w"
+  />
+  <source
+    type="image/webp"
+    srcset="/images/6cccb4ec-600.webp 600w, /images/6cccb4ec-900.webp 900w"
+    sizes="(max-width: 600px) 600w, 900w"
+  />
+  <source
+    type="image/jpeg"
+    srcset="/images/6cccb4ec-600.jpeg 600w, /images/6cccb4ec-900.jpeg 900w"
+    sizes="(max-width: 600px) 600w, 900w"
+  />
+  <img
+    src="/images/6cccb4ec-600.jpeg"
+    alt="My lovely, lovely picture."
+    loading="lazy"
+    decoding="async"
+    width="600"
+    height="400"
+  />
 </picture>
 ```
 
@@ -173,7 +167,7 @@ Next I'll be looking at microformats, fonts and some basic CSS ✨
 
 See you there! 👋🏼
 
-___
+---
 
 ## PS: Relocating images
 
@@ -279,7 +273,7 @@ async function doIt(startingFolder) {
             let postContents = await fs.readFile(post, "utf8");
             postContents = postContents.replace(
                 /!\[(?<alt>.*)\]\((\.\/)?(?<filename>.*)\)/gm,
-                `{% Image "src$<filename>", "$<alt>", "(max-width: 600px) 90vw, 60vw" %}`
+                `{% Image "src$<filename>", "$<alt>", "(max-width: 600px) 600w, 900w" %}`
             );
             await fs.writeFile(post, postContents, "utf8");
         }

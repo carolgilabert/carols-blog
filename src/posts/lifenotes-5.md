@@ -12,10 +12,10 @@ Maybe the weeknotes title is not the most appropriate, but I'm not sure where th
 
 ## Did
 
--   On the wind down for Christmas, I did the [Design for Developers course on Frontend Masters](https://frontendmasters.com/courses/design-for-developers/) and oh my, it's the absolute best! Thoroughly enjoyed it all the way through, so thank you [Sarah Drasner](https://twitter.com/sarah_edo) ✨
--   Tech Nottingham Secret Santa was great, really enjoyed going round people's doorsteps to drop off presents and wave from afar 🎁
--   Christmas was enjoyable, despite not being able to go see my family 💔
--   After doing exactly one crafty thing, I've gone full Carol and bought a heckton of crafting equipment, so now I'm obvs praying I retain my focus long enough to do at least one more thing 😅
+- On the wind down for Christmas, I did the [Design for Developers course on Frontend Masters](https://frontendmasters.com/courses/design-for-developers/) and oh my, it's the absolute best! Thoroughly enjoyed it all the way through, so thank you [Sarah Drasner](https://twitter.com/sarah_edo) ✨
+- Tech Nottingham Secret Santa was great, really enjoyed going round people's doorsteps to drop off presents and wave from afar 🎁
+- Christmas was enjoyable, despite not being able to go see my family 💔
+- After doing exactly one crafty thing, I've gone full Carol and bought a heckton of crafting equipment, so now I'm obvs praying I retain my focus long enough to do at least one more thing 😅
 
 ## Played
 
@@ -45,17 +45,17 @@ Shame!
 
 ## Pics
 
-{% Image "src/images/posts/lifenotes-5/mug.jpg", "Dark green and red leopard print mug, with pink writing that says: Merry Christmas Ya Filthy Animal.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-5/mug.jpg", "Dark green and red leopard print mug, with pink writing that says: Merry Christmas Ya Filthy Animal.", "(max-width: 600px) 600w, 900w" %}
 _Got myself a nice Christmas mug 🎄_
 
-{% Image "src/images/posts/lifenotes-5/laptop.jpg", "Cute little yellow laptop made of clay, and the screen has pink letter that read WiT.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-5/laptop.jpg", "Cute little yellow laptop made of clay, and the screen has pink letter that read WiT.", "(max-width: 600px) 600w, 900w" %}
 _My Tech Nottingham Secret Santa made me the loveliest little laptop in my favourite colour 💛_
 
-{% Image "src/images/posts/lifenotes-5/sprout.jpg", "Felt tree ornament of a little green brussel sprout, with a smile and a golden crown.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-5/sprout.jpg", "Felt tree ornament of a little green brussel sprout, with a smile and a golden crown.", "(max-width: 600px) 600w, 900w" %}
 _Decided to try some crafting, and I love it! This is my imperfect first child ☝🏼_
 
-{% Image "src/images/posts/lifenotes-5/shed.jpg", "The big shed, with patterned sheets hung on the walls, some fairy lights, bales of hay as seats, and a metal wood burner in the middle.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-5/shed.jpg", "The big shed, with patterned sheets hung on the walls, some fairy lights, bales of hay as seats, and a metal wood burner in the middle.", "(max-width: 600px) 600w, 900w" %}
 _Thom's family made out the big shed for us to have a corona-safe Christmas Day chat, it even has a homemade wood burner 🥰_
 
-{% Image "src/images/posts/lifenotes-5/swans.jpg", "The lake shore on a sunny winter day, with lots of swans on the shore.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-5/swans.jpg", "The lake shore on a sunny winter day, with lots of swans on the shore.", "(max-width: 600px) 600w, 900w" %}
 _Sunny day walk on Attenborough Nature Reserve ☀️ 🦢_

@@ -1,10 +1,13 @@
-<a href="#main-content">Skip to content</a>
+<a class="skip-link" href="#main-content">Skip to content</a>
 <header role="banner">
-    <nav aria-label="Primary">
-        {% for item in collections.all | eleventyNavigation %}
-        <li>
-            <a href="{{ item.url | url}}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
-    </nav>
+  <a class="logo" href="/"><em>Carol.gg</em></a>
+  <nav aria-label="Primary">
+    <ul class="no-style">
+      {% for item in collections.all | eleventyNavigation %}
+      <li>
+        <a href="{{ item.url | url}}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </nav>
 </header>

@@ -6,40 +6,43 @@ const dateFilter = require("./src/utils/date-filter");
 const isoDateFilter = require("./src/utils/iso-date-filter");
 
 module.exports = function (eleventyConfig) {
-    // Plugins
-    eleventyConfig.addPlugin(navigationPlugin);
-    eleventyConfig.addPlugin(rssPlugin);
-    eleventyConfig.addPlugin(syntaxHighlightPlugin);
+  // Extra files to watch
+  eleventyConfig.addWatchTarget("./src/styles/");
 
-    // Shortcodes
-    eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);
+  // Plugins
+  eleventyConfig.addPlugin(navigationPlugin);
+  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addPlugin(syntaxHighlightPlugin);
 
-    // Filters
-    eleventyConfig.addFilter("date", dateFilter);
-    eleventyConfig.addFilter("isoDate", isoDateFilter);
+  // Shortcodes
+  eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);
 
-    // Collections
-    eleventyConfig.addCollection("latest", (collection) => {
-        return [...collection.getFilteredByGlob("./src/posts/*.md")]
-            .reverse()
-            .slice(0, 3);
-    });
+  // Filters
+  eleventyConfig.addFilter("date", dateFilter);
+  eleventyConfig.addFilter("isoDate", isoDateFilter);
 
-    // Passthrough copy for static files
-    eleventyConfig.addPassthroughCopy({"./src/static/**/*": "/"});
-    eleventyConfig.addPassthroughCopy({"./src/styles/**/*": "/styles"})
-    eleventyConfig.addPassthroughCopy({"./src/fonts/**/*": "/fonts"})
+  // Collections
+  eleventyConfig.addCollection("latest", (collection) => {
+    return [...collection.getFilteredByGlob("./src/posts/*.md")]
+      .reverse()
+      .slice(0, 3);
+  });
 
-    return {
-        markdownTemplateEngine: "njk",
-        dataTemplateEngine: "njk",
-        htmlTemplateEngine: "njk",
-        dir: {
-            input: "src",
-            output: "dist",
-            includes: "partials",
-            layouts: "layouts",
-            data: "data",
-        },
-    };
+  // Passthrough copy for static files
+  eleventyConfig.addPassthroughCopy({ "./src/static/**/*": "/" });
+  eleventyConfig.addPassthroughCopy({ "./src/styles/**/*": "/styles" });
+  eleventyConfig.addPassthroughCopy({ "./src/fonts/**/*": "/fonts" });
+
+  return {
+    markdownTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    dir: {
+      input: "src",
+      output: "dist",
+      includes: "partials",
+      layouts: "layouts",
+      data: "data",
+    },
+  };
 };

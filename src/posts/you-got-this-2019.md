@@ -7,22 +7,23 @@ readingTime: 6 min
 
 This post has been sitting in my drafts folder for way too long. I’ve been feeling guilty about not finishing it for a while now, but I should be focussing on the fact that I had a brilliant few weeks since this conference, where I did a lot of chilling and non techie things, which I also love 💛
 
-I found out about You Got This! conference on twitter, by accident, only a few weeks before it was held. As soon as I read the premise, I was sold. 
+I found out about You Got This! conference on twitter, by accident, only a few weeks before it was held. As soon as I read the premise, I was sold.
 
 The early stages of any career can be hard, but it feels like getting started in the tech industry can be particularly challenging. The field stretches infinitely in all directions, and it’s very easy to get lost in the amount of things to learn.
 
 This conference did such a good job on focussing on putting folks in the right mindset to thrive, regardless of their role, within this industry.
 
 ## Talks
+
 The talks were all very good and I learnt a lot throughout the day. I was quite tired and under slept that day, so unfortunately I didn’t socialise as much as I would have liked. Instead, I focussed on taking it all in.
 
 I’ll try and briefly summarise them:
 
 ### Perfectionism, Impostor Syndrome and Anxiety - Understanding your fears and learning to be kind to yourself
 
-They keynote was brilliantly delivered by [Jo Frank](https://twitter.com/ThisIsJoFrank). The topics she covered could not have been better, especially considering the audience. 
+They keynote was brilliantly delivered by [Jo Frank](https://twitter.com/ThisIsJoFrank). The topics she covered could not have been better, especially considering the audience.
 
-She talked about the seemingly ubiquitous issue of impostor syndrome, and the best strategies for dealing with it. She also touched upon perfectionism, and how destructive it can be to our personal and professional lives; after all, perfect is the enemy of good. 
+She talked about the seemingly ubiquitous issue of impostor syndrome, and the best strategies for dealing with it. She also touched upon perfectionism, and how destructive it can be to our personal and professional lives; after all, perfect is the enemy of good.
 
 I particularly not-enjoyed realising I have a certain level of anxiety going on. While I’m not consciously stressed about anything in particular, I do struggle to sleep and grind my teeth at night 😬
 
@@ -30,7 +31,7 @@ We all tend to be pretty hard on ourselves, so one of Jo’s quotes really reson
 
 > Would you talk to a friend like you talk to yourself?
 
-{% Image "src/images/posts/you-got-this-2019/jo_frank.jpg", "Jo Frank", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/you-got-this-2019/jo_frank.jpg", "Jo Frank", "(max-width: 600px) 600w, 900w" %}
 
 ### You know nothing… or do you?
 
@@ -44,8 +45,7 @@ Next up we had [Paula Muldoon](https://twitter.com/FiddlersCode), who started by
 
 Her talk was on money management, and should be required viewing for folks entering the industry. She gave lots of great advice like understanding your relationship with money, budgeting, and looking out for free money 🤑
 
-{% Image "src/images/posts/you-got-this-2019/paula_muldoon.jpg", "Paula Muldoon", "(max-width: 600px) 90vw, 60vw" %}
-
+{% Image "src/images/posts/you-got-this-2019/paula_muldoon.jpg", "Paula Muldoon", "(max-width: 600px) 600w, 900w" %}
 
 ### Junior.next()
 
@@ -53,7 +53,7 @@ Her talk was on money management, and should be required viewing for folks enter
 
 She went over her strategies for keeping track of her accomplishments. For instance, she has a trello board that she uses to track her personal and professional goals. It’s an excellent idea, as it’s good solace for when we’re feeling a bit down, but it’s also great ammunition for the time performance reviews come around.
 
-I thoroughly recommend giving her talk a watch, it was full of gems 💎 
+I thoroughly recommend giving her talk a watch, it was full of gems 💎
 
 ### Self-care: Beyond the hashtags
 
@@ -61,8 +61,7 @@ I thoroughly recommend giving her talk a watch, it was full of gems 💎
 
 > Self care is listening to your body and responding in the most loving way possible.
 
-{% Image "src/images/posts/you-got-this-2019/taylor_morrison.jpg", "Taylor Morrison", "(max-width: 600px) 90vw, 60vw" %}
-
+{% Image "src/images/posts/you-got-this-2019/taylor_morrison.jpg", "Taylor Morrison", "(max-width: 600px) 600w, 900w" %}
 
 ### Morality and Ethics - Caring is Everything
 
@@ -91,14 +90,14 @@ The closing keynote was given by [Sam Morgan](https://twitter.com/sjmog1). He ga
 
 I’m not going to attempt to summarise it, as I wouldn’t do it justice, definitely give it a watch yourself 🙂
 
-{% Image "src/images/posts/you-got-this-2019/sam_morgan.jpg", "Sam Morgan", "(max-width: 600px) 90vw, 60vw" %}
-
+{% Image "src/images/posts/you-got-this-2019/sam_morgan.jpg", "Sam Morgan", "(max-width: 600px) 600w, 900w" %}
 
 ## Wrap up
+
 I really enjoyed the fact that this conference had an MC. [Scary Boots](https://twitter.com/schrodingerskit) was really funny, and they did a fantastic job of keeping the audience engaged throughout the day. They also had the best lab coat dyeing tips 🙂
 
 There was a lot of care put into making the event accessible and inclusive. All of the talks were transcribed, which led to this hilarious exchange:
-{% Image "src/images/posts/you-got-this-2019/transcription.jpg", "Transcriber speaking to attendees through prompt", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/you-got-this-2019/transcription.jpg", "Transcriber speaking to attendees through prompt", "(max-width: 600px) 600w, 900w" %}
 
 The [highlights page](https://2019.yougotthis.io/highlights) for the event has the video recording, transcript and sketch note for each talk. I’d highly recommend checking that out.
 

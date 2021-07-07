@@ -18,11 +18,11 @@ I feel _all of the feelings_, **all of the time**.
 
 Reasons I cried over the last couple of weeks:
 
--   The last few chapters of [The Book Thief](https://www.hive.co.uk/Product/Markus-Zusak/The-Book-Thief--Includes-a-chapter-from-his-new-book-BRIDGE-OF-CLAY/19375811): cried a lot over this, as I struggle to comprehend that humans are capable of things as monstrous as the holocaust
--   Some passages of [Ordinary People](https://www.hive.co.uk/Product/Diana-Evans/Ordinary-People/23350730)
--   The [Grenfell Story episode](https://www.bbc.co.uk/programmes/p07qtmfs) of Have You Heard George’s podcast
--   Final episode of [The Good Place](https://www.netflix.com/title/80113701)
--   A song in a cafe reminded me of a happy memory and made me well up
+- The last few chapters of [The Book Thief](https://www.hive.co.uk/Product/Markus-Zusak/The-Book-Thief--Includes-a-chapter-from-his-new-book-BRIDGE-OF-CLAY/19375811): cried a lot over this, as I struggle to comprehend that humans are capable of things as monstrous as the holocaust
+- Some passages of [Ordinary People](https://www.hive.co.uk/Product/Diana-Evans/Ordinary-People/23350730)
+- The [Grenfell Story episode](https://www.bbc.co.uk/programmes/p07qtmfs) of Have You Heard George’s podcast
+- Final episode of [The Good Place](https://www.netflix.com/title/80113701)
+- A song in a cafe reminded me of a happy memory and made me well up
 
 All my emotions just seem to be on their highest setting. I’ve been ecstatic, completely exhausted, extremely calm.
 

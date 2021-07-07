@@ -14,7 +14,7 @@ readingTime: 2 min
 ## 🎮 Played/Read/Watched
 
 - [AC Valhalla](https://store.playstation.com/en-gb/product/EP0001-PPSA01490_00-GAME000000000000): still plodding through it 🤷🏼‍♀️
-- [Jedi Fallen Order](https://store.playstation.com/en-gb/product/EP0006-CUSA12529_00-RESPAWNSWBIRDDOG) was great fun! Although some of the mechanics that are meant to make it harder actually just made it annoying 😅  I'm a busy woman, I can't spend my life traversing these planets, just give me fast travel!
+- [Jedi Fallen Order](https://store.playstation.com/en-gb/product/EP0006-CUSA12529_00-RESPAWNSWBIRDDOG) was great fun! Although some of the mechanics that are meant to make it harder actually just made it annoying 😅 I'm a busy woman, I can't spend my life traversing these planets, just give me fast travel!
 - [The men who stared at goats](https://www.imdb.com/title/tt1234548): I read the book a few months ago and it made me want to watch the film. Was alright 🤷🏼‍♀️
 - This was a [great read on what's wrong with NFTs](https://everestpipkin.medium.com/but-the-environmental-issues-with-cryptoart-1128ef72e6a3).
 - [Guns akimbo](https://www.imdb.com/title/tt6902676): wacky and fun 😄
@@ -29,6 +29,6 @@ readingTime: 2 min
 
 ## 📸 Pics
 
-{% Image "src/images/posts/lifenotes-8/collage.jpg", "A collage of picture: first one is Thom by the river trent, under Trent Bridge; there's a couple of us with the moving van, one of Thom loading boxed and one of me in the van with a big plant on my lap; the rest are of the new house chaos, you can see the kitchen and both living rooms filled with stuff on the floors.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-8/collage.jpg", "A collage of picture: first one is Thom by the river trent, under Trent Bridge; there's a couple of us with the moving van, one of Thom loading boxed and one of me in the van with a big plant on my lap; the rest are of the new house chaos, you can see the kitchen and both living rooms filled with stuff on the floors.", "(max-width: 600px) 600w, 900w" %}
 
 _We went for a walk by the river early in the month; the rest are from the move, and the generalised chaos of the situation_ 😅

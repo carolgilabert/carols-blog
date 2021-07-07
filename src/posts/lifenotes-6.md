@@ -30,4 +30,4 @@ Hey pals! I clearly cannot be trusted to write every week, so I'm turning my wee
 
 ## 📸 Pics
 
-{% Image "src/images/posts/lifenotes-6/collage.jpg", "A collage of pictures: a portrait of Thom in the snowy park with his hood up; a selfie from when I was covered in snow in the park; a picture of our local park, all white except for the colourful row of houses behind it; the snow person we built and their snow dog; my new desk speakers, teal coloured and cute; and lastly my first finished embroidery hoop, a sampler with lots of different sections to practice each different stitch.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-6/collage.jpg", "A collage of pictures: a portrait of Thom in the snowy park with his hood up; a selfie from when I was covered in snow in the park; a picture of our local park, all white except for the colourful row of houses behind it; the snow person we built and their snow dog; my new desk speakers, teal coloured and cute; and lastly my first finished embroidery hoop, a sampler with lots of different sections to practice each different stitch.", "(max-width: 600px) 600w, 900w" %}
