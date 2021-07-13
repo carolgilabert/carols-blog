@@ -1,19 +1,19 @@
 <ul class="h-feed">
-    {%- for post in postList %}
-    <li>
-        <article class="h-entry">
-            {% include "h-card.html" %}
-            <a class="u-url" href="{{ post.url }}">
-                <h2 class="p-name">{{ post.data.title }}</h2>
-            </a>
-            <span>
-                <time class="dt-published" datetime="{{ post.data.date | isoDate }}">
-                    {{ post.data.date | date }}
-                </time>
-                · {{ post.data.readingTime }}
-            </span>
-            <p class="p-summary">{{ post.data.subtitle }}</p>
-        </article>
-    </li>
-    {%- endfor %}
+  {%- for post in postList %}
+  <li>
+    <article class="h-entry">
+      {% include "h-card.html" %}
+      <a class="u-url" href="{{ post.url }}">
+        <p class="p-name">{{ post.data.title }}</p>
+      </a>
+      <span>
+        <time class="dt-published" datetime="{{ post.data.date | isoDate }}">
+          {{ post.data.date | date }}
+        </time>
+        · {{ post.data.readingTime }}
+      </span>
+      <p class="p-summary">{{ post.data.subtitle }}</p>
+    </article>
+  </li>
+  {%- endfor %}
 </ul>

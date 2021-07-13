@@ -10,16 +10,16 @@ Hey friends! Hope you had a nice week and weekend. This is a bit late, but here'
 
 ## Did
 
--   Got back to work after a week away, couldn't really remember anything about my job 😅
--   Went to see the house we're buying again, and it's still lovely 💛 just have to wait for mortgage and solicitors and other boring things 🤞🏼
--   Had my first therapy session 🙌🏼
--   Got a new pillow, but I didn't really get on with it.
--   Started looking into micro frontends and potential architectures, very exciting 🤓
--   Started migrating my site to Eleventy 👩🏼‍💻
--   [The Coding Black Females Takeover at WiT Notts](https://www.technottingham.com/events/wit-november-2020) was so good! Inspirational talks and speakers, and overall just great fun 💛
--   Got my flu jab
--   Biden won 🎉
--   Had a lovely zoom call with some of the [Tech Nottingham Slack](https://nott.tech/slack) folks, and after our convo decided to watch a sampler of UK game shows. I watched: Only Connect, Countdown, University Challenge, Mastermind, Catchphrase, Pointless, Richard Osman's House of Games, The Chase and Who Wants to be a Millionaire. Did I miss any good ones?
+- Got back to work after a week away, couldn't really remember anything about my job 😅
+- Went to see the house we're buying again, and it's still lovely 💛 just have to wait for mortgage and solicitors and other boring things 🤞🏼
+- Had my first therapy session 🙌🏼
+- Got a new pillow, but I didn't really get on with it.
+- Started looking into micro frontends and potential architectures, very exciting 🤓
+- Started migrating my site to Eleventy 👩🏼‍💻
+- [The Coding Black Females Takeover at WiT Notts](https://www.technottingham.com/events/wit-november-2020) was so good! Inspirational talks and speakers, and overall just great fun 💛
+- Got my flu jab
+- Biden won 🎉
+- Had a lovely zoom call with some of the [Tech Nottingham Slack](https://nott.tech/slack) folks, and after our convo decided to watch a sampler of UK game shows. I watched: Only Connect, Countdown, University Challenge, Mastermind, Catchphrase, Pointless, Richard Osman's House of Games, The Chase and Who Wants to be a Millionaire. Did I miss any good ones?
 
 ## Played
 
@@ -42,11 +42,11 @@ Hey friends! Hope you had a nice week and weekend. This is a bit late, but here'
 
 ## Pics
 
-{% Image "src/images/posts/lifenotes-2/garden.jpg", "You can the back of a two storey brick house, a deck with a table and a parasol, some bunting and a blue wendy house.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-2/garden.jpg", "You can the back of a two storey brick house, a deck with a table and a parasol, some bunting and a blue wendy house.", "(max-width: 600px) 600w, 900w" %}
 _The back garden of the house we're trying to buy_
 
-{% Image "src/images/posts/lifenotes-2/jacket.jpg", "Me, with my back to the camera, wearing a teal bomber jacket, with pink embroidery at the back of a keycap and the incription: cute keyboard club.", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-2/jacket.jpg", "Me, with my back to the camera, wearing a teal bomber jacket, with pink embroidery at the back of a keycap and the incription: cute keyboard club.", "(max-width: 600px) 600w, 900w" %}
 _My cute keyboard club jacket arrived 😍_
 
-{% Image "src/images/posts/lifenotes-2/fog.jpg", "A foggy street, with a square and a brick building in the distance", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-2/fog.jpg", "A foggy street, with a square and a brick building in the distance", "(max-width: 600px) 600w, 900w" %}
 _Spooky times are still going over here in Sneinton Market 👻_

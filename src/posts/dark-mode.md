@@ -13,9 +13,9 @@ But fret not, browsers are now adding dark mode support, to the excitement of th
 
 Support is already in a good place, and there’s little else out there better suited for progressive enhancement. If your browser doesn’t support it, everything stays as is and it’s just browsing as usual.
 
-This is the [caniuse for the feature](https://caniuse.com/#feat=prefers-color-scheme): 
+This is the [caniuse for the feature](https://caniuse.com/#feat=prefers-color-scheme):
 
-{% Image "src/images/posts/dark-mode/dark-mode-caniuse.png", "caniuse support for prefers-color-scheme", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/dark-mode/dark-mode-caniuse.png", "caniuse support for prefers-color-scheme", "(max-width: 600px) 600w, 900w" %}
 
 When I heard of it, I immediately decided to add dark mode to my site, and a mere 9 months later, here we are 😅
 
@@ -43,12 +43,12 @@ So I had a play with those tools and got something working on Glitch:
  
 That’s my target for theming, but for now I only added light and dark mode support to the side. I’ll add more themes once I update the design and components - coming soon™.<br><br>
 
-It’s been quite an easy feature to implement, to be honest. I spent a great deal of time reading about different approaches and deciding how to go about it, but once I made up my mind, it was quite straightforward. And it was fun! I love playing with colours, so I had a blast doing this. 
+It’s been quite an easy feature to implement, to be honest. I spent a great deal of time reading about different approaches and deciding how to go about it, but once I made up my mind, it was quite straightforward. And it was fun! I love playing with colours, so I had a blast doing this.
 
 So here it is:
 
-{% Image "src/images/posts/dark-mode/screenshot-light-mode.png", "Screenshot of light mode", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/dark-mode/screenshot-light-mode.png", "Screenshot of light mode", "(max-width: 600px) 600w, 900w" %}
 
-{% Image "src/images/posts/dark-mode/screenshot-dark-mode.png", "Screenshot of dark mode", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/dark-mode/screenshot-dark-mode.png", "Screenshot of dark mode", "(max-width: 600px) 600w, 900w" %}
 
 Hope this helps if you’re looking to add dark mode support to your site. And if you need any more support, give me a shout 🙂

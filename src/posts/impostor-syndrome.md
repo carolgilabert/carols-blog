@@ -9,7 +9,7 @@ A few weeks ago, the Women in Tech group at work got together to organise the lo
 
 I’ve decided to make the talk into a blog post, as it’s something I care about and talking about it really helps. I started feeling a bit nervous about doing the talk, so I decided to do some research so I could feel prepared. I started on Wikipedia, as you do, and it said this at the top of the page:
 
-> Not to be confused with  [Capgras delusion](https://en.m.wikipedia.org/wiki/Capgras_delusion) , in which a person believes that a loved one has been replaced by an impostor.
+> Not to be confused with [Capgras delusion](https://en.m.wikipedia.org/wiki/Capgras_delusion) , in which a person believes that a loved one has been replaced by an impostor.
 
 😱 This is terrifying, definitely scarier than doing a talk, so I did it. (I’ve been eyeing my family suspiciously for weeks now, though)
 
@@ -19,7 +19,7 @@ Impostor syndrome is the name of a particular flavour of self-doubt, in which yo
 
 I found that early on it was thought to affect high achieving women, but studies conducted since have shown it affects men and women equally.
 
-{% Image "src/images/posts/impostor-syndrome/impostor_syndrome_chart.png", "Pie chart of the proportion of people affected by impostor syndrome, it's everyone", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/impostor-syndrome/impostor_syndrome_chart.png", "Pie chart of the proportion of people affected by impostor syndrome, it's everyone", "(max-width: 600px) 600w, 900w" %}
 
 Humans are susceptible to hosts of cognitive biases, and are not great at self assessment. Impostor syndrome is one of those biases, and perhaps one of the most shocking cases of it is Maya Angelou.
 
@@ -31,13 +31,13 @@ She was an immensely accomplished person, and yet she grappled with impostor syn
 
 > Each time I write a book, every time I face that yellow pad, the challenge is so great. I have written eleven books, but each time I think, ‘Uh oh, they’re going to find out now. I’ve run a game on everybody and they’re going to find me out.’
 
-If someone like Maya Angelou struggles with impostor syndrome, how can I not? 
+If someone like Maya Angelou struggles with impostor syndrome, how can I not?
 
 ## What does it look like for me?
 
 For me, impostor syndrome feels like this:
 
-{% Image "src/images/posts/impostor-syndrome/two-owls.jpg", "An owl labelled actual engineers looks suspiciously at a fake owl, labelled me", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/impostor-syndrome/two-owls.jpg", "An owl labelled actual engineers looks suspiciously at a fake owl, labelled me", "(max-width: 600px) 600w, 900w" %}
 
 My very talented colleagues sit at their desks, being talented, doing amazing things. Meanwhile I sit at mine tapping the keyboard and making it up as I go along.
 
@@ -48,9 +48,10 @@ And yet I tell my mentees they shouldn’t worry about buzzwords; I tell them te
 Why do I demand so much of myself?
 
 This tweet from [Ali Spittel](https://twitter.com/ASpittel) I saw recently sums it up nicely:
+
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Me to other developers:<br><br>- You don&#39;t have to know everything<br>- Have work life balance<br>- you are awesome<br><br>Me to myself:<br><br>- You have to be an expert in all of the things<br>- People work less than 80hr weeks?<br>- at some point people are going to realize you actually suck at this<br><br>🙃</p>&mdash; Ali Spittel 🐞 (@ASpittel) <a href="https://twitter.com/ASpittel/status/1113616884925194240?ref_src=twsrc%5Etfw">April 4, 2019</a></blockquote><br>
 
-My self doubt doesn’t only care about the present, though. It scours my past, and makes intrusive suggestions: Did I get where I am because I got lucky? 
+My self doubt doesn’t only care about the present, though. It scours my past, and makes intrusive suggestions: Did I get where I am because I got lucky?
 Am I a diversity hire? Do _other people think_ I’m a diversity hire?
 
 There is no denying privilege has played a part in my life. I come from a poor neighbourhood in a poor country, but I am healthy and able, almost white, I had able parents that worked very hard, I had access to food, clothes and education. I have Spanish citizenship, which gave me the privilege to move countries easily when I wanted to.
@@ -69,7 +70,7 @@ I’m very lucky to work in a company that has a feedback culture, and that’s 
 
 ### Talking to people about it
 
-Preparing for this talk has been so helpful, as it made me talk to quite a few people about it. It was encouraging to know that a lot of people that I consider successful and skilful deal with impostor syndrome, and still manage to be awesome 😎 
+Preparing for this talk has been so helpful, as it made me talk to quite a few people about it. It was encouraging to know that a lot of people that I consider successful and skilful deal with impostor syndrome, and still manage to be awesome 😎
 
 Unfortunately I’m not the only one to think about whether I’m a diversity hire or not, but I discovered there’s also another side to this story. When discussing this subject with my partner, he mentioned he often wonders if he’s got his job because he’s a white man, if he got to where he is because of his privilege.
 
@@ -79,7 +80,7 @@ Talking to people made me realise that impostor syndrome is quite common, and th
 
 ### Keeping a yay list
 
-I learnt about the yay list not too long ago from a talk, and I really liked the idea. It consists of keeping a list of all the things worth celebrating you’ve done. Sometimes it can be to get out of bed, sometimes it’s a big presentation you were scared to do. 
+I learnt about the yay list not too long ago from a talk, and I really liked the idea. It consists of keeping a list of all the things worth celebrating you’ve done. Sometimes it can be to get out of bed, sometimes it’s a big presentation you were scared to do.
 
 I haven’t been doing it for long, but it has really helped. I’m guilty of moving my own goalposts a lot, moving on to the next thing as soon as I reach my objective. I think this happens a lot in tech; as soon as you learn something, you believe it to be obvious to everyone else, and that can be very damaging.
 
@@ -96,7 +97,9 @@ I’m learning that I have a limited amount of time, and that I shouldn’t feel
 So be your own best friend 💛
 
 ---
+
 ## Links
+
 [List of Cognitive Biases - Wikipedia](https://en.m.wikipedia.org/wiki/List_of_cognitive_biases)
 
 [What is imposter syndrome and how can you combat it? - Elizabeth Cox - YouTube](https://www.youtube.com/watch?v=ZQUxL4Jm1Lo)

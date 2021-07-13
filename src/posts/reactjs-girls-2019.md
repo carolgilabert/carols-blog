@@ -4,11 +4,12 @@ author: Carolina Gilabert
 date: 2019-07-15
 readingTime: 7 min
 ---
+
 As I mentioned on my [Frontend NE write up](/blog/frontend-ne-2019), I’m hoping to specialise on frontend technologies going forward. I want to get to know the browser and the things we put in it in depth, so ReactJS Girls felt like a good opportunity to expand my knowledge in that area.
 
 As well as the conference itself, I signed up for the Advanced React workshop with [Manjula Dube](https://twitter.com/manjula_dube) the day before the conference, and it was really valuable. I formalised my knowledge in some of the React patterns I already use, learnt some new ones, and got in on the hype with React hooks.
 
-The conference had a really good selection of talks and speakers, and all around amazing women everywhere. 
+The conference had a really good selection of talks and speakers, and all around amazing women everywhere.
 
 It was hosted on my birthday, and it felt really great to spend the day surrounded by talented women in my field 🥳
 
@@ -22,6 +23,7 @@ If you do have a few minutes to spare, I recommend you watch it, as the whole th
 [ReactJS Girls LiveStream - Intro](https://youtu.be/dkl6sYff2C8?t=1993)
 
 ## Talks
+
 All the talks were of a really high standard, and I’ve decided to pick a few to write down some notes about. I chose the ones that resonated with me the most, due to the content and how closely it relates to the things I’m working on at the moment.
 
 If you do have the time, I recommend giving the talks a watch, there was a lot of good stuff! 🙂
@@ -30,7 +32,7 @@ If you do have the time, I recommend giving the talks a watch, there was a lot o
 
 ### Building a design system with React
 
-[Emma Wedekind](https://twitter.com/EmmaWedekind) was the first speaker, starting us off with a really good talk on building design systems. 
+[Emma Wedekind](https://twitter.com/EmmaWedekind) was the first speaker, starting us off with a really good talk on building design systems.
 
 I’ve been thinking about this subject a lot recently, and the best way to approach it. So her talk came just at the right time 🙂
 
@@ -84,20 +86,22 @@ These were my favourite:
 💎 Don’t make assumptions  
 💎 Ask questions as opposed to telling people what to do  
 💎 Spread positivity  
-💎 Don’t underestimate your teammates  
+💎 Don’t underestimate your teammates
 
 It was a really insightful talk on the active effort you need to put in to create a good culture. It doesn’t happen on its own, but with good norms and established behaviours we can make our teams and communities safe and inclusive spaces 💛
 
 ## Wrap up
+
 It was a lovely, busy day where I learnt a lot, made some new friends, and was inspired by badass women. What a birthday present!
 
 Speaking of, I got an actual birthday present, a copy of [Eve Porcello](https://twitter.com/eveporcello)’s book Learning GraphQL. How cool is that?
 
 <p><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I just got a kickass birthday present from <a href="https://twitter.com/eveporcello?ref_src=twsrc%5Etfw">@eveporcello</a> 🎁<br><br>Thank you so much! 💛 <a href="https://twitter.com/hashtag/ReactJSGirls?src=hash&amp;ref_src=twsrc%5Etfw">#ReactJSGirls</a> <a href="https://t.co/Ag95EZxV8J">pic.twitter.com/Ag95EZxV8J</a></p>&mdash; Carol 👩‍💻 (@CarolSaysThings) <a href="https://twitter.com/CarolSaysThings/status/1124315636598018048?ref_src=twsrc%5Etfw">May 3, 2019</a></blockquote></p>
 
-
 ---
+
 ## Extra stuff:
+
 [Emma](https://twitter.com/EmmaWedekind) mentioned during her talk that she uses Object.freeze() to prevent properties from being added/removed/updated in an object. She used it to define component behaviours and things that shouldn’t be mutated throughout the app.
 
 I hadn’t heard of it before, so I thought it’d be interesting to include it here:

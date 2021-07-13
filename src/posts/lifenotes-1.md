@@ -11,13 +11,13 @@ So here's a breakdown of what I...
 
 ## Did
 
--   Spent this whole week with Thom in a cottage in the middle of Craik Forest, in Scotland.
--   Went on loads of walks with Thom and Merlot (our host's dog).
--   We visited a few places in the week: Hawick, Moffat, St Mary's Loch, and the Talla and Megget Reservoirs.
--   Cooked lovely food.
--   Drank wine by the fire.
--   Practiced some drawing.
--   Bought the [cosiest socks](https://www.seasaltcornwall.co.uk/accessories/socks-tights/chunky-knit-socks-with-fluffy-lining-aspect-berry.htm) ahead of the winter 🧦
+- Spent this whole week with Thom in a cottage in the middle of Craik Forest, in Scotland.
+- Went on loads of walks with Thom and Merlot (our host's dog).
+- We visited a few places in the week: Hawick, Moffat, St Mary's Loch, and the Talla and Megget Reservoirs.
+- Cooked lovely food.
+- Drank wine by the fire.
+- Practiced some drawing.
+- Bought the [cosiest socks](https://www.seasaltcornwall.co.uk/accessories/socks-tights/chunky-knit-socks-with-fluffy-lining-aspect-berry.htm) ahead of the winter 🧦
 
 ## Played
 
@@ -46,11 +46,11 @@ So here's a breakdown of what I...
 
 ## Pics
 
-{% Image "src/images/posts/lifenotes-1/thom-and-i.jpeg", "Thom and I having a soggy stroll by Talla Reservoir", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-1/thom-and-i.jpeg", "Thom and I having a soggy stroll by Talla Reservoir", "(max-width: 600px) 600w, 900w" %}
 _Thom and I having a soggy stroll by Talla Reservoir_
 
-{% Image "src/images/posts/lifenotes-1/waterfall.jpeg", "Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-1/waterfall.jpeg", "Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest", "(max-width: 600px) 600w, 900w" %}
 _Thom and Merlot by Wolfcleuch Waterfall, in Craik Forest_
 
-{% Image "src/images/posts/lifenotes-1/merlot-and-i.jpeg", "Merlot and I having a cuddle", "(max-width: 600px) 90vw, 60vw" %}
+{% Image "src/images/posts/lifenotes-1/merlot-and-i.jpeg", "Merlot and I having a cuddle", "(max-width: 600px) 600w, 900w" %}
 _Merlot and I having a cuddle 💛_

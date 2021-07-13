@@ -20,12 +20,13 @@ This one wasn't necessarily hard, but it had a bit more ✨ spice ✨ to it 😄
 
 Again, I used the 11ty plugin listed on [their docs](https://www.11ty.dev/docs/plugins/syntaxhighlight/) with all the default settings, so hooking it up was a breeze!
 
-For the theme, I decided to go for a [PrismJS adaptation](https://github.com/PrismJS/prism-themes/blob/master/themes/prism-night-owl.css) of [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl), by [Sarah Drasner](https://sarahdrasnerdesign.com) ✨ It wasn't CDN hosted, so I pulled the file and included it in my site. 
+For the theme, I decided to go for a [PrismJS adaptation](https://github.com/PrismJS/prism-themes/blob/master/themes/prism-night-owl.css) of [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl), by [Sarah Drasner](https://sarahdrasnerdesign.com) ✨ It wasn't CDN hosted, so I pulled the file and included it in my site.
 
 This is my first CSS file, so I ended up adding a hatch into my base page layout that makes it really easy for me to include CSS and JS files only on the pages that need them. I got it from [Evan](https://darthmall.net) over at the [Piccalilli Discord](https://piccalil.li/membership/) 🙌🏼
 
 Here's the code I added to the base layout:
 {% raw %}
+
 ```liquid
 {% for script in extraScripts %}
     <script src="{{ script | url }}></script>
@@ -35,13 +36,14 @@ Here's the code I added to the base layout:
     <link rel="stylesheet" href="{{ stylesheet | url }}" />
 {% endfor %}
 ```
+
 {% endraw %}
 
 Then I added this to the blog post layout:
 
 ```yaml
 extraStyles:
-    - /styles/code.css
+  - /styles/code.css
 ```
 
 And done! Said it was gonna be quick 💨

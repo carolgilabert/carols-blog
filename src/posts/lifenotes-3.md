@@ -12,9 +12,9 @@ Hope you had a nice one 🙂
 
 ## Did
 
--   [Tech Nottingham](https://www.technottingham.com/events/tech-nottingham-november-2020) was great, we had an awesome talk on gender bias, and played some games with the community. Turns out people love to be given an opportunity to say: "Can I have a vowel, please Carol?" 😂
--   Saw friends and family on zoom this week, which was lovely, but contributed to my exhaustion, as I spent a pretty high proportion of my waking time on zoom this week 😭
--   So I ended up spending the rest of the time resting and recovering.
+- [Tech Nottingham](https://www.technottingham.com/events/tech-nottingham-november-2020) was great, we had an awesome talk on gender bias, and played some games with the community. Turns out people love to be given an opportunity to say: "Can I have a vowel, please Carol?" 😂
+- Saw friends and family on zoom this week, which was lovely, but contributed to my exhaustion, as I spent a pretty high proportion of my waking time on zoom this week 😭
+- So I ended up spending the rest of the time resting and recovering.
 
 ## Played
 

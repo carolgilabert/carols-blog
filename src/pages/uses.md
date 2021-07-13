@@ -1,14 +1,18 @@
 ---
 layout: base.html
 eleventyNavigation:
-    key: Uses
-    order: 5
+  key: Uses
+  order: 5
 permalink: /uses/
 ---
 
+# Uses
+
+Here's a non exhaustive list of my setup, hopefully there's something in here that's useful to you :)
+
 ## Gear
 
-{% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 49 inch ultrawide monitor, a couple of pastel colour mechanical keyboards, cute teal speakers, and plenty other cute and pastel accessories.", "(max-width: 600px) 60vw, 30vw" %}
+{% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 49 inch ultrawide monitor, a couple of pastel colour mechanical keyboards, cute teal speakers, and plenty other cute and pastel accessories.", "(max-width: 600px) 600w, 900w" %}
 
 - Desk: [Jarvis Bamboo Standing Desk - Fully](https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html)
 - Laptop: [2018 MacBook Pro 15"](https://support.apple.com/kb/SP756?locale=en_GB)
@@ -39,7 +43,7 @@ permalink: /uses/
 
 _Note: Some of the letters have started to rub off._
 
-{% Image "src/images/uses/wasd.jpg", "A white mechanical keyboard, with white, pink, and dark grey keycaps. The font on the keycaps is curly and italic. A bunch of the keys have space themed icons.", "(max-width: 600px) 60vw, 30vw" %}
+{% Image "src/images/uses/wasd.jpg", "A white mechanical keyboard, with white, pink, and dark grey keycaps. The font on the keycaps is curly and italic. A bunch of the keys have space themed icons.", "(max-width: 600px) 600w, 900w" %}
 
 ### Ergodox EZ
 
@@ -48,7 +52,7 @@ _Note: Some of the letters have started to rub off._
 - Cable: [The Curled One (Cream Fuchsia Diamonds) - Clark Kable](https://clarkkable.com/)
 - Keycaps: [Astrolokeys](https://astrolokeys.com/)
 
-{% Image "src/images/uses/ergodox.jpg", "A white mechanical keyboard, split in two, with white, pink, yellow and purple keycaps in an astrological theme.", "(max-width: 600px) 60vw, 30vw" %}
+{% Image "src/images/uses/ergodox.jpg", "A white mechanical keyboard, split in two, with white, pink, yellow and purple keycaps in an astrological theme.", "(max-width: 600px) 600w, 900w" %}
 
 ### DZ60RGB
 
@@ -61,13 +65,13 @@ _Note: Some of the letters have started to rub off._
 
 _Note: The keycaps didn't perfectly match the PCB layout, and because of their slanted profile, it was difficult to use them in different places. In future, I'd probably either try to match the layouts or get a DSA profile keycap set, so they're easier to move around._
 
-{% Image "src/images/uses/tofu.jpg", "A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps.", "(max-width: 600px) 60vw, 30vw" %}
+{% Image "src/images/uses/tofu.jpg", "A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps.", "(max-width: 600px) 600w, 900w" %}
 
 ## Software
 
 ### Editor
 
-{% Image "src/images/uses/vscode.png", "A screenshot of VSCode, the theme is purple with yellow, pink and red fonts in places. The font is a modern looking monospace.", "(max-width: 600px) 60vw, 30vw" %}
+{% Image "src/images/uses/vscode.png", "A screenshot of VSCode, the theme is purple with yellow, pink and red fonts in places. The font is a modern looking monospace.", "(max-width: 600px) 600w, 900w" %}
 
 App: [VS Code](https://code.visualstudio.com/)
 
@@ -93,7 +97,7 @@ Fav extensions:
 
 ### Terminal
 
-{% Image "src/images/uses/iterm.png", "A screenshot of iTerm2, the theme is dark blue, and the prompt is a random emoji, followed by folder and git indicators, and followed by a colourful chevron.", "(max-width: 600px) 60vw, 30vw" %}
+{% Image "src/images/uses/iterm.png", "A screenshot of iTerm2, the theme is dark blue, and the prompt is a random emoji, followed by folder and git indicators, and followed by a colourful chevron.", "(max-width: 600px) 600w, 900w" %}
 
 App: [iTerm2](https://iterm2.com/)
 
@@ -118,15 +122,15 @@ Theme:
 - [Spark](https://www.shadowlab.org/softwares/spark.php)
 - [Notion](https://www.notion.so/)
 - [Setapp](https://setapp.com/)
-    - [Session](https://www.stayinsession.com/)
-    - [Bartender](https://www.macbartender.com/)
-    - [Sizzy](https://sizzy.app/)
-    - [Sidenotes](https://www.apptorium.com/sidenotes)
-    - [Downie](https://software.charliemonroe.net/downie/)
-    - [Permute](https://software.charliemonroe.net/permute/)
-    - [iStatMenus](https://bjango.com/mac/istatmenus/)
-    - [HazeOver](https://hazeover.com/)
-    - [Cleanshot X](https://cleanshot.com/)
+  - [Session](https://www.stayinsession.com/)
+  - [Bartender](https://www.macbartender.com/)
+  - [Sizzy](https://sizzy.app/)
+  - [Sidenotes](https://www.apptorium.com/sidenotes)
+  - [Downie](https://software.charliemonroe.net/downie/)
+  - [Permute](https://software.charliemonroe.net/permute/)
+  - [iStatMenus](https://bjango.com/mac/istatmenus/)
+  - [HazeOver](https://hazeover.com/)
+  - [Cleanshot X](https://cleanshot.com/)
 - [Hand Mirror](https://handmirror.app/)
 - [Synergy](https://symless.com/synergy)
 - [RunJS](https://runjs.app/)

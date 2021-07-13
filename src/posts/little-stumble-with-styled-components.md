@@ -9,7 +9,7 @@ I’d been seeing “caching issues” for a while with this site. Whenever I de
 
 Ah, cache invalidation… the hardest thing in software engineering.
 
-Right? 
+Right?
 
 😭
 
@@ -21,4 +21,4 @@ Once I realised that was the issue, it was piece of cake to fix. Because Gatsby 
 
 So all I had to do was an npm install. Whoops! 😅
 
-PS: that means my dark mode is not working as I intended. Because of SSR, it renders the light theme by default and switches as you move around. Gonna have to dig a little to sort that one out  🛠
+PS: that means my dark mode is not working as I intended. Because of SSR, it renders the light theme by default and switches as you move around. Gonna have to dig a little to sort that one out 🛠

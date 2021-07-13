@@ -15,9 +15,9 @@ I’m always doing a million things at once, and a lot of people around me think
 
 So since arriving in Oslo, I agreed (with myself) to try and focus on one thing at a time. I always have multiple stimuli going at once, any combination of podcast, reading, music, twitter. So for this week, I thought I’d try a bit of silence. So if I’m reading, no background music; if I’m walking, no podcasts.
 
-It’s been less than 24 hours at this point, and I have to say I’m getting a bit overwhelmed at times. 
+It’s been less than 24 hours at this point, and I have to say I’m getting a bit overwhelmed at times.
 
-I find creative endeavours hard. I don’t consider myself a creative person, and struggle to come up with ideas. I’ve read multiple times that for writing and other creative tasks, doing nothing is the best method. Sitting still and observing life around you gives you inspiration. 
+I find creative endeavours hard. I don’t consider myself a creative person, and struggle to come up with ideas. I’ve read multiple times that for writing and other creative tasks, doing nothing is the best method. Sitting still and observing life around you gives you inspiration.
 
 I’ve been saying to people that I need to get better at writing, at just putting my streams of consciousness into words. At the moment, when writing a blog post, I agonise over every word, and am still unhappy with the final result. I thought by transcribing my thoughts, I’d have a more fluid output that I could then shape and edit. But what do I do when it’s too much?
 
