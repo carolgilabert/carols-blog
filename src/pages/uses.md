@@ -8,31 +8,37 @@ permalink: /uses/
 
 # Uses
 
-Here's a non exhaustive list of my setup, hopefully there's something in here that's useful to you :)
-
-## Gear
+I've been in search of the perfect setup at home for a little while now, this is where I'm at right now:
 
 {% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 49 inch ultrawide monitor, a couple of pastel colour mechanical keyboards, cute teal speakers, and plenty other cute and pastel accessories.", "(max-width: 600px) 600w, 900w" %}
 
-- Desk: [Jarvis Bamboo Standing Desk - Fully](https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html)
-- Laptop: [2018 MacBook Pro 15"](https://support.apple.com/kb/SP756?locale=en_GB)
-- Laptop stand: [Omoton Double Space Vertical Laptop Stand](https://www.amazon.co.uk/gp/product/B07BV91YFL/)
-- Monitor: [Samsung Odyssey CRG9 49" Monitor](https://www.samsung.com/uk/monitors/gaming/odyssey-crg9-49-inch-120hz-freesync-curved-lc49rg90ssrxxu/)
-- Monitor arm (w/ heavy duty tilt pivot): [Ergotron HX Desk Monitor Arm](https://www.ergotron.com/en-gb/products/product-details/45-475#?color=white&buynow=0)
-- Trackpad: [Apple Magic Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver)
-- Mouse: [Logitech MX Vertical Mouse](https://www.logitech.com/en-gb/products/mice/mx-vertical-ergonomic-mouse.html)
-- Speakers: [Kanto Yu2](https://www.kantoaudio.com/powered-speakers/yu2/)
-- Cam: [Logitech StreamCam](https://www.logitech.com/en-gb/products/webcams/streamcam.html)
-- Light: [Elgato Key Light](https://www.elgato.com/en/key-light)
-- Mic: [Elgato Wave 3](https://www.elgato.com/en/wave-3)
-- Mic arm: [Neewer Microphone Boom Arm](https://www.amazon.co.uk/gp/product/B01N7A6CSU/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1)
-- Macropad: [Elgato StreamDeck](https://www.elgato.com/en/stream-deck)
-- Wireless charger: [Anker PowerWave Dual Pad](https://www.o2.co.uk/shop/anker/power-wave-10w-dual-pad-wireless-charger)
-- Coaster: [Pastel Terrazzo Coaster - CattonCove](https://www.etsy.com/uk/listing/993496645/terrazzo-coasters-pastel-confetti-switch)
-- Green screen: [Elgato Collapsible Green Screen](https://www.elgato.com/en/green-screen)
-- Pen holder: [Rotating Pen Holder - Pintableboys](https://www.etsy.com/uk/listing/872177169/rotatable-pen-holder-funny-pen-holder?ref=yr_purchases)
+## 🖥 Hardware
 
-## Keebs!
+My chair is a [Långfjäll from Ikea](https://www.ikea.com/gb/en/p/langfjaell-office-chair-gunnared-light-brown-pink-white-s89252400/) and my desk is a [Fully Jarvis Bamboo Standing Desk](https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html). Getting a standing desk after a year of working remotely was an absolute game changer, I'm so happy with it 🙌🏼
+
+I spend most of my time on my [2018 MacBook Pro 15"](https://support.apple.com/kb/SP756?locale=en_GB). I generally keep it shut on a [vertical laptop stand](https://www.amazon.co.uk/gp/product/B07BV91YFL/) together with my work laptop and I drive both on my [Samsung Odyssey CRG9 49" Superultrawide Monitor](https://www.samsung.com/uk/monitors/gaming/odyssey-crg9-49-inch-120hz-freesync-curved-lc49rg90ssrxxu/).
+
+I ended up putting my monitor on an [Ergotron HX Desk Monitor Arm](https://www.ergotron.com/en-gb/products/product-details/45-475#?color=white&buynow=0) to free up a bunch of desk space.
+
+As it turns out I have a bunch of accessories 😅
+
+For pointing, I tend to switch between an [Apple Magic Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver) and a [Logitech MX Master 3 for Max](https://www.logitech.com/en-gb/products/mice/mx-master-3-mac-wireless-mouse.html) cause it helps keep my RSI in check.
+
+My webcam is a [Logitech StreamCam](https://www.logitech.com/en-gb/products/webcams/streamcam.html) and I have a [Elgato Key Light](https://www.elgato.com/en/key-light) to help with lighting.
+
+For listening to music I use some [Kanto Yu2 speakers](https://www.kantoaudio.com/powered-speakers/yu2/) and for calls I use an [Elgato Wave 3](https://www.elgato.com/en/wave-3) and my [AirPods Pro](https://www.apple.com/uk/airpods-pro/).
+
+I run [Tech Nottingham](https://www.technottingham.com) online events from here occasionally, so I also have an [Elgato StreamDeck](https://www.elgato.com/en/stream-deck) and an [Elgato Collapsible Green Screen](https://www.elgato.com/en/green-screen); they're super helpful for those.
+
+I have a couple more bits and bobs on my desk, like a [wireless charger](https://www.o2.co.uk/shop/anker/power-wave-10w-dual-pad-wireless-charger), a [rotating pen cup](https://www.etsy.com/uk/listing/872177169/rotatable-pen-holder-funny-pen-holder?ref=yr_purchases) and a cute [pastel terrazzo coaster](https://www.etsy.com/uk/listing/993496645/terrazzo-coasters-pastel-confetti-switch).
+
+As for portable stuff, I have an [iPhone XS Max](https://support.apple.com/kb/SP780?viewlocale=en_GB&locale=en_GB), an [Apple Watch Series 6](https://www.apple.com/uk/apple-watch-series-6/), and an [12.9" M1 iPad Pro](https://www.apple.com/uk/shop/buy-ipad/ipad-pro) which I love ✨
+
+## ⌨️ Keyboards
+
+I got my first mechanical keyboard a couple of years ago, and I just fell in love with them 💛
+
+Here's some deets on the ones I have so far 👀
 
 ### WASD v3
 
@@ -48,7 +54,7 @@ _Note: Some of the letters have started to rub off._
 ### Ergodox EZ
 
 - Board: [ErgoDox EZ](https://ergodox-ez.com/)
-- Switches: [Kaihl Copper](https://mechbox.co.uk/products/kailh-speed-copper-switch?variant=11093261090858)
+- Switches: ~~[Kaihl Copper](https://mechbox.co.uk/products/kailh-speed-copper-switch?variant=11093261090858)~~ [Banana Splits](https://www.keycrox.co.uk/product/banana-split-switches)
 - Cable: [The Curled One (Cream Fuchsia Diamonds) - Clark Kable](https://clarkkable.com/)
 - Keycaps: [Astrolokeys](https://astrolokeys.com/)
 
@@ -67,69 +73,46 @@ _Note: The keycaps didn't perfectly match the PCB layout, and because of their s
 
 {% Image "src/images/uses/tofu.jpg", "A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps.", "(max-width: 600px) 600w, 900w" %}
 
-## Software
+## 💾 Software
 
 ### Editor
 
 {% Image "src/images/uses/vscode.png", "A screenshot of VSCode, the theme is purple with yellow, pink and red fonts in places. The font is a modern looking monospace.", "(max-width: 600px) 600w, 900w" %}
 
-App: [VS Code](https://code.visualstudio.com/)
+I use [VS Code](https://code.visualstudio.com/) for **everything**! My theme is [Fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) and the font is [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono). I have a bunch of extensions, these are my faves:
 
-Font: [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono)
-
-Theme: [Fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss)
-
-Fav extensions:
-
-- [Bracket pair colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-- [Indent rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-- [WebHint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint)
-- [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Colorize](https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize)
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-- [Read time](https://marketplace.visualstudio.com/items?itemName=johnpapa.read-time)
-- [Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)
-- [Glitch](https://marketplace.visualstudio.com/items?itemName=glitch.glitch)
-- [Gremlins tracker](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins)
+- [Indent rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow): makes your indents pretty, and more importantly, highlights when your indent level isn't quite right.
+- [WebHint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint) + [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): a killer combo that gives you instant feedback on the web code you write.
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): super useful to get context on when the line was last changed; the commit message helps understand the intent and the name helps you figure out who to ask about it 🕵🏼‍♀️
+- [Read time](https://marketplace.visualstudio.com/items?itemName=johnpapa.read-time): I like including read time on my blog posts, so it's helpful to have it right in VS Code.
+- [Glitch](https://marketplace.visualstudio.com/items?itemName=glitch.glitch): if you use Glitch for little projects, this lets you edit your remote Glitches from your local editor ✨
+- [Gremlins tracker](https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins): this is useful to find "non standard" characters when you're debugging a weird issue.
 
 ### Terminal
 
 {% Image "src/images/uses/iterm.png", "A screenshot of iTerm2, the theme is dark blue, and the prompt is a random emoji, followed by folder and git indicators, and followed by a colourful chevron.", "(max-width: 600px) 600w, 900w" %}
 
-App: [iTerm2](https://iterm2.com/)
+I use the integrated terminal on VSCode most of the time, but when I'm not doing repo specific stuff, I use [iTerm2](https://iterm2.com/). My theme is called [Galaxy](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Galaxy.itermcolors) and I use [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono) here too.
 
-Theme: [Galaxy](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Galaxy.itermcolors)
+For my shell I use ZSH with [Oh My Zsh](https://ohmyz.sh/), as it has a bunch of plugins and useful aliases out of the box. [My shell theme](https://gist.github.com/carolgilabert/6609bcb27ce5e804cb44cdd56d6b315e) is a bit of a mashup of a couple of other themes I used in the past.
 
-Font: [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono)
+I try to keep it light on the plugins since they can slow down startup a bunch, but I find these two really helpful:
 
-Shell: [Oh My Zsh](https://ohmyz.sh/)
+- [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [ZSH Autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
-Fav plugins:
-
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
-
-Theme:
-
-- [A custom mashup of 2 themes](https://gist.github.com/carolgilabert/6609bcb27ce5e804cb44cdd56d6b315e)
-
-### Apps I use a bunch
+### Apps
 
 - [Alfred](https://www.alfredapp.com/)
-- [Spark](https://www.shadowlab.org/softwares/spark.php)
+- [Magnet](https://magnet.crowdcafe.com)
 - [Notion](https://www.notion.so/)
 - [Setapp](https://setapp.com/)
   - [Session](https://www.stayinsession.com/)
   - [Bartender](https://www.macbartender.com/)
   - [Sizzy](https://sizzy.app/)
-  - [Sidenotes](https://www.apptorium.com/sidenotes)
   - [Downie](https://software.charliemonroe.net/downie/)
   - [Permute](https://software.charliemonroe.net/permute/)
   - [iStatMenus](https://bjango.com/mac/istatmenus/)
-  - [HazeOver](https://hazeover.com/)
   - [Cleanshot X](https://cleanshot.com/)
 - [Hand Mirror](https://handmirror.app/)
 - [Synergy](https://symless.com/synergy)
