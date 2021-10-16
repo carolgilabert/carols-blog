@@ -1,8 +1,8 @@
 ---
 layout: base.html
 eleventyNavigation:
-key: Uses
-order: 5
+  key: Uses
+  order: 5
 permalink: /uses/
 ---
 
