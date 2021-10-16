@@ -1,8 +1,8 @@
 ---
 layout: base.html
 eleventyNavigation:
-  key: Uses
-  order: 5
+key: Uses
+order: 5
 permalink: /uses/
 ---
 
@@ -103,19 +103,20 @@ I try to keep it light on the plugins since they can slow down startup a bunch, 
 
 ### Apps
 
-- [Alfred](https://www.alfredapp.com/)
-- [Magnet](https://magnet.crowdcafe.com)
-- [Notion](https://www.notion.so/)
-- [Setapp](https://setapp.com/)
-  - [Session](https://www.stayinsession.com/)
-  - [Bartender](https://www.macbartender.com/)
-  - [Sizzy](https://sizzy.app/)
-  - [Downie](https://software.charliemonroe.net/downie/)
-  - [Permute](https://software.charliemonroe.net/permute/)
-  - [iStatMenus](https://bjango.com/mac/istatmenus/)
-  - [Cleanshot X](https://cleanshot.com/)
-- [Hand Mirror](https://handmirror.app/)
-- [Synergy](https://symless.com/synergy)
-- [RunJS](https://runjs.app/)
-- [todometer](https://cassidoo.github.io/todometer/)
-- [Meeting Bar](https://meetingbar.onrender.com/)
+There's a bunch of apps I use regularly, but the ones I always install first in a fresh machine are [Alfred](https://www.alfredapp.com/), [Magnet](https://magnet.crowdcafe.com) and [Hand Mirror](https://handmirror.app/).
+
+I write and organise everything in [Notion](https://www.notion.so/).
+
+I use [Synergy](https://symless.com/synergy) to share keyboard and mice across devices.
+
+And I regularly use quite a few apps from [Setapp](https://setapp.com/). If you use a Mac I'd highly recommend it, [here's my referral link](https://go.setapp.com/invite/0zefecs6) 😌
+
+These are my faves:
+
+- [Session](https://www.stayinsession.com/)
+- [Bartender](https://www.macbartender.com/)
+- [Sizzy](https://sizzy.app/)
+- [Downie](https://software.charliemonroe.net/downie/)
+- [Permute](https://software.charliemonroe.net/permute/)
+- [iStatMenus](https://bjango.com/mac/istatmenus/)
+- [Cleanshot X](https://cleanshot.com/)
