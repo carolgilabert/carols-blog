@@ -2,7 +2,7 @@
 layout: base.html
 eleventyNavigation:
   key: Uses
-  order: 5
+  order: 4
 permalink: /uses/
 ---
 
