@@ -1,9 +1,10 @@
 /*** FONTS ***/
 @font-face {
-  font-family: "Norando";
+  font-family: "Briston";
   font-display: fallback;
-  src: url("/fonts/norando.woff2") format("woff2"),
-    url("/fonts/norando.woff") format("woff");
+  src: url("/fonts/briston.woff2") format("woff2"),
+    url("/fonts/briston.woff") format("woff");
+  font-feature-settings: "dlig" on;
 }
 
 @font-face {
@@ -47,10 +48,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: Norando;
+  font-family: Briston;
   line-height: 1.1;
 
   em {
-    font-feature-settings: "ss02" on;
+    font-feature-settings: "swsh" on;
   }
 }
