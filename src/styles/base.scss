@@ -1,5 +1,6 @@
 @import "reset";
 @import "fonts";
+@import "header";
 
 body {
   display: grid;
@@ -9,50 +10,6 @@ body {
 p,
 li {
   max-width: 60ch;
-}
-
-.skip-link {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-
-  &:not(:focus) {
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-  }
-}
-
-.logo {
-  margin-inline-start: 1rem;
-  margin-block-start: 1rem;
-  font-family: Briston;
-  font-size: 2em;
-  font-feature-settings: "swsh" on;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 2rem;
-}
-
-nav {
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-
-    li {
-      margin-inline-end: 1.5rem;
-    }
-  }
 }
 
 main {
