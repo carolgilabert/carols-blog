@@ -1,0 +1,78 @@
+@import "colours";
+@import "mixins";
+
+.skip-link {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+
+  &:not(:focus) {
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  background-image: url(../pattern.svg);
+  background-size: 60%;
+  border-bottom: 0.3rem solid var(--black);
+}
+
+.logo {
+  font-family: Briston;
+  font-size: 2em;
+  font-feature-settings: "swsh" on;
+  text-decoration: none;
+  color: var(--black);
+
+  @include pill;
+  background-color: var(--yellow);
+}
+
+nav {
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+      margin-inline-end: 1.5rem;
+      margin-block-end: 1rem;
+      @include pill;
+
+      &:first-child {
+        background-color: var(--green);
+      }
+
+      &:nth-child(2) {
+        background-color: var(--pink);
+      }
+      &:nth-child(3) {
+        background-color: var(--blue);
+      }
+      &:nth-child(4) {
+        background-color: var(--yellow);
+      }
+
+      a {
+        color: var(--black);
+        text-decoration: none;
+      }
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

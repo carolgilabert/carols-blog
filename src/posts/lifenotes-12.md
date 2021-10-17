@@ -1,6 +1,6 @@
 ---
 title: "Lifenotes #12: August 2021"
-subtitle: ""
+subtitle: "Escape to Scotland part 2 🌲"
 author: Carolina Gilabert
 date: 2021-09-20
 readingTime: 2 min

@@ -1,0 +1,57 @@
+@import "colours";
+@import "mixins";
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0;
+  // align-items: center;
+  justify-content: center;
+
+  li {
+    @include pill;
+    padding: 0;
+    border: 0.3rem solid var(--black);
+    width: clamp(15rem, 20rem, 25rem);
+
+    article {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .image {
+      height: 5rem;
+      background-image: url(../pattern.svg);
+      background-size: 100%;
+      border-bottom: 0.2rem solid var(--black);
+    }
+
+    .post-info {
+      height: 100%;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      p {
+        margin: 0.2rem;
+      }
+
+      a {
+        @include pill;
+        background-color: var(--yellow);
+        color: var(--black);
+        text-decoration: none;
+        text-align: center;
+        margin: 0.5rem;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
