@@ -62,6 +62,7 @@ h3,
 h4 {
   font-family: Briston;
   line-height: 1.1;
+  display: inline-block;
 
   em {
     font-feature-settings: "swsh" on;
@@ -70,18 +71,46 @@ h4 {
 
 h1 {
   font-size: var(--step-5);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--yellow) 60%,
+    var(--yellow) 100%
+  );
 }
 
 h2 {
   font-size: var(--step-4);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--green) 60%,
+    var(--green) 100%
+  );
 }
 
 h3 {
   font-size: var(--step-3);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--pink) 60%,
+    var(--pink) 100%
+  );
 }
 
 h4 {
   font-size: var(--step--2);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--blue) 60%,
+    var(--blue) 100%
+  );
 }
 
 .body-large {
