@@ -53,7 +53,7 @@
 
 body {
   font-family: Atkinson, Helvetica, Arial, sans-serif;
-  font-size: var(--step-1);
+  font-size: var(--step-0);
 }
 
 h1,
@@ -80,10 +80,18 @@ h3 {
   font-size: var(--step-3);
 }
 
+h4 {
+  font-size: var(--step--2);
+}
+
 .body-large {
-  font-size: var(--step-2);
+  font-size: var(--step-1);
 }
 
 .body-small {
-  font-size: var(--step-0);
+  font-size: var(--step--1);
+}
+
+.body-xsmall {
+  font-size: var(--step-2);
 }
