@@ -7,6 +7,10 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+#main-content {
+  outline: none;
+}
+
 p,
 li {
   max-width: 60ch;
