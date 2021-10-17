@@ -74,7 +74,7 @@ _Note: The keycaps didn't perfectly match the PCB layout, and because of their s
 {% Image "src/images/uses/tofu.jpg", "A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps.", "(max-width: 600px) 600w, 900w" %}
 
 ## 💾 Software
-
+&nbsp;
 ### Editor
 
 {% Image "src/images/uses/vscode.png", "A screenshot of VSCode, the theme is purple with yellow, pink and red fonts in places. The font is a modern looking monospace.", "(max-width: 600px) 600w, 900w" %}
