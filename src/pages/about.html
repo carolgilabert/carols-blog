@@ -4,19 +4,22 @@ eleventyNavigation:
   key: About
   order: 2
 permalink: /about/
+extraStyles:
+  - /styles/about.css
 ---
 
 <h1>About me</h1>
 
-{% Image "src/static/avatar.jpeg", "My face", "(max-width: 600px) 600w, 900w" %}
-
-<p>
-  Hey there! My name is Carol, and I&apos;m a frontend software engineer. I
-  currently work for Capital One, where I&apos;m part of the bestest team,
-  <a href="https://www.youtube.com/watch?v=ukUxx6TvXPY">Aviato</a>. I&apos;m
-  also an organiser at
-  <a href="https://www.technottingham.com/">Tech Nottingham</a> and
-  <a href="https://www.technottingham.com/wit-notts">Women in Tech</a>. In my
-  spare time I like to play videogames, swing dance, bake and
-  <a href="http://www.capoeiranottingham.co.uk/">play capoeira</a>.
-</p>
+<section>
+  {% Image "src/static/avatar.jpeg", "My face", "(max-width: 600px) 600w, 900w"
+  %}
+  <p>
+    Hey there! My name is Carol, and I&apos;m a frontend software engineer. I
+    currently work for <a href="http://monzo.com/">Monzo</a>. I&apos;m also an
+    organiser at
+    <a href="https://www.technottingham.com/">Tech Nottingham</a> and
+    <a href="https://www.technottingham.com/wit-notts">Women in Tech</a>. In my
+    spare time I like to play videogames, learn new things and
+    <a href="http://www.capoeiranottingham.co.uk/">play capoeira</a>.
+  </p>
+</section>
