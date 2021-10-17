@@ -1,5 +1,6 @@
 ---
 title: 2019 in Review
+subtitle: "Looking back at a pretty busy year."
 author: Carolina Gilabert
 date: 2020-01-10
 readingTime: 8 min

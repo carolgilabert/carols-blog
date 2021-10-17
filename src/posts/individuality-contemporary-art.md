@@ -1,6 +1,6 @@
 ---
 title: Individuality and contemporary art
-subtitle: "I visited Tate Modern for the first time and it made think some thoughts."
+subtitle: "I visited Tate Modern for the first time and it made me think some thoughts."
 author: Carolina Gilabert
 date: 2020-02-14
 readingTime: 3 min
