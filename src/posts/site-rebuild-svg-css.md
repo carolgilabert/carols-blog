@@ -47,7 +47,7 @@ But I did want my website to be colourful, and I’m in a really big pastel phas
 
 A few months ago I found some fabric that went well with the pastel decor in my office, so I made it into some curtains:
 
-{% Image "src/images/posts/site-rebuild-svg-css/curtains.jpeg", "My bookshelf by the window in my office at home, you can see a bunch of tech focussed books and the curtain on the right hand side. The curtain is made of white canvas with a geometric print, that has mostly black shapes like triangles and circles and a small portion of the shapes are printed in pastel colours.", "(max-width: 600px) 600w, 900w" %}
+{% Image "src/images/posts/site-rebuild-svg-css/curtain.jpeg", "My bookshelf by the window in my office at home, you can see a bunch of tech focussed books and the curtain on the right hand side. The curtain is made of white canvas with a geometric print, that has mostly black shapes like triangles and circles and a small portion of the shapes are printed in pastel colours.", "(max-width: 600px) 600w, 900w" %}
 
 I really loved the pattern so I decided to try and recreate it in SVG! It took me a while cause I suck at Illustrator, and because I spent some time trying to make it a generative pattern, but I got there in the end 🙌🏼
 
