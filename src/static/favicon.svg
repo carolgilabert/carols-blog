@@ -1,5 +1,5 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1109.02">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
   <title>favicon</title>
-  <circle cx="512" cy="597.02" r="512" fill="#fce26d"/>
-  <text transform="translate(243.03 849.99)" font-size="1000" font-family="Briston-Regular, Briston">C</text>
+  <circle cx="512" cy="512" r="512" fill="#fce26d"/>
+  <path d="M405,470c0,131,89,221,195,221,58,0,110-22,138-42,9-6,22,5,15,20-19,39-90,103-220,103-181,0-278-127-278-265,0-158,135-273,298-273,136,0,217,81,217,177,0,101-69,179-172,179-86,0-139-56-139-126,0-62,59-113,109-113,23,0,33,8,17,17-19,11-39,40-39,68,0,36,32,62,74,62,43,0,81-41,81-99,0-68-56-128-133-128C479,271,405,359,405,470Z" transform="translate(0 0)"/>
 </svg>
