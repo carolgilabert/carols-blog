@@ -3,6 +3,12 @@
   command = "npm run build"
   publish = "dist/"
 
+[[plugins]]
+  package = "netlify-plugin-11ty"
+  [plugins.inputs]
+    cache_img = './images'
+    cache_img_httpHeader = true
+
 [[redirects]]
   from = "https://carolgilabert.me/*"
   to = "https://carol.gg/:splat"
