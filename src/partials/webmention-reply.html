@@ -1,16 +1,18 @@
-<article class="webmention" id="webmention-{{ webmention['wm-id'] }}">
-    <div>
+<article class="reply" id="webmention-{{ webmention['wm-id'] }}">
+    <div class="info">
         {% if webmention.author %}
-            {% if webmention.author.photo %}
-                <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48"
-                    loading="lazy">
-            {% else %}
-                <img src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
-            {% endif %}
-            <span>
-                <a class="h-card u-url" {% if webmention.url %}href="{{ webmention.url }}" {% endif %} target="_blank"
-                    rel="noopener noreferrer"><strong class="p-name">{{ webmention.author.name }}</strong></a>
-            </span>
+            <div class="author">
+                {% if webmention.author.photo %}
+                    <img class="wm-avatar" src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48"
+                        loading="lazy">
+                {% else %}
+                    <img class="wm-avatar" src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
+                {% endif %}
+                <span>
+                    <a class="h-card u-url" {% if webmention.url %}href="{{ webmention.url }}" {% endif %} target="_blank"
+                        rel="noopener noreferrer"><strong class="p-name">{{ webmention.author.name }}</strong></a>
+                </span>
+            </div>
         {% else %}
         <span>
             <strong>Anonymous</strong>
@@ -23,7 +25,7 @@
             </time>
         {% endif %}
     </div>
-    <div>
+    <div class="content">
         {{ webmention.content.text }}
     </div>
 </article>

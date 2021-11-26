@@ -16,55 +16,65 @@
 {% set repliesSize = replies | size %}
 
 {% if mentionsSize > 0 %}
-    <section>
+    <section class="wm">
         <h2>Webmentions</h3>
 
         <!-- Likes -->
         {% if likesSize > 0 %}
             <h3>{{ likesSize }} Like{% if likesSize != 1 %}s{% endif %}</h3>
-
+            <ul class="wm-likes" role="list">
             {% for webmention in likes %}
-                {% if webmention.url != "" %}
-                    <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
-                {% endif %}
+                <li>
+                    {% if webmention.url != "" %}
+                        <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
+                    {% endif %}
 
-                {% if webmention.author.photo %}
-                    <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
-                {% else %}
-                    <img class="webmention__author__photo" src="{{ '/images/user.svg' | url }}" alt="" width="48" height="48">
-                {% endif %}
+                    {% if webmention.author.photo %}
+                        <img class="wm-avatar u-photo" src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
+                    {% else %}
+                        <img class="wm-avatar u-photo" src="{{ '/images/user.svg' | url }}" alt="" width="48" height="48">
+                    {% endif %}
 
-                {% if webmention.url != "" %}
-                    </a>
-                {% endif %}
+                    {% if webmention.url != "" %}
+                        </a>
+                    {% endif %}
+                </li>
             {% endfor %}
+            </ul>
         {% endif %}
 
         <!-- Reposts -->
         {% if repostsSize > 0 %}
             <h3>{{ repostsSize }} Repost{% if repostsSize != 1 %}s{% endif %}</h3>
+            <ul class="reposts" role="list">
             {% for webmention in reposts %}
-                {% if webmention.url != "" %}
-                    <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
-                {% endif %}
+                <li>
+                    {% if webmention.url != "" %}
+                        <a class="h-card u-url link-u-exempt" href="{{ webmention.url }}" target="_blank" rel="noopener noreferrer">
+                    {% endif %}
 
-                {% if webmention.author.photo %}
-                    <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
-                {% else %}
-                    <img class="webmention__author__photo" src="{{ '/images/user.svg' | url }}" alt="" width="48" height="48">
-                {% endif %}
-                
-                {% if webmention.url != "" %}
-                    </a>
-                {% endif %}
+                    {% if webmention.author.photo %}
+                        <img src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48" loading="lazy">
+                    {% else %}
+                        <img class="webmention__author__photo" src="{{ '/images/user.svg' | url }}" alt="" width="48" height="48">
+                    {% endif %}
+                    
+                    {% if webmention.url != "" %}
+                        </a>
+                    {% endif %}
+                </li>
             {% endfor %}
+            </ul>
         {% endif %}
 
         <!-- Replies -->
         {% if repliesSize > 0 %}
             <h3>{{ repliesSize }} {% if repliesSize == "1" %}Reply{% else %}Replies{% endif %}</h3>
+            <ul class="replies" role="list">
             {% for webmention in replies %}
-                {% include 'webmention-reply.html' %}
+                <li>
+                    {% include 'webmention-reply.html' %}
+                </li>
             {% endfor %}
         {% endif %}
     </section>

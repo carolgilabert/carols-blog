@@ -1,0 +1,28 @@
+.wm-avatar {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.wm ul {
+    padding-left: 0;
+
+    li {
+        margin-bottom: 1.5rem;
+    }
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .author {
+            display: flex;
+            align-items: center;
+        }
+
+        time {
+            font-size: 0.8em;
+        }
+    }
+}
