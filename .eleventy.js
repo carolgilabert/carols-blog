@@ -2,8 +2,8 @@ const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const imageShortcode = require("./src/utils/image-shortcode");
-const dateFilter = require("./src/utils/date-filter");
-const isoDateFilter = require("./src/utils/iso-date-filter");
+const { isoDateFilter, readableDateFilter, readableDateAndTimeFilter } = require("./src/utils/date-filters");
+const { getWebmentionsForUrl, size, webmentionsByType } = require("./src/utils/webmention-filters")
 
 module.exports = function (eleventyConfig) {
   // Extra files to watch
@@ -18,8 +18,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);
 
   // Filters
-  eleventyConfig.addFilter("date", dateFilter);
+  eleventyConfig.addFilter("readableDate", readableDateFilter);
   eleventyConfig.addFilter("isoDate", isoDateFilter);
+  eleventyConfig.addFilter("readableDateAndTime", readableDateAndTimeFilter);
+  eleventyConfig.addFilter("size", size);
+  eleventyConfig.addFilter("webmentionsByType", webmentionsByType);
+  eleventyConfig.addFilter("getWebmentionsForUrl", getWebmentionsForUrl);
 
   // Collections
   eleventyConfig.addCollection("latest", (collection) => {

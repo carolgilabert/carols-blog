@@ -1,0 +1,31 @@
+<article class="reply" id="webmention-{{ webmention['wm-id'] }}">
+    <div class="info">
+        {% if webmention.author %}
+            <div class="author">
+                {% if webmention.author.photo %}
+                    <img class="wm-avatar" src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}" width="48" height="48"
+                        loading="lazy">
+                {% else %}
+                    <img class="wm-avatar" src="{{ '/img/avatar.svg' | url }}" alt="" width="48" height="48">
+                {% endif %}
+                <span>
+                    <a class="h-card u-url" {% if webmention.url %}href="{{ webmention.url }}" {% endif %} target="_blank"
+                        rel="noopener noreferrer"><strong class="p-name">{{ webmention.author.name }}</strong></a>
+                </span>
+            </div>
+        {% else %}
+        <span>
+            <strong>Anonymous</strong>
+        </span>
+        {% endif %}
+        
+        {% if webmention.published %}
+            <time datetime="{{ webmention.published }}">
+                {{ webmention.published | readableDateAndTime }}
+            </time>
+        {% endif %}
+    </div>
+    <div class="content">
+        {{ webmention.content.text }}
+    </div>
+</article>

@@ -1,5 +1,4 @@
 [build]
-  functions = "functions/"
   command = "npm run build"
   publish = "dist/"
 
@@ -8,6 +7,9 @@
   [plugins.inputs]
     cache_img = './images'
     cache_img_httpHeader = true
+  
+[[plugins]]
+  package = "netlify-plugin-cache-folder"
 
 [[redirects]]
   from = "https://carolgilabert.me/*"
