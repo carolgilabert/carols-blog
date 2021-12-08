@@ -7,11 +7,11 @@ extraStyles:
 <div class="h-entry">
     <h1 class="p-name">{{ title }}</h1>
     <p class="p-summary"><em>{{ subtitle }}</em></p>
-    <span>
+    <span class="body-small">
         <time class="dt-published" datetime="{{ date | isoDate }}">
-            {{ date | readableDate }}
+            📆 {{ date | readableDate }}
         </time>
-        · {{readingTime }}
+        · {{readingTime }} ⏱️
     </span>
     {% include "h-card.html" %}
     <div class="e-content">
