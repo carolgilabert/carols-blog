@@ -8,15 +8,15 @@ permalink: /uses/
 
 # Uses
 
-I've been in search of the perfect setup at home for a little while now, this is where I'm at right now:
+I've been in search of the perfect setup at home for a little while now. This is where I'm at right now:
 
 {% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 49 inch ultrawide monitor, a couple of pastel colour mechanical keyboards, cute teal speakers, and plenty other cute and pastel accessories.", "(max-width: 600px) 600w, 900w" %}
 
 ## 🖥 Hardware
 
-My chair is a [Långfjäll from Ikea](https://www.ikea.com/gb/en/p/langfjaell-office-chair-gunnared-light-brown-pink-white-s89252400/) and my desk is a [Fully Jarvis Bamboo Standing Desk](https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html). Getting a standing desk after a year of working remotely was an absolute game changer, I'm so happy with it 🙌🏼
+My chair is a [Herman Miller Aeron](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/aeron-chairs/) and my desk is a [Fully Jarvis Bamboo Standing Desk](https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html). Getting a standing desk after a year of working remotely was an absolute game changer, I'm so happy with it! I also have an [anti-fatigue mat](https://www.fully.com/accessories/standing-desk-mats/muvmat-by-aeris.html) that I got with my desk and it really helps me stand for longer 🧍‍♀️
 
-I spend most of my time on my [2018 MacBook Pro 15"](https://support.apple.com/kb/SP756?locale=en_GB). I generally keep it shut on a [vertical laptop stand](https://www.amazon.co.uk/gp/product/B07BV91YFL/) together with my work laptop and I drive both on my [Samsung Odyssey CRG9 49" Superultrawide Monitor](https://www.samsung.com/uk/monitors/gaming/odyssey-crg9-49-inch-120hz-freesync-curved-lc49rg90ssrxxu/).
+I spend most of my time on my [2021 16" MacBook Pro](https://www.johnlewis.com/2021-apple-macbook-pro-16-inch-m1-max-processor-32gb-ram-1tb-ssd/p5828283). I generally keep it shut on a [vertical laptop stand](https://www.amazon.co.uk/gp/product/B07BV91YFL/) together with my work laptop and I drive both on my [Samsung Odyssey CRG9 49" Superultrawide Monitor](https://www.samsung.com/uk/monitors/gaming/odyssey-crg9-49-inch-120hz-freesync-curved-lc49rg90ssrxxu/).
 
 I ended up putting my monitor on an [Ergotron HX Desk Monitor Arm](https://www.ergotron.com/en-gb/products/product-details/45-475#?color=white&buynow=0) to free up a bunch of desk space.
 
@@ -32,7 +32,7 @@ I run [Tech Nottingham](https://www.technottingham.com) online events from here 
 
 I have a couple more bits and bobs on my desk, like a [wireless charger](https://www.o2.co.uk/shop/anker/power-wave-10w-dual-pad-wireless-charger), a [rotating pen cup](https://www.etsy.com/uk/listing/872177169/rotatable-pen-holder-funny-pen-holder?ref=yr_purchases) and a cute [pastel terrazzo coaster](https://www.etsy.com/uk/listing/993496645/terrazzo-coasters-pastel-confetti-switch).
 
-As for portable stuff, I have an [iPhone XS Max](https://support.apple.com/kb/SP780?viewlocale=en_GB&locale=en_GB), an [Apple Watch Series 6](https://www.apple.com/uk/apple-watch-series-6/), and an [12.9" M1 iPad Pro](https://www.apple.com/uk/shop/buy-ipad/ipad-pro) which I love ✨
+As for portable stuff, I have an [iPhone 13 Pro Max](https://www.johnlewis.com/apple-iphone-13-pro-max-ios-6-7-inch-5g-sim-free-128gb/p5756469), an [Apple Watch Series 6](https://www.apple.com/uk/apple-watch-series-6/), and an [12.9" M1 iPad Pro](https://www.apple.com/uk/shop/buy-ipad/ipad-pro) which I love ✨
 
 ## ⌨️ Keyboards
 
