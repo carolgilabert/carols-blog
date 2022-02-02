@@ -1,5 +1,5 @@
 ---
-title: "Lifenotes #15: December & January 2021"
+title: "Lifenotes #15: December 2021 & January 2022"
 subtitle: "The one with baby Juno 🖤"
 author: Carolina Gilabert
 date: 2022-02-02
