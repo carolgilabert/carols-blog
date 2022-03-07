@@ -73,6 +73,13 @@ _Note: The keycaps didn't perfectly match the PCB layout, and because of their s
 
 {% Image "src/images/uses/tofu.jpg", "A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps.", "(max-width: 600px) 600w, 900w" %}
 
+### Logitech POP Keys
+
+- Board: [Logitech POP Keys](https://www.logitech.com/en-gb/products/keyboards/pop-keys-wireless-mechanical.html)
+
+{% Image "src/images/uses/logi-keeb.png", "A 60% wireless keyboard with round keycaps. The board is mint green and lilac, and the keys are white and yellow.  ", "(max-width: 600px) 600w, 900w" %}
+
+_Note: this is my first off the shelf mechanical keyboard and while it's not quite as nice as my other keyboards, the convenience of the multi channel Bluetooth is top tier._
 ## 💾 Software
 &nbsp;
 ### Editor
