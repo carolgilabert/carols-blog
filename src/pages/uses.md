@@ -73,13 +73,20 @@ _Note: The keycaps didn't perfectly match the PCB layout, and because of their s
 
 {% Image "src/images/uses/tofu.jpg", "A compact 60% mechanical keyboard, with a transparent acrylic case, and rainbow side printed keycaps.", "(max-width: 600px) 600w, 900w" %}
 
+### Logitech POP Keys
+
+- Board: [Logitech POP Keys](https://www.logitech.com/en-gb/products/keyboards/pop-keys-wireless-mechanical.html)
+
+{% Image "src/images/uses/logi-keeb.png", "A 60% wireless keyboard with round keycaps. The board is mint green and lilac, and the keys are white and yellow.  ", "(max-width: 600px) 600w, 900w" %}
+
+_Note: this is my first off the shelf mechanical keyboard and while it's not quite as nice as my other keyboards, the convenience of the multi channel Bluetooth is top tier._
 ## 💾 Software
 &nbsp;
 ### Editor
 
 {% Image "src/images/uses/vscode.png", "A screenshot of VSCode, the theme is purple with yellow, pink and red fonts in places. The font is a modern looking monospace.", "(max-width: 600px) 600w, 900w" %}
 
-I use [VS Code](https://code.visualstudio.com/) for **everything**! My theme is [Fairyfloss](https://marketplace.visualstudio.com/items?itemName=nopjmp.fairyfloss) and the font is [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono). I have a bunch of extensions, these are my faves:
+I use [VS Code](https://code.visualstudio.com/) for **everything**! My theme is [Nebula](https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme) and the font is [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono). I have a bunch of extensions, these are my faves:
 
 - [Indent rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow): makes your indents pretty, and more importantly, highlights when your indent level isn't quite right.
 - [WebHint](https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint) + [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens): a killer combo that gives you instant feedback on the web code you write.
@@ -94,7 +101,7 @@ I use [VS Code](https://code.visualstudio.com/) for **everything**! My theme is 
 
 I use the integrated terminal on VSCode most of the time, but when I'm not doing repo specific stuff, I use [iTerm2](https://iterm2.com/). My theme is called [Galaxy](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Galaxy.itermcolors) and I use [Latin Modern Mono](https://www.fontsquirrel.com/fonts/latin-modern-mono) here too.
 
-For my shell I use ZSH with [Oh My Zsh](https://ohmyz.sh/), as it has a bunch of plugins and useful aliases out of the box. [My shell theme](https://gist.github.com/carolgilabert/6609bcb27ce5e804cb44cdd56d6b315e) is a bit of a mashup of a couple of other themes I used in the past.
+For my shell I use ZSH with [Oh My Zsh](https://ohmyz.sh/), as it has a bunch of plugins and useful aliases out of the box. My shell theme is  called [miloshadzic](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/miloshadzic.zsh-theme).
 
 I try to keep it light on the plugins since they can slow down startup a bunch, but I find these two really helpful:
 
