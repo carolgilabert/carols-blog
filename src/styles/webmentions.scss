@@ -2,6 +2,7 @@
     border-radius: 50%;
     display: inline-block;
     margin-right: 1rem;
+    border: 0.2rem solid var(--green);
 }
 
 .wm ul {
@@ -24,5 +25,12 @@
         time {
             font-size: 0.8em;
         }
+    }
+}
+
+.wm-likes {
+    li {
+        display: inline-block;
+        margin-inline: -1rem;
     }
 }
