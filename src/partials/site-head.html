@@ -1,13 +1,17 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
 <header role="banner">
   <a class="logo" href="/"><em>Carol.gg</em></a>
+  <div class="divider"></div>
   <nav aria-label="Primary">
     <ul class="no-style">
-      {% for item in collections.all | eleventyNavigation %}
+      <li><a href="/about/">About</a></li>
+      <li><a href="/blog/">Blog</a></li>
       <li>
-        <a href="{{ item.url | url}}">{{ item.title }}</a>
+        <button id="stuff-subnav" aria-expanded="false">Stuff<img src="/down.svg" role="presentation" /></button>
+        <ul hidden class="no-style">
+          <li><a href="/uses/">Uses</a></li>
+        </ul>
       </li>
-      {% endfor %}
     </ul>
   </nav>
 </header>

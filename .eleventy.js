@@ -1,4 +1,3 @@
-const navigationPlugin = require("@11ty/eleventy-navigation");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const imageShortcode = require("./src/utils/image-shortcode");
@@ -10,7 +9,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("./src/styles/");
 
   // Plugins
-  eleventyConfig.addPlugin(navigationPlugin);
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
 
@@ -35,6 +33,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough copy for static files
   eleventyConfig.addPassthroughCopy({ "./src/static/**/*": "/" });
   eleventyConfig.addPassthroughCopy({ "./src/styles/**/*": "/styles" });
+  eleventyConfig.addPassthroughCopy({ "./src/scripts/**/*": "/scripts" });
   eleventyConfig.addPassthroughCopy({ "./src/fonts/**/*": "/fonts" });
 
   return {

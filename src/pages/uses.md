@@ -1,8 +1,5 @@
 ---
 layout: base.html
-eleventyNavigation:
-  key: Uses
-  order: 4
 permalink: /uses/
 ---
 

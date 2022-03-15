@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="color-scheme" content="only light">
-        <title>{{ title or "Carol.gg" }}</title>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-        <link rel="stylesheet" href="/styles/base.css">
-        <link rel="webmention" href="https://webmention.io/carol.gg/webmention" />
-        <link rel="pingback" href="https://webmention.io/carol.gg/xmlrpc" />
-        <link rel=alternate type=application/rss+xml href=/feed.xml title="Carol.gg">
 
-        {% for script in extraScripts %}
-            <script src="{{ script | url }}></script>
-        {% endfor %}
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="color-scheme" content="only light">
+    <title>{{ title or "Carol.gg" }}</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles/base.css">
+    <link rel="webmention" href="https://webmention.io/carol.gg/webmention" />
+    <link rel="pingback" href="https://webmention.io/carol.gg/xmlrpc" />
+    <link rel=alternate type=application/rss+xml href=/feed.xml title="Carol.gg">
+    <script src="/scripts/main.js"></script>
 
-        {% for stylesheet in extraStyles %}
-            <link rel="stylesheet" href="{{ stylesheet | url }}" />
-        {% endfor %}
-    </head>
-    <body>
-        {% include "site-head.html" %}
-        <main tabindex="-1" id="main-content">{{ content | safe }}</main>
-        {% include "footer.html" %}
-        <!-- Including fathom partial only if it's a production build -->
-        {% if site.environment == "prod" %}
-        {% include "fathom.html" %}
-        {% endif %}
+    {% for script in extraScripts %}
+        <script src="{{ script | url }}></script>
+    {% endfor %}
 
-        <script>
-            if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('/service-worker.js');
-            }
-        </script>
-    </body>
+    {% for stylesheet in extraStyles %}
+        <link rel="stylesheet" href="{{ stylesheet | url }}" />
+    {% endfor %}
+</head>
+
+<body>
+    {% include "site-head.html" %}
+    <main tabindex="-1" id="main-content">{{ content | safe }}</main>
+    {% include "footer.html" %}
+    <!-- Including fathom partial only if it's a production build -->
+    {% if site.environment == "prod" %}
+    {% include "fathom.html" %}
+    {% endif %}
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js');
+        }
+    </script>
+</body>
+
 </html>
