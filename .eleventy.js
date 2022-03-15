@@ -35,6 +35,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough copy for static files
   eleventyConfig.addPassthroughCopy({ "./src/static/**/*": "/" });
   eleventyConfig.addPassthroughCopy({ "./src/styles/**/*": "/styles" });
+  eleventyConfig.addPassthroughCopy({ "./src/scripts/**/*": "/scripts" });
   eleventyConfig.addPassthroughCopy({ "./src/fonts/**/*": "/fonts" });
 
   return {
