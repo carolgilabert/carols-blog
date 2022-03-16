@@ -16,6 +16,11 @@ li {
   max-width: 60ch;
 }
 
+th, td {
+  border: 0.1rem solid var(--black);
+  padding: 0.5rem;
+}
+
 main {
   justify-self: center;
   width: clamp(15rem, 90vw, 70rem);
