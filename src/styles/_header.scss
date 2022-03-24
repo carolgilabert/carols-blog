@@ -24,6 +24,10 @@ header {
   align-items: center;
   flex-wrap: wrap;
   padding: 1.5rem;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
 }
 
 .logo {
@@ -41,6 +45,10 @@ header {
   height: 3.5rem;
   background-color: var(--black);
   margin: 0 1.5rem;
+
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 }
 
 nav {
