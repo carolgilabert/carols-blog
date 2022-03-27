@@ -1,0 +1,43 @@
+---
+layout: base.html
+permalink: /talks/
+extraStyles:
+- /styles/talks.css
+---
+<h1>Talks</h1>
+
+<p>Write some intro stuff.</p>
+
+<ul class="no-style talk-list">
+    {%- for talk in talks | reverse %}
+    <li class="talk">
+        <h2>{{talk.title}}</h2>
+        <time datetime="{{talk.date | isoDate}}">
+            📆 {{ talk.date | readableDate }}
+        </time>
+        &nbsp;·
+        <span>📍 {{talk.event}}</span>
+        <p>{{talk.description}}</p>
+        <ul class="no-style links">
+            {% if talk.links.slides %}
+            <li>
+                🖼️&nbsp;
+                <a href="{{talk.links.slides}}">Slides</a>
+            </li>
+            {% endif %}
+            {% if talk.links.video %}
+            <li>
+                &nbsp;·&nbsp;📹&nbsp;
+                <a href="{{talk.links.video}}">Video</a>
+            </li>
+            {% endif %}
+            {% if talk.links.post %}
+            <li>
+                &nbsp;·&nbsp;📝&nbsp;
+                <a href="{{talk.links.post}}">Post</a>
+            </li>
+            {% endif %}
+        </ul>
+    </li>
+    {%- endfor %}
+</ul>
