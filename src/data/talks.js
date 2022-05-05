@@ -42,7 +42,7 @@ module.exports = [
         title: 'Women in Tech: what do we even do?',
         date: '2020-06-30',
         event: 'DevOps Notts',
-        description: 'I was invited to speak at this event',
+        description: 'I was invited by the lovely DevOps Notts organisers to speak at their Women in Tech event, so I decided to cover what it is that I do day to day: the parts that are the same as any other developer, and then all the extra things I do because of who I am. This was my first time speaking at an online event and I found it hard!',
         links: {
             slides: 'https://talks.carol.gg/decks/women-in-tech-what-do-we-even-do/',
             video: 'https://youtu.be/nxecjx-aEHw?t=8421'
@@ -52,7 +52,7 @@ module.exports = [
         title: 'Looking for a job while looking after yourself',
         date: '2022-02-03',
         event: 'Women in Tech Nottingham',
-        description: 'Some description goes here.',
+        description: 'We put on a hiring themed event at WiT Notts February, so I decided to share my experiences from my last job search, and the things I found useful when looking for a job while tired and stressed.',
         links: {
             slides: 'https://talks.carol.gg/decks/looking-for-a-job-while-looking-after-yourself.pdf',
             post: '/blog/looking-for-a-job/'
