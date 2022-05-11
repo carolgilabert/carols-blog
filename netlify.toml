@@ -21,3 +21,7 @@
   for = "/*"
   [headers.values]
     Permissions-Policy = "interest-cohort=()"
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000"
