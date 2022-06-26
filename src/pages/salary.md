@@ -8,7 +8,7 @@ title: Salary History
 
 When looking for a job, it can be tricky to know what to ask for in terms of salary, especially for under represented minorities, who are routinely underlevelled and underpaid. So I thought it would be useful to share my salary history since becoming a software engineer, in hopes that it will help someone at some point.
 
-| Date | Company | Title | Level | Description | Amount |
+| Date | Company | Title | Level | Description | Amount (per year) |
 | --- | --- | --- | --- | --- | --- |
 | Feb 2015 | AppInstitute | Erasmus Intern | - | Salary | £12,675 |
 | May 2015 | AppInstitute | PHP Developer | - | Salary | £18,000 |

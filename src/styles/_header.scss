@@ -33,7 +33,7 @@ header {
 .logo {
   font-family: Briston;
   font-size: 2em;
-  font-feature-settings: "swsh" on;
+  font-feature-settings: "swsh"on;
   text-decoration: none;
   color: var(--black);
   line-height: normal;
@@ -91,6 +91,12 @@ nav {
         position: absolute;
         display: flex;
         flex-direction: column;
+        background-color: var(--white);
+        border: 0.2rem solid var(--black);
+
+        &.subnav {
+          padding: 0.5rem;
+        }
       }
     }
   }
