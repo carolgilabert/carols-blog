@@ -87,6 +87,26 @@ nav {
         }
       }
 
+      a,
+      button>span {
+        box-shadow: inset 0 0 0 0 var(--pink);
+        margin: 0 -.25rem;
+        padding: 0 .25rem;
+        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+        &:hover {
+          box-shadow: inset 100px 0 0 0 var(--pink);
+        }
+      }
+
+      button {
+        &:hover {
+          span {
+            box-shadow: inset 100px 0 0 0 var(--pink);
+          }
+        }
+      }
+
       ul {
         position: absolute;
         display: flex;
