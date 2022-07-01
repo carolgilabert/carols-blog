@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="color-scheme" content="only light">
+    <meta name="theme-color" content="#bfe6d5">
+    <meta name="generator" content="{{ eleventy.generator }}">
     <title>{{ title or "Carol.gg" }}</title>
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="/styles/base.css">
@@ -15,11 +17,11 @@
     <script src="/scripts/main.js"></script>
 
     {% for script in extraScripts %}
-        <script src="{{ script | url }}></script>
+    <script src="{{ script | url }}></script>
     {% endfor %}
 
     {% for stylesheet in extraStyles %}
-        <link rel="stylesheet" href="{{ stylesheet | url }}" />
+        <link rel=" stylesheet" href="{{ stylesheet | url }}" />
     {% endfor %}
 </head>
 
