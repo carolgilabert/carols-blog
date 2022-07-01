@@ -46,3 +46,20 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Jeremy Keith](https://adactio.com)
 * [Max Böck](https://mxb.dev)
 * [Josh Comeau](https://www.joshwcomeau.com)
+
+## Games to play remotely
+
+
+* [Bananagrams](https://www.playbananagrams.com/)
+* [Blocktanks](https://blocktanks.net/)
+* [Scattergories](https://really.boring.website/)
+* [Wiki game](https://www.thewikigame.com/)
+* [Codenames](https://codenames.game/)
+* [Jigsaw](https://jigsawpuzzles.io/)
+* [Drawasaurus](https://www.drawasaurus.org/)
+* [Countdown](https://incoherency.co.uk/countdown/practice/)
+* [Jeopardy](https://jeopardylabs.com/)
+* [Cards against humanity](https://cah.rocks/)
+* [Telephone](https://garticphone.com/)
+* [Music quiz](https://songl.io/)
+* [Board game arena](https://en.boardgamearena.com/)
