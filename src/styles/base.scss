@@ -16,7 +16,8 @@ li {
   max-width: 60ch;
 }
 
-th, td {
+th,
+td {
   border: 0.1rem solid var(--black);
   padding: 0.5rem;
 }
@@ -53,4 +54,26 @@ footer {
 
 [hidden] {
   display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background:
+    linear-gradient(to right,
+      var(--black),
+      var(--black)),
+    linear-gradient(to right,
+      var(--blue),
+      var(--green),
+      var(--yellow),
+      var(--pink));
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover {
+  background-size: 0 3px, 100% 3px;
 }

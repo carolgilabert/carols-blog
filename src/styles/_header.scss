@@ -28,6 +28,10 @@ header {
   @media screen and (max-width: 500px) {
     flex-direction: column;
   }
+
+  a {
+    background: none;
+  }
 }
 
 .logo {
