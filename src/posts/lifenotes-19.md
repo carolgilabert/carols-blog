@@ -1,0 +1,38 @@
+---
+title: "Lifenotes #19: June 2022"
+subtitle: "The one with Jubileave 🌴"
+author: Carolina Gilabert
+date: 2022-08-07
+readingTime: 2 min
+---
+
+## ✨ Highlights
+
+- Monzo gave everyone the jubilee week off (Jubileave 🌴) so I went down to Devon with Juno to see my family for a few days 💛
+- Signed Juno up for a dog class, and it’s been great. He’s ok with commands but gets super distracted near other dogs, so it was good to practice that.
+- My friend Mark came to visit for a weekend ☺️
+- Took Juno to doggy daycare for the first time and he had a blast!
+- Went for yoga and brunch with Anna and it was sooo lovely 🧘🏼‍♀️
+- Monzo had a summer event for everyone in the company, it was a lot of fun to hang out with work friends in person  🎉 (incidentally, I need to up my limbo game)
+
+## 🎮 Played/Read/Watched
+
+- [Nothing to hide](https://www.imdb.com/title/tt7489816/): watched this with my sister, it was a fun watch!
+- [Stranger Things](https://www.imdb.com/title/tt4574334/) Series 4 Volume 1: I love where the story is going, impatient for volume 2!
+- [Piranesi](https://uk.bookshop.org/books/piranesi-winner-of-the-women-s-prize-2021/9781526622433): I really enjoyed this book, during the setup I wasn’t really sure, but I loved the way the story unfolded.
+- [Are You Suffering from Toxic Productivity?](https://paperform.co/blog/toxic-productivity/) by Kat Boogaard
+- [Face Off](https://www.imdb.com/title/tt0119094/): I’d never seen this one, so I watched it with a friend and it was so goofy! A fun watch, but hard to take seriously at all 😅
+- [Derry Girls](https://www.imdb.com/title/tt7120662/) Series 3: this is such a fun show, I’m sad it’s over!
+- [Business Value, Soccer Canteens, Engineer Retention, and the Bricklayer Fallacy](https://zwischenzugs.com/2022/05/29/business-value-management-autonomy-and-engineer-retention/) by Ian Miell
+- [Notes on maintaining an internal React component library](https://www.gabe.pizza/notes-on-component-libraries/) by Gabe Scholz
+- [Good luck to you, Leo Grande](https://www.imdb.com/title/tt13352968/): I love this film so much! 💛
+- [Everything everywhere all at once](https://www.imdb.com/title/tt6710474/) (again!)
+- [in the kingdom of the blind](https://bridgetkromhout.com/blog/in-the-kingdom-of-the-blind/) by Bridget Kromhout
+- [Factually: The Long, Slow Death of the Internet with Cory Doctorow](https://overcast.fm/+2t408mqdg)
+- [Crazy stupid love](https://www.imdb.com/title/tt1570728/): I watched this while off sick and it ticked all the boxes for one of those days.
+- [Kenobi](https://www.imdb.com/title/tt8466564/): I enjoyed it cause it’s Star Wars but there wasn’t much jeopardy in the plot, cause you know where the characters end up 🤷🏼‍♀️ (getting glimpses of Vader at peak Vader is always fun, though)
+- [Boy parts](https://uk.bookshop.org/books/boy-parts/9781910312636): this was a page turner for me, a slightly uncomfortable story well told.
+
+## 📸 Pics
+
+{% Image "src/images/posts/lifenotes-19/june.jpg", "Collage of pictures from June: Juno lying down on a train carriage; Juno lying down on the grass in the park with a red and yellow sunset behind him; a plate of toast with truffled mushrooms and a poached egg; Juno and I having a cuddle; Juno and his shepherd friends at doggy daycare; Thom and Juno together at the agility course in the park; Juno on the platform at new street station; the web folks at Monzo Mela; Mark and I when he came to visit; Juno wearing his rainbow tie and lead for pride month; a plate of french toast covered with berries; my nephew Manuel reading a book on the sofa next to Juno; my nephew Bruno on the sofa with Juno; Juno on the beach.", "(max-width: 600px) 600w, 900w" %}
