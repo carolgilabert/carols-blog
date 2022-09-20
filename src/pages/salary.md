@@ -28,6 +28,7 @@ When looking for a job, it can be tricky to know what to ask for in terms of sal
 | Aug 2021 | Capital One | Software Development Engineer | SDE 3 | Salary | £54,000 |
 | Sep 2021 | Monzo | Web Engineer | L3 | Salary | £80,000 |
 | Sep 2021 | Monzo | Web Engineer | L3 | Shares | 9000[**](#monzo-shares) |
+| Jul 2021 | Monzo | Web Engineer | L3 | Salary | £87,630 |
 
 Notes:
 <p id="appinst-shares">* I could only keep these shares if I stayed in the company until sale, so I don't have these anymore</p>
