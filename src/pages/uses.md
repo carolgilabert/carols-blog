@@ -7,7 +7,7 @@ permalink: /uses/
 
 I've been in search of the perfect setup at home for a little while now. This is where I'm at right now:
 
-{% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 49 inch ultrawide monitor, a couple of pastel colour mechanical keyboards, cute teal speakers, and plenty other cute and pastel accessories.", "(max-width: 600px) 600w, 900w" %}
+{% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 27 inch monitor, and a laptop perched on top of a book. You can also see on the desk a notepad, a pink pencil cup, a stream deck, a mint green timer clock, a wireless phone charger, a pink mug on top of a yellow coaster. Attached to the desk are a big rectangular keylight and a microphone on a boom arm. Behind the desk you can see some colourful paper bunting on the wall.", "(max-width: 600px) 600w, 900w" %}
 
 ## 🖥 Hardware
 
