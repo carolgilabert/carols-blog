@@ -7,27 +7,24 @@ permalink: /uses/
 
 I've been in search of the perfect setup at home for a little while now. This is where I'm at right now:
 
-{% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 49 inch ultrawide monitor, a couple of pastel colour mechanical keyboards, cute teal speakers, and plenty other cute and pastel accessories.", "(max-width: 600px) 600w, 900w" %}
+{% Image "src/images/uses/desk.jpg", "My desk, a bamboo top with a 27 inch monitor, and a laptop perched on top of a book. You can also see on the desk a notepad, a pink pencil cup, a stream deck, a mint green timer clock, a wireless phone charger, a pink mug on top of a yellow coaster. Attached to the desk are a big rectangular keylight and a microphone on a boom arm. Behind the desk you can see some colourful paper bunting on the wall.", "(max-width: 600px) 600w, 900w" %}
 
 ## 🖥 Hardware
 
 My chair is a [Herman Miller Aeron](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/aeron-chairs/) and my desk is a [Fully Jarvis Bamboo Standing Desk](https://www.fully.com/en-gb/jarvis-adjustable-height-desk-bamboo.html). Getting a standing desk after a year of working remotely was an absolute game changer, I'm so happy with it! I also have an [anti-fatigue mat](https://www.fully.com/accessories/standing-desk-mats/muvmat-by-aeris.html) that I got with my desk and it really helps me stand for longer 🧍‍♀️
 
-I spend most of my time on my [2021 16" MacBook Pro](https://www.johnlewis.com/2021-apple-macbook-pro-16-inch-m1-max-processor-32gb-ram-1tb-ssd/p5828283). I generally keep it shut on a [vertical laptop stand](https://www.amazon.co.uk/gp/product/B07BV91YFL/) together with my work laptop and I drive both on my [Samsung Odyssey CRG9 49" Superultrawide Monitor](https://www.samsung.com/uk/monitors/gaming/odyssey-crg9-49-inch-120hz-freesync-curved-lc49rg90ssrxxu/).
-
-I ended up putting my monitor on an [Ergotron HX Desk Monitor Arm](https://www.ergotron.com/en-gb/products/product-details/45-475#?color=white&buynow=0) to free up a bunch of desk space.
+I spend most of my time on my [2021 16" MacBook Pro](https://www.johnlewis.com/2021-apple-macbook-pro-16-inch-m1-max-processor-32gb-ram-1tb-ssd/p5828283). I generally use it open and my current monitor stand is a pristine (a.k.a. unread) copy of cracking the code interview 😂
+I've now ditched the superultrawide lifestyle, and my current monitor is an [Apple Studio Display](https://www.johnlewis.com/apple-studio-display-with-tilt-height-adjustable-stand-standard-glass-27-inch-5k-retina-display-silver/p6145616).
 
 As it turns out I have a bunch of accessories 😅
 
-For pointing, I tend to switch between an [Apple Magic Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver) and a [Logitech MX Master 3 for Max](https://www.logitech.com/en-gb/products/mice/mx-master-3-mac-wireless-mouse.html) cause it helps keep my RSI in check.
+For pointing, I tend to switch between an [Apple Magic Trackpad 2](https://www.apple.com/uk/shop/product/MJ2R2Z/A/magic-trackpad-2-silver) and a [Logitech MX Master 3 for Mac](https://www.logitech.com/en-gb/products/mice/mx-master-3-mac-wireless-mouse.html) cause it helps keep my RSI in check.
 
-My webcam is a [Logitech StreamCam](https://www.logitech.com/en-gb/products/webcams/streamcam.html) and I have a [Elgato Key Light](https://www.elgato.com/en/key-light) to help with lighting.
-
-For listening to music I use some [Kanto Yu2 speakers](https://www.kantoaudio.com/powered-speakers/yu2/) and for calls I use an [Elgato Wave 3](https://www.elgato.com/en/wave-3) and my [AirPods Pro](https://www.apple.com/uk/airpods-pro/).
+For calls, I'm using my monitor's built in camera (despite the 🥔 quality) and I have a [Elgato Key Light](https://www.elgato.com/en/key-light) to help with lighting. Audio wise I use my [2nd Gen Airpods Pro](https://www.johnlewis.com/2022-apple-airpods-pro-2nd-generation-with-magsafe-charging-case/p6345566) and an [Elgato Wave 3](https://www.elgato.com/en/wave-3).
 
 I run [Tech Nottingham](https://www.technottingham.com) online events from here occasionally, so I also have an [Elgato StreamDeck](https://www.elgato.com/en/stream-deck) and an [Elgato Collapsible Green Screen](https://www.elgato.com/en/green-screen); they're super helpful for those.
 
-I have a couple more bits and bobs on my desk, like a [wireless charger](https://www.o2.co.uk/shop/anker/power-wave-10w-dual-pad-wireless-charger), a [rotating pen cup](https://www.etsy.com/uk/listing/872177169/rotatable-pen-holder-funny-pen-holder?ref=yr_purchases) and a cute [pastel terrazzo coaster](https://www.etsy.com/uk/listing/993496645/terrazzo-coasters-pastel-confetti-switch).
+I have a couple more bits and bobs on my desk, like a [wireless charger](https://www.belkin.com/uk/magsafe-magnetic-accessories/magsafe/boost-charge-pro-2-in-1-wireless-charger-stand-with-magsafe-15w/p/p-wiz010/), a [rotating pen cup](https://www.etsy.com/uk/listing/872177169/rotatable-pen-holder-funny-pen-holder?ref=yr_purchases) and a cute [pastel terrazzo coaster](https://www.etsy.com/uk/listing/993496645/terrazzo-coasters-pastel-confetti-switch).
 
 As for portable stuff, I have an [iPhone 13 Pro Max](https://www.johnlewis.com/apple-iphone-13-pro-max-ios-6-7-inch-5g-sim-free-128gb/p5756469), an [Apple Watch Series 6](https://www.apple.com/uk/apple-watch-series-6/), and an [12.9" M1 iPad Pro](https://www.apple.com/uk/shop/buy-ipad/ipad-pro) which I love ✨
 
@@ -77,6 +74,17 @@ _Note: The keycaps didn't perfectly match the PCB layout, and because of their s
 {% Image "src/images/uses/logi-keeb.png", "A 60% wireless keyboard with round keycaps. The board is mint green and lilac, and the keys are white and yellow.  ", "(max-width: 600px) 600w, 900w" %}
 
 _Note: this is my first off the shelf mechanical keyboard and while it's not quite as nice as my other keyboards, the convenience of the multi channel Bluetooth is top tier._
+
+### Keychron K8
+
+I got this one from work and it's a great keyboard! It's got multi channel bluetooth and pretty nice backlighting, I've been using it quite a lot.
+
+- Board: [Keychron K8](https://www.keychron.com/products/keychron-k8-wireless-mechanical-keyboard-uk-iso-layout?variant=32246756409433)
+- Switches: [Gateron Brown](https://kbdfans.com/products/switch-68-cherry-gateron-zealio-2?variant=33959242072203)
+
+{% Image "src/images/uses/keychron.png", "A tenkeyless wireless keyboard with dark grey keycaps, except for the escape key which is orange. The board has RGB backlighting, which is glinting different colours under each key.  ", "(max-width: 600px) 600w, 900w" %}
+
+
 ## 💾 Software
 &nbsp;
 ### Editor
@@ -111,16 +119,11 @@ There's a bunch of apps I use regularly, but the ones I always install first in 
 
 I write and organise everything in [Notion](https://www.notion.so/).
 
-I use [Synergy](https://symless.com/synergy) to share keyboard and mice across devices.
-
-And I regularly use quite a few apps from [Setapp](https://setapp.com/). If you use a Mac I'd highly recommend it, [here's my referral link](https://go.setapp.com/invite/0zefecs6) 😌
-
-These are my faves:
-
-- [Session](https://www.stayinsession.com/)
-- [Bartender](https://www.macbartender.com/)
-- [Sizzy](https://sizzy.app/)
+And here a few apps that I use less often, but are really good at what they do:
 - [Downie](https://software.charliemonroe.net/downie/)
 - [Permute](https://software.charliemonroe.net/permute/)
-- [iStatMenus](https://bjango.com/mac/istatmenus/)
 - [Cleanshot X](https://cleanshot.com/)
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [Descript](https://www.descript.com)
+- [Rocket](https://matthewpalmer.net/rocket/)
+
