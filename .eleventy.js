@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
   eleventyConfig.addPlugin(eleventyPluginOgImage, {
+    generateHTML: (outputUrl) => outputUrl,
     satoriOptions: {
       fonts: [
         {

@@ -17,13 +17,16 @@
     <script src="/scripts/main.js"></script>
 
     <!-- Open Graph -->
+    {% setAsync "ogOutputUrl" -%}
     {% ogImage "./src/layouts/og-image.og.html", { title: title or "Testing!" } %}
+    {%- endsetAsync %}
     <meta property="og:title" content="{{ title or " Carol.gg" }}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ url }}" />
     <meta property="og:description" content="{{ subtitle }}" />
     <meta property="og:site_name" content="Carol.gg" />
     <meta property="og:locale" content="en_GB" />
+    <meta property="og:image" content="{{global.baseUrl}}{{ogOutputUrl}}" />
 
     {% for script in extraScripts %}
     <script src="{{ script | url }}></script>
