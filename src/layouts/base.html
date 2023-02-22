@@ -26,6 +26,12 @@
     <meta property="og:site_name" content="Carol.gg" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:image" content="{{site.url}}{{ogOutputUrl}}" />
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{site.url}}">
+    <meta name="twitter:title" content="{{title or " Carol.gg"}}">
+    <meta name="twitter:description" content="{{subtitle}}">
+    <meta name="twitter:image" content="{{site.url}}{{ogOutputUrl}}">
 
     {% for script in extraScripts %}
     <script src="{{ script | url }}></script>
