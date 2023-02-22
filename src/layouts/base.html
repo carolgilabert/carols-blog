@@ -18,7 +18,7 @@
 
     <!-- Open Graph -->
     {% setAsync "ogOutputUrl" -%}
-    {% ogImage "./src/layouts/og-image.og.html", { title: title or "Testing!" } %}
+    {% ogImage "./src/layouts/og-image.og.html", { title: title or "Carol.gg" } %}
     {%- endsetAsync %}
     <meta property="og:title" content="{{ title or " Carol.gg" }}" />
     <meta property="og:type" content="website" />
