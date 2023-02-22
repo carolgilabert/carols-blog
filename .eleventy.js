@@ -24,8 +24,8 @@ module.exports = function (eleventyConfig) {
         }
       ]
     },
-    outputDir: './dist/images/og/',
-    htmlPath: '/images/og/',
+    outputDir: './dist/og-images/',
+    htmlPath: '/og-images/',
   });
 
   // Shortcodes
