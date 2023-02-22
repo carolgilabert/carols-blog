@@ -1,5 +1,7 @@
+const fs = require("fs");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
+const eleventyPluginOgImage = require('eleventy-plugin-og-image');
 const imageShortcode = require("./src/utils/image-shortcode");
 const { isoDateFilter, readableDateFilter, readableDateAndTimeFilter } = require("./src/utils/date-filters");
 const { getWebmentionsForUrl, size, webmentionsByType } = require("./src/utils/webmention-filters")
@@ -11,6 +13,20 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
+  eleventyConfig.addPlugin(eleventyPluginOgImage, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: 'Briston',
+          data: fs.readFileSync('./src/fonts/briston.woff'),
+          weight: 700,
+          style: 'normal'
+        }
+      ]
+    },
+    outputDir: './dist/images/og/',
+    htmlPath: '/images/og/',
+  });
 
   // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);

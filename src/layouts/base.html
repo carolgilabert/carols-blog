@@ -16,6 +16,16 @@
     <link rel=alternate type=application/rss+xml href=/feed.xml title="Carol.gg">
     <script src="/scripts/main.js"></script>
 
+    <!-- Open Graph -->
+    {% ogImage "./src/layouts/og-image.og.html", { title: title or "Testing!" } %}
+    <meta property="og:title" content="{{ title or " Carol.gg" }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{ url }}" />
+    <meta property="og:image" content="{{ ogImage }}" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:site_name" content="Carol.gg" />
+    <meta property="og:locale" content="en_GB" />
+
     {% for script in extraScripts %}
     <script src="{{ script | url }}></script>
     {% endfor %}
