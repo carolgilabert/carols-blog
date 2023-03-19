@@ -1,0 +1,32 @@
+---
+title: "Lifenotes #27: February 2023"
+subtitle: "Fun times with family and friends 💛"
+author: Carolina Gilabert
+date: 2023-03-19
+readingTime: 2 min
+---
+
+## ✨ Highlights
+
+- Got Beyoncé tickets 💃
+- Accepted an offer on the house 🤞
+- My lovely family came to visit 💛
+- Went to a fun pots and pints evening with my pals and made some tiles
+- Saw a couple of my work besties for drinks and pizza
+- Hung out with Kevino and got to properly catch up
+
+## 🎮 Played/Read/Watched
+
+- [The bear](https://www.imdb.com/title/tt14452776): finally got around to watching this and it was great fun 🎉
+- [Roman holiday](https://www.imdb.com/title/tt0046250): went my friend Rach to see it on the big screen, and it was lovely! Sometimes classic films have a level of misogyny that makes them hard to watch, but this one didn’t, it was quite sweet.
+- [White lotus](https://www.imdb.com/title/tt13406094) series 2: was a bit meh, to be honest.
+- [Argentina 1985](https://www.imdb.com/title/tt15301048): watched this with my mum and sister when they came over and it was really good.
+- [Braids and Bowlers: Indigenous Bolivian Women Skateboard in Style in Celia D. Luna’s Empowered Portraits](https://www.thisiscolossal.com/2023/01/celia-luna-cholitas/)
+- [I tried using AI. It scared me.](https://www.youtube.com/watch?v=jPhJbKBuNnA) by Tom Scott
+- [The killing of a sacred deer](https://www.imdb.com/title/tt5715874): I do like Yorgos Lanthimos’ films in general, but this one was a bit meh.
+- [Top boy: summerhouse](https://www.imdb.com/title/tt1830379): loved this. I’d started the new series ages ago but only got through a couple of eps, so I went back to start from the beginning, and it was great. Made the new series better to me.
+- [Shrinking](https://www.imdb.com/title/tt15677150): my sister recommended this one to me and I’m really enjoying it. A good 30 min feel good comedy.
+
+## 📸 Pics
+
+{% Image "src/images/posts/lifenotes-27/february.png", "Collage of pictures from February: my friend Rachael with a plate of pancakes and coffee at Cartwheel Café; my sister telling off Juno while he jumps on her; my friends Anna, Nisha, Chie and I holding our clay creations (it was a blind sculpt game, so they're very wonky faces); my plate of pancakes, kinda half eaten; selfie of me in the mirror wearing a mostly black outfit and ripped denim shirt; a pizza i made; my nephews, mum and sister hopping along the Chee Dale stepping stones, in the peak district; my mum and nephews posing in front of a tunnel entrance in Chee Dale; Juno looking back at the kids while we walked in the woods; my friend Audrey smiling at the camera with her pizza; my friend Sharan and I posing with our pizzas too; some avocado on toast i made for breakfast; my dog Juno fast asleep on his bed that's in my office.", "(max-width: 600px) 600w, 900w" %}
