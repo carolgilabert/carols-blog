@@ -1,0 +1,35 @@
+---
+title: "Lifenotes #28: March 2023"
+subtitle: "The one where I passed my driving test 🚗🎉"
+author: Carolina Gilabert
+date: 2023-09-29
+readingTime: 2 min
+---
+
+## ✨ Highlights
+
+- Passed my driving test! 🚗🎉
+- Went to a really fun pigs pigs pigs pigs pigs pigs pigs gig in Leicester
+- Caught up with my friend Huai after AGES
+- Went to a fun R&B brunch with Nisha
+- Celebrated with Nisha her getting into the fire service 🔥
+- Had my first BSL exam - and passed 🎉
+- Went to a frontend meetup in Sheffield, to see Lex speak and make new web friends 💛
+- Went out for drinks with Jonathan’s lovely friends and had amazing pizza
+
+## 🎮 Played/Read/Watched
+
+- [This is going to hurt](https://www.imdb.com/title/tt8681148/): this was a great show, but not gonna lie, it was kinda depressing.
+- [Top boy](https://www.imdb.com/title/tt1830379/): I’d started watching this a few years ago and sort of trailed off
+- [Chelsea Handler: Revolution](https://www.imdb.com/title/tt23711530/): it was ok, she’s pretty funny at times, but her humour is not super up my street.
+- [Broker](https://www.imdb.com/title/tt13056052/): this was so beautiful, totally made me cry a little at the cinema 😭
+- [Abbott Elementary](https://www.imdb.com/title/tt14218830/) series 2: this was a really fun series, I really enjoyed it.
+- [Why do we stop exploring new music as we get older?](https://www.abc.net.au/news/2023-02-26/why-do-we-stop-exploring-music-as-we-age/102006492) by Timothy McKenry
+- [Nimic](https://www.imdb.com/title/tt10651850/): watched this short on Mubi, cause I quite like Yorgos Lanthimos, it was cool and unsettling.
+- [Rye lane](https://www.imdb.com/title/tt15893750/): this was such a fun rom-com, would highly recommend it! Saw it with my friend Rach at Broadway ☺️
+- [Black ish](https://www.imdb.com/title/tt3487356/): I started watching this cause I was after a half hour comedy, but I didn’t really get on with it.
+- [Loot](https://www.imdb.com/title/tt14271498/): this was ok, not amazing 🤷‍♀️
+
+## 📸 Pics
+
+{% Image "src/images/posts/lifenotes-28/march.jpg", "Collage of pictures from March: Juno, my black german shepherd, lying on top of me on the sofa, he's staring up directly at the camera with a toy in his mouth; my friend Huai smiling and making a peace sign with his hand; a picture of me, sat at a restaurant, looking slightly awkwardly at the camera and wearing a dark green knit jumper; a cocktail, mostly transparent served on a tumbler with a salt rim and a big square ice cube; baby Juno curled up on the blue dog bed in my office; a rock band on stage, you can see the vocalist and guitarist; a plate of incredible looking pancakes, topped with bananas, caramel, pecans and a dollop of mascarpone; me standing awkwardly next to my driving instructors car holding my pass certificate; Lex speaking at Frontend Sheff, she's at the front of a room and her slide has some pictures of her.", "(max-width: 600px) 600w, 900w" %}
