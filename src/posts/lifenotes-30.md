@@ -1,0 +1,36 @@
+---
+title: "Lifenotes #30: May 2023"
+subtitle: ""
+author: Carolina Gilabert
+date: 2023-10-02
+readingTime: 2 min
+---
+
+## ✨ Highlights
+
+- Had a really fun trip to Leeds for All Day Hey! and did some bonus birthday celebrating 🥳
+- Went for pizza and games with some friends to celebrate my birthday.
+- Had a fun little urban exploration walk with Juno onto the site of an old soap factory.
+- Took Juno on a german shepherd group walk.
+- Started to reap the benefits of learning to drive and buying a car, like impromptu Costco trips!
+- Went to Edinburgh with my lovely friends and sister to see Queen Bey 💃
+    - Took the new Carolmobile even though I was super nervous but the drive was fine!
+    - My lovely friends did share the driving though 💛
+- Drove all the way to Devon to see my family the week after, just me and dog.
+- My house buyers basically dropped their offer by £35k, and threatened to pull out of the sale 🫠
+
+## 🎮 Played/Read/Watched
+
+- [Gris](https://www.nintendo.co.uk/Games/Nintendo-Switch-download-software/GRIS-1483920.html): this is such a beautiful game, tbh I doubt I’ll finish it, cause I never seem to finish indie platformers, but I really enjoyed playing it.
+- [The square](https://www.imdb.com/title/tt4995790/): full disclosure, I was really tired and barely paying attention, but I didn’t really enjoy this one.
+- [Will A.I. Become the New McKinsey?](https://www.newyorker.com/science/annals-of-artificial-intelligence/will-ai-become-the-new-mckinsey) by Ted Chiang
+- [Rich Harris on frameworks, the web, and the edge](https://www.youtube.com/watch?v=uXCipjbcQfM)
+- [The Deceptive World of Ghost Kitchens](https://www.youtube.com/watch?v=KkIkymh5Ayg) by Eddy Burback
+- [The Witch Trials of J.K. Rowling](https://www.youtube.com/watch?v=EmT0i0xG6zg) by ContraPoints
+- [Midsommar](https://www.imdb.com/title/tt8772262/): went to the see this at my local cinema, and it was a good shout, it’s a stunning film, so looked amazing on the big screen! I enjoyed the weirdness of it a lot.
+- [The Legend of Zelda: Tears of the Kingdom](https://www.nintendo.co.uk/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html): having loved breath of the wild, I was very hyped for this and it did not disappoint. It had all the good from BOTW plus some AMAZING new mechanics, this was so much fun.
+- [Potato programming](https://blog.glyph.im/2022/12/potato-programming.html) by Glyph
+- [You’re wrong about - Flight 571: Survival in the Andes with Blair Braverman](https://yourewrongabout.buzzsprout.com/1112270/11602816-flight-571-survival-in-the-andes-with-blair-braverman)
+
+## 📸 Pics
+{% Image "src/images/posts/lifenotes-30/may.png", "Collage of pictures from May: Juno, my fluffy black german shepherd, looking cute while biting my finger; Jonathan, a bearded dark haired white man, sat at the pub with his plate of steak and frites; a table full of yummy pub food, including a bowl of chips completely smothered in parmesan; some small white flowers from the plum tree in my garden; a countryside path with a few people and their german shepherds, you can see juno's head and back at the bottom of the frame; my friend Rachael stood with open arms in front of Costco; my friends Anna, Emma and Rachael and I, in the car on the way to Edinburgh; the stage at the Beyonce gig, you can see her and the dancers on the stage, the screen behind the stage is all red and there's a huge bust of her dressed in a red latex dress; my friends Rach and Emma, and my sister Lu at brunch; my friend Anna and I at brunch; Juno and I, sat in the boot of my car while I have a sandwich; my sister's dog Penny and Juno playing in a big park, you can also see my nephews running in the background; my sister, mum, nephews, Juno and I posing in front of the woolacombe beach on a sunny day; Juno stood on the pier in Lynton, looking majestic in the sunshine, with his shiny black coat; my youngest nephew Manuel, posing in front of the valley of rocks, near Lynton; my eldest nephew Bruno and I, posing in front of both the valley of rocks and the sea.", "(max-width: 600px) 600w, 900w" %}
