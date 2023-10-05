@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "netlify dev -c \"npm-run-all build:sass --parallel watch:*\"",
+    "rebuild-og": "rm -rf dist/og-images && eleventy",
     "build": "NODE_ENV=production npm-run-all build:sass build:eleventy",
     "build:local": "NODE_ENV=production netlify build",
     "build:eleventy": "ELEVENTY_ENV=prod eleventy",
