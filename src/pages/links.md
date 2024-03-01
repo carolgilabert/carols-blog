@@ -48,15 +48,18 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Thought](https://www.wearethought.com/)
 * [Toast](https://www.toa.st)
 
+## Web stuff
 
-## Web tools
-
-### Accessibility
+### Accessibility tools
 * [Accessibility Insights Extension](https://accessibilityinsights.io)
 * [NVDA shortcuts](https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts)
 * [VoiceOver shortcuts - iOS](https://dequeuniversity.com/screenreaders/voiceover-ios-shortcuts)
 * [VoiceOver shortcuts - Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)
 * [Web Developer Extension](https://chrispederick.com/work/web-developer/)
+
+### Cool fonts
+* [Beasts of england](https://beastsofengland.co/)
+* [VJ Type](https://www.vj-type.com/)
 
 ## Games to play remotely
 * [Bananagrams](https://www.playbananagrams.com/)
@@ -72,3 +75,12 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Scattergories](https://really.boring.website/)
 * [Telephone](https://garticphone.com/)
 * [Wiki game](https://www.thewikigame.com/)
+
+## Crafting stuff
+
+### Free sewing patterns
+
+* [Fabric store](https://fabrics-store.com/sewing-patterns)
+* [Peppermint magazine](https://peppermintmag.com/sewing-school/)
+* [Mood fabrics](https://www.moodfabrics.com/blog/category/free-sewing-patterns/)
+
