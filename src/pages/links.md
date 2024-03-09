@@ -28,6 +28,7 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Queering the map](https://queeringthemap.com/)
 * [Radio Garden](https://radio.garden/)
 * [Window Swap](https://window-swap.com/)
+* [Interactive Sky Chart](https://skyandtelescope.org/interactive-sky-chart/)
 
 ## Shopping
 
@@ -56,6 +57,10 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [VoiceOver shortcuts - iOS](https://dequeuniversity.com/screenreaders/voiceover-ios-shortcuts)
 * [VoiceOver shortcuts - Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)
 * [Web Developer Extension](https://chrispederick.com/work/web-developer/)
+
+### Font tools
+* [Wakamai Fondue](https://wakamaifondue.com/)
+* [Font Joy](https://fontjoy.com/)
 
 ### Cool fonts
 * [Beasts of england](https://beastsofengland.co/)
