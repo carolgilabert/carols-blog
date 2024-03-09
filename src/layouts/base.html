@@ -46,10 +46,6 @@
     {% include "site-head.html" %}
     <main tabindex="-1" id="main-content">{{ content | safe }}</main>
     {% include "footer.html" %}
-    <!-- Including fathom partial only if it's a production build -->
-    {% if site.environment == "prod" %}
-    {% include "fathom.html" %}
-    {% endif %}
 
     <script>
         if ('serviceWorker' in navigator) {
