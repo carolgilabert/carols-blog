@@ -43,9 +43,13 @@
 </head>
 
 <body>
-    {% include "site-head.html" %}
+    {% renderTemplate "webc" %}
+    <site-header></site-header>
+    {% endrenderTemplate %}
     <main tabindex="-1" id="main-content">{{ content | safe }}</main>
-    {% include "footer.html" %}
+    {% renderTemplate "webc" %}
+    <site-footer></site-footer>
+    {% endrenderTemplate %}
 
     <script>
         if ('serviceWorker' in navigator) {
