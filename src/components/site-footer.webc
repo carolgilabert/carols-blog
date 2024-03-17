@@ -1,34 +1,32 @@
-<site-footer>
-    <footer>
-        You can also find me on:
-        <ul class="no-style">
-            <li>
-                <a href="mailto:hello@carol.gg" rel="me"> Email </a>
-            </li>
-            <li>
-                <a href="https://github.com/carolgilabert" rel="me"> GitHub </a>
-            </li>
-            <li>
-                <a href="https://codepen.io/carolgilabert" rel="me"> Codepen </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/carolgilabert" rel="me">
-                    LinkedIn
-                </a>
-            </li>
-            <li>
-                <a href="https://app.thestorygraph.com/profile/carolgilabert" rel="me"> Storygraph </a>
-            </li>
-            <li>
-                <a href="https://social.lol/@carol" rel="me"> Mastodon </a>
-            </li>
-            <li>
-                <a href="https://queue.app.link/0eR0FmETvDb" rel="me"> Queue </a>
-            </li>
-        </ul>
-        <p>
-            © 2024 · Carolina Gilabert ·
-            <a href="https://creativecommons.org/licenses/by-sa/4.0/"> cc-by-sa </a>
-        </p>
-    </footer>
-</site-footer>
+<footer>
+    You can also find me on:
+    <ul class="no-style">
+        <li>
+            <a href="mailto:hello@carol.gg" rel="me"> Email </a>
+        </li>
+        <li>
+            <a href="https://github.com/carolgilabert" rel="me"> GitHub </a>
+        </li>
+        <li>
+            <a href="https://codepen.io/carolgilabert" rel="me"> Codepen </a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/in/carolgilabert" rel="me">
+                LinkedIn
+            </a>
+        </li>
+        <li>
+            <a href="https://app.thestorygraph.com/profile/carolgilabert" rel="me"> Storygraph </a>
+        </li>
+        <li>
+            <a href="https://social.lol/@carol" rel="me"> Mastodon </a>
+        </li>
+        <li>
+            <a href="https://queue.app.link/0eR0FmETvDb" rel="me"> Queue </a>
+        </li>
+    </ul>
+    <p>
+        © 2024 · Carolina Gilabert ·
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"> cc-by-sa </a>
+    </p>
+</footer>
