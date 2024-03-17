@@ -2,16 +2,15 @@
   {%- for post in postList %}
   <li>
     <article class="h-entry">
-      {% include "h-card.html" %}
+      {% renderTemplate "webc" %}
+      <my-hcard></my-hcard>
+      {% endrenderTemplate %}
       <div class="image"></div>
       <div class="post-info">
         <div>
           <p class="p-name title">{{ post.data.title }}</p>
           <span class="body-xsmall">
-            <time
-              class="dt-published"
-              datetime="{{ post.data.date | isoDate }}"
-            >
+            <time class="dt-published" datetime="{{ post.data.date | isoDate }}">
               📅 {{ post.data.date | readableDate }}
             </time>
             · {{ post.data.readingTime }} ⏱

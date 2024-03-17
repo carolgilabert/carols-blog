@@ -13,7 +13,9 @@ extraStyles:
         </time>
         · {{readingTime }} read ⏱️
     </span>
-    {% include "h-card.html" %}
+    {% renderTemplate "webc" %}
+    <my-hcard></my-hcard>
+    {% endrenderTemplate %}
     <div class="e-content">
         {{ content | safe }}
     </div>

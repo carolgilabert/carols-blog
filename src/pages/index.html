@@ -16,4 +16,6 @@ extraStyles:
 
 <h3>Latest on the blog:</h3>
 {% set postList = collections.latest %} {% include "post-list.html" %} {%
-include "h-card.html" %}
+{% renderTemplate "webc" %}
+<my-hcard></my-hcard>
+{% endrenderTemplate %}
