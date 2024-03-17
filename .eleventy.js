@@ -2,6 +2,8 @@ const fs = require("fs");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 const eleventyPluginOgImage = require('eleventy-plugin-og-image');
+const pluginWebc = require("@11ty/eleventy-plugin-webc");
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const imageShortcode = require("./src/utils/image-shortcode");
 const { isoDateFilter, readableDateFilter, readableDateAndTimeFilter } = require("./src/utils/date-filters");
 const { getWebmentionsForUrl, size, webmentionsByType } = require("./src/utils/webmention-filters")
@@ -28,6 +30,10 @@ module.exports = function (eleventyConfig) {
     outputDir: './dist/og-images/',
     htmlPath: '/og-images/',
   });
+  eleventyConfig.addPlugin(pluginWebc, {
+    components: './src/components/**/*.webc',
+  });
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   // Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode("Image", imageShortcode);

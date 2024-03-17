@@ -28,6 +28,7 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Queering the map](https://queeringthemap.com/)
 * [Radio Garden](https://radio.garden/)
 * [Window Swap](https://window-swap.com/)
+* [Interactive Sky Chart](https://skyandtelescope.org/interactive-sky-chart/)
 
 ## Shopping
 
@@ -57,6 +58,10 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [VoiceOver shortcuts - Mac](https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts)
 * [Web Developer Extension](https://chrispederick.com/work/web-developer/)
 
+### Font tools
+* [Wakamai Fondue](https://wakamaifondue.com/)
+* [Font Joy](https://fontjoy.com/)
+
 ### Cool fonts
 * [Beasts of england](https://beastsofengland.co/)
 * [VJ Type](https://www.vj-type.com/)
@@ -78,9 +83,26 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 
 ## Crafting stuff
 
+### Cool sewing patterns
+* [Birgitta Helmersson](https://www.birgittahelmersson.com/collections/pdf-sewing-patterns)
+* [Guthrie & Ghani](https://guthrie-ghani.co.uk/shop/patterns)
+* [Stitch Witch](https://www.stitchwitchpatterns.com/patterns-1)
+* [Draper's Daughter](https://drapersdaughter.com/collections/sewing-patterns)
+* [Modern Sewing Co](https://modernsewingco.com/collections/single-patterns)
+* [The Assembly Line](https://theassemblylineshop.com/collections/modern-minimalist-sewing-patterns)
+
+
 ### Free sewing patterns
 
 * [Fabric store](https://fabrics-store.com/sewing-patterns)
 * [Peppermint magazine](https://peppermintmag.com/sewing-school/)
 * [Mood fabrics](https://www.moodfabrics.com/blog/category/free-sewing-patterns/)
 
+## Recipes
+
+* [NYT Cooking](https://cooking.nytimes.com/)
+* [Saveur](https://www.saveur.com/)
+* [Serious Eats](https://www.seriouseats.com/)
+* [Cookie and Kate](https://cookieandkate.com/)
+* [Ottolenghi](https://ottolenghi.co.uk/recipes/)
+* [Meera Sodha](https://meerasodha.com/recipes/)

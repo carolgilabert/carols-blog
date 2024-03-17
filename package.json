@@ -45,6 +45,7 @@
     "blog"
   ],
   "dependencies": {
+    "@11ty/eleventy-plugin-webc": "^0.11.2",
     "ajv": "^8.12.0",
     "netlify-plugin-11ty": "^1.4.0"
   },

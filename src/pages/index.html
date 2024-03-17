@@ -15,5 +15,7 @@ extraStyles:
 <p>I'm always up for a chat though, so feel free to get in touch! 💌 </p>
 
 <h3>Latest on the blog:</h3>
-{% set postList = collections.latest %} {% include "post-list.html" %} {%
-include "h-card.html" %}
+{% set postList = collections.latest %} {% include "post-list.html" %}
+{% renderTemplate "webc" %}
+<my-hcard></my-hcard>
+{% endrenderTemplate %}
