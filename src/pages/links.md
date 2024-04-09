@@ -90,6 +90,7 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Draper's Daughter](https://drapersdaughter.com/collections/sewing-patterns)
 * [Modern Sewing Co](https://modernsewingco.com/collections/single-patterns)
 * [The Assembly Line](https://theassemblylineshop.com/collections/modern-minimalist-sewing-patterns)
+* [Grainline Studio](https://grainlinestudio.com/)
 
 
 ### Free sewing patterns
