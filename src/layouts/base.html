@@ -17,21 +17,18 @@
     <script src="/scripts/main.js"></script>
 
     <!-- Open Graph -->
-    {% setAsync "ogOutputUrl" -%}
-    {% ogImage "./src/layouts/og-image.og.html", { title: title or "Carol.gg" } %}
-    {%- endsetAsync %}
     <meta property="og:title" content="{{ title or " Carol.gg" }}" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ subtitle }}" />
     <meta property="og:site_name" content="Carol.gg" />
     <meta property="og:locale" content="en_GB" />
-    <meta property="og:image" content="{{site.url}}{{ogOutputUrl}}" />
+    <meta property="og:image" content="{{site.url}}{{ogImage or site.baseOgImage}}" />
     <!-- Twitter meta tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="{{site.url}}">
     <meta name="twitter:title" content="{{title or " Carol.gg"}}">
     <meta name="twitter:description" content="{{subtitle}}">
-    <meta name="twitter:image" content="{{site.url}}{{ogOutputUrl}}">
+    <meta name="twitter:image" content="{{site.url}}{{ogImage or site.baseOgImage}}">
 
     {% for script in extraScripts %}
     <script src="{{ script | url }}></script>
