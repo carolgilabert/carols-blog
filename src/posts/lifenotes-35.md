@@ -4,7 +4,7 @@ subtitle: "Fun local events, family time, and a new nose chain!"
 author: Carolina Gilabert
 date: 2024-04-28
 readingTime: 2 min
-ogImage: "/static/og-images/lifenotes-35.jpg"
+ogImage: "/lifenotes-35.jpg"
 ---
 
 ## ✨ Highlights
