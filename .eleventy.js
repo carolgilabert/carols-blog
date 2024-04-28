@@ -1,7 +1,5 @@
-const fs = require("fs");
 const rssPlugin = require("@11ty/eleventy-plugin-rss");
 const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
-const eleventyPluginOgImage = require('eleventy-plugin-og-image');
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const imageShortcode = require("./src/utils/image-shortcode");
@@ -15,21 +13,6 @@ module.exports = function (eleventyConfig) {
   // Plugins
   eleventyConfig.addPlugin(rssPlugin);
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
-  eleventyConfig.addPlugin(eleventyPluginOgImage, {
-    generateHTML: (outputUrl) => outputUrl,
-    satoriOptions: {
-      fonts: [
-        {
-          name: 'Briston',
-          data: fs.readFileSync('./src/fonts/briston.woff'),
-          weight: 700,
-          style: 'normal'
-        }
-      ]
-    },
-    outputDir: './dist/og-images/',
-    htmlPath: '/og-images/',
-  });
   eleventyConfig.addPlugin(pluginWebc, {
     components: './src/components/**/*.webc',
   });
