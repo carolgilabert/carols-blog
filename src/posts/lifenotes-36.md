@@ -4,7 +4,7 @@ subtitle: "FFConf, Little Simz, and a new bed!"
 author: Carolina Gilabert
 date: 2024-04-29
 readingTime: 3 min
-ogImage: "/lifenotes-35.jpg"
+ogImage: "/lifenotes-36.jpg"
 ---
 
 ## ✨ Highlights
