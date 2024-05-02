@@ -1,0 +1,27 @@
+---
+title: "Lifenotes #39: February 2024"
+subtitle: "A chilled out month 😌"
+author: Carolina Gilabert
+date: 2024-05-02
+readingTime: 2 min
+ogImage: "/lifenotes-39.jpg"
+---
+
+## ✨ Highlights
+- I got back into crafting a bit, and made my hallway into a 'toddler art wall' with all the things I've crafted / made. The energy is the fridge door where you dutifully put up your child's ugly drawings.
+- Had a loooovely spa day with my friends Rachael and Anna, I'd had a very busy few weeks at work and it ended the day before our spa day so it was just ✨ the best ✨
+- Spent some time with Rachael and Nisha planning our trip to the US later this year, very exciting! 🎉
+
+## 🎮 Played/Read/Watched
+
+- [The Holdovers](https://imdb.com/title/tt14849194): this was a really sweet film, a feel good Christmas story.
+- [Bonnie and Clyde](https://imdb.com/title/tt0061418): my local cinema showed this on Valentine's day, so I went to see it cause I never had. It was a good watch, and parts of it were genuinely funny, like every time they drove off, loud aggressive banjo played, regardless of the tone of the scene 😂
+- [Taylor Tomlinson: Have it all](https://imdb.com/title/tt30796334): I like Taylor's humour, so I enjoyed this a lot.
+- [Little Fires Everywhere](https://imdb.com/title/tt8089592): I read the book a while back, and it made me wanna watch this, it was good, if a bit flat.
+- [My Cousin Vinny](https://imdb.com/title/tt0104952): I was off sick one day and looking for something light and fun to watch so I watched this, Marisa Tomei is just excellent in it.
+- [Hacks](https://imdb.com/title/tt11815682): got a rec for this off someone I follow on TikTok and it was really great fun, I love 30 minute comedies and this is a very good one.
+- [Perfect Days](https://imdb.com/title/tt27503384): went to see this in the cinema and loved it so much! Good music, good vibes, and touching characters 💛 
+
+## 📸 Pics
+{% Image "src/images/posts/lifenotes-39/february.png", "Collage of pictures from February: My dog Juno, a fluffy black German Shepherd, intensely staring at his favourite toy, the blue triangle; a bowl of mashed potatoes with plant balls covered in grated parmesan; a thank you sign in a cool vintage-y font I saw in a car park; a bunch of fabric I got at a vintage shop to practice sewing; Juno cutely asleep on his bed; a few little fruit dudes I cross stiched; my friend Hayden with his dog Jaz in his lap, smiling, Jaz is a very smol Staffie and Chihuahua mix; Juno in my local park, looking goofy with his blue ring toy around his face; my toddler art wall, which a pink sewn banner with a rainbow, a pretty bad painting of some leaves, and some ceramic tiles I decorated a while ago; Juno was poorly so he was allowed a cuddle in bed with me, this pic is him asleep with his head on my legs in bed; me awkwardly pressing a keyboard shortcut, you can see my blue and orange nails, and black keyboard; a landscape picture of a field in Cotgrave Country Park; Juno asleep sprawled on the sofa with the blue triangle next to him; Juno lying on his bed, looking straight up at the camera; some cute colourful geometric candle handlers I saw at a vintage shop, still considering going back for them.", "(max-width: 600px) 600w, 900w" %}
+
