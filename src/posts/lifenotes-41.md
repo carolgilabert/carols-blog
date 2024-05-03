@@ -1,0 +1,62 @@
+---
+title: "Lifenotes #41: April 2024"
+subtitle: "Getting back into hobbies and community organising."
+author: Carolina Gilabert
+date: 2024-05-03
+readingTime: 6 min
+ogImage: "/lifenotes-41.jpg"
+---
+
+## ✨ Highlights
+- Saw Everything Everything live at Rock City with my good friend Sam, who I hadn't seen in years! They were really great, and it was nice to catch up with Sam.
+- I've been meaning to learn a bit about photography, so I got an old camera off eBay for £30 to learn the basics. It's a [Canon Powershot SX120 IS](https://www.photographyblog.com/reviews/canon_powershot_sx120_is_review).
+- Had a smol fire in my apartment, the thermostat in my boiler spontaneously combusted. I caught it early and shut down all the switches in the fuse box, so thankfully it wasn't much more than a big scare for Juno and I, well that and a flat full of black smoke and soot.
+	- Bizarrely this is when I heard from my landlord for the first time, they sent me flowers and a card that basically said 'soz there was a fire at your flat' 😂
+- I rejoined [Nottingham Hackspace](https://nottinghack.org.uk/), hopefully this time I'll go in more and get to know people there 🤞🏼
+	- I'm joining the space's village at EMF Camp, so hoping that's a good start!
+- Started to tentatively look at houses to buy, given my lease is up in August.
+- My friend Nisha invited me to go see some stand up comedy, and it was really great fun, all [the comedians on that evening](https://www.justthetonic.com/nottingham-comedy/shows/saturday-27-apr-2024/6153/) were great. 
+	- Two things to know:
+		- Nottingham is a popular destination for stag / hen dos.
+		- Comedians in small venues are savage at the crowd work.
+	- You do the math.
+- I'm dipping my toe into event organising again, helping to bring back [Women in Tech Nottingham](https://www.technottingham.com/events/wit-2024-may) 💛 I find it really rewarding and I've missed it dearly, and I'm so excited to meet the lovely local friends I haven't seen in a while.
+
+## 🎮 Played/Read/Watched
+* [Small Pleasures, by Clare Chambers](https://uk.bookshop.org/p/books/small-pleasures-longlisted-for-the-women-s-prize-for-fiction-2021-clare-chambers/4992984?ean=9781474613903): an interesting novel, I enjoyed it a lot, but the ending really caught me.
+* [Nighthawks by Edward Hopper: Great Art Explained](https://www.youtube.com/watch?v=lKIbT-4UFaE)
+* [Order from chaos, the everyday grind of staying organised with adult ADHD, by Jaclyn Paul](https://uk.bookshop.org/p/books/order-from-chaos-the-everyday-grind-of-staying-organized-with-adult-adhd-jaclyn-paul/1419574?ean=9780578578873): Now I've been on ADHD meds for a bit, I'm making an active effort of working out where I still struggle because of it, and how I can work with my brain instead of against it. This was a good read, and had some real gems, but a lot of the systems she shows are paper-based, so don't really work for me.
+* [Monkey Man](https://imdb.com/title/tt9214772): I tried to get preview tickets for this a while back unsuccessfully so I went to see it on premiere day and I loved it so much! A really fun film, really well made, and watching interviews with Dev Patel after made me really appreciate how good it was for the budget (and all the mishaps) they had.
+* [Couples therapy](https://imdb.com/title/tt10665386): my therapist recommended me this as a realistic view of what people discuss in therapy and I got SO hooked! I'd highly recommend a watch, it's great to see people working through problems, and it's very likely you'll see yourself in places. Also if you do watch it let me know cause I wanna compare notes on our 'faves'.
+* [How to make an ineffective 404 page by Eric Bailey](https://ericwbailey.website/published/how-to-make-an-ineffective-404-page/)
+* [You’re a Blogger, Not an Essayist by Barry Hess](https://bjhess.com/posts/you-re-a-blogger-not-an-essayist)
+* [Seattle and the internet by Cassidy Williams](https://blog.cassidoo.co/post/seattle-internet/)
+* [On Self-Respect: Joan Didion’s 1961 Essay from the Pages of Vogue](https://www.vogue.com/article/joan-didion-self-respect-essay-1961): I saw a rec for this on TikTok and it's such a good read, it felt really close to home, and made me realise I'm slowly improving that side of myself with therapy 💛
+* [The Balanced Brain: The Science of Mental Health, by Camilla Nord](https://uk.bookshop.org/p/books/the-balanced-brain-camilla-nord/7376964?ean=9780241545799): I listened to the audiobook and it's so interesting! It covers the brain processes that make up your mental health, studies on the area, how antidepressants work. I don't think I'll retain the details, to be honest, but it was a fascinating listen.
+* [The Thursday Murder Club, by Richard Osman](https://uk.bookshop.org/p/books/the-thursday-murder-club-the-thursday-murder-club-1-richard-osman/4937726?ean=9780241988268): I got this a while ago, and while I'm not in a mystery phase at the moment, this was a fun read, the characters are loveable and the story had some good twists and turns.
+* [How to with John Wilson](https://imdb.com/title/tt10801534): I got a double rec for this and it's really good fun! Love all the small details, the visual jokes, and the weirdos in each episode.
+* [The Kite Runner](https://www.thekiterunnerplay.com/): my friend Rachael invited me to come see this with her, and it was such a good play, the actors and musicians were excellent, but the story was so devastatingly sad.
+* [2001: A Space Odyssey](https://imdb.com/title/tt0062622): this had been on the metaphorical list for a loooong time, so when I noticed my local Showcase was screening it I got tickets, I figured it would be worth watching on the big screen and woooow was that the right call! I absolutely loved it, and am still in awe at how beautiful it was and how impressive the effects were for the time. It's absolutely rightly considered one of the best films ever, I would highly recommend seeing it on the big screen if you can.
+	* Watching it predictably sent me down a YouTube rabbit hole, so here are some of vids I watched:
+		* [4 Ways 2001: A Space Odyssey Was a Visual-Effects Pioneer](https://youtu.be/5ch5WC54egU?si=RCWbrg18p5DlXfNk)
+		* [Stanley Kubrick On The Set of 2001: A Space Odyssey](https://youtu.be/2tju58CRQoI?si=cqSHLqZtKd_X0E6K)
+		* [2001: A SPACE ODYSSEY - 50th Anniversary | "Standing on the Shoulders of Kubrick" Mini Documentary](https://youtu.be/MCDdEq9ZYjI?si=N-CIvCqcN5HcBw8H)
+		* [2001 - A Space Odyssey: Crash Course Film Criticism #15](https://youtu.be/KEEnap_h8cs?si=oF8h773dSWDor2yb)
+* I went for an eye exam, and it made me want to understand the tests they do, so I went down another YouTube rabbit hole:
+	* [Eye Exam, Understanding What the Eye Doctor is Doing](https://youtu.be/Enx36m8Y6V8?si=sfLB296B3m0pVDKt)
+	* [How Does That Hot Air Balloon Know Your Eye Power? | A Look Into](https://youtu.be/Qc0vXt3uwD8?si=jsQ061hrRFqs5NhE)
+	* [Air PUFF test for your eye (why?) | Optometrist Explains](https://youtu.be/QjmB_OdDrl4?si=3AgILqH_XTLt5d6r)
+* [history of the entire world, i guess](https://youtu.be/xuCn8ux2gbs?si=KC3HVKJzXEe6ARys)
+* [Range: How Generalists Triumph in a Specialized World by David Epstein](https://uk.bookshop.org/p/books/range-how-generalists-triumph-in-a-specialized-world-david-epstein/1434895?ean=9781509843527): my friend Mark recommended me this book, and I'm loving it! It goes into the merits of generalism over specialism and where it can work better. I've always been curious about everything and not a specialist on anything really, so it's been nice to learn about the upsides.
+* [Pete Davidson: Alive from New York](https://imdb.com/title/tt11474156)
+* [Pete Davidson: Turbo Fonzarelli](https://imdb.com/title/tt30458756)
+* [How social networks prey on our longing to be known by Jan Maarten](https://janmaarten.com/polywork/)
+* [How someone stacked the odds in their favor to win a $95 million Texas Lottery jackpot by Eric Dexheimer](https://archive.is/etkX9)
+* [Tracker Beeper by Bert Hubert](https://berthub.eu/articles/posts/tracker-beeper/?ref=axbom.com)
+* [Fern Brady: Autistic Bikini Queen](https://www.imdb.com/title/tt31852892/)
+* [A simple guide to electronic components.](https://www.youtube.com/watch?v=6Maq5IyHSuc)
+	* I've been wanting to get into electronics projects, and I was going to dust off my old uni lecture notes to refresh my memory, but Big Clive here was a much better option!
+* [Acústico MTV: Cássia Eller](https://www.imdb.com/title/tt0327608/): I looove Cássia Eller, so every few years I rewatch this show and miss her a little 🥲
+
+## 📸 Pics
+{% Image "src/images/posts/lifenotes-41/april.png", "Collage of pictures from April: My dog Juno, a fluffy black German Shepherd, asleep sprawled on his blue velvet bed; a spicy pisco sour I had at a Peruvian café in London, garnished with a slice of orange and a chilli; a white macrame keychain I made, it's a bit wonky but looks ok; a patch of starry sky at my local park; Juno asleep on his bed again, I know there's a lot of that, but he's cute; Juno 'stood up' with his paws on a tree trunk looking up at the squirrel that evaded him; Everything Everything on stage at Rock City, lit up with purple and blue lights; my boiler thermostat burnt up with a big smoke mark up the wall from it; Juno curled up on the sofa, with his yellow ball, and looking at the camera; the box of some new Sony over ear headphones I got; Juno cuddled up to me on the sofa, he's got his paw across my chest and is looking cutely away; some stickers on my laptop, my friend Hayden's dog Jaz saying 'Ship it', and a couple of raccoons saying 'Let's talk trash', an e-ink badge I've been playing with, with my name and website; a grafitto I saw in East London, a weird red blobby creature with big teeth; Juno asleep on the sofa, with his head on my shoulder, he has a little patch of fur shaved off his leg cause he had surgery.", "(max-width: 600px) 600w, 900w" %}
