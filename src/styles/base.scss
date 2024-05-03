@@ -9,6 +9,8 @@ body {
 
 #main-content {
   outline: none;
+  container-type: inline-size;
+  container-name: main;
 }
 
 p,

@@ -1,8 +1,30 @@
 section {
   display: flex;
+  gap: 1rem;
+  flex-direction: column;
 
-  img {
-    border-radius: 50%;
-    max-width: 20vw;
+  .avatar-container {
+    display: grid;
+    place-items: center;
+
+    .avatar-frame {
+      background-color: var(--green);
+      border-radius: 50%;
+
+      >figure {
+        margin: .4rem;
+
+        img {
+          border-radius: 50%;
+          max-width: 20vw;
+        }
+      }
+    }
+  }
+}
+
+@container main (min-width: 700px) {
+  section {
+    flex-direction: row;
   }
 }

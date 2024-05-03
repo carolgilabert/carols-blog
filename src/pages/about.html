@@ -8,15 +8,16 @@ extraStyles:
 <h1>About me</h1>
 
 <section>
-  {% Image "src/static/avatar.jpeg", "My face", "(max-width: 600px) 600w, 900w"
-  %}
   <p>
-    Hey there! My name is Carol, and I&apos;m a frontend software engineer. I
+    Hey there! My name is Carol, and I&apos;m a (mostly) frontend software engineer. I
     currently work for <a href="http://monzo.com/">Monzo</a>. I&apos;m also an
-    organiser at
-    <a href="https://www.technottingham.com/">Tech Nottingham</a> and
-    <a href="https://www.technottingham.com/wit-notts">Women in Tech</a>. In my
-    spare time I like to play videogames, learn new things and
-    walk my dog, Juno 🖤🐾
+    organiser at <a href="https://www.technottingham.com/wit-notts">Women in Tech Nottingham</a>. In my
+    spare time I like to read, watch films, play videogames, make things, and learn new skills. I have a dog, Juno, a
+    fluffy black German Shepherd who's very nervous 🖤
   </p>
+  <div class="avatar-container">
+    <div class="avatar-frame">
+      {% Image "src/static/avatar.jpeg", "My face", "(max-width: 600px) 600w, 900w" %}
+    </div>
+  </div>
 </section>
