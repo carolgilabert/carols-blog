@@ -48,6 +48,9 @@ I tend to switch between browsers and machines a lot, so I struggle to keep a ti
 * [Sugarhill](https://www.sugarhillbrighton.com)
 * [Thought](https://www.wearethought.com/)
 * [Toast](https://www.toa.st)
+* [Giant Kitten](https://www.giant-kitten.com/)
+* [Clarice Tudor](https://claricetudor.com/)
+* [The Artful Possum](https://www.theartfulpossum.com/)
 
 ## Web stuff
 
