@@ -11,9 +11,8 @@ const imageAltWithFallback = imageAlt || "Default avatar of a user";
     class="wm-avatar u-photo"
     src={imageSrcWithFallback}
     alt={imageAltWithFallback}
-    width="48"
-    height="48"
     loading="lazy"
+    inferSize
 />
 
 <style lang="scss">
@@ -22,5 +21,7 @@ const imageAltWithFallback = imageAlt || "Default avatar of a user";
         display: inline-block;
         margin-right: 1rem;
         border: 0.2rem solid var(--green);
+        max-width: 4rem;
+        max-height: 4rem;
     }
 </style>
