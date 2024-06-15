@@ -7,7 +7,7 @@ import { getDateString } from "@utils/date";
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title} pageSubtitle={frontmatter.subtitle}>
+<BaseLayout pageTitle={frontmatter.title} pageSubtitle={frontmatter.subtitle} ogImage={frontmatter?.ogImage}>
     <div class="h-entry">
         <h1 class="p-name">{frontmatter.title}</h1>
         <p class="p-summary"><em>{frontmatter.subtitle}</em></p>

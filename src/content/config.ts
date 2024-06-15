@@ -1,4 +1,3 @@
-import { date } from "astro/zod";
 import { defineCollection, z } from "astro:content";
 
 const blog = defineCollection({
@@ -8,7 +7,8 @@ const blog = defineCollection({
     subtitle: z.string(),
     author: z.string(),
     date: z.coerce.date(),
-    readingTime: z.string()
+    readingTime: z.string(),
+    ogImage: z.string().optional(),
   })
 });
 
