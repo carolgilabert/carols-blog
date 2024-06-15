@@ -1,54 +1,54 @@
 [
-    {
-        "title": "Ana Rodrigues",
-        "url": "https://ohhelloana.blog"
-    },
-    {
-        "title": "Anna Dodson",
-        "url": "https://annadodson.co.uk"
-    },
-    {
-        "title": "Cassie Evans",
-        "url": "https://www.cassie.codes"
-    },
-    {
-        "title": "Jamie Tanna",
-        "url": "https://www.jvt.me"
-    },
-    {
-        "title": "Jeremy Keith",
-        "url": "https://adactio.com"
-    },
-    {
-        "title": "Josh Comeau",
-        "url": "https://www.joshwcomeau.com"
-    },
-    {
-        "title": "Julia Evans",
-        "url": "https://jvns.ca"
-    },
-    {
-        "title": "Joe Hart",
-        "url": "https://www.joehart.co.uk"
-    },
-    {
-        "title": "Lex Lofthouse",
-        "url": "https://loftio.co.uk"
-    },
-    {
-        "title": "Max Böck",
-        "url": "https://mxb.dev"
-    },
-    {
-        "title": "Ru Singh",
-        "url": "https://rusingh.com"
-    },
-    {
-        "title": "Sophie Koonin",
-        "url": "http://localghost.dev/"
-    },
-    {
-        "title": "Tania Reilly",
-        "url": "https://noidea.dog"
-    }
+  {
+    "title": "Ana Rodrigues",
+    "url": "https://ohhelloana.blog"
+  },
+  {
+    "title": "Anna Dodson",
+    "url": "https://annadodson.co.uk"
+  },
+  {
+    "title": "Cassie Evans",
+    "url": "https://www.cassie.codes"
+  },
+  {
+    "title": "Jamie Tanna",
+    "url": "https://www.jvt.me"
+  },
+  {
+    "title": "Jeremy Keith",
+    "url": "https://adactio.com"
+  },
+  {
+    "title": "Josh Comeau",
+    "url": "https://www.joshwcomeau.com"
+  },
+  {
+    "title": "Julia Evans",
+    "url": "https://jvns.ca"
+  },
+  {
+    "title": "Joe Hart",
+    "url": "https://www.joehart.co.uk"
+  },
+  {
+    "title": "Lex Lofthouse",
+    "url": "https://loftio.co.uk"
+  },
+  {
+    "title": "Max Böck",
+    "url": "https://mxb.dev"
+  },
+  {
+    "title": "Ru Singh",
+    "url": "https://rusingh.com"
+  },
+  {
+    "title": "Sophie Koonin",
+    "url": "http://localghost.dev/"
+  },
+  {
+    "title": "Tania Reilly",
+    "url": "https://noidea.dog"
+  }
 ]

@@ -1,22 +1,22 @@
 [
-    {
-        "title": "Drive and Listen",
-        "url": "https://www.driveandlisten.net/"
-    },
-    {
-        "title": "Queering the map",
-        "url": "https://queeringthemap.com/"
-    },
-    {
-        "title": "Radio Garden",
-        "url": "https://radio.garden/"
-    },
-    {
-        "title": "Window Swap",
-        "url": "https://window-swap.com/"
-    },
-    {
-        "title": "Interactive Sky Chart",
-        "url": "https://skyandtelescope.org/interactive-sky-chart/"
-    }
+  {
+    "title": "Drive and Listen",
+    "url": "https://www.driveandlisten.net/"
+  },
+  {
+    "title": "Queering the map",
+    "url": "https://queeringthemap.com/"
+  },
+  {
+    "title": "Radio Garden",
+    "url": "https://radio.garden/"
+  },
+  {
+    "title": "Window Swap",
+    "url": "https://window-swap.com/"
+  },
+  {
+    "title": "Interactive Sky Chart",
+    "url": "https://skyandtelescope.org/interactive-sky-chart/"
+  }
 ]

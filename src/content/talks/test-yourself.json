@@ -1,9 +1,9 @@
 {
-    "title": "Test yourself before you wreck yourself",
-    "date": "2019-11-07",
-    "event": "Women in Tech Nottingham",
-    "description": "I was kindly invited to speak at WiT - before becoming an organiser - and I just couldn't pass on the opportunity to talk about testing web applications. I love testing and think it's so important, so I really enjoyed being able to go over some of the ways you can effectively test your app.",
-    "links": {
-        "slides": "https://talks.carol.gg/decks/test-yourself/"
-    }
+  "title": "Test yourself before you wreck yourself",
+  "date": "2019-11-07",
+  "event": "Women in Tech Nottingham",
+  "description": "I was kindly invited to speak at WiT - before becoming an organiser - and I just couldn't pass on the opportunity to talk about testing web applications. I love testing and think it's so important, so I really enjoyed being able to go over some of the ways you can effectively test your app.",
+  "links": {
+    "slides": "https://talks.carol.gg/decks/test-yourself/"
+  }
 }

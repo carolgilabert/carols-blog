@@ -1,26 +1,26 @@
 ---
 title: Messing about with Cloudcraft and Terraform
-subtitle: ''
+subtitle: ""
 author: Carolina Gilabert
 date: 2019-04-11
 readingTime: 3 min
 ---
 
-import { Image } from 'astro:assets';
-import bucket from '@images/posts/cloudcraft-and-terraform/bucket.png';
-import objectFinderDiagram from '@images/posts/cloudcraft-and-terraform/object-finder-diagram.png';
-import objectFinderUI from '@images/posts/cloudcraft-and-terraform/object-finder-ui.png';
-import exportTerraform from '@images/posts/cloudcraft-and-terraform/export-terraform.png';
+import { Image } from "astro:assets";
+import bucket from "@images/posts/cloudcraft-and-terraform/bucket.png";
+import objectFinderDiagram from "@images/posts/cloudcraft-and-terraform/object-finder-diagram.png";
+import objectFinderUI from "@images/posts/cloudcraft-and-terraform/object-finder-ui.png";
+import exportTerraform from "@images/posts/cloudcraft-and-terraform/export-terraform.png";
 
 So, recently I set out to try and solve a problem:
 
 S3 in theoretically infinite, so it doesn’t really offer any sort of object search within a bucket.
 
 <Image
-    src={bucket}
-    alt="Me lost in an AWS S3 bucket"
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600w, 900w"
+  src={bucket}
+  alt="Me lost in an AWS S3 bucket"
+  widths={[600, 900]}
+  sizes="(max-width: 600px) 600w, 900w"
 />
 
 I needed an easy way of locating specific objects. Indexing the whole bucket is not feasible, or Amazon would do it themselves. But I can provide a narrow time window when my object was created, which should restrict the data to a manageable level.
@@ -28,10 +28,10 @@ I needed an easy way of locating specific objects. Indexing the whole bucket is 
 Considering all the constraints I had, I ended up settling for the following architecture:
 
 <Image
-    src={objectFinderDiagram}
-    alt="Small diagram of the application infrastructure"
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600w, 900w"
+  src={objectFinderDiagram}
+  alt="Small diagram of the application infrastructure"
+  widths={[600, 900]}
+  sizes="(max-width: 600px) 600w, 900w"
 />
 🖼 Diagram created on [Cloudcraft](https://cloudcraft.co/)
 
@@ -42,10 +42,10 @@ The site fires requests to an ALB, that is configured to use a lambda target gro
 This is what the first attempt looks like:
 
 <Image
-    src={objectFinderUI}
-    alt="Object finder UI screenshot"
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600w, 900w"
+  src={objectFinderUI}
+  alt="Object finder UI screenshot"
+  widths={[600, 900]}
+  sizes="(max-width: 600px) 600w, 900w"
 />
 
 The UI is listing the keys of the objects stored in the bucket. No filtering is in place just yet, as I’m just proving out the connectivity throughout.
@@ -67,10 +67,10 @@ After all, Cloudcraft doesn’t really allow you to add much detail around your 
 With all those questions in mind, I went to Cloudcraft and created the diagram I included earlier in this post. Then I very excitedly clicked the Export Terraform code option and…
 
 <Image
-    src={exportTerraform}
-    alt="Screenshot of terraform export in cloudcraft"
-    widths={[600, 900]}
-    sizes="(max-width: 600px) 600w, 900w"
+  src={exportTerraform}
+  alt="Screenshot of terraform export in cloudcraft"
+  widths={[600, 900]}
+  sizes="(max-width: 600px) 600w, 900w"
 />
 
 It broke 💻💥

@@ -1,10 +1,10 @@
 {
-    "title": "Panic Driven Development",
-    "date": "2019-09-26",
-    "event": "DevOpsDays London 2019",
-    "description": "This was my very first conference talk, so I thought starting with a short talk was the safest choice, but as it turns out ignite talks are actually really nerve wracking! The slides auto advance every 15 seconds, so you need to be on top of your material 🔥 I had a great time though, and everyone at the event was so lovely.",
-    "links": {
-        "video": "https://youtu.be/yVWNuv_j05k",
-        "slides": "https://talks.carol.gg/decks/panic-driven-development/"
-    }
+  "title": "Panic Driven Development",
+  "date": "2019-09-26",
+  "event": "DevOpsDays London 2019",
+  "description": "This was my very first conference talk, so I thought starting with a short talk was the safest choice, but as it turns out ignite talks are actually really nerve wracking! The slides auto advance every 15 seconds, so you need to be on top of your material 🔥 I had a great time though, and everyone at the event was so lovely.",
+  "links": {
+    "video": "https://youtu.be/yVWNuv_j05k",
+    "slides": "https://talks.carol.gg/decks/panic-driven-development/"
+  }
 }

@@ -1,124 +1,137 @@
 /* Font scale*/
 :root {
-    --step--2: clamp(0.91rem, 0.89rem + 0.1vw, 0.96rem);
-    --step--1: clamp(1.09rem, 1.05rem + 0.21vw, 1.2rem);
-    --step-0: clamp(1.31rem, 1.24rem + 0.37vw, 1.5rem);
-    --step-1: clamp(1.58rem, 1.46rem + 0.59vw, 1.88rem);
-    --step-2: clamp(1.89rem, 1.71rem + 0.89vw, 2.34rem);
-    --step-3: clamp(2.27rem, 2.01rem + 1.29vw, 2.93rem);
-    --step-4: clamp(2.72rem, 2.36rem + 1.83vw, 3.66rem);
-    --step-5: clamp(3.27rem, 2.75rem + 2.56vw, 4.58rem);
+  --step--2: clamp(0.91rem, 0.89rem + 0.1vw, 0.96rem);
+  --step--1: clamp(1.09rem, 1.05rem + 0.21vw, 1.2rem);
+  --step-0: clamp(1.31rem, 1.24rem + 0.37vw, 1.5rem);
+  --step-1: clamp(1.58rem, 1.46rem + 0.59vw, 1.88rem);
+  --step-2: clamp(1.89rem, 1.71rem + 0.89vw, 2.34rem);
+  --step-3: clamp(2.27rem, 2.01rem + 1.29vw, 2.93rem);
+  --step-4: clamp(2.72rem, 2.36rem + 1.83vw, 3.66rem);
+  --step-5: clamp(3.27rem, 2.75rem + 2.56vw, 4.58rem);
 }
 
 /* Font definitions */
 @font-face {
-    font-family: "Briston";
-    font-display: fallback;
-    src: url("/fonts/briston.woff2") format("woff2"),
-        url("/fonts/briston.woff") format("woff");
-    font-feature-settings: "dlig" on;
+  font-family: "Briston";
+  font-display: fallback;
+  src:
+    url("/fonts/briston.woff2") format("woff2"),
+    url("/fonts/briston.woff") format("woff");
+  font-feature-settings: "dlig" on;
 }
 
 @font-face {
-    font-family: "Atkinson";
-    font-display: fallback;
-    src: url("/fonts/atkinson-regular.woff2") format("woff2"),
-        url("/fonts/atkinson-regular.woff") format("woff");
+  font-family: "Atkinson";
+  font-display: fallback;
+  src:
+    url("/fonts/atkinson-regular.woff2") format("woff2"),
+    url("/fonts/atkinson-regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: "Atkinson";
-    font-display: fallback;
-    src: url("/fonts/atkinson-bold.woff2") format("woff2"),
-        url("/fonts/atkinson-bold.woff") format("woff");
-    font-weight: bold;
+  font-family: "Atkinson";
+  font-display: fallback;
+  src:
+    url("/fonts/atkinson-bold.woff2") format("woff2"),
+    url("/fonts/atkinson-bold.woff") format("woff");
+  font-weight: bold;
 }
 
 @font-face {
-    font-family: "Atkinson";
-    font-display: fallback;
-    src: url("/fonts/atkinson-italic.woff2") format("woff2"),
-        url("/fonts/atkinson-italic.woff") format("woff");
-    font-style: italic;
+  font-family: "Atkinson";
+  font-display: fallback;
+  src:
+    url("/fonts/atkinson-italic.woff2") format("woff2"),
+    url("/fonts/atkinson-italic.woff") format("woff");
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "Atkinson";
-    font-display: optional;
-    src: url("/fonts/atkinson-bold-italic.woff2") format("woff2"),
-        url("/fonts/atkinson-bold-italic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Atkinson";
+  font-display: optional;
+  src:
+    url("/fonts/atkinson-bold-italic.woff2") format("woff2"),
+    url("/fonts/atkinson-bold-italic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
 }
 
 body {
-    font-family: Atkinson, Helvetica, Arial, sans-serif;
-    font-size: var(--step-0);
+  font-family: Atkinson, Helvetica, Arial, sans-serif;
+  font-size: var(--step-0);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: Briston;
-    line-height: 1.1;
-    display: table;
+  font-family: Briston;
+  line-height: 1.1;
+  display: table;
 
-    em {
-        font-feature-settings: "swsh" on;
-    }
+  em {
+    font-feature-settings: "swsh" on;
+  }
 }
 
 h1 {
-    font-size: var(--step-5);
-    background-image: linear-gradient(to bottom,
-            var(--white),
-            var(--white) 60%,
-            var(--yellow) 60%,
-            var(--yellow) 100%);
+  font-size: var(--step-5);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--yellow) 60%,
+    var(--yellow) 100%
+  );
 }
 
 h2 {
-    font-size: var(--step-4);
-    background-image: linear-gradient(to bottom,
-            var(--white),
-            var(--white) 60%,
-            var(--green) 60%,
-            var(--green) 100%);
+  font-size: var(--step-4);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--green) 60%,
+    var(--green) 100%
+  );
 }
 
 h3 {
-    font-size: var(--step-3);
-    background-image: linear-gradient(to bottom,
-            var(--white),
-            var(--white) 60%,
-            var(--pink) 60%,
-            var(--pink) 100%);
+  font-size: var(--step-3);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--pink) 60%,
+    var(--pink) 100%
+  );
 }
 
 h4 {
-    font-size: var(--step--2);
-    background-image: linear-gradient(to bottom,
-            var(--white),
-            var(--white) 60%,
-            var(--blue) 60%,
-            var(--blue) 100%);
+  font-size: var(--step--2);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white),
+    var(--white) 60%,
+    var(--blue) 60%,
+    var(--blue) 100%
+  );
 }
 
 .body-large {
-    font-size: var(--step-1);
+  font-size: var(--step-1);
 }
 
 .body-small {
-    font-size: var(--step--1);
+  font-size: var(--step--1);
 }
 
 .body-xsmall {
-    font-size: var(--step--2);
+  font-size: var(--step--2);
 }
 
 .title {
-    font-family: Briston;
-    line-height: 1.1;
-    font-size: var(--step-2);
+  font-family: Briston;
+  line-height: 1.1;
+  font-size: var(--step-2);
 }
