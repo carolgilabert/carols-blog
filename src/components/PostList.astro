@@ -1,0 +1,96 @@
+---
+import MyHCard from "@components/MyHCard.astro";
+import { getDateString } from "@utils/date";
+const { posts } = Astro.props;
+---
+
+<ul class="h-feed post-list" role="list">
+    {
+        posts.map((post) => (
+            <li>
+                <article class="h-entry">
+                    <MyHCard />
+
+                    <div class="image" />
+                    <div class="post-info">
+                        <div>
+                            <p class="p-name title">{post.data.title}</p>
+                            <span class="body-xsmall">
+                                <time
+                                    class="dt-published"
+                                    datetime={post.data.date}
+                                >
+                                    📅 {getDateString(post.data.date)}
+                                </time>
+                                · {post.data.readingTime} ⏱
+                            </span>
+                            <p class="p-summary body-small">
+                                {post.data.subtitle}
+                            </p>
+                        </div>
+                        <a class="u-url" href={`/blog/${post.slug}`}>
+                            Read the post{" "}
+                        </a>
+                    </div>
+                </article>
+            </li>
+        ))
+    }
+</ul>
+
+<style lang="scss">
+    @import "../styles/_mixins.scss";
+    .post-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding: 0;
+        justify-content: center;
+
+        li {
+            @include pill;
+            padding: 0;
+            border: 0.3rem solid var(--black);
+            width: clamp(15rem, 20rem, 25rem);
+
+            article {
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            .image {
+                height: 5rem;
+                background-image: url(../pattern.svg);
+                background-size: 100%;
+                border-bottom: 0.2rem solid var(--black);
+            }
+
+            .post-info {
+                height: 100%;
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                p {
+                    margin: 0.2rem;
+                }
+
+                a {
+                    @include pill;
+                    background-color: var(--yellow);
+                    color: var(--black);
+                    text-decoration: none;
+                    text-align: center;
+                    margin: 0.5rem;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+</style>

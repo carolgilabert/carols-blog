@@ -4,32 +4,22 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "netlify dev -c \"npm-run-all build:sass --parallel watch:*\"",
-    "rebuild-og": "rm -rf dist/og-images && eleventy",
-    "build": "NODE_ENV=production npm-run-all build:sass build:eleventy",
-    "build:local": "NODE_ENV=production netlify build",
-    "build:eleventy": "ELEVENTY_ENV=prod eleventy",
-    "build:sass": "sass --no-source-map src/styles:dist/styles",
-    "postbuild": "postcss dist/styles/*.css -u autoprefixer cssnano -r --no-map",
-    "watch:eleventy": "eleventy --serve",
-    "watch:sass": "sass --no-source-map --watch src/styles:dist/styles"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^4.0.2",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
-    "autoprefixer": "^10.4.18",
-    "cssnano": "^6.0.5",
-    "lodash": "^4.17.21",
-    "luxon": "^3.4.4",
-    "netlify-plugin-cache-folder": "^0.0.8",
-    "node-fetch": "3.3.2",
-    "npm-run-all": "^4.1.5",
-    "postcss": "^8.4.35",
-    "postcss-cli": "^11.0.0",
-    "prettier": "^3.2.5",
-    "sass": "^1.71.1"
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/mdx": "^3.1.0",
+    "@astrojs/rss": "^4.0.6",
+    "@astrojs/sitemap": "^3.1.5",
+    "astro": "^4.9.2",
+    "markdown-it": "^14.1.0",
+    "sanitize-html": "^2.13.0",
+    "sass": "^1.77.4",
+    "typescript": "^5.4.5"
   },
   "homepage": "https://carol.gg",
   "repository": {
@@ -40,18 +30,16 @@
     "url": "https://github.com/carolgilabert/carols-blog/issues"
   },
   "keywords": [
-    "eleventy",
+    "astro",
     "blog"
   ],
-  "dependencies": {
-    "@11ty/eleventy-plugin-webc": "^0.11.2",
-    "ajv": "^8.12.0",
-    "netlify-plugin-11ty": "^1.4.0"
-  },
   "prettier": {
     "trailingComma": "none"
   },
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
   }
 }

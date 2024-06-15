@@ -1,0 +1,68 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+
+const talks = (await getCollection("talks")).sort(
+    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+
+const readableDate = (date) =>
+    new Date(date).toLocaleDateString("en-GB", {
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+    });
+
+const pageTitle = "Talks";
+const pageSubtitle = "A list of talks I've given at various events.";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+    <h1>{pageTitle}</h1>
+    <ul class="no-style talk-list">
+        {
+            talks.map((talk) => (
+                <li class="talk">
+                    <h2>{talk.data.title}</h2>
+                    <time datetime={talk.data.date}>
+                        📆 {readableDate(talk.data.date)}
+                    </time>
+                    &nbsp;·
+                    <span>📍 {talk.data.event}</span>
+                    <p>{talk.data.description}</p>
+                    <ul class="no-style links">
+                        {talk.data.links?.slides && (
+                            <li>
+                                🖼️&nbsp;
+                                <a href={talk.data.links.slides}>Slides</a>
+                            </li>
+                        )}
+                        {talk.data.links?.video && (
+                            <li>
+                                &nbsp;·&nbsp;📹&nbsp;
+                                <a href={talk.data.links.video}>Video</a>
+                            </li>
+                        )}
+                        {talk.data.links?.post && (
+                            <li>
+                                &nbsp;·&nbsp;📝&nbsp;
+                                <a href={talk.data.links.post}>Post</a>
+                            </li>
+                        )}
+                    </ul>
+                </li>
+            ))
+        }
+    </ul>
+</BaseLayout>
+
+<style lang="scss">
+    .talk-list {
+        .talk {
+            .links {
+                display: flex;
+                gap: 1rem;
+            }
+        }
+    }
+</style>

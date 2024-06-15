@@ -1,0 +1,81 @@
+---
+import Avatar from "@components/Avatar.astro";
+import { getDateTimeString } from "@utils/date";
+const { replies } = Astro.props;
+---
+
+<h3>{replies.length} {replies.length === 1 ? "Reply" : "Replies"}</h3>
+<ul class="replies" role="list">
+    {
+        replies.map((reply) => (
+            <li>
+                <article
+                    class="reply"
+                    id="webmention-{{ webmention['wm-id'] }}"
+                >
+                    <div class="info">
+                        {reply?.author ? (
+                            <div class="author">
+                                <Avatar
+                                    imageUrl={reply.author?.photo}
+                                    alt={reply.author?.name}
+                                />
+                                <span>
+                                    <a
+                                        class="h-card u-url"
+                                        href={reply.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <strong class="p-name">
+                                            {reply.author?.name}
+                                        </strong>
+                                    </a>
+                                </span>
+                            </div>
+                        ) : (
+                            <span>
+                                <strong>Anonymous</strong>
+                            </span>
+                        )}
+                        {reply?.published && (
+                            <time datetime={reply.published}>
+                                {getDateTimeString(reply.published)}
+                            </time>
+                        )}
+                    </div>
+                    <div class="content">{reply.content.text}</div>
+                </article>
+            </li>
+        ))
+    }
+</ul>
+
+<style lang="scss">
+    ul {
+        padding-left: 0;
+
+        li {
+            margin-bottom: 1.5rem;
+
+            a {
+                background: none;
+            }
+        }
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .author {
+                display: flex;
+                align-items: center;
+            }
+
+            time {
+                font-size: 0.8em;
+            }
+        }
+    }
+</style>

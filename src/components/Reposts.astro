@@ -1,0 +1,49 @@
+---
+import Avatar from "@components/Avatar.astro";
+
+const { reposts } = Astro.props;
+---
+
+<h3>{reposts.length} {reposts.length === 1 ? "Repost" : "Reposts"}</h3>
+<ul class="wm-reposts" role="list">
+    {
+        reposts.map((repost) => (
+            <li>
+                {repost.url ? (
+                    <a
+                        class="h-card u-url link-u-exempt"
+                        href="{{ webmention.url }}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Avatar
+                            imageUrl={repost?.author?.photo}
+                            imageAlt={repost?.author?.name}
+                        />
+                    </a>
+                ) : (
+                    <Avatar
+                        imageUrl={repost?.author?.photo}
+                        imageAlt={repost?.author?.name}
+                    />
+                )}
+            </li>
+        ))
+    }
+</ul>
+
+<style lang="scss">
+    ul {
+        padding-left: 0;
+
+        li {
+            display: inline-block;
+            margin-inline: -1rem;
+            margin-block-end: 1.5rem;
+
+            a {
+                background: none;
+            }
+        }
+    }
+</style>
