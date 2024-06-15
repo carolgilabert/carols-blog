@@ -1,13 +1,14 @@
 ---
 import Avatar from "@components/Avatar.astro";
 import { getDateTimeString } from "@utils/date";
+import type { Reply } from "@types";
 const { replies } = Astro.props;
 ---
 
 <h3>{replies.length} {replies.length === 1 ? "Reply" : "Replies"}</h3>
 <ul class="replies" role="list">
     {
-        replies.map((reply) => (
+        replies.map((reply: Reply) => (
             <li>
                 <article
                     class="reply"

@@ -1,17 +1,11 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import {getDateString} from "@utils/date";
 
 const talks = (await getCollection("talks")).sort(
     (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
-
-const readableDate = (date) =>
-    new Date(date).toLocaleDateString("en-GB", {
-        year: "numeric",
-        month: "long",
-        day: "numeric"
-    });
 
 const pageTitle = "Talks";
 const pageSubtitle = "A list of talks I've given at various events.";
@@ -24,8 +18,8 @@ const pageSubtitle = "A list of talks I've given at various events.";
             talks.map((talk) => (
                 <li class="talk">
                     <h2>{talk.data.title}</h2>
-                    <time datetime={talk.data.date}>
-                        📆 {readableDate(talk.data.date)}
+                    <time datetime={talk.data.date.toISOString()}>
+                        📆 {getDateString(talk.data.date)}
                     </time>
                     &nbsp;·
                     <span>📍 {talk.data.event}</span>

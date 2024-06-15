@@ -1,12 +1,15 @@
 ---
+import { type CollectionEntry } from "astro:content";
 import MyHCard from "@components/MyHCard.astro";
 import { getDateString } from "@utils/date";
 const { posts } = Astro.props;
+
+type Post = CollectionEntry<"posts">;
 ---
 
 <ul class="h-feed post-list" role="list">
     {
-        posts.map((post) => (
+        posts.map((post: Post) => (
             <li>
                 <article class="h-entry">
                     <MyHCard />
@@ -18,7 +21,7 @@ const { posts } = Astro.props;
                             <span class="body-xsmall">
                                 <time
                                     class="dt-published"
-                                    datetime={post.data.date}
+                                    datetime={post.data.date.toISOString()}
                                 >
                                     📅 {getDateString(post.data.date)}
                                 </time>

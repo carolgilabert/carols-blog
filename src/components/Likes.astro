@@ -1,12 +1,13 @@
 ---
 import Avatar from "@components/Avatar.astro";
 const { likes } = Astro.props;
+import type { Like } from "@types";
 ---
 
 <h3>{likes.length} {likes.length === 1 ? "Like" : "Likes"}</h3>
 <ul class="wm-likes" role="list">
     {
-        likes.map((like) => (
+        likes.map((like: Like) => (
             <li>
                 {like.url ? (
                     <a

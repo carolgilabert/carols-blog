@@ -5,7 +5,7 @@ import PostList from "@components/PostList.astro";
 import MyHCard from "@components/MyHCard.astro";
 import {descendingByDateWithFallback} from "@utils/sortPosts";
 
-const lastThreePosts = (await getCollection("blog")).sort(descendingByDateWithFallback).slice(0, 3);
+const lastThreePosts = (await getCollection("posts")).sort(descendingByDateWithFallback).slice(0, 3);
 ---
 
 <BaseLayout>
