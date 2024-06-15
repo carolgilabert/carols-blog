@@ -2,10 +2,9 @@
 import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import PostList from "@components/PostList.astro";
+import { descendingByDateWithFallback } from "@utils/sortPosts";
 
-const allPosts = (await getCollection("blog")).sort(
-    (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
-);
+const allPosts = (await getCollection("blog")).sort(descendingByDateWithFallback);
 
 const pageTitle = "Blog";
 const pageSubtitle = "Posts about my life, work, and everything in between.";
