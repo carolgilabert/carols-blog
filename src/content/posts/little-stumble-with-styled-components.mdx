@@ -1,0 +1,25 @@
+---
+title: Little stumble with styled components
+subtitle: ""
+author: Carolina Gilabert
+date: 2019-11-27
+readingTime: 2 min
+---
+
+I’d been seeing “caching issues” for a while with this site. Whenever I deployed it, it would show outdated styles, and on refresh turn back to what I expected.
+
+Ah, cache invalidation… the hardest thing in software engineering.
+
+Right?
+
+😭
+
+Well, I haven’t found cache invalidation to be that hard, probably because tooling has improved so much. But as it turns out, my issue wasn’t related to caching at all. The symptoms were just similar.
+
+A few weeks ago, I updated my site to use styled components, and I didn’t realise I needed a plugin for it to work correctly with Gatsby. So it looked fine on the dev server, but the build is server side rendered, so it fell apart.
+
+Once I realised that was the issue, it was piece of cake to fix. Because Gatsby docs are awesome, they had a [detailed explanation of styling a Gatsby site with styled components](https://www.gatsbyjs.org/docs/styled-components/).
+
+So all I had to do was an npm install. Whoops! 😅
+
+PS: that means my dark mode is not working as I intended. Because of SSR, it renders the light theme by default and switches as you move around. Gonna have to dig a little to sort that one out 🛠

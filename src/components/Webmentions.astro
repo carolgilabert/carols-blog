@@ -1,0 +1,45 @@
+---
+import Likes from "@components/Likes.astro";
+import Replies from "@components/Replies.astro";
+import Reposts from "@components/Reposts.astro";
+import type { Webmention } from "@types";
+
+const TOKEN = import.meta.env.WEBMENTION_IO_TOKEN;
+const webmentionsUrl = `https://webmention.io/api/mentions.jf2?domain=carol.gg&token=${TOKEN}&per-page=10000`;
+
+const response = await fetch(webmentionsUrl);
+const json = await response.json();
+const webmentions = json.children || [];
+
+const filteredWebmentions = webmentions.filter((mention: Webmention) => {
+    return (
+        mention["wm-target"] === `https://carol.gg${Astro.url.pathname}` ||
+        mention["wm-target"] === `https://carol.gg${Astro.url.pathname}/`
+    );
+});
+
+const likes = filteredWebmentions.filter(
+    (webmention: Webmention) => webmention["wm-property"] === "like-of"
+);
+const reposts = filteredWebmentions.filter(
+    (webmention: Webmention) => webmention["wm-property"] === "repost-of"
+);
+const replies = filteredWebmentions.filter(
+    (webmention: Webmention) => webmention["wm-property"] === "in-reply-to"
+);
+---
+
+{
+    filteredWebmentions.length > 0 && (
+        <section class="wm">
+            <h2>Webmentions</h2>
+            <>
+                {likes.length > 0 && <Likes likes={likes} />}
+
+                {reposts.length > 0 && <Reposts reposts={reposts} />}
+
+                {replies.length > 0 && <Replies replies={replies} />}
+            </>
+        </section>
+    )
+}

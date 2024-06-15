@@ -1,0 +1,26 @@
+[
+  {
+    "title": "NYT Cooking",
+    "url": "https://cooking.nytimes.com/"
+  },
+  {
+    "title": "Saveur",
+    "url": "https://www.saveur.com/"
+  },
+  {
+    "title": "Serious Eats",
+    "url": "https://www.seriouseats.com/"
+  },
+  {
+    "title": "Cookie and Kate",
+    "url": "https://cookieandkate.com/"
+  },
+  {
+    "title": "Ottolenghi",
+    "url": "https://ottolenghi.co.uk/recipes/"
+  },
+  {
+    "title": "Meera Sodha",
+    "url": "https://meerasodha.com/recipes/"
+  }
+]

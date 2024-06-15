@@ -1,0 +1,65 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+
+const pageTitle = "About me";
+const pageSubtitle = "A little bit about me and what I do.";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+    <h1>{pageTitle}</h1>
+
+    <section>
+        <p>
+            Hey there! My name is Carol, and I&apos;m a (mostly) frontend
+            software engineer. I currently work for <a href="http://monzo.com/"
+                >Monzo</a
+            >. I&apos;m also an organiser at <a
+                href="https://www.technottingham.com/wit-notts"
+                >Women in Tech Nottingham</a
+            >. In my spare time I like to read, watch films, play videogames,
+            make things, and learn new skills. I have a dog, Juno, a fluffy
+            black German Shepherd who's very nervous 🖤
+        </p>
+        <div class="avatar-container">
+            <div class="avatar-frame">
+                <Image
+                    src="/avatar.jpeg"
+                    alt="My face"
+                    width="600"
+                    height="600"
+                />
+            </div>
+        </div>
+    </section>
+</BaseLayout>
+
+<style>
+    section {
+        display: flex;
+        gap: 1rem;
+        flex-direction: column;
+
+        .avatar-container {
+            display: grid;
+            place-items: center;
+
+            .avatar-frame {
+                background-color: var(--green);
+                border-radius: 50%;
+
+                img {
+                    margin: 0.4rem;
+                    border-radius: 50%;
+                    max-width: 20vw;
+                }
+            }
+        }
+    }
+
+    @container main (min-width: 700px) {
+        section {
+            flex-direction: row;
+        }
+    }
+</style>

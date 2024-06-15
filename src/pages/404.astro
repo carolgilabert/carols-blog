@@ -1,0 +1,25 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import robotDrawing from "@images/robot.png";
+
+const pageTitle = "404: Not Found";
+const pageSubtitle = "Whoops! Looks like you've hit a page that doesn't exist.";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+    <h1>Whoa!</h1>
+    <h2>There&apos;s nothing here</h2>
+
+    <Image
+        src={robotDrawing}
+        alt="Drawing of a robot looking surprised"
+        widths={[600, 900]}
+        sizes="(max-width: 600px) 600px, 900px"
+    />
+
+    <p>
+        Maybe try
+        <a href="/">here?</a>
+    </p>
+</BaseLayout>

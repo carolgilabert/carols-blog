@@ -1,4 +1,4 @@
-/*** FONT SCALE ***/
+/* Font scale*/
 :root {
   --step--2: clamp(0.91rem, 0.89rem + 0.1vw, 0.96rem);
   --step--1: clamp(1.09rem, 1.05rem + 0.21vw, 1.2rem);
@@ -10,11 +10,12 @@
   --step-5: clamp(3.27rem, 2.75rem + 2.56vw, 4.58rem);
 }
 
-/*** FONT DEFINITIONS ***/
+/* Font definitions */
 @font-face {
   font-family: "Briston";
   font-display: fallback;
-  src: url("/fonts/briston.woff2") format("woff2"),
+  src:
+    url("/fonts/briston.woff2") format("woff2"),
     url("/fonts/briston.woff") format("woff");
   font-feature-settings: "dlig" on;
 }
@@ -22,14 +23,16 @@
 @font-face {
   font-family: "Atkinson";
   font-display: fallback;
-  src: url("/fonts/atkinson-regular.woff2") format("woff2"),
+  src:
+    url("/fonts/atkinson-regular.woff2") format("woff2"),
     url("/fonts/atkinson-regular.woff") format("woff");
 }
 
 @font-face {
   font-family: "Atkinson";
   font-display: fallback;
-  src: url("/fonts/atkinson-bold.woff2") format("woff2"),
+  src:
+    url("/fonts/atkinson-bold.woff2") format("woff2"),
     url("/fonts/atkinson-bold.woff") format("woff");
   font-weight: bold;
 }
@@ -37,7 +40,8 @@
 @font-face {
   font-family: "Atkinson";
   font-display: fallback;
-  src: url("/fonts/atkinson-italic.woff2") format("woff2"),
+  src:
+    url("/fonts/atkinson-italic.woff2") format("woff2"),
     url("/fonts/atkinson-italic.woff") format("woff");
   font-style: italic;
 }
@@ -45,7 +49,8 @@
 @font-face {
   font-family: "Atkinson";
   font-display: optional;
-  src: url("/fonts/atkinson-bold-italic.woff2") format("woff2"),
+  src:
+    url("/fonts/atkinson-bold-italic.woff2") format("woff2"),
     url("/fonts/atkinson-bold-italic.woff") format("woff");
   font-weight: bold;
   font-style: italic;

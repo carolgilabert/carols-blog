@@ -2,15 +2,6 @@
   command = "npm run build"
   publish = "dist/"
 
-[[plugins]]
-  package = "netlify-plugin-11ty"
-  [plugins.inputs]
-    cache_img = './images'
-    cache_img_httpHeader = true
-  
-[[plugins]]
-  package = "netlify-plugin-cache-folder"
-
 [[redirects]]
   from = "https://carolgilabert.me/*"
   to = "https://carol.gg/:splat"
@@ -19,9 +10,9 @@
 
 [[headers]]
   for = "/*"
-  [headers.values]
-    Permissions-Policy = "interest-cohort=()"
+[headers.values]
+  Permissions-Policy = "interest-cohort=()"
 [[headers]]
   for = "/fonts/*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000"
+[headers.values]
+  Cache-Control = "public, max-age=31536000"

@@ -1,0 +1,54 @@
+@import "colours";
+@import "fonts";
+@import "reset";
+@import "mixins";
+
+#main-content {
+  outline: none;
+  container-type: inline-size;
+  container-name: main;
+}
+
+p,
+li {
+  max-width: 60ch;
+}
+
+th,
+td {
+  border: 0.1rem solid var(--black);
+  padding: 0.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  background: linear-gradient(to right, var(--black), var(--black)),
+    linear-gradient(to right,
+      var(--blue),
+      var(--green),
+      var(--yellow),
+      var(--pink));
+  background-size:
+    100% 3px,
+    0 3px;
+  background-position:
+    100% 100%,
+    0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+a:hover {
+  background-size:
+    0 3px,
+    100% 3px;
+}
+
+// This is a workaround, cause Astro image sets the original image's width and height
+// so it ends up ignoring the widths and sizes set in the component
+// https://github.com/withastro/astro/issues/10920
+img {
+  width: auto;
+  height: auto;
+}

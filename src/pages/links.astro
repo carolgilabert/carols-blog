@@ -1,0 +1,34 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { kebabToSentenceCase } from "@utils/capitalisation";
+
+const linkGroups = await getCollection("links");
+
+const pageTitle = "Links";
+const pageSubtitle = "Most of my bookmarks, somewhat organised.";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+    <h1>{pageTitle}</h1>
+    {
+        linkGroups.map((linkGroup) => (
+            <>
+                <h2>{kebabToSentenceCase(linkGroup.id)}</h2>
+                <ul>
+                    {linkGroup.data.map((link) => (
+                        <li>
+                            <a
+                                href={link.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {link.title}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </>
+        ))
+    }
+</BaseLayout>
