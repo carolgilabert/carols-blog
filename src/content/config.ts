@@ -9,7 +9,7 @@ const posts = defineCollection({
     date: z.coerce.date(),
     readingTime: z.string(),
     ogImage: z.string().optional(),
-  })
+  }),
 });
 
 const links = defineCollection({
@@ -17,9 +17,9 @@ const links = defineCollection({
   schema: z.array(
     z.object({
       title: z.string(),
-      url: z.string()
-    })
-  )
+      url: z.string(),
+    }),
+  ),
 });
 
 const talks = defineCollection({
@@ -33,10 +33,10 @@ const talks = defineCollection({
       .object({
         slides: z.string(),
         video: z.string(),
-        post: z.string()
+        post: z.string(),
       })
-      .partial()
-  })
+      .partial(),
+  }),
 });
 
 export const collections = { posts, links, talks };

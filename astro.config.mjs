@@ -6,5 +6,5 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: "https://carol.gg",
-  integrations: [sitemap(), mdx()]
+  integrations: [sitemap(), mdx()],
 });

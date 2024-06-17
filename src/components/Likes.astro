@@ -6,44 +6,44 @@ import type { Like } from "@types";
 
 <h3>{likes.length} {likes.length === 1 ? "Like" : "Likes"}</h3>
 <ul class="wm-likes" role="list">
-    {
-        likes.map((like: Like) => (
-            <li>
-                {like.url ? (
-                    <a
-                        class="h-card u-url link-u-exempt"
-                        href={like.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Avatar
-                            imageUrl={like?.author?.photo}
-                            imageAlt={like?.author?.name}
-                        />
-                    </a>
-                ) : (
-                    <Avatar
-                        imageUrl={like?.author?.photo}
-                        imageAlt={like?.author?.name}
-                    />
-                )}
-            </li>
-        ))
-    }
+  {
+    likes.map((like: Like) => (
+      <li>
+        {like.url ? (
+          <a
+            class="h-card u-url link-u-exempt"
+            href={like.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Avatar
+              imageUrl={like?.author?.photo}
+              imageAlt={like?.author?.name}
+            />
+          </a>
+        ) : (
+          <Avatar
+            imageUrl={like?.author?.photo}
+            imageAlt={like?.author?.name}
+          />
+        )}
+      </li>
+    ))
+  }
 </ul>
 
 <style lang="scss">
-    ul {
-        padding-left: 0;
+  ul {
+    padding-left: 0;
 
-        li {
-            display: inline-block;
-            margin-inline: -1rem;
-            margin-block-end: 1.5rem;
+    li {
+      display: inline-block;
+      margin-inline: -1rem;
+      margin-block-end: 1.5rem;
 
-            a {
-                background: none;
-            }
-        }
+      a {
+        background: none;
+      }
     }
+  }
 </style>

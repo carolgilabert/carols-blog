@@ -8,20 +8,20 @@ const imageAltWithFallback = imageAlt || "Default avatar of a user";
 ---
 
 <Image
-    class="wm-avatar u-photo"
-    src={imageSrcWithFallback}
-    alt={imageAltWithFallback}
-    loading="lazy"
-    inferSize
+  class="wm-avatar u-photo"
+  src={imageSrcWithFallback}
+  alt={imageAltWithFallback}
+  loading="lazy"
+  inferSize
 />
 
 <style lang="scss">
-    .wm-avatar {
-        border-radius: 50%;
-        display: inline-block;
-        margin-right: 1rem;
-        border: 0.2rem solid var(--green);
-        max-width: 4rem;
-        max-height: 4rem;
-    }
+  .wm-avatar {
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 1rem;
+    border: 0.2rem solid var(--green);
+    max-width: 4rem;
+    max-height: 4rem;
+  }
 </style>

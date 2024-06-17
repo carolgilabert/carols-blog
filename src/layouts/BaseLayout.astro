@@ -9,77 +9,74 @@ import { SITE_TITLE, SITE_DESCRIPTION, SITE_URL, BASE_OG_IMAGE } from "@consts";
 
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="color-scheme" content="only light" />
-        <meta name="theme-color" content="#bfe6d5" />
-        <meta name="generator" content={Astro.generator} />
-        <title>{pageTitle}</title>
-        <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-        <link
-            rel="webmention"
-            href="https://webmention.io/carol.gg/webmention"
-        />
-        <link rel="pingback" href="https://webmention.io/carol.gg/xmlrpc" />
-        <link
-            rel="alternate"
-            type="application/rss+xml"
-            href="/feed.xml"
-            title="Carol.gg"
-        />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="color-scheme" content="only light" />
+    <meta name="theme-color" content="#bfe6d5" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="webmention" href="https://webmention.io/carol.gg/webmention" />
+    <link rel="pingback" href="https://webmention.io/carol.gg/xmlrpc" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      href="/feed.xml"
+      title="Carol.gg"
+    />
 
-        <!-- Open Graph -->
-        <meta property="og:title" content={pageTitle ?? SITE_TITLE} />
-        <meta property="og:type" content="website" />
-        <meta
-            property="og:description"
-            content={pageSubtitle ?? SITE_DESCRIPTION}
-        />
-        <meta property="og:site_name" content="Carol.gg" />
-        <meta property="og:locale" content="en_GB" />
-        <meta
-            property="og:image"
-            content={`${SITE_URL}/og-images/${ogImage ?? BASE_OG_IMAGE}`}
-        />
-        <!-- Twitter meta tags -->
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta property="twitter:domain" content={SITE_URL} />
-        <meta name="twitter:title" content={pageTitle ?? SITE_TITLE} />
-        <meta
-            name="twitter:description"
-            content={pageSubtitle ?? SITE_DESCRIPTION}
-        />
-        <meta
-            name="twitter:image"
-            content={`${SITE_URL}${ogImage ?? BASE_OG_IMAGE}`}
-        />
-    </head>
+    <!-- Open Graph -->
+    <meta property="og:title" content={pageTitle ?? SITE_TITLE} />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content={pageSubtitle ?? SITE_DESCRIPTION}
+    />
+    <meta property="og:site_name" content="Carol.gg" />
+    <meta property="og:locale" content="en_GB" />
+    <meta
+      property="og:image"
+      content={`${SITE_URL}/og-images/${ogImage ?? BASE_OG_IMAGE}`}
+    />
+    <!-- Twitter meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content={SITE_URL} />
+    <meta name="twitter:title" content={pageTitle ?? SITE_TITLE} />
+    <meta
+      name="twitter:description"
+      content={pageSubtitle ?? SITE_DESCRIPTION}
+    />
+    <meta
+      name="twitter:image"
+      content={`${SITE_URL}${ogImage ?? BASE_OG_IMAGE}`}
+    />
+  </head>
 
-    <body>
-        <Header />
-        <main tabindex="-1" id="main-content">
-            <slot />
-        </main>
-        <Footer />
+  <body>
+    <Header />
+    <main tabindex="-1" id="main-content">
+      <slot />
+    </main>
+    <Footer />
 
-        <script>
-            if ("serviceWorker" in navigator) {
-                navigator.serviceWorker.register("/service-worker.js");
-            }
-        </script>
-    </body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js");
+      }
+    </script>
+  </body>
 </html>
 
 <style lang="scss">
-    body {
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-    }
+  body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
 
-    main {
-        justify-self: center;
-        width: clamp(15rem, 90vw, 70rem);
-    }
+  main {
+    justify-self: center;
+    width: clamp(15rem, 90vw, 70rem);
+  }
 </style>

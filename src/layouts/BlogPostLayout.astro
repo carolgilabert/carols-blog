@@ -7,20 +7,24 @@ import { getDateString } from "@utils/date";
 const { frontmatter } = Astro.props;
 ---
 
-<BaseLayout pageTitle={frontmatter.title} pageSubtitle={frontmatter.subtitle} ogImage={frontmatter?.ogImage}>
-    <div class="h-entry">
-        <h1 class="p-name">{frontmatter.title}</h1>
-        <p class="p-summary"><em>{frontmatter.subtitle}</em></p>
-        <span class="body-small">
-            <time class="dt-published" datetime={frontmatter.date}>
-                📆 {getDateString(frontmatter.date)}
-            </time>
-            · {frontmatter.readingTime} read ⏱️
-        </span>
-        <MyHCard />
-        <div class="e-content">
-            <slot />
-        </div>
+<BaseLayout
+  pageTitle={frontmatter.title}
+  pageSubtitle={frontmatter.subtitle}
+  ogImage={frontmatter?.ogImage}
+>
+  <div class="h-entry">
+    <h1 class="p-name">{frontmatter.title}</h1>
+    <p class="p-summary"><em>{frontmatter.subtitle}</em></p>
+    <span class="body-small">
+      <time class="dt-published" datetime={frontmatter.date}>
+        📆 {getDateString(frontmatter.date)}
+      </time>
+      · {frontmatter.readingTime} read ⏱️
+    </span>
+    <MyHCard />
+    <div class="e-content">
+      <slot />
     </div>
-    <Webmentions />
+  </div>
+  <Webmentions />
 </BaseLayout>

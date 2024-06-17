@@ -5,199 +5,197 @@ const pageSubtitle = "A list of my salaries since becoming a software engineer";
 ---
 
 <BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
-    <h1>{pageTitle}</h1>
+  <h1>{pageTitle}</h1>
 
-    <p>
-        When looking for a job, it can be tricky to know what to ask for in
-        terms of salary, especially for under represented minorities, who are
-        routinely underlevelled and underpaid. So I thought it would be useful
-        to share my salary history since becoming a software engineer, in hopes
-        that it will help someone at some point.
-    </p>
+  <p>
+    When looking for a job, it can be tricky to know what to ask for in terms of
+    salary, especially for under represented minorities, who are routinely
+    underlevelled and underpaid. So I thought it would be useful to share my
+    salary history since becoming a software engineer, in hopes that it will
+    help someone at some point.
+  </p>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Company</th>
-                <th>Title</th>
-                <th>Level</th>
-                <th>Description</th>
-                <th>Amount (per year)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Feb 2015</td>
-                <td>AppInstitute</td>
-                <td>Erasmus Intern</td>
-                <td>-</td>
-                <td>Salary</td>
-                <td>£12,675</td>
-            </tr>
-            <tr>
-                <td>May 2015</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Salary</td>
-                <td>£18,000</td>
-            </tr>
-            <tr>
-                <td>Sep 2015</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Salary</td>
-                <td>£20,000</td>
-            </tr>
-            <tr>
-                <td>Nov 2015</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Shares</td>
-                <td>49<a href="#appinst-shares">[*]</a></td>
-            </tr>
-            <tr>
-                <td>Dec 2015</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Bonus</td>
-                <td>£1,353</td>
-            </tr>
-            <tr>
-                <td>May 2016</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Salary</td>
-                <td>£24,000</td>
-            </tr>
-            <tr>
-                <td>May 2017</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Salary</td>
-                <td>£25,000</td>
-            </tr>
-            <tr>
-                <td>Jan 2018</td>
-                <td>AppInstitute</td>
-                <td>PHP Developer</td>
-                <td>-</td>
-                <td>Salary</td>
-                <td>£28,000</td>
-            </tr>
-            <tr>
-                <td>Jan 2018</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 1</td>
-                <td>Salary</td>
-                <td>£32,000</td>
-            </tr>
-            <tr>
-                <td>Feb 2019</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 1</td>
-                <td>Salary</td>
-                <td>£37,000</td>
-            </tr>
-            <tr>
-                <td>Feb 2019</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 1</td>
-                <td>Bonus</td>
-                <td>£3,739.32</td>
-            </tr>
-            <tr>
-                <td>Aug 2019</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 2</td>
-                <td>Salary</td>
-                <td>£42,000</td>
-            </tr>
-            <tr>
-                <td>Feb 2020</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 2</td>
-                <td>Bonus</td>
-                <td>£4,668.77</td>
-            </tr>
-            <tr>
-                <td>Aug 2020</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 2</td>
-                <td>Salary</td>
-                <td>£45,000</td>
-            </tr>
-            <tr>
-                <td>Feb 2021</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 2</td>
-                <td>Bonus</td>
-                <td>£4,625.00</td>
-            </tr>
-            <tr>
-                <td>Aug 2021</td>
-                <td>Capital One</td>
-                <td>Software Development Engineer</td>
-                <td>SDE 3</td>
-                <td>Salary</td>
-                <td>£54,000</td>
-            </tr>
-            <tr>
-                <td>Sep 2021</td>
-                <td>Monzo</td>
-                <td>Web Engineer</td>
-                <td>L3</td>
-                <td>Salary</td>
-                <td>£80,000</td>
-            </tr>
-            <tr>
-                <td>Sep 2021</td>
-                <td>Monzo</td>
-                <td>Web Engineer</td>
-                <td>L3</td>
-                <td>Shares</td>
-                <td>9000<a href="#monzo-shares">[**]</a></td>
-            </tr>
-            <tr>
-                <td>Jul 2021</td>
-                <td>Monzo</td>
-                <td>Web Engineer</td>
-                <td>L3</td>
-                <td>Salary</td>
-                <td>£87,630</td>
-            </tr>
-            <tr>
-                <td>May 2023</td>
-                <td>Monzo</td>
-                <td>Web Engineer</td>
-                <td>L3</td>
-                <td>Salary</td>
-                <td>£90,820</td>
-            </tr>
-        </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Company</th>
+        <th>Title</th>
+        <th>Level</th>
+        <th>Description</th>
+        <th>Amount (per year)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Feb 2015</td>
+        <td>AppInstitute</td>
+        <td>Erasmus Intern</td>
+        <td>-</td>
+        <td>Salary</td>
+        <td>£12,675</td>
+      </tr>
+      <tr>
+        <td>May 2015</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Salary</td>
+        <td>£18,000</td>
+      </tr>
+      <tr>
+        <td>Sep 2015</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Salary</td>
+        <td>£20,000</td>
+      </tr>
+      <tr>
+        <td>Nov 2015</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Shares</td>
+        <td>49<a href="#appinst-shares">[*]</a></td>
+      </tr>
+      <tr>
+        <td>Dec 2015</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Bonus</td>
+        <td>£1,353</td>
+      </tr>
+      <tr>
+        <td>May 2016</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Salary</td>
+        <td>£24,000</td>
+      </tr>
+      <tr>
+        <td>May 2017</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Salary</td>
+        <td>£25,000</td>
+      </tr>
+      <tr>
+        <td>Jan 2018</td>
+        <td>AppInstitute</td>
+        <td>PHP Developer</td>
+        <td>-</td>
+        <td>Salary</td>
+        <td>£28,000</td>
+      </tr>
+      <tr>
+        <td>Jan 2018</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 1</td>
+        <td>Salary</td>
+        <td>£32,000</td>
+      </tr>
+      <tr>
+        <td>Feb 2019</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 1</td>
+        <td>Salary</td>
+        <td>£37,000</td>
+      </tr>
+      <tr>
+        <td>Feb 2019</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 1</td>
+        <td>Bonus</td>
+        <td>£3,739.32</td>
+      </tr>
+      <tr>
+        <td>Aug 2019</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 2</td>
+        <td>Salary</td>
+        <td>£42,000</td>
+      </tr>
+      <tr>
+        <td>Feb 2020</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 2</td>
+        <td>Bonus</td>
+        <td>£4,668.77</td>
+      </tr>
+      <tr>
+        <td>Aug 2020</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 2</td>
+        <td>Salary</td>
+        <td>£45,000</td>
+      </tr>
+      <tr>
+        <td>Feb 2021</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 2</td>
+        <td>Bonus</td>
+        <td>£4,625.00</td>
+      </tr>
+      <tr>
+        <td>Aug 2021</td>
+        <td>Capital One</td>
+        <td>Software Development Engineer</td>
+        <td>SDE 3</td>
+        <td>Salary</td>
+        <td>£54,000</td>
+      </tr>
+      <tr>
+        <td>Sep 2021</td>
+        <td>Monzo</td>
+        <td>Web Engineer</td>
+        <td>L3</td>
+        <td>Salary</td>
+        <td>£80,000</td>
+      </tr>
+      <tr>
+        <td>Sep 2021</td>
+        <td>Monzo</td>
+        <td>Web Engineer</td>
+        <td>L3</td>
+        <td>Shares</td>
+        <td>9000<a href="#monzo-shares">[**]</a></td>
+      </tr>
+      <tr>
+        <td>Jul 2021</td>
+        <td>Monzo</td>
+        <td>Web Engineer</td>
+        <td>L3</td>
+        <td>Salary</td>
+        <td>£87,630</td>
+      </tr>
+      <tr>
+        <td>May 2023</td>
+        <td>Monzo</td>
+        <td>Web Engineer</td>
+        <td>L3</td>
+        <td>Salary</td>
+        <td>£90,820</td>
+      </tr>
+    </tbody>
+  </table>
 
-    <p>Notes:</p>
-    <ul class="no-style">
-        <li id="appinst-shares">
-            * I could only keep these shares if I stayed in the company until
-            sale, so I don't have these anymore
-        </li>
-        <li id="monzo-shares">
-            ** These vest over 4 years with a 1 year cliff
-        </li>
-    </ul>
+  <p>Notes:</p>
+  <ul class="no-style">
+    <li id="appinst-shares">
+      * I could only keep these shares if I stayed in the company until sale, so
+      I don't have these anymore
+    </li>
+    <li id="monzo-shares">** These vest over 4 years with a 1 year cliff</li>
+  </ul>
 </BaseLayout>
