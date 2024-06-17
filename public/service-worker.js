@@ -6,9 +6,9 @@ self.addEventListener("activate", (event) => {
         return Promise.all(
           allCaches.map((cacheToDelete) => {
             return caches.delete(cacheToDelete);
-          })
+          }),
         );
       })
-      .then(() => self.clients.claim())
+      .then(() => self.clients.claim()),
   );
 });

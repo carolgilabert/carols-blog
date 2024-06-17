@@ -3,22 +3,24 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import PostList from "@components/PostList.astro";
 import MyHCard from "@components/MyHCard.astro";
-import {descendingByDateWithFallback} from "@utils/sortPosts";
+import { descendingByDateWithFallback } from "@utils/sortPosts";
 
-const lastThreePosts = (await getCollection("posts")).sort(descendingByDateWithFallback).slice(0, 3);
+const lastThreePosts = (await getCollection("posts"))
+  .sort(descendingByDateWithFallback)
+  .slice(0, 3);
 ---
 
 <BaseLayout>
-    <h1>Hey there! My name is <em>Carol</em>.</h1>
-    <h2>And this is my little home on the internet.</h2>
+  <h1>Hey there! My name is <em>Carol</em>.</h1>
+  <h2>And this is my little home on the internet.</h2>
 
-    <p>I'm a frontend engineer, community organiser, and dog mum 🖤🐾</p>
-    <p>
-        Sometimes I write about stuff here, but more often I don't to be honest.
-    </p>
-    <p>I'm always up for a chat though, so feel free to get in touch! 💌</p>
+  <p>I'm a frontend engineer, community organiser, and dog mum 🖤🐾</p>
+  <p>
+    Sometimes I write about stuff here, but more often I don't to be honest.
+  </p>
+  <p>I'm always up for a chat though, so feel free to get in touch! 💌</p>
 
-    <h3>Latest on the blog:</h3>
-    <PostList posts={lastThreePosts} />
-    <MyHCard />
+  <h3>Latest on the blog:</h3>
+  <PostList posts={lastThreePosts} />
+  <MyHCard />
 </BaseLayout>

@@ -17,9 +17,9 @@ export async function GET(context) {
       pubDate: post.data.date,
       link: `/blog/${post.slug}/`,
       content: sanitizeHtml(parser.render(post.body), {
-        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"])
-      })
+        allowedTags: sanitizeHtml.defaults.allowedTags.concat(["img"]),
+      }),
     })),
-    customData: `<language>en-gb</language>`
+    customData: `<language>en-gb</language>`,
   });
 }

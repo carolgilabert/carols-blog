@@ -24,11 +24,13 @@ a {
   color: inherit;
   text-decoration: none;
   background: linear-gradient(to right, var(--black), var(--black)),
-    linear-gradient(to right,
+    linear-gradient(
+      to right,
       var(--blue),
       var(--green),
       var(--yellow),
-      var(--pink));
+      var(--pink)
+    );
   background-size:
     100% 3px,
     0 3px;
