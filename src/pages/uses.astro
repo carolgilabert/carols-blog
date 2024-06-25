@@ -8,7 +8,7 @@ import tofu from "@images/uses/tofu.jpg";
 import popkeys from "@images/uses/logi-keeb.png";
 import keychron from "@images/uses/keychron.png";
 import vscode from "@images/uses/vscode.png";
-import iterm from "@images/uses/iterm.png";
+import warp from "@images/uses/warp.png";
 
 const pageTitle = "Uses";
 const pageSubtitle = "My current setup and the tools I use daily.";
@@ -17,17 +17,19 @@ const pageSubtitle = "My current setup and the tools I use daily.";
 <BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
   <h1>{pageTitle}</h1>
 
-  <p>
-    I've been in search of the perfect setup at home for a little while now.
-    This is where I'm at right now:
-  </p>
+  <p>This is what my current setup looks like:</p>
 
   <Image
     src={desk}
-    alt="My desk, a bamboo top with a 27 inch monitor, and a laptop perched on top of a book. You can also see on the desk a notepad, a pink pencil cup, a stream deck, a mint green timer clock, a wireless phone charger, a pink mug on top of a yellow coaster. Attached to the desk are a big rectangular keylight and a microphone on a boom arm. Behind the desk you can see some colourful paper bunting on the wall."
+    alt="My desk, a bamboo top with a 27 inch monitor, and a laptop on a white laptop stand. You can also see on the desk a notepad, a pink pencil cup, a stream deck, a wireless phone charger, a coffee mug on top of a yellow coaster. Attached to the desk are a big rectangular keylight and a microphone on a boom arm. "
     widths={[600, 900]}
     sizes="(max-width: 600px) 600px, 900px"
   />
+
+  <p>
+    It's a bit bland, to be honest, but I'm looking to buy a house soon so I'm
+    hoping to get a bit more creative with my workspace once I've moved.
+  </p>
 
   <h2>🖥 Hardware</h2>
   <p>
@@ -48,9 +50,10 @@ const pageSubtitle = "My current setup and the tools I use daily.";
     I spend most of my time on my <a
       href="https://www.johnlewis.com/2021-apple-macbook-pro-16-inch-m1-max-processor-32gb-ram-1tb-ssd/p5828283"
       >2021 16" MacBook Pro</a
-    >. I generally use it open and my current monitor stand is a pristine
-    (a.k.a. unread) copy of cracking the code interview 😂 I've now ditched the
-    superultrawide lifestyle, and my current monitor is an <a
+    >. I generally use it open and my current monitor stand is a wooden one from <a
+      href="https://cottonon.com/UK/typo-home/">Typo</a
+    >. I've now ditched the superultrawide lifestyle, and my current monitor is
+    an <a
       href="https://www.johnlewis.com/apple-studio-display-with-tilt-height-adjustable-stand-standard-glass-27-inch-5k-retina-display-silver/p6145616"
       >Apple Studio Display</a
     >.
@@ -73,18 +76,19 @@ const pageSubtitle = "My current setup and the tools I use daily.";
     and I have a <a href="https://www.elgato.com/en/key-light"
       >Elgato Key Light</a
     > to help with lighting. Audio wise I use my <a
-      href="https://www.johnlewis.com/2022-apple-airpods-pro-2nd-generation-with-magsafe-charging-case/p6345566"
-      >2nd Gen Airpods Pro</a
-    > and an <a href="https://www.elgato.com/en/wave-3">Elgato Wave 3</a>.
+      href="https://www.johnlewis.com/sony-wh-1000xm4-noise-cancelling-wireless-bluetooth-nfc-high-resolution-audio-over-ear-headphones-with-mic-remote/midnight-blue/p5100480"
+    >
+      Sony WH-1000XM4
+    </a> and an <a href="https://www.elgato.com/en/wave-3">Elgato Wave 3</a>.
   </p>
 
   <p>
-    I run <a href="https://www.technottingham.com">Tech Nottingham</a> online events
-    from here occasionally, so I also have an <a
+    I used to run <a href="https://www.technottingham.com">Tech Nottingham</a> online
+    events from here, so I have an <a
       href="https://www.elgato.com/en/stream-deck">Elgato StreamDeck</a
     > and an <a href="https://www.elgato.com/en/green-screen"
       >Elgato Collapsible Green Screen</a
-    >; they're super helpful for those.
+    >; they're super helpful for that kind of thing.
   </p>
 
   <p>
@@ -104,6 +108,10 @@ const pageSubtitle = "My current setup and the tools I use daily.";
     As for portable stuff, I have an <a
       href="https://www.johnlewis.com/apple-iphone-13-pro-max-ios-6-7-inch-5g-sim-free-128gb/p5756469"
       >iPhone 13 Pro Max</a
+    >,
+    <a
+      href="https://www.johnlewis.com/2022-apple-airpods-pro-2nd-generation-with-magsafe-charging-case/p6345566"
+      >2nd Gen Airpods Pro</a
     >, an <a href="https://www.apple.com/uk/apple-watch-series-6/"
       >Apple Watch Series 6</a
     >, and an <a href="https://www.apple.com/uk/shop/buy-ipad/ipad-pro"
@@ -297,12 +305,11 @@ const pageSubtitle = "My current setup and the tools I use daily.";
   <p>
     I use <a href="https://code.visualstudio.com/">VS Code</a> for <strong
       >everything</strong
-    >! My theme is <a
-      href="https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme"
-      >Nebula</a
-    > and the font is <a
-      href="https://www.fontsquirrel.com/fonts/latin-modern-mono"
-      >Latin Modern Mono</a
+    >! My current theme is <a
+      href="https://marketplace.visualstudio.com/items?itemName=cybersamurai.midnight-purple-2077"
+      >Midnight Purple 2077</a
+    > and the font is <a href="https://philpl.gumroad.com/l/dank-mono"
+      >Dank Mono</a
     >. I have a bunch of extensions, these are my faves:
   </p>
 
@@ -334,54 +341,45 @@ const pageSubtitle = "My current setup and the tools I use daily.";
     </li>
     <li>
       <a
-        href="https://marketplace.visualstudio.com/items?itemName=johnpapa.read-time"
-        >Read time</a
-      >: I like including read time on my blog posts, so it's helpful to have it
-      right in VS Code.
-    </li>
-    <li>
-      <a
-        href="https://marketplace.visualstudio.com/items?itemName=glitch.glitch"
-        >Glitch</a
-      >: if you use Glitch for little projects, this lets you edit your remote
-      Glitches from your local editor ✨
-    </li>
-    <li>
-      <a
         href="https://marketplace.visualstudio.com/items?itemName=nhoizey.gremlins"
         >Gremlins tracker</a
       >: this is useful to find "non standard" characters when you're debugging
       a weird issue.
+    </li>
+    <li>
+      <a
+        href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize"
+      >
+        Colorize</a
+      >: this extension shows the colour of the hex / rgb code you're using
+      directly on the file.
+    </li>
+    <li>
+      <a
+        href="https://marketplace.visualstudio.com/items?itemName=Cardinal90.multi-cursor-case-preserve"
+        >Multiple cursor case preserve</a
+      >: I use Cmd + D a lot to replace words / variables, and this extension
+      lets me do that respecting the case of each instance.
     </li>
   </ul>
 
   <h3>Terminal</h3>
 
   <Image
-    src={iterm}
-    alt="A screenshot of iTerm2, the theme is dark blue, and the prompt is a random emoji, followed by folder and git indicators, and followed by a colourful chevron."
+    src={warp}
+    alt="A screenshot of warp, the theme is dark blue, and you can see some ascii art of oh my zsh."
     widths={[600, 900]}
     sizes="(max-width: 600px) 600px, 900px"
   />
 
   <p>
     I use the integrated terminal on VSCode most of the time, but when I'm not
-    doing repo specific stuff, I use <a href="https://iterm2.com/">iTerm2</a>.
-    My theme is called <a
-      href="https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Galaxy.itermcolors"
-      >Galaxy</a
-    > and I use <a href="https://www.fontsquirrel.com/fonts/latin-modern-mono"
-      >Latin Modern Mono</a
-    > here too.
+    doing repo specific stuff, I use <a href="https://www.warp.dev/">Warp</a>.
   </p>
 
   <p>
     For my shell I use ZSH with <a href="https://ohmyz.sh/">Oh My Zsh</a>, as it
-    has a bunch of plugins and useful aliases out of the box. My shell theme is
-    called <a
-      href="https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/miloshadzic.zsh-theme"
-      >miloshadzic</a
-    >.
+    has a bunch of plugins and useful aliases out of the box.
   </p>
 
   <p>
@@ -402,6 +400,25 @@ const pageSubtitle = "My current setup and the tools I use daily.";
     </li>
   </ul>
 
+  <p>I also have a few terminal based apps I really rate:</p>
+  <ul>
+    <li>
+      <a href="https://github.com/BurntSushi/ripgrep">ripgrep</a>: great search
+      tool, it's fast, primarily uses regex and ignores hidden and git ignored
+      files.
+    </li>
+    <li>
+      <a href="https://github.com/sharkdp/bat">bat</a>: it's like cat but with
+      syntax highlighting and line numbers.
+    </li>
+    <li>
+      <a href="https://jqlang.github.io/jq/">jq</a>: now that I've been doing a
+      bit more backend work, this has been great to filter and wrangle json
+      data. If you do use it, <a href="https://jqplay.org/#">the playground</a> is
+      super useful!
+    </li>
+  </ul>
+
   <h3>Apps</h3>
   <p>
     There's a bunch of apps I use regularly, but the ones I always install first
@@ -411,9 +428,8 @@ const pageSubtitle = "My current setup and the tools I use daily.";
   </p>
 
   <p>
-    I write and organise everything in <a href="https://www.notion.so/"
-      >Notion</a
-    >.
+    I write things in <a href="https://obsidian.md/">Obsidian</a> and I organise
+    my life using <a href="https://culturedcode.com/things/">Things</a>.
   </p>
 
   <p>
@@ -422,13 +438,25 @@ const pageSubtitle = "My current setup and the tools I use daily.";
   </p>
 
   <ul>
+    <li>
+      <a href="https://apps.apple.com/us/app/amphetamine/id937984704?mt=12"
+        >Amphetamine</a
+      >
+    </li>
+    <li>
+      <a href="https://www.postman.com/">Postman</a>
+    </li>
+    <li>
+      <a href="https://www.charlesproxy.com/">Charles</a>
+    </li>
+    <li><a href="https://matthewpalmer.net/rocket/">Rocket</a></li>
     <li><a href="https://software.charliemonroe.net/downie/">Downie</a></li>
     <li>
       <a href="https://software.charliemonroe.net/permute/">Permute</a>
     </li>
-    <li><a href="https://cleanshot.com/">Cleanshot X</a></li>
+    <li>
+      <a href="https://sindresorhus.com/aiko">Aiko</a>
+    </li>
     <li><a href="https://freemacsoft.net/appcleaner/">AppCleaner</a></li>
-    <li><a href="https://www.descript.com">Descript</a></li>
-    <li><a href="https://matthewpalmer.net/rocket/">Rocket</a></li>
   </ul>
 </BaseLayout>
