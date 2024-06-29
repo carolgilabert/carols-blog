@@ -4,6 +4,9 @@
 # build output
 dist/
 
+# fetched data files
+src/content/books/*
+
 # generated types
 .astro/
 

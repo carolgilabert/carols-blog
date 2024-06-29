@@ -39,4 +39,15 @@ const talks = defineCollection({
   }),
 });
 
-export const collections = { posts, links, talks };
+const books = defineCollection({
+  type: "data",
+  schema: z.object({
+    id: z.string(),
+    cover: z.string(),
+    title: z.string(),
+    author: z.string(),
+    progress: z.string(),
+  }),
+});
+
+export const collections = { posts, links, talks, books };

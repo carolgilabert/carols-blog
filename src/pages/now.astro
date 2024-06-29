@@ -1,0 +1,32 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+
+const books = await getCollection("books");
+
+const pageTitle = "Now";
+const pageSubtitle = "";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+  <h1>{pageTitle}</h1>
+  <h2>Books</h2>
+  <ul>
+    {
+      books.map(({ data: book }) => (
+        <li>
+          <h3>{book.title}</h3>
+          by <p>{book.author}</p>
+          <Image
+            src={book.cover}
+            alt={`Book cover for ${book.title} by ${book.author}`}
+            inferSize
+          />
+          <meter value={book.progress.replace("%", "")} min="0" max="100" />
+          <p>{book.progress}</p>
+        </li>
+      ))
+    }
+  </ul>
+</BaseLayout>
