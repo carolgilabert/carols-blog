@@ -1,9 +1,8 @@
-import { Configuration, Dataset } from "crawlee";
 import { scrapeSite } from "../utils/scraping";
 import { emptyDir, ensureDir, writeJson } from "fs-extra";
 import { resolve } from "path";
 
-const STORYGRAPH_USERNAME = "hello@carol.gg";
+const STORYGRAPH_USERNAME = process.env.STORYGRAPH_USERNAME;
 const STORYGRAPH_PASSWORD = process.env.STORYGRAPH_PASSWORD;
 
 const booksFolder = resolve(__dirname, "../content/books");
