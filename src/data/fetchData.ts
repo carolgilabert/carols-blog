@@ -1,10 +1,8 @@
 import { bookFetcher } from "./books";
 import { nytGamesFetcher } from "./nyt-games";
 
-bookFetcher().then(() => {
+(async () => {
+  await bookFetcher();
+  await nytGamesFetcher();
   console.log("Done!");
-});
-
-nytGamesFetcher().then(() => {
-  console.log("Done!");
-});
+})();
