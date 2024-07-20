@@ -17,11 +17,16 @@ export const nytGamesFetcher = async function () {
 
       log.info("Logging in to NYT Games");
 
-      // Dismiss the cookie banner
-      await page.click('button[data-testid="Reject all-btn"]');
-
       // Click on the login button
-      await page.click('a[data-track-label="log-in-nav"]');
+      const loginLink = page.getByRole("link", { name: "Log in" });
+      await loginLink.waitFor();
+
+      if (loginLink.isDisabled()) {
+        // Dismiss the cookie banner
+        await page.click('button[data-testid="Reject all-btn"]');
+      }
+
+      await loginLink.click();
 
       // Log in to NYT Games
       await page.fill('input[id="email"]', NYT_USERNAME);
