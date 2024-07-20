@@ -7,6 +7,7 @@
     "dev": "ts-node ./src/data/fetchData.ts && astro dev",
     "start": "ts-node ./src/data/fetchData.ts && astro dev",
     "build": "ts-node ./src/data/fetchData.ts && astro check && astro build",
+    "postinstall": "npx playwright install",
     "preview": "astro preview",
     "astro": "astro"
   },
