@@ -21,7 +21,7 @@ export const nytGamesFetcher = async function () {
       const loginLink = page.getByRole("link", { name: "Log in" });
       await loginLink.waitFor();
 
-      if (loginLink.isDisabled()) {
+      if (!loginLink.isVisible()) {
         // Dismiss the cookie banner
         await page.click('button[data-testid="Reject all-btn"]');
       }
@@ -32,7 +32,9 @@ export const nytGamesFetcher = async function () {
       await page.fill('input[id="email"]', NYT_USERNAME);
       await page.click('button[data-testid="submit-email"]');
       await page.fill('input[id="password"]', NYT_PASSWORD);
-      await page.click('button[data-testid="login-button"]');
+
+      const loginButton = page.getByTestId("login-button");
+      await loginButton.click();
 
       log.info("Getting NYT Games info");
 
