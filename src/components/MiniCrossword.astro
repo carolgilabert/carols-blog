@@ -1,0 +1,19 @@
+---
+import { type CollectionEntry } from "astro:content";
+const { data } = Astro.props;
+
+type NYTGame = CollectionEntry<"nyt-games">;
+
+const { data: miniCrosswordData } = data.find(
+  (d: NYTGame) => d.id === "mini-crossword"
+);
+---
+
+<h3>Mini Crossword</h3>
+{
+  miniCrosswordData.isItFinished ? (
+    <p>⏱️ Today's time: {miniCrosswordData.todaysTime}</p>
+  ) : (
+    <p>⏱️ Today's time: --:--</p>
+  )
+}
