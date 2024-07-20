@@ -13,6 +13,11 @@ export async function scrapeSite(url: string, handler) {
   const crawler = new PlaywrightCrawler(
     {
       requestHandler: router,
+      launchContext: {
+        launchOptions: {
+          permissions: ["clipboard-read", "clipboard-write"],
+        },
+      },
     },
     new Configuration({
       logLevel: LogLevel.INFO,
