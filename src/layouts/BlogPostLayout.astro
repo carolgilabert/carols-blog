@@ -5,6 +5,7 @@ import MyHCard from "@components/MyHCard.astro";
 import Webmentions from "@components/Webmentions.astro";
 import { getDateString } from "@utils/date";
 const { frontmatter } = Astro.props;
+const tags = frontmatter.tags;
 ---
 
 <BaseLayout
@@ -15,12 +16,32 @@ const { frontmatter } = Astro.props;
   <div class="h-entry">
     <h1 class="p-name">{frontmatter.title}</h1>
     <p class="p-summary"><em>{frontmatter.subtitle}</em></p>
-    <span class="body-small">
-      <time class="dt-published" datetime={frontmatter.date}>
-        📆 {getDateString(frontmatter.date)}
-      </time>
-      · {frontmatter.readingTime} read ⏱️
-    </span>
+    <hr />
+    <div class="body-small post-details">
+      <div>
+        <time class="dt-published" datetime={frontmatter.date}>
+          {getDateString(frontmatter.date)}
+        </time>
+      </div>
+      <div>
+        <span>{frontmatter.readingTime} read</span>
+      </div>
+      <div>
+        <ul>
+          {
+            tags.length > 0 && (
+              <li class="tag">
+                {tags.map((tag) => (
+                  <a href={`/tags/${tag}`} class="p-category">
+                    {tag}
+                  </a>
+                ))}
+              </li>
+            )
+          }
+        </ul>
+      </div>
+    </div>
     <MyHCard />
     <div class="e-content">
       <slot />
@@ -28,3 +49,37 @@ const { frontmatter } = Astro.props;
   </div>
   <Webmentions />
 </BaseLayout>
+<style lang="scss">
+  .p-summary {
+    margin-block-end: 0.5rem;
+  }
+  hr {
+    margin: 0;
+  }
+  .post-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block-start: 0.5rem;
+
+    ul {
+      margin: 0;
+      list-style-type: none;
+    }
+
+    .tag {
+      background-color: var(--green);
+      cursor: pointer;
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+
+      a {
+        background: none;
+      }
+
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+</style>
