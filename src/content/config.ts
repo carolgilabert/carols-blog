@@ -13,16 +13,6 @@ const posts = defineCollection({
   }),
 });
 
-const links = defineCollection({
-  type: "data",
-  schema: z.array(
-    z.object({
-      title: z.string(),
-      url: z.string(),
-    }),
-  ),
-});
-
 const talks = defineCollection({
   type: "data",
   schema: z.object({
@@ -40,4 +30,4 @@ const talks = defineCollection({
   }),
 });
 
-export const collections = { posts, links, talks };
+export const collections = { posts, talks };
