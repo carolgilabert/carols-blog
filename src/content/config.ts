@@ -8,18 +8,9 @@ const posts = defineCollection({
     author: z.string(),
     date: z.coerce.date(),
     readingTime: z.string(),
+    tags: z.array(z.string()),
     ogImage: z.string().optional(),
   }),
-});
-
-const links = defineCollection({
-  type: "data",
-  schema: z.array(
-    z.object({
-      title: z.string(),
-      url: z.string(),
-    }),
-  ),
 });
 
 const talks = defineCollection({
@@ -68,4 +59,4 @@ const nytGames = defineCollection({
     .partial(),
 });
 
-export const collections = { posts, links, talks, books };
+export const collections = { posts, talks, books };

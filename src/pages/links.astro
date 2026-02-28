@@ -1,9 +1,5 @@
 ---
 import BaseLayout from "@layouts/BaseLayout.astro";
-import { getCollection } from "astro:content";
-import { kebabToSentenceCase } from "@utils/capitalisation";
-
-const linkGroups = await getCollection("links");
 
 const pageTitle = "Links";
 const pageSubtitle = "Most of my bookmarks, somewhat organised.";
@@ -11,20 +7,893 @@ const pageSubtitle = "Most of my bookmarks, somewhat organised.";
 
 <BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
   <h1>{pageTitle}</h1>
-  {
-    linkGroups.map((linkGroup) => (
-      <>
-        <h2>{kebabToSentenceCase(linkGroup.id)}</h2>
-        <ul>
-          {linkGroup.data.map((link) => (
-            <li>
-              <a href={link.url} target="_blank" rel="noopener noreferrer">
-                {link.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </>
-    ))
-  }
+  <p>{pageSubtitle}</p>
+
+  <h2>Web tools</h2>
+  <h3>Accessibility</h3>
+  <ul>
+    <li>
+      <a
+        href="https://accessibilityinsights.io"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Accessibility Insights Extension
+      </a>
+    </li><li>
+      <a
+        href="https://dequeuniversity.com/screenreaders/nvda-keyboard-shortcuts"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        NVDA shortcuts
+      </a>
+    </li><li>
+      <a
+        href="https://dequeuniversity.com/screenreaders/voiceover-ios-shortcuts"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        VoiceOver shortcuts - iOS
+      </a>
+    </li><li>
+      <a
+        href="https://dequeuniversity.com/screenreaders/voiceover-keyboard-shortcuts"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        VoiceOver shortcuts - Mac
+      </a>
+    </li><li>
+      <a
+        href="https://chrispederick.com/work/web-developer/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Web Developer Extension
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://a11y-tools.com/bookmarklets/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        A11y audit bookmarklets
+      </a>
+    </li>
+  </ul>
+  <h3>Typography</h3>
+  <ul>
+    <li>
+      <a
+        href="https://wakamaifondue.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Wakamai Fondue
+      </a>
+    </li><li>
+      <a href="https://fontjoy.com/" target="_blank" rel="noopener noreferrer">
+        Font Joy
+      </a>
+    </li><li>
+      <a
+        href="https://beastsofengland.co/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Beasts of england
+      </a>
+    </li><li>
+      <a
+        href="https://www.vj-type.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        VJ Type
+      </a>
+    </li><li>
+      <a
+        href="https://somepx.itch.io/pixel-font-tape"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Tape font
+      </a>
+    </li><li>
+      <a
+        href="https://www.typewolf.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Typewolf
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://glyphsapp.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Glyphs app
+      </a>
+    </li>
+    <li>
+      <a href="https://hottype.co/" target="_blank" rel="noopener noreferrer">
+        Hot Type
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://fontshare.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Fontshare
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://fontsinuse.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Fonts In Use
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://fonts.google.com/specimen/Astloch"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Astloch Font</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://fonts.google.com/specimen/Miss+Fajardose"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Miss Fajardose Font
+      </a>
+    </li>
+    <li>
+      <a href="https://uncut.wtf" target="_blank" rel="noopener noreferrer">
+        Uncut.wtf
+      </a>
+    </li>
+  </ul>
+  <h3>Design</h3>
+  <ul>
+    <li>
+      <a
+        href="https://grids.obys.agency/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Grids - Obys Agency
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.designspells.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Design Spells
+      </a>
+    </li>
+  </ul>
+  <h3>Inspiration</h3>
+  <ul>
+    <li>
+      <a
+        href="https://refero.design/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Refero
+      </a>
+    </li>
+    <li>
+      <a href="https://mobbin.com/" target="_blank" rel="noopener noreferrer">
+        Mobbin
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.footer.design/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Footer Design
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.rebrand.gallery/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Rebrand Gallery
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.deck.gallery/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Deck Gallery
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://uk.pinterest.com/davedye/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Dave Dye's Pinterest boards
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://coverjunkie.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Cover Junkie
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.francobollimontilessini.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        francobollimontilessini
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.deck.gallery/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Deck Gallery
+      </a>
+    </li>
+    <li>
+      <a href="https://pdimagearchive.org/infinite-view/"> PD Image Archive </a>
+    </li>
+    <li>
+      <a href="https://www.cosmos.so/discover"> Cosmos.so </a>
+    </li>
+    <li>
+      <a href="https://same.energy/"> Same Energy </a>
+    </li>
+  </ul>
+  <h3>Animation</h3>
+  <ul>
+    <li>
+      <a
+        href="https://courses.nan.fyi/svg/00-svg-foundations"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Introduction to SVGs
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://motion.zajno.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        motion.ed
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://madewithgsap.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Made with GSAP
+      </a>
+    </li>
+    <li>
+      <a href="https://jitter.video/" target="_blank" rel="noopener noreferrer">
+        Jitter
+      </a>
+    </li>
+    <li>
+      <a href="https://lordicon.com/" target="_blank" rel="noopener noreferrer">
+        Lordicon
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://spacetypegenerator.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Space Type Generator
+      </a>
+    </li>
+  </ul>
+  <h3>Images</h3>
+  <ul>
+    <li>
+      <a href="https://public.work/" target="_blank" rel="noopener noreferrer">
+        Public Work
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://thenounproject.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        The Noun Project
+      </a>
+    </li>
+  </ul>
+  <h3>Sounds</h3>
+  <ul>
+    <li>
+      <a
+        href="https://sound-effects.bbcrewind.co.uk/search"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        BBC Sound Effects
+      </a>
+    </li>
+  </ul>
+  <h2>Cool websites</h2>
+  <ul>
+    <li>
+      <a href="https://onelook.com/" target="_blank" rel="noopener norefferer">
+        OneLook
+      </a>
+    </li>
+    <li>
+      <a href="https://earth.nullschool.net"> Earth visualisations </a>
+    </li>
+    <li>
+      <a
+        href="https://momg.neocities.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Museum of Modern GIFs
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://wikenigma.org.uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Wikenigma
+      </a>
+    </li>
+    <li>
+      <a href="https://earth.fm/" target="_blank" rel="noopener noreferrer">
+        Earth FM
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.driveandlisten.net/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Drive and listen
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://queeringthemap.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Queering the map
+      </a>
+    </li>
+    <li>
+      <a href="https://pudding.cool/" target="_blank" rel="noopener noreferrer">
+        The Pudding
+      </a>
+    </li>
+    <li>
+      <a href="https://radio.garden/" target="_blank" rel="noopener noreferrer">
+        Radio Garden
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://window-swap.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Window Swap
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://skyandtelescope.org/interactive-sky-chart/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Interactive sky chart
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://radiooooo.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Radiooooo
+      </a>
+    </li>
+    <li>
+      <a href="https://sfpc.study/" target="_blank" rel="noopener noreferrer">
+        The School for Poetic Computation
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.everysingleframe.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Every Single Frame
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://infinitemac.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Infinite Mac
+      </a>
+    </li>
+    <li>
+      <a href="https://yarn.co/" target="_blank" rel="noopener noreferrer">
+        Yarn
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://makemydrivefun.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Make my drive fun
+      </a>
+    </li>
+  </ul>
+  <h2>Recipes</h2>
+  <ul>
+    <li>
+      <a
+        href="https://cooking.nytimes.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        NYT Cooking
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.saveur.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Saveur
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://www.seriouseats.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Serious Eats
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://cookieandkate.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Cookie and Kate
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://ottolenghi.co.uk/recipes/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ottolenghi
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://meerasodha.com/recipes/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Meera Sodha
+      </a>
+    </li>
+    <li>
+      <a href="https://sallysbakingaddiction.com/">
+        Sally's Baking Addiction
+      </a>
+    </li>
+  </ul>
+  <h2>Remote games</h2>
+  <ul>
+    <li>
+      <a
+        href="https://www.playbananagrams.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Bananagrams
+      </a>
+    </li><li>
+      <a
+        href="https://blocktanks.net/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Blocktanks
+      </a>
+    </li><li>
+      <a
+        href="https://en.boardgamearena.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Board game arena
+      </a>
+    </li><li>
+      <a href="https://cah.rocks/" target="_blank" rel="noopener noreferrer">
+        Cards against humanity
+      </a>
+    </li><li>
+      <a
+        href="https://codenames.game/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Codenames
+      </a>
+    </li><li>
+      <a
+        href="https://incoherency.co.uk/countdown/practice/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Countdown
+      </a>
+    </li><li>
+      <a
+        href="https://www.drawasaurus.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Drawasaurus
+      </a>
+    </li><li>
+      <a
+        href="https://jeopardylabs.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Jeopardy
+      </a>
+    </li><li>
+      <a
+        href="https://jigsawpuzzles.io/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Jigsaw
+      </a>
+    </li><li>
+      <a href="https://songl.io/" target="_blank" rel="noopener noreferrer">
+        Music quiz
+      </a>
+    </li><li>
+      <a
+        href="https://really.boring.website/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Scattergories
+      </a>
+    </li><li>
+      <a
+        href="https://garticphone.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Telephone
+      </a>
+    </li><li>
+      <a
+        href="https://www.thewikigame.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Wiki game
+      </a>
+    </li>
+  </ul>
+  <h2>Sewing patterns</h2>
+  <ul>
+    <li>
+      <a
+        href="https://www.birgittahelmersson.com/collections/pdf-sewing-patterns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Birgitta Helmersson
+      </a>
+    </li><li>
+      <a
+        href="https://guthrie-ghani.co.uk/shop/patterns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Guthrie &amp; Ghani
+      </a>
+    </li><li>
+      <a
+        href="https://www.stitchwitchpatterns.com/patterns-1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Stitch Witch
+      </a>
+    </li><li>
+      <a
+        href="https://drapersdaughter.com/collections/sewing-patterns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Draper's Daughter
+      </a>
+    </li><li>
+      <a
+        href="https://modernsewingco.com/collections/single-patterns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Modern Sewing Co
+      </a>
+    </li><li>
+      <a
+        href="https://theassemblylineshop.com/collections/modern-minimalist-sewing-patterns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        The Assembly Line
+      </a>
+    </li><li>
+      <a
+        href="https://grainlinestudio.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Grainline Studio
+      </a>
+    </li><li>
+      <a
+        href="https://fabrics-store.com/sewing-patterns"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Fabric store
+      </a>
+    </li><li>
+      <a
+        href="https://peppermintmag.com/sewing-school/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Peppermint magazine
+      </a>
+    </li><li>
+      <a
+        href="https://www.moodfabrics.com/blog/category/free-sewing-patterns/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Mood fabrics
+      </a>
+    </li>
+    <li>
+      <a href="https://www.minerva.com/">
+        Minerva (good for deadstock fabrics)
+      </a>
+    </li>
+  </ul>
+  <h2>Shops I like</h2>
+  <ul>
+    <li>
+      <a
+        href="https://bambooclothing.co.uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        BAM
+      </a>
+    </li><li>
+      <a
+        href="https://coraandspink.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Cora + Spink
+      </a>
+    </li><li>
+      <a href="https://everpress.com" target="_blank" rel="noopener noreferrer">
+        Everpress
+      </a>
+    </li><li>
+      <a
+        href="https://finisterre.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Finisterre
+      </a>
+    </li><li>
+      <a href="https://howies.co.uk/" target="_blank" rel="noopener noreferrer">
+        Howies
+      </a>
+    </li><li>
+      <a
+        href="https://www.humphriesandbegg.co.uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Humphries &amp; Begg
+      </a>
+    </li><li>
+      <a
+        href="https://knowtheorigin.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Know the Origin
+      </a>
+    </li><li>
+      <a
+        href="https://www.lazyoaf.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Lazy Oaf
+      </a>
+    </li><li>
+      <a
+        href="https://lucyandyak.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Lucy and Yak
+      </a>
+    </li><li>
+      <a
+        href="https://www.miss-patisserie.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Miss Patisserie
+      </a>
+    </li><li>
+      <a href="https://nightire.com/" target="_blank" rel="noopener noreferrer">
+        Nightire
+      </a>
+    </li><li>
+      <a
+        href="https://rapanuiclothing.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Rapanui
+      </a>
+    </li><li>
+      <a
+        href="https://www.vivobarefoot.com/uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Vivo Barefoot
+      </a>
+    </li><li>
+      <a
+        href="https://www.sugarhillbrighton.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Sugarhill
+      </a>
+    </li><li>
+      <a
+        href="https://www.wearethought.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Thought
+      </a>
+    </li><li>
+      <a href="https://www.toa.st" target="_blank" rel="noopener noreferrer">
+        Toast
+      </a>
+    </li><li>
+      <a
+        href="https://www.giant-kitten.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Giant Kitten
+      </a>
+    </li><li>
+      <a
+        href="https://claricetudor.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Clarice Tudor
+      </a>
+    </li><li>
+      <a
+        href="https://www.theartfulpossum.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        The Artful Possum
+      </a>
+    </li><li>
+      <a href="https://dupe.com/" target="_blank" rel="noopener noreferrer">
+        Dupe
+      </a>
+    </li><li>
+      <a href="https://faircado.com/" target="_blank" rel="noopener noreferrer">
+        Faircado
+      </a>
+    </li><li>
+      <a
+        href="https://gmmrs.com/collections/jumpers"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GMMRS
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://misopaper.co.uk/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Miso Paper
+      </a>
+    </li>
+  </ul>
 </BaseLayout>
