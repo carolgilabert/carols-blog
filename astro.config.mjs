@@ -7,4 +7,12 @@ import mdx from "@astrojs/mdx";
 export default defineConfig({
   site: "https://carol.gg",
   integrations: [sitemap(), mdx()],
+  image: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.webmention.io",
+      },
+    ],
+  },
 });
