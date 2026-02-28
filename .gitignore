@@ -4,6 +4,10 @@
 # build output
 dist/
 
+# fetched data files
+src/content/books/*
+src/content/nyt-games/*
+
 # generated types
 .astro/
 

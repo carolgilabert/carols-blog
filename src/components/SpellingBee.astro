@@ -1,0 +1,14 @@
+---
+import { type CollectionEntry } from "astro:content";
+const { data } = Astro.props;
+
+type NYTGame = CollectionEntry<"nyt-games">;
+
+const { data: spellingBeeData } = data.find(
+  (d: NYTGame) => d.id === "spelling-bee"
+);
+---
+
+<h3>Spelling Bee</h3>
+<p>Today's points: {spellingBeeData.todaysPoints}</p>
+<p>Today's rank: {spellingBeeData.todaysRank} 🐝</p>

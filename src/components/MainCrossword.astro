@@ -1,0 +1,18 @@
+---
+import { type CollectionEntry } from "astro:content";
+const { data } = Astro.props;
+
+type NYTGame = CollectionEntry<"nyt-games">;
+const { data: crosswordData } = data.find(
+  (d: NYTGame) => d.id === "main-crossword"
+);
+---
+
+<h3>Crossword</h3>
+{
+  parseInt(crosswordData.streak) > 0 && (
+    <p>⭐ {crosswordData.streak} day streak</p>
+  )
+}
+
+<p>⏱️ Today's time: {crosswordData.todaysTime}</p>

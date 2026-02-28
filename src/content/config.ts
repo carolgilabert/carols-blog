@@ -30,4 +30,33 @@ const talks = defineCollection({
   }),
 });
 
-export const collections = { posts, talks };
+const books = defineCollection({
+  type: "data",
+  schema: z.object({
+    id: z.string(),
+    cover: z.string(),
+    title: z.string(),
+    author: z.string(),
+    progress: z.string(),
+  }),
+});
+
+const nytGames = defineCollection({
+  type: "data",
+  schema: z
+    .object({
+      isItfinished: z.boolean(),
+      // Wordle / Connections
+      results: z.string(),
+      // Spelling Bee
+      todaysPoints: z.string(),
+      todaysRank: z.string(),
+      // Mini / Crossword
+      todaysTime: z.string(),
+      // Crossword
+      streak: z.string(),
+    })
+    .partial(),
+});
+
+export const collections = { posts, talks, books };
