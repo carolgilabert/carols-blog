@@ -1,0 +1,52 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import Book from "@components/Book.astro";
+import MainCrossword from "@components/MainCrossword.astro";
+import MiniCrossword from "@components/MiniCrossword.astro";
+import SpellingBee from "@components/SpellingBee.astro";
+import Connections from "@components/Connections.astro";
+import Wordle from "@components/Wordle.astro";
+
+const books = await getCollection("books");
+const nytGames = await getCollection("nyt-games");
+
+const pageTitle = "Now";
+const pageSubtitle = "";
+---
+
+<BaseLayout pageTitle={pageTitle} pageSubtitle={pageSubtitle}>
+  <h1>{pageTitle}</h1>
+  <h2>Books</h2>
+  <ul>
+    {
+      books.map(({ data: book }) => (
+        <li>
+          <Book book={book} />
+        </li>
+      ))
+    }
+  </ul>
+  <h2>New York Times Games</h2>
+  <ul>
+    <li>
+      <MainCrossword data={nytGames} />
+    </li>
+
+    <li>
+      <MiniCrossword data={nytGames} />
+    </li>
+
+    <li>
+      <SpellingBee data={nytGames} />
+    </li>
+
+    <li>
+      <Connections data={nytGames} />
+    </li>
+
+    <li>
+      <Wordle data={nytGames} />
+    </li>
+  </ul>
+</BaseLayout>

@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets";
+
+const { book } = Astro.props;
+---
+
+<h3>{book.title}</h3>
+by <p>{book.author}</p>
+<Image
+  src={book.cover}
+  alt={`Book cover for ${book.title} by ${book.author}`}
+  inferSize
+/>
+<meter value={book.progress.replace("%", "")} min="0" max="100"></meter>
+<p>{book.progress}</p>
